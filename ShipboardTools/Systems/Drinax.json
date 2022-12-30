@@ -1,0 +1,66 @@
+{
+    "system": "Drinax",
+    "sector": "Trojan Reach",
+    "subsector": "Tlaiowaha",
+    "hex": "2223",
+    "close": [
+        {
+            "name": "Asim",
+            "hex": "2123",
+            "distance": 1
+        },
+        {
+            "name": "Pourne",
+            "hex": "2324",
+            "distance": 1
+        },
+        {
+            "name": "Kteiroa",
+            "hex": "2125",
+            "distance": 2
+        },
+        {
+            "name": "Khusai",
+            "hex": "2023",
+            "distance": 2
+        },
+        {
+            "name": "Hilfer",
+            "hex": "2424",
+            "distance": 2
+        },
+        {
+            "name": "Torpol",
+            "hex": "2221",
+            "distance": 2
+        },
+        {
+            "name": "Clarke",
+            "hex": "2322",
+            "distance": 2
+        }
+    ],
+    "star":{
+        "class": "M1V",
+        "color": {
+            "red":0.8,
+            "green":0.0,
+            "blue":0.0
+        },
+        "radius": 0.51,
+        "mass": 0.4574
+    },
+    "orbiting":[
+        {
+            "orbit": {
+                "type": "circle",
+                "radius":10
+            },
+            "world":{
+                "name": "Drinax",
+                "uwp": "",
+                "size": 0.1            
+            }
+        }
+    ]
+}

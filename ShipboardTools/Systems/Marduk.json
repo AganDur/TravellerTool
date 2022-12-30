@@ -1,0 +1,73 @@
+{
+    "system": "Marduk",
+    "sector": "Trojan Reach",
+    "subsector": "Sindal",
+    "hex": "2120",
+    "close": [
+        {
+            "name": "Borite",
+            "hex": "2219",
+            "distance": 1
+        },
+        {
+            "name": "Torpol",
+            "hex": "2221",
+            "distance": 2
+        },
+        {
+            "name": "Oghma",
+            "hex": "2020",
+            "distance": 1
+        },
+        {
+            "name": "Noricum",
+            "hex": "2018",
+            "distance": 2
+        },
+        {
+            "name": "Thebus",
+            "hex": "1919",
+            "distance": 2
+        }
+    ],
+    "star":{
+        "class": "K7V",
+        "mass": 0.5376
+    },
+    "orbiting":[
+        {
+            "orbit": {
+                "type": "circle",
+                "radius":0.78
+            },
+            "world":{
+                "name": "Marduk 2",
+                "uwp": "",
+                "size": 0.03
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius":0.265
+            },
+            "world":{
+                "name": "Marduk",
+                "uwp": "C577436-5",
+                "size": 0.01
+            }
+        },
+        {
+            "orbit": {
+                "type": "ellipsis",
+                "semi-major": 0.45,
+                "semi-minor": 0.33                
+            },
+            "world":{
+                "name": "Marduk Gas 2",
+                "uwp": "",
+                "size": 0.02
+            }
+        }
+    ]
+}

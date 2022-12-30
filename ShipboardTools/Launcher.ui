@@ -13,8 +13,100 @@
   <property name="windowTitle">
    <string>Launcher</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="3">
+     <widget class="QPushButton" name="SystemMapButton">
+      <property name="text">
+       <string>System Map</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="3">
+     <widget class="QPushButton" name="GunSmithButton">
+      <property name="text">
+       <string>Gun Smith</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="QPushButton" name="GarageButton">
+      <property name="text">
+       <string>Garage</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QPushButton" name="SectorMapButton">
+      <property name="text">
+       <string>Sector Map</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QPushButton" name="CSCButton">
+      <property name="text">
+       <string>Central Supply Catalogue</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QPushButton" name="RoboticsLabButton">
+      <property name="text">
+       <string>Robotics Lab</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2" colspan="2">
+     <widget class="QPushButton" name="ShipyardButton">
+      <property name="font">
+       <font>
+        <family>Adamsky SF</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Shipyard</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Icons/TypeS.jpg</normaloff>
+        <normalon>Icons/TypeS.jpg</normalon>Icons/TypeS.jpg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>75</width>
+        <height>50</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2" colspan="2">
+     <widget class="QPushButton" name="LocationButton">
+      <property name="text">
+       <string>&lt;Current Location&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2" colspan="2">
+     <widget class="Line" name="line">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>

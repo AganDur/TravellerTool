@@ -1,0 +1,92 @@
+{
+    "system": "Torpol",
+    "sector": "Trojan Reach",
+    "subsector": "Tlaiowaha",
+    "hex": "2120",
+    "close": [
+        {
+            "name": "Clarke",
+            "hex": "2322",
+            "distance": 1
+        },
+        {
+            "name": "Blue",
+            "hex": "2421",
+            "distance": 2
+        },
+        {
+            "name": "Borite",
+            "hex": "2219",
+            "distance": 2
+        },
+        {
+            "name": "Marduk",
+            "hex": "2120",
+            "distance": 2
+        },
+        {
+            "name": "Oghma",
+            "hex": "2020",
+            "distance": 2
+        },
+        {
+            "name": "Asim",
+            "hex": "2123",
+            "distance": 2
+        },
+        {
+            "name": "Drinax",
+            "hex": "2223",
+            "distance": 2
+        }
+    ],
+    "star":{
+        "class": "FV",
+        "radius": 0.5,
+        "color":{
+            "red":1,
+            "green":1,
+            "blue":1
+        },
+        "mass": 0
+    },
+    "orbiting":[
+        {
+            "orbit": {
+                "type": "circle",
+                "radius":22.5
+            },
+            "world":{
+                "name": "Torpol",
+                "uwp": "B55A77A-8 Wa",
+                "size": 0.1,
+                "texture": "uranus.jpg"
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 35                
+            },
+            "world":{
+                "name": "Traefar",
+                "uwp": "D410644-8",
+                "size": 0.2,
+                "texture": "rockPlanet1.jpg"
+            }
+        },
+        {
+            "orbit": {
+                "type": "ellipsis",
+                "semi-minor": 375,
+                "semi-major": 405
+
+            },
+            "world":{
+                "name": "Llides XPYQ",
+                "uwp": "",
+                "size": 0.2
+            }
+        }
+    ]
+}
