@@ -1,0 +1,154 @@
+{
+    "system": "Arunisiir",
+    "sector": "Trojan Reach",
+    "subsector": "The Borderland",
+    "hex": "2621",
+    "sizeRatio": 10,
+    "close": [
+        {
+            "name": "Arunisiir",
+            "hex": "2621",
+            "distance": 0
+        },
+        {
+            "name": "Acrid",
+            "hex": "2722",
+            "distance": 1
+        },
+        {
+            "name": "Tanith",
+            "hex": "2721",
+            "distance": 1
+        },
+        {
+            "name": "Blue",
+            "hex": "2421",
+            "distance": 2
+        },
+        {
+            "name": "Cordan",
+            "hex": "2821",
+            "distance": 2
+        },
+        {
+            "name": "Exocet",
+            "hex": "2520",
+            "distance": 2
+        },
+        {
+            "name": "Pandora",
+            "hex": "2820",
+            "distance": 2
+        },
+        {
+            "name": "Tanith",
+            "hex": "2721",
+            "distance": 2
+        }
+    ],
+    "star":{
+        "class": "F8V Dwarf",
+        "color":{
+            "red":0.9,
+            "green":0.9,
+            "blue":0.9
+        },
+        "radius": 1,
+        "mass": 1.14
+    },
+    "orbiting":[
+        {
+            "orbit": {
+                "type": "circle",
+                "radius":5.6
+            },
+            "world":{
+                "name": "Tinpot",
+                "uwp": "",
+                "size": 0.1
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "color": {
+                    "r":1.0,
+                    "g":0,
+                    "b":0
+                },
+                "radius": 10.96                
+            },
+            "world":{
+                "name": "100D limit",
+                "uwp": "",
+                "size": 0
+            }
+        },   
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 11.5                
+            },
+            "world":{
+                "name": "Apsho Two",
+                "uwp": "",
+                "size": 0.3
+            }
+        },    
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 15.1                
+            },
+            "world":{
+                "name": "Arunisiir",
+                "uwp": "B776530-6 Ag Ni",
+                "size": 0.2
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 19.2                
+            },
+            "world":{
+                "name": "George",
+                "uwp": "",
+                "size": 0.3
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 25.7                
+            },
+            "world":{
+                "name": "Errat",
+                "uwp": "",
+                "size": 0.2
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 34.9                
+            },
+            "world":{
+                "name": "Cartier's Giant",
+                "uwp": "",
+                "size": 0.2
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 46                
+            },
+            "world":{
+                "name": "Claimstake",
+                "uwp": "",
+                "size": 0.2
+            }
+        }
+    ]
+}

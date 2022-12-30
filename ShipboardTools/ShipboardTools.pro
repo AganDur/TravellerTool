@@ -9,7 +9,7 @@ CONFIG += c++17
 # In order to do so, uncomment the following line.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
-INCLUDEPATH += ..\Libs\Include
+INCLUDEPATH += Libs\Include
 
 SOURCES += \
     main.cpp \
@@ -23,7 +23,7 @@ FORMS += \
 
 LIBS += -lOpenGL32
 LIBS += -lglu32
-LIBS += ..\Libs\Libs\assimp-vc143-mt.lib
+LIBS += $$PWD\Libs\Libs\assimp-vc143-mt.lib
 LIBS += User32.lib
 
 TRANSLATIONS += \
@@ -56,23 +56,25 @@ COPIES += systems
 COPIES += icons
 
 
-dllFiles.files = $$files(assimp-vc143-mt.dll)
-dllFiles.path = $$OUT_PWD
 
 @debug{
     glShaders.path = $$OUT_PWD/debug/Assets/Shaders
     glMeshes.path = $$OUT_PWD/debug/Assets/Meshes
     glTextures.path = $$OUT_PWD/debug/Assets/Textures
     systems.path = $$OUT_PWD/debug/Systems
-    icons.path = $$OUT_PWD/debug/Icons
+    #icons.path = $$OUT_PWD/debug/Icons
+    dllFiles.path = $$OUT_PWD/debug
 }
 release {
     glShaders.path = $$OUT_PWD/release/Assets/Shaders
     glMeshes.path = $$OUT_PWD/release/Assets/Meshes
     glTextures.path = $$OUT_PWD/release/Assets/Textures
     systems.path = $$OUT_PWD/release/Systems
-    icons.path = $$OUT_PWD/release/Icons
+    #icons.path = $$OUT_PWD/release/Icons
+    dllFiles.path = $$OUT_PWD/release
 }
+
+dllFiles.files = $$files(assimp-vc143-mt.dll)
 
 # LIST OF SHADER FILES TO COPY
 glShaders.files = $$files(Assets/Shaders/*.vert)
@@ -88,5 +90,6 @@ glTextures.files = $$files(Assets/Textures/*.jpg)
 systems.files = $$files(Systems/*.json)
 
 # LIST OF ICONS TO COPY
-icons.files = $$files(Icons/*.jpg);
-icons.files = $$files(Icons/*.png);
+icons.path = $$OUT_PWD/Icons
+icons.files = $$files(Icons/*.jpg)
+#icons.files = $$files(Icons/*.png)
