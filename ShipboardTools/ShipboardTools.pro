@@ -23,7 +23,7 @@ FORMS += \
 
 LIBS += -lOpenGL32
 LIBS += -lglu32
-LIBS += INCLUDEPATH\Libs\assimp-vc143-mt.lib
+LIBS += ..\Libs\Libs\assimp-vc143-mt.lib
 LIBS += User32.lib
 
 TRANSLATIONS += \
