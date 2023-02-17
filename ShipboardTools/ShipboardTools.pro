@@ -12,14 +12,17 @@ CONFIG += c++17
 INCLUDEPATH += Libs\Include
 
 SOURCES += \
+    SectorMap_MainWindow.cpp \
     main.cpp \
     Launcher.cpp
 
 HEADERS += \
-    Launcher.h
+    Launcher.h \
+    SectorMap_MainWindow.h
 
 FORMS += \
-    Launcher.ui
+    Launcher.ui \
+    SectorMap_MainWindow.ui
 
 LIBS += -lOpenGL32
 LIBS += -lglu32
