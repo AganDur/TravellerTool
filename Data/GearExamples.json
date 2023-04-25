@@ -1,0 +1,288 @@
+{
+    "armour": [
+         {
+             "name": "Ballistic Vest",
+             "category": "Armour",
+             "type": "Standard",
+             "tech-level": 8,
+             "protection": "+4",
+             "radiation": 0,
+             "dex": 0,
+             "str": 0,
+             "slots": 0,
+             "cost": "Cr500",
+             "weight": 1,
+             "skill": "None",
+             "description": "A flexible and relatively light flak jacket intended to be worn semi-discreetly. It is still fairly obviously armour but can be concealed under a light jacket, whereas a flak jacket is much more blatant.",
+             "image": "image path if available"
+         },
+         {
+             "name": "Breastplate",
+             "category": "Armour",
+             "type": "Archaic",
+             "tech-level": 1,
+             "protection": "+3",
+             "radiation": 0,
+             "dex": 0,
+             "str": 0,
+             "slots": 0,
+             "cost": "Cr200",
+             "weight":5,
+             "skill": "None",
+             "description": "A metal breastplate covers the front and back of the torso, offering decent protection against hand weapons and archaic projectiles.",
+             "image": "image path if available"
+         },
+         {
+             "name": "Ablat",
+             "category": "Armour",
+             "type": "Anti-Energy",
+             "tech-level": 9,
+             "protection": "+1 (+6 vs. lasers)",
+             "radiation": 0,
+             "dex": 0,
+             "str": 0,
+             "slots": 0,
+             "cost": "Cr75",
+             "weight":2,
+             "skill": "None",
+             "description": "Ablat is a cheap alternative to reflec, fashioned from a material which will ablate (vaporise) when hit by laser fire or other energy weapons. The ablation of the material carries away the energy of the laser and protexts the wearer. Continued fire against ablat degrades its effectiveness but the armour is cheap and easily replaceable. Ablat also has a minimal value against other forms of attack but it cannot be combiened with any other types of armour. Each laser hit on ablat armour reduces its Protection score against lasers by one.",
+             "image": "image path if available"
+         },
+         {
+             "name": "Rescue Suit",
+             "category": "Suit",
+             "type": "Civilian",
+             "tech-level": 12,
+             "protection": "+12",
+             "radiation": 120,
+             "dex": 0,
+             "str": 0,
+             "slots": 0,
+             "cost": "Cr25000",
+             "weight": 22,
+             "skill": "Vacc Suit 1",
+             "description": "A rescue suit is a heavy vacc suit designed for emergency damage control or entering a ravage spacecraft. It is very tough and some models are sold as 'boarding suits' to mercenary forcers who cannot afford or obtain combat armour. The rescue suit carries oxygen tanks with a six-hour capacity and tools equivalent to the Vacc Emergency Kit but with a rescue bubble, not an inflatable radar bubble. Rescue suits are mainly designed to protect against physical hazards like torn wreckage, debris and radiation.",
+             "image": "image path if available"
+         },
+         {
+             "name": "Combat Armour, Basic",
+             "category": "Suit",
+             "type": "Military",
+             "tech-level": 10,
+             "protection": "+13",
+             "radiation": 85,
+             "dex": 0,
+             "str": 0,
+             "slots": 0,
+             "cost": "Cr96000",
+             "weight": 20,
+             "skill": "Vacc Suit 1",
+             "description": "Combat armour is a complete array of metal and synthetic armour. It contains oxygen tanks for six hours and a recycling unit which can more than double this endurance if the wearer is not unduly exerting themself.",
+             "image": "image path if available"
+         },
+         {
+             "name": "E3 Suit",
+             "category": "Suit",
+             "type": "Powered",
+             "tech-level": 14,
+             "protection": "+16",
+             "radiation": 250,
+             "dex": "-2",
+             "str": "+2",
+             "slots": 0,
+             "cost": "Cr500000",
+             "weight": 30,
+             "skill": "Vacc Suit 3",
+             "description": "Some environments are too hazardous for even HEV suits. In places where the atmosphere is too dense or hazardous, deep under oceans or where the gravity prevents easy motion, the extreme environment exploration (E3) suit is a requirement.",
+             "image": "image path if available"
+         },
+         {
+             "name": "Battle Dress, Basic",
+             "category": "Suit",
+             "type": "Battle Dress",
+             "tech-level": 13,
+             "protection": "+22",
+             "radiation": 245,
+             "dex": "+4",
+             "str": "+4",
+             "slots": 16,
+             "cost": "Cr200000",
+             "weight": 100,
+             "skill": "Vacc Suit 2",
+             "description": "The standard entry-level battle dress suit, combining mobility with protection and weapons capability.",
+             "image": "image path if available"
+         }
+    ],
+    "armour modifications":[
+         {
+             "name": "Additional Padding",
+             "category": "General",
+             "tech-level": 1,
+             "effect": "Protection +1, DM-1 to DEX checks",
+             "weight": 5,
+             "cost": "Cr 50",
+             "description": "Layering furs, cotton and/or hides onto existing armour will somewhat hinder movement but provide better protection from physical attacks. A person wearing additional padding suffers DM-1 to all checks involving DEX, including attacks, but adds +1 to their Protection. Padding can also be used in place of armour, providing Protection +1 witout the DEX penalty, making it little more than an improvised heavier version of Jack."
+         },
+         {
+             "name": "Active Camouflage",
+             "category": "Battle Dress",
+             "tech-level": 15,
+             "effect": "DM+4 to Stealth checks vs. Recon and sensors",
+             "cost": "Cr200000",
+             "slots": 1,
+             "description": "This is a highly advanced for of camouflage that uses quantum waveguides to bend light around a battle dress, resulting in near-invisibility. At any range, it grants DM+4 to Stealth checks versus Recon and most EM sensors (but not densitometers, sonic, or chemical detectors)."
+         }
+    ],
+ 
+    "augments":[
+         {
+             "name": "Bio-Fusion power port",
+             "category": "Body",
+             "tech-level": 13,
+             "effect": "Power source for energy pistol",
+             "cost": "Cr10000",
+             "description":"This cybernetic augment is a small caloric generator built into the rib cage. Provided the Traveller consumes six timess the normal caloric intake daily, the power port will produce enough energy to serve as a power source for an energy pistol, producing 50 shots daily.",
+             "image": "image path if available"
+         },
+         {
+            "name": "Autonomous locomotion rig (ALR)",
+            "category": "Limbs",
+            "tech-level": 9,
+            "effect": "Auto-walk to specified destination",
+            "cost": "Cr15000",
+            "description":"A strange but useful augment, the ALR is a series of hardwired connections from the spine to the legs, tier to rudimentary sensors and a dedicated computer. The Traveller can 'program' their legs to carry them to a specific location, regardless of their state of consciousness. Tired, wounded, drunk or even asleep, the ALR will for the Traveller's legs to wal to a specified location. The ALR automatically stops to avoid collisions with dangerous objets (moving traffic or sheer cliffs).",
+            "image": "image path if available"
+        },
+        {
+           "name": "Ballistic Tracking Lenses",
+           "category": "Head",
+           "tech-level": 11,
+           "effect": "DM+1 on unassisted ranged attacks",
+           "cost": "Cr8000",
+           "description":"The Traveller's retinas are laced with tiny receptors, outlining any object targeted by the Traveller's weapon. Ballistic tracking lenses grant the Traveller DM+1 on all ranged attacks where they can physically see the target but cannot be combined with scopes or other sighting aids. The Traveller's eyes shine strangely in direct lighting, revealing the device to observers.",
+           "image": "image path if available"
+       }
+    ],
+    "augment options":[
+         {
+             "name": "Detachable",
+             "tech-level": 9,
+             "effect": "Removable via socket",
+             "cost": "+Cr5000, +25% of augment",
+             "description":"Only available to external cybernetic augments (such as limbs and eyes), this allows the Traveller to disconnect the augment using a specialised socket. This can be done for storage, disguise, or to allow multiple augments to fit into the same socket. The disconnection process requires a Major Action, as does reconnection. While disconnected, the detachable augment is nothing more than another piece of equipment and has no connection to the Traveller at all."
+         }
+    ],
+ 
+    "communications":[
+         {
+             "name": "Comm name",
+             "category": "Spyware/Communications/Display",
+             "tech-level": 10,
+             "effect":"Effect text",
+             "cost": "Cost modifier",
+             "weight":"Value in Kg",
+             "description": "Descriptive text",
+             "image": "image path if available"
+         }
+    ],
+    "computers":[
+         {
+             "name": "Comp name",
+             "category": "Desktop/Laptop",
+             "tech-level": 10,
+             "weight":  "Value in Kg",
+             "cost": "Value in credits",
+             "description": "Descriptive text",
+             "image": "image path if available"
+         }
+    ],
+ 
+    "weapons": [
+         {
+             "name": "Weapon Name",
+             "category": "Ranged",
+             "type": "Slug/Energy/Archaic/Specialized",
+             "tech-level": 10,
+             "damage": "Value in xD+y format",
+             "range": "Value in metres",
+             "weight": "Value in Kg",
+             "cost": "Value in credits",
+             "magazine": 10,
+             "magazine cost": "Value in credits",
+             "traits": "Trait names",
+             "description": "Descriptive text",
+             "image": "image path if available"
+         },
+         {
+             "name": "Weapon Name",
+             "category": "Melee",
+             "type": "Blade/Bludgeon/Unarmed/Shield/Specialized",
+             "tech-level": 10,
+             "damage": "Value in xD+y format",
+             "range": "Melee",
+             "weight": "Value in Kg",
+             "cost": "Value in credits",
+             "magazine": 10,
+             "magazine cost": "Value in credits",
+             "traits": "Trait names",
+             "description": "Descriptive text",
+             "image": "image path if available"
+         },
+         {
+             "name": "Weapon Name",
+             "category": "Explosives",
+             "type": "Grenade/Explosive",
+             "tech-level": 10,
+             "damage": "Value in xD+y format",
+             "range": "Value in metres",
+             "weight": "Value in Kg",
+             "cost": "Value in credits",
+             "traits": "Trait names",
+             "description": "Descriptive text",
+             "image": "image path if available"
+         },
+         {
+             "name": "Weapon Name",
+             "category": "Heavy",
+             "type": "Artillery/Portable/Vehicle/Missile",
+             "tech-level": 10,
+             "damage": "Value in xD+y format",
+             "range": "Value in metres",
+             "weight": "Value in Kg",
+             "cost": "Value in credits",
+             "magazine": 10,
+             "magazine cost": "Value in credits",
+             "traits": "Trait names",
+             "description": "Descriptive text",
+             "image": "image path if available"
+         }
+     ],
+     "weapon modifications":[
+         {
+             "name": "Modification Name",
+             "category": "",
+             "tech-level": 10,
+             "effect": "Effect text",
+             "weight":"Value in Kg",
+             "cost": "Value in credits",
+             "description":"Descriptive text",
+             "image": "image path if available"
+         }
+     ],
+     "ammunition":[
+         {
+             "name": "Ammo name",
+             "tech-level": 10,
+             "range": "Range modification",
+             "damage": "Damage",
+             "cost": "Cost modifier",
+             "traits": "Trait names",
+             "pistol": 0,
+             "rifle": 0,
+             "shotgun": 0,
+             "heavy": 1,
+             "description":"Descriptive text",
+             "image":"image path if available"
+         }
+     ]
+ }

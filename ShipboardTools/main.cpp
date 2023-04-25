@@ -1,8 +1,8 @@
-#include "Launcher.h"
-
 #include <QApplication>
 #include <QLocale>
 #include <QTranslator>
+
+#include "Launcher.h"
 
 int main(int argc, char *argv[])
 {
