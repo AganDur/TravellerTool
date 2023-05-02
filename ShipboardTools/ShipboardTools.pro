@@ -12,12 +12,16 @@ CONFIG += c++17
 INCLUDEPATH += Libs\Include
 
 SOURCES += \
+    ApplicationManager.cpp \
+    Globals.cpp \
     OpenGL/gl_object.cpp \
     SectorMap_MainWindow.cpp \
     main.cpp \
     Launcher.cpp
 
 HEADERS += \
+    ApplicationManager.h \
+    Globals.h \
     Launcher.h \
     OpenGL/gl_object.h \
     SectorMap_MainWindow.h
