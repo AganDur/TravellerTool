@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Radio Transceiver (TL 5 - 5km)",
+        "category": "Communications",
+        "type": "Transceiver",
+        "tech-level": 5,
+        "weight": "20kg",
+        "cost": "225",
+        "description": "A transceiver is a stand-alone communications device, what today we would call a two-way radio.",
+        "range": "5km",
+        "table":[
+           "tech-level", "weight", "range", "cost"
+        ],
+        "image": "image path if available"
+    },
+    {
+        "name": "Bug (TL 9)",
+        "category": "Communications",
+        "type": "Surveillance",
+        "tech-level": 9,
+        "weight": "20kg",
+        "cost": "225",
+        "features": "Audio or Visual or Data",
+        "description": "Surveillance devices such as hidden microphones and tiny cameras, bugs are available from TL5 onwards. \n Audio: The bug records anything it hears. \n Visual: The bug records anything it sees. \n Data: If attached to a computer system, the bug can search and copy data from the computer.",
+        "table": [
+           "tech-level", "features", "cost"
+        ],
+        "image": "image path if available"
+    }
+]
