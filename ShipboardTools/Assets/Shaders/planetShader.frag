@@ -1,19 +1,21 @@
-#version 450
-in vec2 texCoord;
-in vec3 n;
-in vec3 FragPos;
+#version 450 compatibility
+in vec2 textureCoordinate;
+in vec3 updatedNormal;
+in vec3 fragmentPosition;
 
-uniform vec3 ambient;
-uniform vec3 diffuse;
+uniform vec3 ambientLight;
+uniform vec3 diffuseLight;
 uniform vec3 color;
-uniform sampler2D text;
-uniform vec3 lightPos;
+uniform sampler2D textureData;
+uniform vec3 lightPosition;
+
+out vec4 FragColor;
 
 void main(){
-	vec3 norm = normalize(n);
-	vec3 lightDir = normalize(lightPos - FragPos);
-	float d = max(dot(norm, lightDir), 0.0);
-	vec3 diff = d * diffuse;
+	vec3 norm = normalize(updatedNormal);
+	vec3 lightDir = normalize(lightPosition - fragmentPosition);
+	float diffuseStrength = max(dot(norm, lightDir), 0.0);
+	vec3 diffuseComponent = diffuseStrength * diffuseLight;
 	
-	gl_FragColor = texture(text, texCoord) * vec4((ambient+diff)*color, 1.0); 
+	FragColor = texture(textureData, textureCoordinate) * vec4((ambientLight+diffuseComponent)*color, 1.0); 
 }

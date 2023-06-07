@@ -15,9 +15,12 @@ public slots:
 
 protected:
     void paintEvent(QPaintEvent *event) override;
+    virtual void render();
 
 private:
     int elapsed_time;
+
+    QPaintEvent *event;
 
 };
 

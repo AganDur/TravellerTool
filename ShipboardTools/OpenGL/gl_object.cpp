@@ -9,7 +9,40 @@
 #include "assimp/scene.h"
 #include "assimp/postprocess.h"
 
-GL_Object::GL_Object(std::string vertexShaderName, std::string fragmentShaderName){
+
+std::vector<std::string> GL_Object::texturesLoaded_Names = std::vector<std::string>();
+std::vector<QImage> GL_Object::texturesLoaded = std::vector<QImage>();
+std::vector<GL_Mesh> GL_Object::preloadedMeshes = std::vector<GL_Mesh>();
+
+
+GL_Object::GL_Object() {
+    shaderProgram = new QOpenGLShaderProgram();
+    shaderProgram->create();
+
+    // Create and Bind Vertex Array Object before setup
+    VAO.create();
+    VAO.bind();
+
+    // Prepare Vertex Buffer Object
+    VBO = new QOpenGLBuffer(QOpenGLBuffer::VertexBuffer);
+    VBO->create();
+    VBO->bind();
+    VBO->setUsagePattern(QOpenGLBuffer::StaticDraw);
+
+    // Prepare Element Buffer Object
+    EBO = new QOpenGLBuffer(QOpenGLBuffer::IndexBuffer);
+    EBO->create();
+    EBO->bind();
+    EBO->setUsagePattern(QOpenGLBuffer::StaticDraw);
+
+    // Release Vertex Array Object after setup
+    VAO.release();
+
+    // Prepare QT openGL functionalities
+    initializeOpenGLFunctions();
+}
+
+GL_Object::GL_Object(GL_Object &object){
     // Create and Bind Vertex Array Object before setup
     VAO.create();
     VAO.bind();
@@ -33,15 +66,14 @@ GL_Object::GL_Object(std::string vertexShaderName, std::string fragmentShaderNam
     initializeOpenGLFunctions();
 
     // Compile necessary shaders
-    compileShaders(vertexShaderName, fragmentShaderName);
-
+    //compileShaders("", "");
 }
 
 GL_Object::~GL_Object() {
-    delete(shaderProgram);
-    delete(texture);
-    delete(VBO);
-    delete(EBO);
+    //delete(shaderProgram);
+    //delete(texture);
+    //delete(VBO);
+    //delete(EBO);
 }
 
 /**
@@ -68,7 +100,7 @@ void GL_Object::compileShaders(std::string vertexShaderName, std::string fragmen
 
     // Load Fragment Shader
     QOpenGLShader frag(QOpenGLShader::Fragment);
-    vert.compileSourceFile(QString::fromStdString(
+    frag.compileSourceFile(QString::fromStdString(
        global::path() + "Assets/Shaders/"  + fragmentShaderName + ".frag"
     ));
 
@@ -86,39 +118,59 @@ void GL_Object::compileShaders(std::string vertexShaderName, std::string fragmen
  * Function to load a mesh from file using the Assimp library and set the vertex and index data as necessary.
  */
 void GL_Object::loadMesh(std::string meshName) {
-    Assimp::Importer importer;
+    bool foundMesh = false;
+    int meshIndex = 0;
 
-    // Open the mesh file
-    const aiScene* scene = importer.ReadFile(
-        global::path() + "Assets/Meshes/" + meshName, aiProcess_Triangulate | aiProcess_FlipUVs
-    );
-
-    // Throw an error and return if the file was not successfully open
-    // (File not open, incorrect flags or missing root)
-    if(!scene || (scene->mFlags && AI_SCENE_FLAGS_INCOMPLETE) || !scene->mRootNode){
-        qDebug() << "ERROR::ASSIMP::" << importer.GetErrorString();
-        return;
+    while(meshIndex<preloadedMeshes.size() && !foundMesh){
+        if(preloadedMeshes[meshIndex].getName().compare(meshName) == 0) foundMesh = true;
+        else meshIndex++;
     }
 
-    aiMesh* meshData;
-    meshData = scene->mMeshes[0];
-
-    // Load and fill the vertex data
-    for(unsigned int i=0 ; i < meshData->mNumVertices ; i++){
-        // Load the Vertex Position data
-        vertices.push_back(meshData->mVertices[i].x);
-        vertices.push_back(meshData->mVertices[i].y);
-        vertices.push_back(meshData->mVertices[i].z);
-
-        // Load the Vertex UV data
-        vertices.push_back(meshData->mTextureCoords[0][i].x);
-        vertices.push_back(meshData->mTextureCoords[0][i].y);
+    // If the mesh already exists, get its values
+    if(foundMesh){
+        GL_Mesh mesh = preloadedMeshes[meshIndex];
+        vertices = mesh.getVertices();
+        indices = mesh.getIndices();
     }
+    // Otherwise, load it from file
+    else {
+        Assimp::Importer importer;
 
-    // Load and fill the index data
-    for(unsigned int i=0 ; i < meshData->mNumFaces ; i++ ){
-        aiFace face = meshData->mFaces[i];
-        for(unsigned int j=0 ; j < face.mNumIndices ; j++) indices.push_back(face.mIndices[j]);
+        // Open the mesh file
+        const aiScene* scene = importer.ReadFile(
+            global::path() + "Assets/Meshes/" + meshName, aiProcess_Triangulate | aiProcess_FlipUVs
+        );
+
+        // Throw an error and return if the file was not successfully open
+        // (File not open, incorrect flags or missing root)
+        if(!scene || (scene->mFlags && AI_SCENE_FLAGS_INCOMPLETE) || !scene->mRootNode){
+            qDebug() << "ERROR::ASSIMP::" << importer.GetErrorString();
+            return;
+        }
+
+        aiMesh* meshData;
+        meshData = scene->mMeshes[0];
+
+        // Load and fill the vertex data
+        for(unsigned int i=0 ; i < meshData->mNumVertices ; i++){
+            // Load the Vertex Position data
+            vertices.push_back(meshData->mVertices[i].x);
+            vertices.push_back(meshData->mVertices[i].y);
+            vertices.push_back(meshData->mVertices[i].z);
+
+            // Load the Vertex UV data
+            vertices.push_back(meshData->mTextureCoords[0][i].x);
+            vertices.push_back(meshData->mTextureCoords[0][i].y);
+        }
+
+        // Load and fill the index data
+        for(unsigned int i=0 ; i < meshData->mNumFaces ; i++ ){
+            aiFace face = meshData->mFaces[i];
+            for(unsigned int j=0 ; j < face.mNumIndices ; j++) indices.push_back(face.mIndices[j]);
+        }
+
+        GL_Mesh newMesh(meshName, vertices, indices);
+        preloadedMeshes.push_back(newMesh);
     }
 
     // Prepare the buffers for rendering with the newly-loaded data
@@ -138,7 +190,6 @@ void GL_Object::loadMesh(std::string meshName) {
  *  - If the texture has already been loaded once, the already-loaded data can be reused.
  */
 void GL_Object::loadTexture(std::string textureName) {
-    /*
     bool loaded = false;
     int textureIndex;
     int i=0;
@@ -172,7 +223,6 @@ void GL_Object::loadTexture(std::string textureName) {
         }
     }
     texture->bind();
-    */
 }
 
 void GL_Object::render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QVector3D diffuseLight){

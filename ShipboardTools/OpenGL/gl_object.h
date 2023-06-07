@@ -1,6 +1,8 @@
 #ifndef GL_OBJECT_H
 #define GL_OBJECT_H
 
+#include "GL_Mesh.h"
+
 #include <QOpenGLFunctions>
 #include <QMatrix4x4>
 #include <QOpenGLVertexArrayObject>
@@ -18,15 +20,17 @@ class GL_Object: protected QOpenGLFunctions {
  *   CONSTRUCTORS   *
  *------------------*/
 public:
-    GL_Object(std::string vertexShaderName, std::string fragmentShaderName);
+    GL_Object();
+    GL_Object(GL_Object &object);
     virtual ~GL_Object();
 
 /*------------------------*
  *   OPEN GL PARAMETERS   *
  *------------------------*/
 protected:
-    //static std::vector<std::string> texturesLoaded_Names;
-    //static std::vector<QImage> texturesLoaded;
+    static std::vector<std::string> texturesLoaded_Names;
+    static std::vector<QImage> texturesLoaded;
+    static std::vector<GL_Mesh> preloadedMeshes;
 
     std::vector<GLfloat> vertices;
     std::vector<unsigned int> indices;
@@ -39,11 +43,12 @@ protected:
     QOpenGLBuffer *VBO;
     QOpenGLBuffer *EBO;
 
+
 /*-----------------------*
  *   OPEN GL FUNCTIONS   *
  *-----------------------*/
 public:
-    void compileShaders(std::string vertexShaderName, std::string fragmentShaderName);
+    virtual void compileShaders(std::string vertexShaderName, std::string fragmentShaderName);
 
     void loadMesh(std::string meshName);
     void loadTexture(std::string textureName);

@@ -16,6 +16,8 @@ SOURCES += \
     Globals.cpp \
     OpenGL/GL_Camera.cpp \
     OpenGL/GL_Instanced.cpp \
+    OpenGL/GL_Mesh.cpp \
+    OpenGL/GL_Orbit.cpp \
     OpenGL/GL_Planet.cpp \
     OpenGL/GL_Star.cpp \
     OpenGL/GL_SystemViewerWidget.cpp \
@@ -33,6 +35,8 @@ HEADERS += \
     Launcher.h \
     OpenGL/GL_Camera.h \
     OpenGL/GL_Instanced.h \
+    OpenGL/GL_Mesh.h \
+    OpenGL/GL_Orbit.h \
     OpenGL/GL_Planet.h \
     OpenGL/GL_Star.h \
     OpenGL/GL_SystemViewerWidget.h \

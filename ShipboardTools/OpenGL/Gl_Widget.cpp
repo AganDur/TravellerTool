@@ -6,7 +6,7 @@
 
 GL_Widget::GL_Widget(QWidget *parent) : QOpenGLWidget{parent} {
     elapsed_time = 0;
-    setFixedSize(200, 200); //TODO: TEMPORARY
+    //setFixedSize(200, 200); //TODO: TEMPORARY
     setAutoFillBackground(false);
 }
 
@@ -16,6 +16,11 @@ void GL_Widget::animate(){
 }
 
 void GL_Widget::paintEvent(QPaintEvent *event){
+    this->event = event;
+    render();
+}
+
+void GL_Widget::render(){
     QPainter painter;
     painter.begin(this);
     painter.setRenderHint(QPainter::Antialiasing);

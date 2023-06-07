@@ -1,20 +1,18 @@
-#version 450
-layout (location=0) in vec3 posAttr;
+#version 450 compatibility
+layout (location=0) in vec3 position;
 layout (location=1) in vec3 normal;
-layout (location=2) in vec2 texCoords;
+layout (location=2) in vec2 textureCoordinates;
 
-uniform mat4 matrix;
-uniform mat4 model;
-uniform mat4 transform;
+uniform mat4 projectionViewMatrix;
+uniform mat4 modelMatrix;
 
-out vec2 texCoord;
-out vec3 n;
-out vec3 FragPos;
+out vec2 textureCoordinate;
+out vec3 updatedNormal;
+out vec3 fragmentPosition;
 
 void main(){
-	gl_Position = matrix * transform * vec4(posAttr, 1.0);
-	texCoord = texCoords;
-	n= mat3(transpose(inverse(model))) * normal;
-	//n=normal;
-	FragPos = vec3(model * transform * vec4(posAttr,1.0));
+	gl_Position = projectionViewMatrix * modelMatrix * vec4(position, 1.0);
+	textureCoordinate = textureCoordinates;
+	updatedNormal= mat3(transpose(inverse(modelMatrix))) * normal;
+	fragmentPosition = vec3(modelMatrix * vec4(position,1.0));
 }

@@ -2,6 +2,10 @@
 
 #include "GL_Camera.h"
 #include "GL_Object.h"
+
+#include "GL_Star.h"
+#include "GL_Planet.h"
+#include "GL_Orbit.h"
 #include "../Globals.h"
 #include "../ApplicationManager.h"
 
@@ -10,9 +14,9 @@
 #include <assimp/postprocess.h>
 
 #include <QJsonArray>
+#include <QMouseEvent>
 
-GL_SystemViewerWidget::GL_SystemViewerWidget(std::string systemName){
-    GL_Widget();
+GL_SystemViewerWidget::GL_SystemViewerWidget(QWidget *parent, std::string systemName): GL_Widget{parent}{
     system = systemName;
 }
 
@@ -21,25 +25,29 @@ void GL_SystemViewerWidget::initialize(){
     camera->setPosition(QVector3D(0.0f, 0.0f, 50.0f));
     camera->setDirection(QVector3D(0.0f, 0.0f, -1.0f));
 
-    this->setCursor(Qt::BlankCursor);
-    // this->cursor().setPos(400, 300);
+    //this->setCursor(Qt::BlankCursor);
+
+    QPoint localCenter(this->width()/2, this->height()/2);
+    globalCenterCoordinates = this->mapToGlobal(localCenter);
+    changeMousePosition();
 
     initSphere();
-
-    //TODO: Read File;???
 
     this->updateData(system);
 
     glDepthFunc(GL_LEQUAL);
     glEnable(GL_DEPTH_TEST);
 
-    connect(&timer, &QTimer::timeout, this, &GL_SystemViewerWidget::keyPress);
-    timer.setInterval(10);
-    timer.start();
+
+    isInitialized = true;
 
     elapsedTimer.start();
     currentFrame = elapsedTimer.msecsSinceReference();
     elapsedTimer.restart();
+
+    connect(&timer, &QTimer::timeout, this, &GL_SystemViewerWidget::keyPress);
+    timer.setInterval(10);
+    timer.start();
 }
 
 void GL_SystemViewerWidget::initSphere(){
@@ -87,6 +95,9 @@ void GL_SystemViewerWidget::keyPress(){
     // Escape
     if(GetAsyncKeyState(0x1B) & 0x100000){
         //application->closeGL();
+        attachMouse = false;
+        this->setMouseTracking(false);
+        this->setCursor(Qt::ArrowCursor);
         return;
     }
 
@@ -135,17 +146,18 @@ void GL_SystemViewerWidget::keyPress(){
     }
 }
 
-
-// TODO
+// If the widget is currently tracking the mouse, this event is called on mouse movement
+// It is used to calculate the new mouse position and revert the mouse to the center of the Widget
+// allowing the control of the camera based on mouse movements in the openGL context.
 void GL_SystemViewerWidget::mouseMoveEvent(QMouseEvent *e){
-    /*
     float cameraSensitivity = 0.1f;
 
     // Handle mouse movement and calculate new camera rotation values
     QPointF newPos = e->scenePosition();
     if(!firstMouse){
-        float distX = newPos.x() - 400;
-        float distY = newPos.y() - 300;
+        QPointF distance = newPos - this->globalCenterCoordinates;
+        float distX = distance.x();
+        float distY = distance.y();
 
         //qDebug() << "Move X = "<< distX <<"\n Move Y = " << distY;
 
@@ -157,13 +169,21 @@ void GL_SystemViewerWidget::mouseMoveEvent(QMouseEvent *e){
     }
     else firstMouse=false;
 
-    this->cursor().setPos(400,300);
-    */
+    changeMousePosition();
 }
 
+void GL_SystemViewerWidget::mousePressEvent(QMouseEvent *e){
+    if(!attachMouse){
+        attachMouse = true;
+        this->setMouseTracking(true);
+        this->setCursor(Qt::CrossCursor);
+        this->changeMousePosition();
+    }
+}
 
 // TODO
 void GL_SystemViewerWidget::updateData(std::string file){
+
     QJsonObject rootObj = global::openJSON(QString::fromStdString(global::path()+"Systems/"+file+".json"));
 
     // If file is not present
@@ -177,11 +197,11 @@ void GL_SystemViewerWidget::updateData(std::string file){
         /*------------------------*
          *     READ STAR DATA     *
          *------------------------*/
+
         QJsonValue starEntry = rootObj.value("star");
         if(!starEntry.isNull()){
             auto starObject = starEntry.toObject();
             std::string starClass = starObject.value("class").toString().toStdString();
-            //std::cout << "Main star: " << starClass << std::endl;
 
             // Setup star data
             auto colorObject = starObject.value("color").toObject();
@@ -189,22 +209,25 @@ void GL_SystemViewerWidget::updateData(std::string file){
             r = colorObject.value("red").toDouble();
             b = colorObject.value("blue").toDouble();
             g = colorObject.value("green").toDouble();
+            QVector3D color(r,g,b);
             float rad = starObject.value("radius").toDouble();
 
             // Add star to models
-            //models.push_back(new GL_Star(starVertices, sphereIndices, starClass, rad, 0.0, r, g,b));
+            //models.push_back(new GL_Star(starVertices, sphereIndices, starClass, rad, 0.0, color));
         }
 
         /*---------------------------*
          *     READ ORBITAL DATA     *
          *---------------------------*/
+
         QJsonArray orb = rootObj.value("orbiting").toArray();
-        //std::cout << "Orbiting: " << orb.size() << std::endl;
+        std::cout << "Orbiting: " << orb.size() << std::endl;
         for(auto orbiting: orb){
-            //std::cout << "Object"<<std::endl;
+
             /*----------------------------*
              *     FORMING THE ORBITS     *
              *----------------------------*/
+
             auto orbitObject = orbiting.toObject().value("orbit").toObject();
             float SemiMajor, SemiMinor;
             if(orbitObject.value("type")=="circle"){
@@ -217,7 +240,7 @@ void GL_SystemViewerWidget::updateData(std::string file){
                 SemiMinor = orbitObject.value("semi-minor").toDouble();
             }
 
-            /*Orbit* o = new Orbit(QVector3D(0,0,0), SemiMajor, SemiMinor, 0);
+            GL_Orbit* o = new GL_Orbit(QVector3D(0,0,0), SemiMajor, SemiMinor, 0);
             if(orbitObject.contains("color")){
                 QJsonObject colorObject = orbitObject.value("color").toObject();
                 qDebug() << "Found color orbit" ;
@@ -226,11 +249,12 @@ void GL_SystemViewerWidget::updateData(std::string file){
                 g = colorObject.value("g").toDouble();
                 b = colorObject.value("b").toDouble();
                 o->setColor(QVector3D(r, g, b));
-            }*/
+            }
 
             /*--------------------------*
              *     FORMING THE BODY     *
              *--------------------------*/
+
             std::string name, uwp;
             float size;
             auto world = orbiting.toObject().value("world").toObject();
@@ -241,17 +265,22 @@ void GL_SystemViewerWidget::updateData(std::string file){
             std::string textureName = world.value("texture").toString().toStdString();
             if(textureName.empty()) textureName="venus.jpg";
 
-            /*Planet* p = new Planet(planetVertices, sphereIndices, size, *o, name, uwp);
-            p->setTexture(textureName);
-            models.push_back(p);*/
+            GL_Planet* p = new GL_Planet(planetVertices, sphereIndices, size, *o, name, uwp);
+            p->loadTexture(textureName);
+            models.push_back(p);
+            break;
         }
+
     }
 }
 
+void GL_SystemViewerWidget::changeMousePosition(){
+    if(attachMouse) this->cursor().setPos(globalCenterCoordinates);
+}
 
-// TODO
-//void GL_SystemViewerWidget::paintEvent(QPaintEvent *event){
 void GL_SystemViewerWidget::render(){
+    if (!isInitialized) initialize();
+
     glDepthMask(GL_TRUE);
 
     lastFrame = currentFrame;
@@ -275,16 +304,21 @@ void GL_SystemViewerWidget::render(){
     camera->calculateVectors();
     view = camera->getView();
 
-    QMatrix4x4 mat = projection * view;
+    QMatrix4x4 projectionViewMatrix = projection * view;
 
     QVector3D diffuseLight = models.at(0)->getColor();
 
     for(GL_Object *m: models){
         m->updateTime(timeRatio);
-        m->render(mat, ambientLight*ambientIntensity, diffuseLight);
+        m->render(projectionViewMatrix, ambientLight*ambientIntensity, diffuseLight);
     }
 
     elapsedTimer.restart();
 }
 
-
+/*
+void GL_SystemViewerWidget::render(){
+    if (!isInitialized) initialize();
+    GL_Widget::render();
+}
+*/

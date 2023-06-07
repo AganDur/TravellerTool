@@ -14,21 +14,29 @@ class GL_Object;
 class GL_SystemViewerWidget : public GL_Widget {
 
 public:
-    GL_SystemViewerWidget(std::string systemName);
+    GL_SystemViewerWidget(QWidget *parent, std::string systemName);
 
     void setApp(ApplicationManager *a){ this->application = a;} //
     void initialize(); //
     void initSphere(); //
 
     //void paintEvent(QPaintEvent *event) override;
-    void render();
+    void render() override;
 
     void keyPress();
     void mouseMoveEvent(QMouseEvent *e) override;
+    void mousePressEvent(QMouseEvent *e) override;
 
     void updateData(std::string file);
 
 private:
+    bool isInitialized = false;
+
+    QPoint globalCenterCoordinates;
+    bool attachMouse = false;
+
+    void changeMousePosition();
+
     int m_frame = 0;
     std::string system;
 
