@@ -14,8 +14,16 @@ INCLUDEPATH += Libs\Include
 SOURCES += \
     ApplicationManager.cpp \
     Globals.cpp \
-    OpenGL/gl_object.cpp \
+    OpenGL/GL_Camera.cpp \
+    OpenGL/GL_Instanced.cpp \
+    OpenGL/GL_Planet.cpp \
+    OpenGL/GL_Star.cpp \
+    OpenGL/GL_SystemViewerWidget.cpp \
+    OpenGL/GL_Unique.cpp \
+    OpenGL/Gl_Widget.cpp \
+    OpenGL/GL_Object.cpp \
     SectorMap_MainWindow.cpp \
+    Window_SystemViewer.cpp \
     main.cpp \
     Launcher.cpp
 
@@ -23,12 +31,21 @@ HEADERS += \
     ApplicationManager.h \
     Globals.h \
     Launcher.h \
-    OpenGL/gl_object.h \
-    SectorMap_MainWindow.h
+    OpenGL/GL_Camera.h \
+    OpenGL/GL_Instanced.h \
+    OpenGL/GL_Planet.h \
+    OpenGL/GL_Star.h \
+    OpenGL/GL_SystemViewerWidget.h \
+    OpenGL/GL_Unique.h \
+    OpenGL/Gl_Widget.h \
+    OpenGL/GL_Object.h \
+    SectorMap_MainWindow.h \
+    Window_SystemViewer.h
 
 FORMS += \
     Launcher.ui \
-    SectorMap_MainWindow.ui
+    SectorMap_MainWindow.ui \
+    Window_SystemViewer.ui
 
 LIBS += -lOpenGL32
 LIBS += -lglu32
@@ -37,7 +54,7 @@ LIBS += User32.lib
 
 TRANSLATIONS += \
     ShipboardTools_en_GB.ts
-CONFIG += lrelease
+#CONFIG += lrelease
 CONFIG += embed_translations
 
 # Default rules for deployment.
@@ -66,7 +83,7 @@ COPIES += icons
 
 
 
-@debug{
+CONFIG(debug, debug|release){
     glShaders.path = $$OUT_PWD/debug/Assets/Shaders
     glMeshes.path = $$OUT_PWD/debug/Assets/Meshes
     glTextures.path = $$OUT_PWD/debug/Assets/Textures
@@ -74,7 +91,7 @@ COPIES += icons
     #icons.path = $$OUT_PWD/debug/Icons
     dllFiles.path = $$OUT_PWD/debug
 }
-release {
+CONFIG(release, debug|release) {
     glShaders.path = $$OUT_PWD/release/Assets/Shaders
     glMeshes.path = $$OUT_PWD/release/Assets/Meshes
     glTextures.path = $$OUT_PWD/release/Assets/Textures

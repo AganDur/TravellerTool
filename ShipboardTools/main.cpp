@@ -3,6 +3,7 @@
 #include <QTranslator>
 
 #include "Launcher.h"
+#include "Window_SystemViewer.h"
 
 int main(int argc, char *argv[])
 {
@@ -17,7 +18,11 @@ int main(int argc, char *argv[])
             break;
         }
     }
-    Launcher w;
-    w.show();
+
+    Window_SystemViewer glWin;
+    glWin.show();
+
+    //Launcher w;
+    //w.show();
     return a.exec();
 }
