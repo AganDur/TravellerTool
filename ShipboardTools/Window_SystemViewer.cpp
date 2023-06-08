@@ -14,15 +14,20 @@ Window_SystemViewer::Window_SystemViewer(QWidget *parent):
     ui->setupUi(this);
     setWindowTitle(tr("TEST2"));
 
-    GL_Widget *gl = new GL_SystemViewerWidget(this, "Acrid");
+    gl = new GL_SystemViewerWidget(this, "Acrid");
 
     ui->horizontalLayout->insertWidget(0, gl);
-
-    QTimer *timer = new QTimer(this);
-    connect(timer, &QTimer::timeout, gl, &GL_Widget::animate);
-    timer -> start(50);
+    startGL();
 }
 
 Window_SystemViewer::~Window_SystemViewer(){
     delete ui;
+}
+
+void Window_SystemViewer::startGL(){
+    QSurfaceFormat format;
+    format.setSamples(16);
+    format.setDepthBufferSize(24);
+    gl->setFormat(format);
+
 }

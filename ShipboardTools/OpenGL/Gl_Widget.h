@@ -13,10 +13,6 @@ public:
 public slots:
     void animate();
 
-protected:
-    void paintEvent(QPaintEvent *event) override;
-    virtual void render();
-
 private:
     int elapsed_time;
 

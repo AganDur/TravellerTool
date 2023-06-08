@@ -50,7 +50,6 @@ void GL_Planet::compileShaders(std::string vertexShaderName, std::string fragmen
 }
 
 void GL_Planet::render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QVector3D diffuseLight){
-    qDebug() << "Render Start";
     VAO.bind();
     //VBO->bind();
     shaderProgram->bind();
@@ -59,7 +58,8 @@ void GL_Planet::render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, 
     QMatrix4x4 modelMatrix = getModelMatrix();
 
     // SET UNIFORM VALUES
-    shaderProgram->setUniformValue(projectionViewMatrixUniform, projectionViewMatrix);
+    QMatrix4x4 proj ;
+    shaderProgram->setUniformValue(projectionViewMatrixUniform, proj);//ectionViewMatrix);
     shaderProgram->setUniformValue(modelMatrixUniform, modelMatrix);
     shaderProgram->setUniformValue(ambientLightUniform, ambientLight);
     shaderProgram->setUniformValue(diffuseLightUniform, diffuseLight);
@@ -83,11 +83,8 @@ void GL_Planet::render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, 
     glDrawElements(GL_TRIANGLES, indices.size(), GL_UNSIGNED_INT, 0);
 
     // CLEANUP
-    qDebug() << "Before Release";
     VAO.release();
-    qDebug() << "Mid Release";
     shaderProgram->release();
-    qDebug() << "After Release";
 
     // CALL ORBIT RENDER TOO
     //this->planetaryOrbit.render(projectionViewMatrix);

@@ -20,6 +20,25 @@ GL_SystemViewerWidget::GL_SystemViewerWidget(QWidget *parent, std::string system
     system = systemName;
 }
 
+void GL_SystemViewerWidget::initializeGL(){
+    initializeOpenGLFunctions();
+
+    this->initialize();
+}
+
+void GL_SystemViewerWidget::paintGL(){
+    if(isValid()) render();
+}
+
+void GL_SystemViewerWidget::resizeGL(int w, int h){
+    widgetWidth = w;
+    widgetHeight = h;
+
+    QPoint localCenter(widgetWidth/2, widgetHeight/2);
+    globalCenterCoordinates = this->mapToGlobal(localCenter);
+    changeMousePosition();
+}
+
 void GL_SystemViewerWidget::initialize(){
     camera = new GL_Camera();
     camera->setPosition(QVector3D(0.0f, 0.0f, 50.0f));
@@ -37,7 +56,7 @@ void GL_SystemViewerWidget::initialize(){
 
     glDepthFunc(GL_LEQUAL);
     glEnable(GL_DEPTH_TEST);
-
+    glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
 
     isInitialized = true;
 
@@ -58,6 +77,7 @@ void GL_SystemViewerWidget::initSphere(){
         qDebug() << "ERROR::ASSIMP::" << importer.GetErrorString();
         return;
     }
+
     aiMesh* meshData;
     meshData = scene->mMeshes[0];
 
@@ -279,8 +299,6 @@ void GL_SystemViewerWidget::changeMousePosition(){
 }
 
 void GL_SystemViewerWidget::render(){
-    if (!isInitialized) initialize();
-
     glDepthMask(GL_TRUE);
 
     lastFrame = currentFrame;
@@ -315,10 +333,3 @@ void GL_SystemViewerWidget::render(){
 
     elapsedTimer.restart();
 }
-
-/*
-void GL_SystemViewerWidget::render(){
-    if (!isInitialized) initialize();
-    GL_Widget::render();
-}
-*/

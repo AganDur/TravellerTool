@@ -6,22 +6,28 @@
 #include <QMatrix4x4>
 #include <QElapsedTimer>
 #include <QTimer>
+#include <QOpenGLFunctions>
 
 class ApplicationManager;
 class GL_Camera;
 class GL_Object;
 
-class GL_SystemViewerWidget : public GL_Widget {
+class GL_SystemViewerWidget : public GL_Widget, protected QOpenGLFunctions {
 
 public:
     GL_SystemViewerWidget(QWidget *parent, std::string systemName);
 
+    // FUNCTIONS FROM GL_WIDGET:
+    void initializeGL() override;
+    void paintGL() override;
+    void resizeGL(int w, int h) override;
+
+    // OWN FUNCTIONS
     void setApp(ApplicationManager *a){ this->application = a;} //
     void initialize(); //
     void initSphere(); //
 
-    //void paintEvent(QPaintEvent *event) override;
-    void render() override;
+    void render();
 
     void keyPress();
     void mouseMoveEvent(QMouseEvent *e) override;
@@ -64,6 +70,8 @@ private:
 
     QPointF lastMousePosition;
     bool firstMouse = true;
+
+    int widgetWidth, widgetHeight;
 };
 
 #endif // GL_SYSTEMVIEWERWIDGET_H
