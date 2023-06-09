@@ -7,7 +7,7 @@
 GL_Widget::GL_Widget(QWidget *parent) : QOpenGLWidget{parent} {
     elapsed_time = 0;
     //setFixedSize(200, 200); //TODO: TEMPORARY
-    setAutoFillBackground(false);
+    //setAutoFillBackground(false);
 }
 
 void GL_Widget::animate(){

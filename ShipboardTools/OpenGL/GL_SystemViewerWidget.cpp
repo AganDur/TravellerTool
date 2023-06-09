@@ -24,10 +24,15 @@ void GL_SystemViewerWidget::initializeGL(){
     initializeOpenGLFunctions();
 
     this->initialize();
+
+    glClearColor(0,0,0,1);
+
 }
 
 void GL_SystemViewerWidget::paintGL(){
+    qDebug() << "CONTEXT IS VALID" ;
     if(isValid()) render();
+
 }
 
 void GL_SystemViewerWidget::resizeGL(int w, int h){
@@ -54,9 +59,9 @@ void GL_SystemViewerWidget::initialize(){
 
     this->updateData(system);
 
-    glDepthFunc(GL_LEQUAL);
-    glEnable(GL_DEPTH_TEST);
-    glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
+    //glDepthFunc(GL_LEQUAL);
+    //glEnable(GL_DEPTH_TEST);
+    //glClearColor(1.0f, 0.0f, 0.0f, 0.0f);
 
     isInitialized = true;
 
@@ -299,13 +304,7 @@ void GL_SystemViewerWidget::changeMousePosition(){
 }
 
 void GL_SystemViewerWidget::render(){
-    glDepthMask(GL_TRUE);
-
-    lastFrame = currentFrame;
-    currentFrame = elapsedTimer.msecsSinceReference();
-
-    double timeRatio = currentFrame - lastFrame;
-    timeRatio *= orbitingSpeed;
+    //glDepthMask(GL_TRUE);
 
     const qreal retinaScale = devicePixelRatio();
 
@@ -313,18 +312,27 @@ void GL_SystemViewerWidget::render(){
     float h = height() * retinaScale;
 
     glViewport(0, 0, w, h);
-
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    glEnable(GL_DEPTH_TEST);
+    glEnable(GL_CULL_FACE);
+
+    lastFrame = currentFrame;
+    currentFrame = elapsedTimer.msecsSinceReference();
+
+    double timeRatio = currentFrame - lastFrame;
+    timeRatio *= orbitingSpeed;
+
+    //glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     projection = QMatrix4x4();
-    projection.perspective(camera->getZoom(), (float)w/(float)h, 0.1f, 500.0f);
+    //projection.perspective(camera->getZoom(), (float)w/(float)h, 0.1f, 500.0f);
 
     camera->calculateVectors();
-    view = camera->getView();
+    //view = camera->getView();
 
     QMatrix4x4 projectionViewMatrix = projection * view;
 
-    QVector3D diffuseLight = models.at(0)->getColor();
+    QVector3D diffuseLight = QVector3D(0.0f, 1.0f, 1.0f); //models.at(0)->getColor();
 
     for(GL_Object *m: models){
         m->updateTime(timeRatio);

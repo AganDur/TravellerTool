@@ -1,6 +1,7 @@
 #include <QApplication>
 #include <QLocale>
 #include <QTranslator>
+#include <QSurfaceFormat>
 
 #include "Launcher.h"
 #include "Window_SystemViewer.h"
@@ -18,6 +19,10 @@ int main(int argc, char *argv[])
             break;
         }
     }
+
+    QSurfaceFormat format;
+    format.setDepthBufferSize(24);
+    QSurfaceFormat::setDefaultFormat(format);
 
     Window_SystemViewer glWin;
     glWin.show();

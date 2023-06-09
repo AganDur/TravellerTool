@@ -25,9 +25,7 @@ Window_SystemViewer::~Window_SystemViewer(){
 }
 
 void Window_SystemViewer::startGL(){
-    QSurfaceFormat format;
-    format.setSamples(16);
-    format.setDepthBufferSize(24);
-    gl->setFormat(format);
-
+    QTimer *timer = new QTimer(gl);
+    connect(timer, SIGNAL(timeout()), gl, SLOT(update()));
+    timer->start(1000/60);
 }

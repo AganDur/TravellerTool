@@ -227,6 +227,7 @@ void GL_Object::loadTexture(std::string textureName) {
 
 void GL_Object::render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QVector3D diffuseLight){
     // TODO
+    qDebug() << "GL_OBJECT.CPP RENDER()";
 }
 
 void GL_Object::updateTime(double timeRatio){

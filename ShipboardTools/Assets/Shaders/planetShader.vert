@@ -11,8 +11,9 @@ out vec3 updatedNormal;
 out vec3 fragmentPosition;
 
 void main(){
-	gl_Position = projectionViewMatrix * modelMatrix * vec4(position, 1.0);
-	textureCoordinate = textureCoordinates;
-	updatedNormal= mat3(transpose(inverse(modelMatrix))) * normal;
-	fragmentPosition = vec3(modelMatrix * vec4(position,1.0));
+	//gl_Position = projectionViewMatrix * modelMatrix * vec4(position, 1.0);
+	//textureCoordinate = textureCoordinates;
+	//updatedNormal= mat3(transpose(inverse(modelMatrix))) * normal;
+	//fragmentPosition = vec3(modelMatrix * vec4(position,1.0));
+	gl_Position = vec4(position, 1.0);
 }

@@ -8,14 +8,14 @@ GL_Unique::GL_Unique(std::string vertexShader, std::string fragmentShader, std::
     //VAO.create();
     VAO.bind();
 
-    //VBO = new QOpenGLBuffer(QOpenGLBuffer::VertexBuffer);
-    //VBO->create();
+    VBO = new QOpenGLBuffer(QOpenGLBuffer::VertexBuffer);
+    VBO->create();
     VBO->bind();
-    VBO->setUsagePattern(QOpenGLBuffer::StaticDraw);
     VBO->allocate(this->vertices.data(), this->vertices.size()*sizeof(GLfloat));
+    VBO->setUsagePattern(QOpenGLBuffer::StaticDraw);
 
-    //EBO = new QOpenGLBuffer(QOpenGLBuffer::IndexBuffer);
-    //EBO->create();
+    EBO = new QOpenGLBuffer(QOpenGLBuffer::IndexBuffer);
+    EBO->create();
     EBO->bind();
     EBO->allocate(this->indices.data(), this->indices.size()*sizeof(unsigned int));
 

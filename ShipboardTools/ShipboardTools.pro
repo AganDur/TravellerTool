@@ -123,3 +123,7 @@ systems.files = $$files(Systems/*.json)
 icons.path = $$OUT_PWD/Icons
 icons.files = $$files(Icons/*.jpg)
 #icons.files = $$files(Icons/*.png)
+
+DISTFILES += \
+    Assets/Shaders/test.frag \
+    Assets/Shaders/test.vert
