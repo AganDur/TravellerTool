@@ -30,7 +30,6 @@ private:
 
     GLint positionAttribute = -1, normalAttribute = -1 , textureCoordinatesAttribute = -1;
     GLint projectionViewMatrixUniform = -1, modelMatrixUniform = -1, ambientLightUniform = -1, diffuseLightUniform=-1, colorUniform=-1, lightPositionUniform=-1;
-    GLint textureUniform = -1;
     GLint normalMatrixUniform = -1;
 
     QMatrix4x4 getModelMatrix();

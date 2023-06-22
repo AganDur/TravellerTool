@@ -18,6 +18,8 @@ Window_SystemViewer::Window_SystemViewer(QWidget *parent):
 
     ui->horizontalLayout->insertWidget(0, gl);
     startGL();
+
+    this->setMouseTracking(true);
 }
 
 Window_SystemViewer::~Window_SystemViewer(){

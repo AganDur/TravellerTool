@@ -19,12 +19,21 @@ public:
  *   OPEN GL PARAMETERS   *
  *------------------------*/
 private:
+    float size;
+    float mass;
+
+    GLint positionAttribute = -1, textureCoordinatesAttribute = -1;
+    GLint projectionViewMatrixUniform = -1, modelMatrixUniform = -1, colorUniform=-1;
+
+    QMatrix4x4 getModelMatrix();
 
 /*------------------------*
  *   OPEN GL PARAMETERS   *
  *------------------------*/
 public:
     void compileShaders(std::string vertexShaderName, std::string fragmentShaderName) override;
+
+    void render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QVector3D diffuseLight);
 
 };
 

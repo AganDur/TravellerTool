@@ -3,8 +3,7 @@
 
 #include "GL_Object.h"
 
-class GL_Orbit : public GL_Object
-{
+class GL_Orbit{
 public:
     GL_Orbit(QVector3D center, float semiMajor, float semiMinor, int rotation);
     GL_Orbit(GL_Orbit &o);
@@ -26,10 +25,14 @@ private:
 
     QVector3D color;
 
+    std::vector<float> vertices;
+
     float completeSurface;
     float lastAngle = 0;
     float orbitalPeriod;
-    float prepared = false;
+    QOpenGLVertexArrayObject VAO;
+    QOpenGLBuffer *VBO = nullptr;
+    QOpenGLShaderProgram *shaderProgram = nullptr;
 
 public:
     float getX_NoAngle();
@@ -41,11 +44,16 @@ public:
 
     void increaseAngle(double timeRatio);
 
+    float getSemiMinor() { return this->semiMinor; }
+    float getSemiMajor() { return this->semiMajor; }
+
 private:
-    GLint m_positionAttribute=0, m_matrixUniform=0, m_colorUniform=0;
+    GLint m_positionAttribute=0, m_projectionMatrixUniform=0, m_colorUniform=0;
+
+    void prepare();
 
 public:
-    void render(QMatrix4x4 matrix);
+    void render(QMatrix4x4 projectionViewMatrix);
 
 };
 

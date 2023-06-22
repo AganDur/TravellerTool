@@ -1,11 +1,27 @@
 #include "GL_Orbit.h"
 
-GL_Orbit::GL_Orbit(QVector3D center, float semiMajor, float semiMinor, int rotation): GL_Object{} {
+const char* vertexSource =
+        "#version 450 core\n"
+        "layout (location=0) in vec3 posAttr;\n"
+        "uniform mat4 matrix;\n"
+        "void main() {\n"
+        "gl_Position = matrix * vec4(posAttr, 1.0);\n"
+        "}";
+
+const char* fragmentSource =
+        "#version 450 core\n"
+        "uniform vec3 color;\n"
+        "out vec4 outColor;"
+        "void main() {\n"
+        "outColor = vec4(color, 1.0);\n"
+        "}";
+
+
+GL_Orbit::GL_Orbit(QVector3D center, float semiMajor, float semiMinor, int rotation){
     this->center=center;
     this->semiMajor = semiMajor;
     this->semiMinor = semiMinor;
     this->rotation = rotation;
-
 
     // When the orbit is a true circle
     if(semiMinor==semiMajor){
@@ -17,7 +33,7 @@ GL_Orbit::GL_Orbit(QVector3D center, float semiMajor, float semiMinor, int rotat
 
     // When the orbit is an ellipsis
     else{
-        eccentricity = sqrt(1 - (semiMajor*semiMajor - semiMinor*semiMinor));
+        eccentricity = sqrt(1 - (semiMajor*semiMajor / semiMinor*semiMinor));
 
         float c2 = (semiMajor*semiMajor) - (semiMinor*semiMinor);
         float c1 = sqrt(c2);
@@ -67,11 +83,9 @@ GL_Orbit::GL_Orbit(QVector3D center, float semiMajor, float semiMinor, int rotat
     }
 
     color = QVector3D(0.5, 0.5, 0.5);
-    initializeOpenGLFunctions();
-
 }
 
-GL_Orbit::GL_Orbit(GL_Orbit &o): GL_Object{}{
+GL_Orbit::GL_Orbit(GL_Orbit &o){
     this->semiMajor = o.semiMajor;
     this->semiMinor = o.semiMinor;
     this->center = o.center;
@@ -88,33 +102,30 @@ GL_Orbit::GL_Orbit(GL_Orbit &o): GL_Object{}{
     this->lastAngle = o.lastAngle;
     this->orbitalPeriod = o.orbitalPeriod;
 
-    initializeOpenGLFunctions();
+    prepare();
+}
 
-    /*
-    VAO.create();
-    VAO.bind();
-
-    // Prepare Shader
+void GL_Orbit::prepare(){
     shaderProgram = new QOpenGLShaderProgram();
     shaderProgram->create();
-    QOpenGLShader vertexShader = QOpenGLShader(QOpenGLShader::Vertex);
-    QOpenGLShader fragmentShader = QOpenGLShader(QOpenGLShader::Fragment);
-    vertexShader.compileSourceCode(vertexSource);
-    fragmentShader.compileSourceCode(fragmentSource);
-    shader->addShader(&vertexShader);
-    shader->addShader(&fragmentShader);
-    shader->link();
+    shaderProgram->addShaderFromSourceCode(QOpenGLShader::Vertex,vertexSource);
+    shaderProgram->addShaderFromSourceCode(QOpenGLShader::Fragment,fragmentSource);
+    shaderProgram->link();
 
-    m_posAttr = shader->attributeLocation("posAttr");
-    m_matrixUniform = shader->uniformLocation("matrix");
-    m_colorUniform = shader->uniformLocation("color");
+    m_positionAttribute = shaderProgram->attributeLocation("posAttr");
+    m_colorUniform = shaderProgram->uniformLocation("color");
+    m_projectionMatrixUniform = shaderProgram->uniformLocation("matrix");
+
+    VAO.destroy();
+    VAO.create();
+    VAO.bind();
 
     VBO = new QOpenGLBuffer();
     VBO->create();
     VBO->bind();
-    VBO->allocate(vertices.data(), vertices.size()*sizeof(float));
+    VBO->allocate(vertices.data(), vertices.size() * sizeof(GLfloat));
+
     VAO.release();
-    */
 }
 
 
@@ -166,23 +177,30 @@ void GL_Orbit::increaseAngle(double timeRatio){
     if(lastAngle >= 360) lastAngle -= 360;
 }
 
-void GL_Orbit::render(QMatrix4x4 matrix){
-    if(!prepared){
-        compileShaders("orbit", "orbit");
-        prepared = true;
-    }
+void GL_Orbit::render(QMatrix4x4 projectionViewMatrix){
+    QOpenGLFunctions *f = QOpenGLContext::currentContext()->functions();
 
+    f->glEnable(GL_LINE_SMOOTH);
+    f->glDisable(GL_CULL_FACE);
+    f->glHint(GL_LINE_SMOOTH_HINT, GL_NICEST);
+
+    f->glEnable(GL_MULTISAMPLE);
     VAO.bind();
     VBO->bind();
     shaderProgram->bind();
 
-    shaderProgram->setUniformValue(m_matrixUniform, matrix);
-    shaderProgram->setUniformValue(m_colorUniform, this->color);
+    f->glEnableVertexAttribArray(0);
+    f->glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3*sizeof(GLfloat), (void*)0);
 
-    glVertexAttribPointer(m_positionAttribute, 3, GL_FLOAT, GL_FALSE, 3*sizeof(float), (void*)0);
-    shaderProgram->enableAttributeArray(m_positionAttribute);
+    shaderProgram->setUniformValue(m_projectionMatrixUniform, projectionViewMatrix);
+    shaderProgram->setUniformValue(m_colorUniform, QVector3D(1,1,1));
 
-    glDrawArrays(GL_QUADS, 0, vertices.size()/sizeof(float));
-    VAO.release();
+    f->glDrawArrays(GL_QUADS, 0, vertices.size()/sizeof(float));
+
     shaderProgram->release();
+    VAO.release();
+
+    f->glEnable(GL_CULL_FACE);
+    f->glDisable(GL_LINE_SMOOTH);
+    f->glDisable(GL_MULTISAMPLE);
 }

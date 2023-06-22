@@ -10,6 +10,9 @@ class GL_Widget : public QOpenGLWidget{
 public:
     explicit GL_Widget(QWidget *parent = nullptr);
 
+    virtual bool isAttachMouse() { return false; };
+    virtual void changeMousePosition() {} ;
+
 public slots:
     void animate();
 

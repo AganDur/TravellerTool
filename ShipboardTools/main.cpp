@@ -22,6 +22,7 @@ int main(int argc, char *argv[])
 
     QSurfaceFormat format;
     format.setDepthBufferSize(24);
+    format.setSamples(8);
     QSurfaceFormat::setDefaultFormat(format);
 
     Window_SystemViewer glWin;

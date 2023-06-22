@@ -8,8 +8,8 @@ class GL_Unique: public GL_Object {
  *   CONSTRUCTORS   *
  *------------------*/
 public:
-    GL_Unique(std::string vertexShader, std::string fragmentShader, std::string meshName, QVector3D color);
-    GL_Unique(std::string vertexShader, std::string fragmentShader, std::vector<GLfloat> vertices, std::vector<unsigned int> indices, QVector3D color);
+    GL_Unique(std::string meshName, QVector3D color);
+    GL_Unique(std::vector<GLfloat> vertices, std::vector<unsigned int> indices, QVector3D color);
 
     virtual ~GL_Unique();
 
@@ -26,7 +26,7 @@ protected:
  *-----------------------*/
 public:
     void compileShaders(std::string vertexShaderName, std::string fragmentShaderName) override;
-
+    QVector3D getColor() override;
     //virtual void render() override;
 };
 

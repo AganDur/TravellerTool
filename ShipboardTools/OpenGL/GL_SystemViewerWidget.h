@@ -32,8 +32,12 @@ public:
     void keyPress();
     void mouseMoveEvent(QMouseEvent *e) override;
     void mousePressEvent(QMouseEvent *e) override;
+    void leaveEvent(QEvent *e) override;
 
     void updateData(std::string file);
+    void changeMousePosition() override ;
+
+    bool isAttachMouse() override { return attachMouse; }
 
 private:
     bool isInitialized = false;
@@ -41,7 +45,6 @@ private:
     QPoint globalCenterCoordinates;
     bool attachMouse = false;
 
-    void changeMousePosition();
 
     int m_frame = 0;
     std::string system;

@@ -30,9 +30,11 @@ void GL_SystemViewerWidget::initializeGL(){
 }
 
 void GL_SystemViewerWidget::paintGL(){
-    qDebug() << "CONTEXT IS VALID" ;
-    if(isValid()) render();
+    if(this->attachMouse){
+        changeMousePosition();
+    }
 
+    if(isValid()) render();
 }
 
 void GL_SystemViewerWidget::resizeGL(int w, int h){
@@ -48,8 +50,7 @@ void GL_SystemViewerWidget::initialize(){
     camera = new GL_Camera();
     camera->setPosition(QVector3D(0.0f, 0.0f, 50.0f));
     camera->setDirection(QVector3D(0.0f, 0.0f, -1.0f));
-
-    //this->setCursor(Qt::BlankCursor);
+    camera->calculateVectors();
 
     QPoint localCenter(this->width()/2, this->height()/2);
     globalCenterCoordinates = this->mapToGlobal(localCenter);
@@ -122,6 +123,7 @@ void GL_SystemViewerWidget::keyPress(){
         //application->closeGL();
         attachMouse = false;
         this->setMouseTracking(false);
+        this->releaseMouse();
         this->setCursor(Qt::ArrowCursor);
         return;
     }
@@ -145,29 +147,29 @@ void GL_SystemViewerWidget::keyPress(){
 
     // Q Key
     if(GetAsyncKeyState(0x51) & 0x100000){
-        camera->moveRight(2.5);
+        camera->moveRight(.25);
     }
     // D Key
     else if(GetAsyncKeyState(0x44) & 0x100000){
-        camera->moveRight(-2.5);
+        camera->moveRight(-.25);
     }
 
     // Z Key
     if(GetAsyncKeyState(0x5A) & 0x100000){
-        camera->moveForward(2.5);
+        camera->moveForward(.25);
     }
     // S Key
     else if(GetAsyncKeyState(0x53) & 0x100000){
-        camera->moveForward(-2.5);
+        camera->moveForward(-.25);
     }
 
     // E Key
     if(GetAsyncKeyState(0x45) & 0x100000){
-        camera->moveUp(2.5);
+        camera->moveUp(.25);
     }
     // A Key
     else if(GetAsyncKeyState(0x41) & 0x100000){
-        camera->moveUp(-2.5);
+        camera->moveUp(-.25);
     }
 }
 
@@ -178,7 +180,8 @@ void GL_SystemViewerWidget::mouseMoveEvent(QMouseEvent *e){
     float cameraSensitivity = 0.1f;
 
     // Handle mouse movement and calculate new camera rotation values
-    QPointF newPos = e->scenePosition();
+    QPointF newPos = e->globalPosition();
+
     if(!firstMouse){
         QPointF distance = newPos - this->globalCenterCoordinates;
         float distX = distance.x();
@@ -201,8 +204,15 @@ void GL_SystemViewerWidget::mousePressEvent(QMouseEvent *e){
     if(!attachMouse){
         attachMouse = true;
         this->setMouseTracking(true);
-        this->setCursor(Qt::CrossCursor);
+        this->grabMouse();
+        this->setCursor(Qt::BlankCursor);
         this->changeMousePosition();
+    }
+}
+
+void GL_SystemViewerWidget::leaveEvent(QEvent *e){
+    if(attachMouse){
+        changeMousePosition();
     }
 }
 
@@ -234,19 +244,20 @@ void GL_SystemViewerWidget::updateData(std::string file){
             r = colorObject.value("red").toDouble();
             b = colorObject.value("blue").toDouble();
             g = colorObject.value("green").toDouble();
+
             QVector3D color(r,g,b);
             float rad = starObject.value("radius").toDouble();
 
             // Add star to models
-            //models.push_back(new GL_Star(starVertices, sphereIndices, starClass, rad, 0.0, color));
+            GL_Star *star = new GL_Star(starVertices, sphereIndices, starClass, rad, 0.0, color);
+            star->loadTexture("starTexture1.jpg");
+            models.push_back(star);
         }
 
         /*---------------------------*
          *     READ ORBITAL DATA     *
          *---------------------------*/
-
         QJsonArray orb = rootObj.value("orbiting").toArray();
-        std::cout << "Orbiting: " << orb.size() << std::endl;
         for(auto orbiting: orb){
 
             /*----------------------------*
@@ -293,7 +304,6 @@ void GL_SystemViewerWidget::updateData(std::string file){
             GL_Planet* p = new GL_Planet(planetVertices, sphereIndices, size, *o, name, uwp);
             p->loadTexture(textureName);
             models.push_back(p);
-            break;
         }
 
     }
@@ -304,8 +314,6 @@ void GL_SystemViewerWidget::changeMousePosition(){
 }
 
 void GL_SystemViewerWidget::render(){
-    //glDepthMask(GL_TRUE);
-
     const qreal retinaScale = devicePixelRatio();
 
     float w = width() * retinaScale;
@@ -314,6 +322,7 @@ void GL_SystemViewerWidget::render(){
     glViewport(0, 0, w, h);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glEnable(GL_DEPTH_TEST);
+    glDepthMask(GL_TRUE);
     glEnable(GL_CULL_FACE);
 
     lastFrame = currentFrame;
@@ -322,17 +331,16 @@ void GL_SystemViewerWidget::render(){
     double timeRatio = currentFrame - lastFrame;
     timeRatio *= orbitingSpeed;
 
-    //glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-
     projection = QMatrix4x4();
-    //projection.perspective(camera->getZoom(), (float)w/(float)h, 0.1f, 500.0f);
+    projection.setToIdentity();
+    projection.perspective(45, (float)w/(float)h, 0.1f, 1000.0f);
 
     camera->calculateVectors();
-    //view = camera->getView();
+    view = camera->getView();
 
     QMatrix4x4 projectionViewMatrix = projection * view;
 
-    QVector3D diffuseLight = QVector3D(0.0f, 1.0f, 1.0f); //models.at(0)->getColor();
+    QVector3D diffuseLight = models.at(0)->getColor();
 
     for(GL_Object *m: models){
         m->updateTime(timeRatio);

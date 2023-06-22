@@ -1,7 +1,7 @@
 #include "GL_Unique.h"
 #include "GL_Object.h"
 
-GL_Unique::GL_Unique(std::string vertexShader, std::string fragmentShader, std::string meshName, QVector3D color) : GL_Object{} {
+GL_Unique::GL_Unique(std::string meshName, QVector3D color) : GL_Object{} {
     loadMesh(meshName);
     this->color = color;
 
@@ -20,11 +20,9 @@ GL_Unique::GL_Unique(std::string vertexShader, std::string fragmentShader, std::
     EBO->allocate(this->indices.data(), this->indices.size()*sizeof(unsigned int));
 
     VAO.release();
-
-    initializeOpenGLFunctions();
 }
 
-GL_Unique::GL_Unique(std::string vertexShader, std::string fragmentShader, std::vector<GLfloat> vertices, std::vector<unsigned int> indices, QVector3D color): GL_Object{}, color{color}{
+GL_Unique::GL_Unique(std::vector<GLfloat> vertices, std::vector<unsigned int> indices, QVector3D color): GL_Object{}, color{color}{
     this->vertices = vertices;
     this->indices = indices;
     this->color = color;
@@ -44,8 +42,6 @@ GL_Unique::GL_Unique(std::string vertexShader, std::string fragmentShader, std::
     EBO->allocate(this->indices.data(), this->indices.size()*sizeof(unsigned int));
 
     VAO.release();
-
-    initializeOpenGLFunctions();
 }
 
 GL_Unique::~GL_Unique(){
@@ -54,5 +50,9 @@ GL_Unique::~GL_Unique(){
 
 void GL_Unique::compileShaders(std::string vertexShaderName, std::string fragmentShaderName){
     GL_Object::compileShaders(vertexShaderName, fragmentShaderName);
+}
+
+QVector3D GL_Unique::getColor(){
+    return color;
 }
 
