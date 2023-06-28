@@ -24,7 +24,7 @@ SOURCES += \
     OpenGL/GL_Unique.cpp \
     OpenGL/Gl_Widget.cpp \
     OpenGL/GL_Object.cpp \
-    SectorMap_MainWindow.cpp \
+    Window_SectorMap.cpp \
     Window_SystemViewer.cpp \
     main.cpp \
     Launcher.cpp
@@ -43,12 +43,12 @@ HEADERS += \
     OpenGL/GL_Unique.h \
     OpenGL/Gl_Widget.h \
     OpenGL/GL_Object.h \
-    SectorMap_MainWindow.h \
+    Window_SectorMap.h \
     Window_SystemViewer.h
 
 FORMS += \
     Launcher.ui \
-    SectorMap_MainWindow.ui \
+    Window_SectorMap.ui \
     Window_SystemViewer.ui
 
 LIBS += -lOpenGL32
