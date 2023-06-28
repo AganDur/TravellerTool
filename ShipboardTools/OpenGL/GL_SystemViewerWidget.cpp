@@ -2,121 +2,28 @@
 
 #include "GL_Camera.h"
 #include "GL_Object.h"
-
 #include "GL_Star.h"
 #include "GL_Planet.h"
 #include "GL_Orbit.h"
 #include "../Globals.h"
 #include "../ApplicationManager.h"
 
+#include <QJsonArray>
+#include <QMouseEvent>
+
 #include <assimp/Importer.hpp>
 #include <assimp/scene.h>
 #include <assimp/postprocess.h>
 
-#include <QJsonArray>
-#include <QMouseEvent>
-
+/*------------------*
+ *   CONSTRUCTORS   *
+ *------------------*/
 GL_SystemViewerWidget::GL_SystemViewerWidget(QWidget *parent, std::string systemName): GL_Widget{parent}{
     system = systemName;
 }
-
-void GL_SystemViewerWidget::initializeGL(){
-    initializeOpenGLFunctions();
-
-    this->initialize();
-
-    glClearColor(0,0,0,1);
-
-}
-
-void GL_SystemViewerWidget::paintGL(){
-    if(this->attachMouse){
-        changeMousePosition();
-    }
-
-    if(isValid()) render();
-}
-
-void GL_SystemViewerWidget::resizeGL(int w, int h){
-    widgetWidth = w;
-    widgetHeight = h;
-
-    QPoint localCenter(widgetWidth/2, widgetHeight/2);
-    globalCenterCoordinates = this->mapToGlobal(localCenter);
-    changeMousePosition();
-}
-
-void GL_SystemViewerWidget::initialize(){
-    camera = new GL_Camera();
-    camera->setPosition(QVector3D(0.0f, 0.0f, 50.0f));
-    camera->setDirection(QVector3D(0.0f, 0.0f, -1.0f));
-    camera->calculateVectors();
-
-    QPoint localCenter(this->width()/2, this->height()/2);
-    globalCenterCoordinates = this->mapToGlobal(localCenter);
-    changeMousePosition();
-
-    initSphere();
-
-    this->updateData(system);
-
-    //glDepthFunc(GL_LEQUAL);
-    //glEnable(GL_DEPTH_TEST);
-    //glClearColor(1.0f, 0.0f, 0.0f, 0.0f);
-
-    isInitialized = true;
-
-    elapsedTimer.start();
-    currentFrame = elapsedTimer.msecsSinceReference();
-    elapsedTimer.restart();
-
-    connect(&timer, &QTimer::timeout, this, &GL_SystemViewerWidget::keyPress);
-    timer.setInterval(10);
-    timer.start();
-}
-
-void GL_SystemViewerWidget::initSphere(){
-    Assimp::Importer importer;
-    const aiScene* scene = importer.ReadFile(global::path() + "Assets/Meshes/star.obj", aiProcess_Triangulate | aiProcess_FlipUVs);
-
-    if(!scene || (scene->mFlags && AI_SCENE_FLAGS_INCOMPLETE) || !scene->mRootNode){
-        qDebug() << "ERROR::ASSIMP::" << importer.GetErrorString();
-        return;
-    }
-
-    aiMesh* meshData;
-    meshData = scene->mMeshes[0];
-
-    std::vector<GLfloat> verticesPos;
-    std::vector<GLfloat> verticesNormals;
-
-    for(unsigned int i=0 ; i < meshData->mNumVertices ; i++){
-
-        planetVertices.push_back(meshData->mVertices[i].x);
-        planetVertices.push_back(meshData->mVertices[i].y);
-        planetVertices.push_back(meshData->mVertices[i].z);
-        planetVertices.push_back(meshData->mNormals[i].x);
-        planetVertices.push_back(meshData->mNormals[i].y);
-        planetVertices.push_back(meshData->mNormals[i].z);
-        planetVertices.push_back(meshData->mTextureCoords[0][i].x);
-        planetVertices.push_back(meshData->mTextureCoords[0][i].y);
-
-
-        starVertices.push_back(meshData->mVertices[i].x);
-        starVertices.push_back(meshData->mVertices[i].y);
-        starVertices.push_back(meshData->mVertices[i].z);
-        starVertices.push_back(meshData->mTextureCoords[0][i].x);
-        starVertices.push_back(meshData->mTextureCoords[0][i].y);
-    }
-
-    for(unsigned int i=0 ; i< meshData->mNumFaces ; i++){
-        aiFace f = meshData->mFaces[i];
-        for(unsigned int j=0 ; j<f.mNumIndices ; j++) sphereIndices.push_back(f.mIndices[j]);
-    }
-}
-
-
-// TODO
+/*-----------------------*
+ *   CONTROL FUNCTIONS   *
+ *-----------------------*/
 void GL_SystemViewerWidget::keyPress(){
     // Escape
     if(GetAsyncKeyState(0x1B) & 0x100000){
@@ -216,7 +123,6 @@ void GL_SystemViewerWidget::leaveEvent(QEvent *e){
     }
 }
 
-// TODO
 void GL_SystemViewerWidget::updateData(std::string file){
 
     QJsonObject rootObj = global::openJSON(QString::fromStdString(global::path()+"Systems/"+file+".json"));
@@ -311,6 +217,104 @@ void GL_SystemViewerWidget::updateData(std::string file){
 
 void GL_SystemViewerWidget::changeMousePosition(){
     if(attachMouse) this->cursor().setPos(globalCenterCoordinates);
+}
+
+bool GL_SystemViewerWidget::isAttachMouse() {
+    return attachMouse;
+}
+
+/*----------------------*
+ *   OPENGL FUNCTIONS   *
+ *----------------------*/
+void GL_SystemViewerWidget::initializeGL(){
+    initializeOpenGLFunctions();
+
+    this->initialize();
+
+    glClearColor(0,0,0,1);
+
+}
+void GL_SystemViewerWidget::paintGL(){
+    if(this->attachMouse){
+        changeMousePosition();
+    }
+
+    if(isValid()) render();
+}
+void GL_SystemViewerWidget::resizeGL(int w, int h){
+    widgetWidth = w;
+    widgetHeight = h;
+
+    QPoint localCenter(widgetWidth/2, widgetHeight/2);
+    globalCenterCoordinates = this->mapToGlobal(localCenter);
+    changeMousePosition();
+}
+
+void GL_SystemViewerWidget::setApp(ApplicationManager *a){
+    this->application = a;
+}
+void GL_SystemViewerWidget::initialize(){
+    camera = new GL_Camera();
+    camera->setPosition(QVector3D(0.0f, 0.0f, 50.0f));
+    camera->setDirection(QVector3D(0.0f, 0.0f, -1.0f));
+    camera->calculateVectors();
+
+    QPoint localCenter(this->width()/2, this->height()/2);
+    globalCenterCoordinates = this->mapToGlobal(localCenter);
+    changeMousePosition();
+
+    initSphere();
+
+    this->updateData(system);
+
+    isInitialized = true;
+
+    elapsedTimer.start();
+    currentFrame = elapsedTimer.msecsSinceReference();
+    elapsedTimer.restart();
+
+    connect(&timer, &QTimer::timeout, this, &GL_SystemViewerWidget::keyPress);
+    timer.setInterval(10);
+    timer.start();
+}
+void GL_SystemViewerWidget::initSphere(){
+    Assimp::Importer importer;
+    const aiScene* scene = importer.ReadFile(global::path() + "Assets/Meshes/star.obj", aiProcess_Triangulate | aiProcess_FlipUVs);
+
+    if(!scene || (scene->mFlags && AI_SCENE_FLAGS_INCOMPLETE) || !scene->mRootNode){
+        qDebug() << "ERROR::ASSIMP::" << importer.GetErrorString();
+        return;
+    }
+
+    aiMesh* meshData;
+    meshData = scene->mMeshes[0];
+
+    std::vector<GLfloat> verticesPos;
+    std::vector<GLfloat> verticesNormals;
+
+    for(unsigned int i=0 ; i < meshData->mNumVertices ; i++){
+
+        planetVertices.push_back(meshData->mVertices[i].x);
+        planetVertices.push_back(meshData->mVertices[i].y);
+        planetVertices.push_back(meshData->mVertices[i].z);
+        planetVertices.push_back(meshData->mNormals[i].x);
+        planetVertices.push_back(meshData->mNormals[i].y);
+        planetVertices.push_back(meshData->mNormals[i].z);
+        planetVertices.push_back(meshData->mTextureCoords[0][i].x);
+        planetVertices.push_back(meshData->mTextureCoords[0][i].y);
+
+
+        starVertices.push_back(meshData->mVertices[i].x);
+        starVertices.push_back(meshData->mVertices[i].y);
+        starVertices.push_back(meshData->mVertices[i].z);
+        starVertices.push_back(meshData->mTextureCoords[0][i].x);
+        starVertices.push_back(meshData->mTextureCoords[0][i].y);
+    }
+
+    for(unsigned int i=0 ; i< meshData->mNumFaces ; i++){
+        aiFace f = meshData->mFaces[i];
+        for(unsigned int j=0 ; j<f.mNumIndices ; j++) sphereIndices.push_back(f.mIndices[j]);
+    }
 }
 
 void GL_SystemViewerWidget::render(){

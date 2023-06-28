@@ -1,7 +1,7 @@
 #include "Window_SystemViewer.h"
 #include "ui_Window_SystemViewer.h"
-
 #include "OpenGL/GL_SystemViewerWidget.h"
+
 #include <QHBoxLayout>
 #include <QVBoxLayout>
 #include <QPushButton>

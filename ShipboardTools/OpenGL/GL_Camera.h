@@ -4,37 +4,20 @@
 #include <QOpenGLFunctions>
 #include <QVector3D>
 
+/*
+ * @author Agan_Dur
+ */
+
 class GL_Camera: protected QOpenGLFunctions {
+/*------------------*
+ *   CONSTRUCTORS   *
+ *------------------*/
 public:
     GL_Camera();
 
-    void setPosition(QVector3D pos);
-    void setDirection(QVector3D dir);
-    void setPitch(float p);
-    void setYaw(float y);
-    void setZoom(float z);
-
-    void addPitch(float p);
-    void addYaw(float y);
-    void addZoom(float z);
-
-    void reset();
-
-    void moveRight(float speed);
-    void moveForward(float speed);
-    void moveUp(float speed);
-
-    void calculateVectors();
-
-    QVector3D getPosition();
-    QVector3D getDirection();
-
-    float getPitch();
-    float getYaw();
-    float getZoom();
-
-    QMatrix4x4 getView();
-
+/*---------------*
+ *   VARIABLES   *
+ *---------------*/
 private:
     QVector3D position;
     QVector3D direction;
@@ -42,6 +25,44 @@ private:
 
     float pitch = 0.0f, yaw = -90.0f, zoom=45.0f;
     QVector3D right;
+
+/*----------------------*
+ *   GETTER FUNCTIONS   *
+ *----------------------*/
+public:
+    QVector3D getPosition();
+    QVector3D getDirection();
+    QMatrix4x4 getView();
+
+    float getPitch();
+    float getYaw();
+    float getZoom();
+
+/*----------------------*
+ *   SETTER FUNCTIONS   *
+ *----------------------*/
+public:
+    void setPosition(QVector3D pos);
+    void setDirection(QVector3D dir);
+    void setPitch(float p);
+    void setYaw(float y);
+    void setZoom(float z);
+
+/*-----------------------*
+ *   CONTROL FUNCTIONS   *
+ *-----------------------*/
+public:
+    void addPitch(float p);
+    void addYaw(float y);
+    void addZoom(float z);
+
+    void moveRight(float speed);
+    void moveForward(float speed);
+    void moveUp(float speed);
+
+    void reset();
+    void calculateVectors();
+
 };
 
 #endif // GL_CAMERA_H

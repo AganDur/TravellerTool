@@ -2,6 +2,10 @@
 
 #include <QOpenGLTexture>
 
+/*------------------*
+ *   CONSTRUCTORS   *
+ *------------------*/
+// Default Class Constructor
 GL_Star::GL_Star(std::vector<GLfloat> vertices, std::vector<unsigned int> indices, std::string stellarClass, float radius, float mass, QVector3D color) : GL_Unique{vertices, indices, color}{
     this->size = radius;
     this->mass = mass;
@@ -34,10 +38,14 @@ GL_Star::GL_Star(std::vector<GLfloat> vertices, std::vector<unsigned int> indice
     VAO.release();
 }
 
+// Default Class Destructor
 GL_Star::~GL_Star(){
 
 }
 
+/*------------------------*
+ *   OPEN GL PARAMETERS   *
+ *------------------------*/
 void GL_Star::compileShaders(std::string vertexShaderName, std::string fragmentShaderName){
     GL_Object::compileShaders(vertexShaderName, fragmentShaderName);
 

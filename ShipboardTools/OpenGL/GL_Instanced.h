@@ -24,6 +24,7 @@ protected:
  *   OPEN GL FUNCTIONS   *
  *-----------------------*/
 public:
+    // TODO: reinstate render when starting Instanced renders
     //void render() override;
 };
 

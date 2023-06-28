@@ -1,11 +1,14 @@
 #include "GL_Planet.h"
-
 #include "GL_Orbit.h"
 
 #include <iostream>
 
 #include <QOpenGLTexture>
 
+/*------------------*
+ *   CONSTRUCTORS   *
+ *------------------*/
+// Default Class Constructor
 GL_Planet::GL_Planet(std::vector<GLfloat> vertices, std::vector<unsigned int> indices, float size, GL_Orbit orbit, std::string name, std::string uwp): GL_Unique{vertices, indices, QVector3D(1.0f, 1.0f, 1.0f)}, planetaryOrbit{orbit}{
     this->name = name;
     this->size = size;
@@ -17,10 +20,10 @@ GL_Planet::GL_Planet(std::vector<GLfloat> vertices, std::vector<unsigned int> in
 
     shaderProgram->bind();
 
+    // Prepare Object's buffers
     VAO.destroy();
     this->VAO.create();
     this->VAO.bind();
-
     this->VBO->create();
     this->VBO->bind();
     this->VBO->allocate(vertices.data(), vertices.size() * sizeof(GLfloat));
@@ -30,6 +33,7 @@ GL_Planet::GL_Planet(std::vector<GLfloat> vertices, std::vector<unsigned int> in
 
     QOpenGLFunctions *f = QOpenGLContext::currentContext()->functions();
 
+    // Prepare Object's data
     f->glEnableVertexAttribArray(0);
     f->glEnableVertexAttribArray(1);
     f->glEnableVertexAttribArray(2);
@@ -42,10 +46,14 @@ GL_Planet::GL_Planet(std::vector<GLfloat> vertices, std::vector<unsigned int> in
     VAO.release();
 }
 
+// Default class Destructor
 GL_Planet::~GL_Planet(){
 
 }
 
+/*----------------------*
+ *   GETTER FUNCTIONS   *
+ *----------------------*/
 QMatrix4x4 GL_Planet::getModelMatrix(){
     QMatrix4x4 model;
 
@@ -59,6 +67,9 @@ QMatrix4x4 GL_Planet::getModelMatrix(){
     return model;
 }
 
+/*----------------------*
+ *   OPENGL FUNCTIONS   *
+ *----------------------*/
 void GL_Planet::compileShaders(std::string vertexShaderName, std::string fragmentShaderName){
     GL_Object::compileShaders(vertexShaderName, fragmentShaderName);
 

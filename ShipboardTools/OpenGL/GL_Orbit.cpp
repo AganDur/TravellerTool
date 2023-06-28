@@ -1,5 +1,8 @@
 #include "GL_Orbit.h"
 
+/*------------------------*
+ *   SHADER SOURCE DATA   *
+ *------------------------*/
 const char* vertexSource =
         "#version 450 core\n"
         "layout (location=0) in vec3 posAttr;\n"
@@ -16,7 +19,10 @@ const char* fragmentSource =
         "outColor = vec4(color, 1.0);\n"
         "}";
 
-
+/*------------------*
+ *   CONSTRUCTORS   *
+ *------------------*/
+// Default Class Constructor
 GL_Orbit::GL_Orbit(QVector3D center, float semiMajor, float semiMinor, int rotation){
     this->center=center;
     this->semiMajor = semiMajor;
@@ -85,6 +91,7 @@ GL_Orbit::GL_Orbit(QVector3D center, float semiMajor, float semiMinor, int rotat
     color = QVector3D(0.5, 0.5, 0.5);
 }
 
+// Copy Constructor
 GL_Orbit::GL_Orbit(GL_Orbit &o){
     this->semiMajor = o.semiMajor;
     this->semiMinor = o.semiMinor;
@@ -105,6 +112,70 @@ GL_Orbit::GL_Orbit(GL_Orbit &o){
     prepare();
 }
 
+
+/*----------------------*
+ *   GETTER FUNCTIONS   *
+ *----------------------*/
+
+float GL_Orbit::getSemiMinor() {
+    return this->semiMinor;
+}
+float GL_Orbit::getSemiMajor() {
+    return this->semiMajor;
+}
+
+/*
+ * Position On Orbit Functions:
+ * Allow to get X/Y coordinates of any point on the orbit.
+ * NoAngle gives the x/y coordinates at the starting point of the orbit.
+ * Angle gives the x/y coordinates at the specified angle.
+ * CurrentAngle gives the x/y coordinates based on the render-time-based angle.
+ */
+float GL_Orbit::getX_NoAngle(){
+    float xO = semiMajor;
+    float yO = 0;
+    float X = xO*cos(rotation*3.14/180) - yO*sin(rotation*3.14/180);
+    return X;
+}
+float GL_Orbit::getX_Angle(float angle){
+    float xO = semiMajor * cos(angle*3.14/180);
+    float yO = semiMinor * sin(angle*3.14/180);
+    float X = xO*cos(rotation*3.14/180) - yO*sin(rotation*3.14/180);
+    return X;
+}
+float GL_Orbit::getX_CurrentAngle(){
+    float xO = semiMajor * cos(lastAngle*3.14/180);
+    float yO = semiMinor * sin(lastAngle*3.14/180);
+    float X = xO*cos(rotation*3.14/180) - yO*sin(rotation*3.14/180);
+    return X;
+}
+
+float GL_Orbit::getY_NoAngle(){
+    float xO = semiMajor;
+    float yO = 0;
+    float Y = yO*cos(rotation*3.14/180) + xO*sin(rotation*3.14/180);
+    return Y;
+}
+float GL_Orbit::getY_Angle(float angle){
+    float xO = semiMajor * cos(angle*3.14/180);
+    float yO = semiMinor * sin(angle*3.14/180);
+    float Y = yO*cos(rotation*3.14/180) + xO*sin(rotation*3.14/180);
+    return Y;
+}
+float GL_Orbit::getY_CurrentAngle(){
+    float xO = semiMajor * cos(lastAngle*3.14/180);
+    float yO = semiMinor * sin(lastAngle*3.14/180);
+    float Y = yO*cos(rotation*3.14/180) + xO*sin(rotation*3.14/180);
+    return Y;
+}
+
+
+/*----------------------*
+ *   SETTER FUNCTIONS   *
+ *----------------------*/
+/*
+ * Initialization function that prepares the orbit object for render.
+ */
 void GL_Orbit::prepare(){
     shaderProgram = new QOpenGLShaderProgram();
     shaderProgram->create();
@@ -128,48 +199,9 @@ void GL_Orbit::prepare(){
     VAO.release();
 }
 
-
-float GL_Orbit::getX_NoAngle(){
-    float xO = semiMajor;
-    float yO = 0;
-    float X = xO*cos(rotation*3.14/180) - yO*sin(rotation*3.14/180);
-    return X;
-}
-
-float GL_Orbit::getY_NoAngle(){
-    float xO = semiMajor;
-    float yO = 0;
-    float Y = yO*cos(rotation*3.14/180) + xO*sin(rotation*3.14/180);
-    return Y;
-}
-float GL_Orbit::getX_Angle(float angle){
-    float xO = semiMajor * cos(angle*3.14/180);
-    float yO = semiMinor * sin(angle*3.14/180);
-    float X = xO*cos(rotation*3.14/180) - yO*sin(rotation*3.14/180);
-    return X;
-}
-
-float GL_Orbit::getY_Angle(float angle){
-    float xO = semiMajor * cos(angle*3.14/180);
-    float yO = semiMinor * sin(angle*3.14/180);
-    float Y = yO*cos(rotation*3.14/180) + xO*sin(rotation*3.14/180);
-    return Y;
-}
-
-float GL_Orbit::getY_CurrentAngle(){
-    float xO = semiMajor * cos(lastAngle*3.14/180);
-    float yO = semiMinor * sin(lastAngle*3.14/180);
-    float Y = yO*cos(rotation*3.14/180) + xO*sin(rotation*3.14/180);
-    return Y;
-}
-
-float GL_Orbit::getX_CurrentAngle(){
-    float xO = semiMajor * cos(lastAngle*3.14/180);
-    float yO = semiMinor * sin(lastAngle*3.14/180);
-    float X = xO*cos(rotation*3.14/180) - yO*sin(rotation*3.14/180);
-    return X;
-}
-
+/*
+ * Increases the current orbit angle based on render time.
+ */
 void GL_Orbit::increaseAngle(double timeRatio){
     double A = completeSurface * timeRatio/orbitalPeriod;
     double angle = (360*A)/(3.14*semiMajor*semiMajor);
@@ -177,6 +209,9 @@ void GL_Orbit::increaseAngle(double timeRatio){
     if(lastAngle >= 360) lastAngle -= 360;
 }
 
+/*----------------------*
+ *   OPENGL FUNCTIONS   *
+ *----------------------*/
 void GL_Orbit::render(QMatrix4x4 projectionViewMatrix){
     QOpenGLFunctions *f = QOpenGLContext::currentContext()->functions();
 

@@ -3,15 +3,15 @@
 
 #include "GL_Mesh.h"
 
+#include <vector>
+#include <string>
+
 #include <QOpenGLFunctions>
 #include <QMatrix4x4>
 #include <QOpenGLVertexArrayObject>
 #include <QOpenGLBuffer>
 #include <QOpenGLShaderProgram>
 #include <QImage>
-
-#include <vector>
-#include <string>
 
 class QOpenGLTexture;
 
@@ -28,10 +28,19 @@ public:
  *   OPEN GL PARAMETERS   *
  *------------------------*/
 protected:
+    /*
+     * Trackers for textures and meshes already loaded,
+     * allows reusing textures and meshes instead of reading
+     * from file everytime.
+     */
     static std::vector<std::string> texturesLoaded_Names;
     static std::vector<QImage> texturesLoaded;
     static std::vector<GL_Mesh> preloadedMeshes;
 
+    /*
+     * Vertex and index data for the mesh,
+     * indices might be unused for a given object.
+     */
     std::vector<GLfloat> vertices;
     std::vector<unsigned int> indices;
 
@@ -39,9 +48,12 @@ protected:
 
     QOpenGLShaderProgram *shaderProgram;
 
-    QOpenGLVertexArrayObject VAO;
-    QOpenGLBuffer *VBO;
-    QOpenGLBuffer *EBO;
+    /*
+     * OpenGL buffers necessary for rendering
+     */
+    QOpenGLVertexArrayObject VAO; // VAO handles the context for rendering, to avoid bind all the buffers everytime
+    QOpenGLBuffer *VBO; // VBO handles the Vertex data buffer
+    QOpenGLBuffer *EBO; // EBO handles the Index data buffer when necessary
 
 
 /*-----------------------*

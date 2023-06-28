@@ -1,5 +1,4 @@
 #include "GL_Object.h"
-
 #include "Globals.h"
 
 #include <QOpenGLShader>
@@ -9,12 +8,14 @@
 #include "assimp/scene.h"
 #include "assimp/postprocess.h"
 
-
 std::vector<std::string> GL_Object::texturesLoaded_Names = std::vector<std::string>();
 std::vector<QImage> GL_Object::texturesLoaded = std::vector<QImage>();
 std::vector<GL_Mesh> GL_Object::preloadedMeshes = std::vector<GL_Mesh>();
 
-
+/*------------------*
+ *   CONSTRUCTORS   *
+ *------------------*/
+//Default class constructor
 GL_Object::GL_Object() {
     shaderProgram = new QOpenGLShaderProgram();
     shaderProgram->create();
@@ -42,6 +43,8 @@ GL_Object::GL_Object() {
     initializeOpenGLFunctions();
 }
 
+// Copy constructor, behaves like a standard constructor,
+// as there is nothing important to copy.
 GL_Object::GL_Object(GL_Object &object){
     // Create and Bind Vertex Array Object before setup
     VAO.create();
@@ -64,24 +67,23 @@ GL_Object::GL_Object(GL_Object &object){
 
     // Prepare QT openGL functionalities
     initializeOpenGLFunctions();
-
-    // Compile necessary shaders
-    //compileShaders("", "");
 }
 
 GL_Object::~GL_Object() {
-    //delete(shaderProgram);
-    //delete(texture);
-    //delete(VBO);
-    //delete(EBO);
 }
+
+
+/*-----------------------*
+ *   OPEN GL FUNCTIONS   *
+ *-----------------------*/
 
 /**
  * @brief GL_Object::compileShaders
  * @param vertexShaderName
  * @param fragmentShaderName
- * Function to load and compile the necessary vertex and fragment shaders. If the object's shader program was already
- * created, it will be destroyed and recreated from scratch.
+ * Function to load and compile the necessary vertex and fragment shaders.
+ * If the object's shader program was already created,
+ * it will be destroyed and recreated from scratch.
  */
 void GL_Object::compileShaders(std::string vertexShaderName, std::string fragmentShaderName) {
     // Create Shader Program
@@ -115,18 +117,20 @@ void GL_Object::compileShaders(std::string vertexShaderName, std::string fragmen
 /**
  * @brief GL_Object::loadMesh
  * @param meshName
- * Function to load a mesh from file using the Assimp library and set the vertex and index data as necessary.
+ * Function to load a mesh from file using the Assimp library and
+ * set the vertex and index data as necessary.
  */
 void GL_Object::loadMesh(std::string meshName) {
     bool foundMesh = false;
     int meshIndex = 0;
 
+    // Search for the wanted mesh in the preloaded mesh list
     while(meshIndex<preloadedMeshes.size() && !foundMesh){
         if(preloadedMeshes[meshIndex].getName().compare(meshName) == 0) foundMesh = true;
         else meshIndex++;
     }
 
-    // If the mesh already exists, get its values
+    // If the mesh already exists, use its values
     if(foundMesh){
         GL_Mesh mesh = preloadedMeshes[meshIndex];
         vertices = mesh.getVertices();
@@ -225,15 +229,16 @@ void GL_Object::loadTexture(std::string textureName) {
     texture->bind();
 }
 
+/*
+ * Virtual functions to be defined in child classes
+ */
 void GL_Object::render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QVector3D diffuseLight){
-    // TODO
-    qDebug() << "GL_OBJECT.CPP RENDER()";
+    qDebug() << "VIRTUAL RENDER IN GL_Object SHOULD BE REDEFINED IN CHILD CLASS;";
 }
-
 void GL_Object::updateTime(double timeRatio){
-    // TODO
+    //TODO
 }
-
 QVector3D GL_Object::getColor(){
+    qDebug() << "VIRTUAL GET COLOR IN GL_Object SHOULD BE REDEFINED IN CHILD CLASS;";
     return QVector3D(0.0f,0.0f,0.0f);
 }

@@ -13,46 +13,40 @@ class GL_Camera;
 class GL_Object;
 
 class GL_SystemViewerWidget : public GL_Widget, protected QOpenGLFunctions {
-
+/*------------------*
+ *   CONSTRUCTORS   *
+ *------------------*/
 public:
     GL_SystemViewerWidget(QWidget *parent, std::string systemName);
 
-    // FUNCTIONS FROM GL_WIDGET:
-    void initializeGL() override;
-    void paintGL() override;
-    void resizeGL(int w, int h) override;
-
-    // OWN FUNCTIONS
-    void setApp(ApplicationManager *a){ this->application = a;} //
-    void initialize(); //
-    void initSphere(); //
-
-    void render();
-
-    void keyPress();
-    void mouseMoveEvent(QMouseEvent *e) override;
-    void mousePressEvent(QMouseEvent *e) override;
-    void leaveEvent(QEvent *e) override;
-
-    void updateData(std::string file);
-    void changeMousePosition() override ;
-
-    bool isAttachMouse() override { return attachMouse; }
-
+/*----------------------*
+ *   WIDGET VARIABLES   *
+ *----------------------*/
 private:
-    bool isInitialized = false;
+    ApplicationManager *application;
+
+    int widgetWidth, widgetHeight;
 
     QPoint globalCenterCoordinates;
     bool attachMouse = false;
+    QPointF lastMousePosition;
+    bool firstMouse = true;
 
+    std::string system;
+
+
+/*----------------------*
+ *   OPENGL VARIABLES   *
+ *----------------------*/
+private:
+    bool isInitialized = false;
 
     int m_frame = 0;
-    std::string system;
 
     QMatrix4x4 view;
     QMatrix4x4 projection;
-
     GL_Camera *camera;
+
     float orbitingSpeed = 0.01;
 
     std::vector<GL_Object*> models;
@@ -69,12 +63,35 @@ private:
     QElapsedTimer elapsedTimer;
     QTimer timer;
 
-    ApplicationManager *application;
+/*-----------------------*
+ *   CONTROL FUNCTIONS   *
+ *-----------------------*/
+public:
+    void keyPress();
+    void mouseMoveEvent(QMouseEvent *e) override;
+    void mousePressEvent(QMouseEvent *e) override;
+    void leaveEvent(QEvent *e) override;
 
-    QPointF lastMousePosition;
-    bool firstMouse = true;
+    void updateData(std::string file);
+    void changeMousePosition() override ;
 
-    int widgetWidth, widgetHeight;
+    bool isAttachMouse() override;
+
+/*----------------------*
+ *   OPENGL FUNCTIONS   *
+ *----------------------*/
+public:
+    // FUNCTIONS FROM GL_WIDGET:
+    void initializeGL() override;
+    void paintGL() override;
+    void resizeGL(int w, int h) override;
+
+    // OWN FUNCTIONS
+    void setApp(ApplicationManager *a);
+    void initialize(); //
+    void initSphere(); //
+
+    void render();
 };
 
 #endif // GL_SYSTEMVIEWERWIDGET_H

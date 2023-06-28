@@ -33,7 +33,7 @@ private:
 public:
     void compileShaders(std::string vertexShaderName, std::string fragmentShaderName) override;
 
-    void render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QVector3D diffuseLight);
+    void render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QVector3D diffuseLight) override;
 
 };
 

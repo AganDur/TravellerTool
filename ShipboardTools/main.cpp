@@ -1,10 +1,11 @@
 #include <QApplication>
+#include "Launcher.h"
+#include "Window_SystemViewer.h"
+#include "ApplicationManager.h"
+
 #include <QLocale>
 #include <QTranslator>
 #include <QSurfaceFormat>
-
-#include "Launcher.h"
-#include "Window_SystemViewer.h"
 
 int main(int argc, char *argv[])
 {
@@ -25,8 +26,11 @@ int main(int argc, char *argv[])
     format.setSamples(8);
     QSurfaceFormat::setDefaultFormat(format);
 
-    Window_SystemViewer glWin;
-    glWin.show();
+    ApplicationManager app;
+    app.showSystemViewer();
+
+    //Window_SystemViewer glWin;
+    //glWin.show();
 
     //Launcher w;
     //w.show();

@@ -1,6 +1,10 @@
 #include "GL_Unique.h"
 #include "GL_Object.h"
 
+/*------------------*
+ *   CONSTRUCTORS   *
+ *------------------*/
+// Constructor using mesh name
 GL_Unique::GL_Unique(std::string meshName, QVector3D color) : GL_Object{} {
     loadMesh(meshName);
     this->color = color;
@@ -22,6 +26,7 @@ GL_Unique::GL_Unique(std::string meshName, QVector3D color) : GL_Object{} {
     VAO.release();
 }
 
+// Constructor using preloaded mesh data (vertices and indices)
 GL_Unique::GL_Unique(std::vector<GLfloat> vertices, std::vector<unsigned int> indices, QVector3D color): GL_Object{}, color{color}{
     this->vertices = vertices;
     this->indices = indices;
@@ -44,10 +49,14 @@ GL_Unique::GL_Unique(std::vector<GLfloat> vertices, std::vector<unsigned int> in
     VAO.release();
 }
 
+// Default class Destructor
 GL_Unique::~GL_Unique(){
 
 }
 
+/*-----------------------*
+ *   OPEN GL FUNCTIONS   *
+ *-----------------------*/
 void GL_Unique::compileShaders(std::string vertexShaderName, std::string fragmentShaderName){
     GL_Object::compileShaders(vertexShaderName, fragmentShaderName);
 }

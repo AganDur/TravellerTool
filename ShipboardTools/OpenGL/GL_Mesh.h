@@ -8,18 +8,27 @@
 
 
 class GL_Mesh{
+/*------------------*
+ *   CONSTRUCTORS   *
+ *------------------*/
 public:
     GL_Mesh(std::string name, std::vector<GLfloat> vert, std::vector<unsigned int> ind);
 
+/*-----------------------*
+ *   OPENGL PARAMETERS   *
+ *-----------------------*/
 private:
     std::string meshName;
     std::vector<GLfloat> vertices;
     std::vector<unsigned int> indices;
 
+/*----------------------*
+ *   GETTER FUNCTIONS   *
+ *----------------------*/
 public:
-    std::string getName() { return meshName; }
-    std::vector<GLfloat> getVertices() { return vertices; }
-    std::vector<unsigned int> getIndices() { return indices; }
+    std::string getName();
+    std::vector<GLfloat> getVertices();
+    std::vector<unsigned int> getIndices();
 };
 
 #endif // GL_MESH_H
