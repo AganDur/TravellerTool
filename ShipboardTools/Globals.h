@@ -10,6 +10,6 @@ namespace global {
 
     QJsonObject openJSON(QString path);
 
-    std::vector<std::string> getAllFiles(std::string path);
+    std::vector<std::string> getAllSystemFiles(std::string path);
 }
 #endif // GLOBALS_H

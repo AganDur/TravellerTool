@@ -48,8 +48,7 @@ namespace global {
         return root;
     }
 
-    std::vector<std::string> getAllFiles(std::string path){
-        //std::cout << "Path:" << path;
+    std::vector<std::string> getAllSystemFiles(std::string path){
         fs::directory_iterator it = fs::directory_iterator{path};
         std::vector<std::string> filenames;
 

@@ -13,6 +13,7 @@ INCLUDEPATH += Libs\Include
 
 SOURCES += \
     ApplicationManager.cpp \
+    Dialogs/Dialog_SystemSelection.cpp \
     Globals.cpp \
     OpenGL/GL_Camera.cpp \
     OpenGL/GL_Instanced.cpp \
@@ -31,6 +32,7 @@ SOURCES += \
 
 HEADERS += \
     ApplicationManager.h \
+    Dialogs/Dialog_SystemSelection.h \
     Globals.h \
     Launcher.h \
     OpenGL/GL_Camera.h \
@@ -47,6 +49,7 @@ HEADERS += \
     Window_SystemViewer.h
 
 FORMS += \
+    Dialogs/Dialog_SystemSelection.ui \
     Launcher.ui \
     Window_SectorMap.ui \
     Window_SystemViewer.ui

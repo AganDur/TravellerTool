@@ -7,6 +7,8 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class Launcher; }
 QT_END_NAMESPACE
 
+class ApplicationManager;
+
 class Launcher : public QMainWindow
 {
     Q_OBJECT
@@ -15,7 +17,19 @@ public:
     Launcher(QWidget *parent = nullptr);
     ~Launcher();
 
+    void setApplicationManager(ApplicationManager *a);
+
+    void updateTargetSystem(std::string target);
+    void updateCurrentSystem(std::string current);
+
+private slots:
+    void on_SystemMapButton_clicked();
+
+    void on_LocationButton_clicked();
+
 private:
     Ui::Launcher *ui;
+
+    ApplicationManager *app;
 };
 #endif // LAUNCHER_H

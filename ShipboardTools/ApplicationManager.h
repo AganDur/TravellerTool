@@ -1,21 +1,31 @@
 #ifndef APPLICATIONMANAGER_H
 #define APPLICATIONMANAGER_H
 
-class Launcher;
-class Window_SystemViewer;
+#include "Launcher.h"
+#include "Window_SystemViewer.h"
 
-class ApplicationManager{
+#include <QApplication>
+
+class ApplicationManager: public QApplication {
 public:
-    ApplicationManager();
+    ApplicationManager(int argc, char *argv[]);
 
 private:
-    Launcher *launcherWindow = nullptr;
-    Window_SystemViewer *systemViewerWindow = nullptr;
+    Launcher launcherWindow;
+    Window_SystemViewer systemViewerWindow;
+
+    std::string currentSystem;
+    std::string currentSelectedSystem;
 
 public:
     void showLauncher();
-
     void showSystemViewer();
+
+    void openDialog_SystemSelection();
+
+    void updateSelectedSystem(std::string newSystem);
+    void changeSystem(std::string newSystem);
+
 };
 
 #endif // APPLICATIONMANAGER_H
