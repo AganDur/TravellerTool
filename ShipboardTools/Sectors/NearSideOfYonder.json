@@ -1,0 +1,292 @@
+{
+    "sector_name": "Near Side of Yonder",
+    "sector_position": [
+        -13,
+        3
+    ],
+    "subsectors": [
+        {
+            "subsector_index": 1,
+            "subsector_name": "A"
+        },
+        {
+            "subsector_index": 2,
+            "subsector_name": "B"
+        },
+        {
+            "subsector_index": 3,
+            "subsector_name": "C"
+        },
+        {
+            "subsector_index": 4,
+            "subsector_name": "D"
+        },
+        {
+            "subsector_index": 5,
+            "subsector_name": "E"
+        },
+        {
+            "subsector_index": 6,
+            "subsector_name": "F"
+        },
+        {
+            "subsector_index": 7,
+            "subsector_name": "G"
+        },
+        {
+            "subsector_index": 8,
+            "subsector_name": "H"
+        },
+        {
+            "subsector_index": 9,
+            "subsector_name": "I"
+        },
+        {
+            "subsector_index": 10,
+            "subsector_name": "J"
+        },
+        {
+            "subsector_index": 11,
+            "subsector_name": "K"
+        },
+        {
+            "subsector_index": 12,
+            "subsector_name": "L"
+        },
+        {
+            "subsector_index": 13,
+            "subsector_name": "m"
+        },
+        {
+            "subsector_index": 14,
+            "subsector_name": "n"
+        },
+        {
+            "subsector_index": 15,
+            "subsector_name": "o"
+        },
+        {
+            "subsector_index": 16,
+            "subsector_name": "p"
+        }
+    ],
+    "systems": [
+        {
+            "system_name": "ALS-BMM",
+            "system_position": [
+                25,
+                22
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-SG1",
+            "system_position": [
+                25,
+                27
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-T2MK",
+            "system_position": [
+                25,
+                28
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-SPGM",
+            "system_position": [
+                26,
+                23
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-SK1",
+            "system_position": [
+                26,
+                29
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-BMK",
+            "system_position": [
+                27,
+                25
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-BMI",
+            "system_position": [
+                27,
+                27
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-BMA",
+            "system_position": [
+                27,
+                28
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-SG2",
+            "system_position": [
+                28,
+                23
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-BG1",
+            "system_position": [
+                28,
+                25
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-BBM1",
+            "system_position": [
+                28,
+                27
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-SM1",
+            "system_position": [
+                29,
+                23
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-TKKm",
+            "system_position": [
+                29,
+                25
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-BKm",
+            "alternate_name": "Alikherrnz",
+            "system_position": [
+                29,
+                26
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-SI",
+            "system_position": [
+                29,
+                27
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-SM2",
+            "system_position": [
+                29,
+                28
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-BMM2",
+            "system_position": [
+                29,
+                29
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-SM3",
+            "system_position": [
+                30,
+                23
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-SBGm",
+            "system_position": [
+                30,
+                24
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-BKk",
+            "system_position": [
+                30,
+                26
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-SK2",
+            "system_position": [
+                30,
+                28
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-SK3",
+            "system_position": [
+                31,
+                21
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-TLll",
+            "system_position": [
+                31,
+                22
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-SF1",
+            "system_position": [
+                31,
+                30
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-BGM",
+            "system_position": [
+                32,
+                24
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-SM4",
+            "system_position": [
+                32,
+                25
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "ALS-TMKm",
+            "system_position": [
+                32,
+                28
+            ],
+            "system_uwp": ""
+        }
+    ]
+}

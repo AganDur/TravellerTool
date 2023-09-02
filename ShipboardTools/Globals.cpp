@@ -48,7 +48,7 @@ namespace global {
         return root;
     }
 
-    std::vector<std::string> getAllSystemFiles(std::string path){
+    std::vector<std::string> getAllJSONFiles(std::string path){
         fs::directory_iterator it = fs::directory_iterator{path};
         std::vector<std::string> filenames;
 
@@ -56,8 +56,8 @@ namespace global {
             std::string fileName = entry.path().filename().string();
             std::string ext = fileName.substr(fileName.size()-5);
             if(ext == ".json"){
-                std::string sysName = fileName.substr(0, fileName.size()-5);
-                filenames.push_back(sysName);
+                std::string file= fileName.substr(0, fileName.size()-5);
+                filenames.push_back(file);
             }
         }
         return filenames;

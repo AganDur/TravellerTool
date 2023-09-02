@@ -1,0 +1,3883 @@
+{
+    "sector_name": "Diaspora",
+    "sector_position": [
+        0,
+        2
+    ],
+    "subsectors": [
+        {
+            "subsector_index": 1,
+            "subsector_name": "Narquel"
+        },
+        {
+            "subsector_index": 2,
+            "subsector_name": "Libert"
+        },
+        {
+            "subsector_index": 3,
+            "subsector_name": "Sufren"
+        },
+        {
+            "subsector_index": 4,
+            "subsector_name": "Khavle"
+        },
+        {
+            "subsector_index": 5,
+            "subsector_name": "Shadigi"
+        },
+        {
+            "subsector_index": 6,
+            "subsector_name": "Kushga"
+        },
+        {
+            "subsector_index": 7,
+            "subsector_name": "Alurza"
+        },
+        {
+            "subsector_index": 8,
+            "subsector_name": "Pasdaruu"
+        },
+        {
+            "subsector_index": 9,
+            "subsector_name": "Ebasha"
+        },
+        {
+            "subsector_index": 10,
+            "subsector_name": "Iusea"
+        },
+        {
+            "subsector_index": 11,
+            "subsector_name": "The Blight"
+        },
+        {
+            "subsector_index": 12,
+            "subsector_name": "Promise"
+        },
+        {
+            "subsector_index": 13,
+            "subsector_name": "Hijiri"
+        },
+        {
+            "subsector_index": 14,
+            "subsector_name": "Shumisdi"
+        },
+        {
+            "subsector_index": 15,
+            "subsector_name": "Madoc"
+        },
+        {
+            "subsector_index": 16,
+            "subsector_name": "Khulam"
+        }
+    ],
+    "systems": [
+        {
+            "system_name": "Aladon",
+            "system_position": [
+                1,
+                3
+            ],
+            "system_uwp": "B6579CB-C"
+        },
+        {
+            "system_name": "Maxalla",
+            "system_position": [
+                1,
+                4
+            ],
+            "system_uwp": "A596444-D"
+        },
+        {
+            "system_name": "Sikora",
+            "system_position": [
+                1,
+                8
+            ],
+            "system_uwp": "E874626-6"
+        },
+        {
+            "system_name": "Chipper",
+            "system_position": [
+                2,
+                2
+            ],
+            "system_uwp": "B792743-A"
+        },
+        {
+            "system_name": "Rann",
+            "system_position": [
+                2,
+                6
+            ],
+            "system_uwp": "X89A9AB-6"
+        },
+        {
+            "system_name": "Justi",
+            "system_position": [
+                2,
+                7
+            ],
+            "system_uwp": "B686567-B"
+        },
+        {
+            "system_name": "Soyuz",
+            "system_position": [
+                2,
+                9
+            ],
+            "system_uwp": "B300948-E"
+        },
+        {
+            "system_name": "Jumar",
+            "system_position": [
+                3,
+                3
+            ],
+            "system_uwp": "C000794-B"
+        },
+        {
+            "system_name": "Jae Mona",
+            "system_position": [
+                3,
+                6
+            ],
+            "system_uwp": "B200544-D"
+        },
+        {
+            "system_name": "Bayse",
+            "system_position": [
+                3,
+                10
+            ],
+            "system_uwp": "X6859B8-4"
+        },
+        {
+            "system_name": "Kampala",
+            "system_position": [
+                4,
+                1
+            ],
+            "system_uwp": "B645352-C"
+        },
+        {
+            "system_name": "Apinar",
+            "system_position": [
+                4,
+                2
+            ],
+            "system_uwp": "A542310-D"
+        },
+        {
+            "system_name": "Gentry",
+            "system_position": [
+                4,
+                6
+            ],
+            "system_uwp": "C681200-A"
+        },
+        {
+            "system_name": "Isaasakhur",
+            "system_position": [
+                4,
+                7
+            ],
+            "system_uwp": "C310572-B"
+        },
+        {
+            "system_name": "Vita Levu",
+            "system_position": [
+                4,
+                10
+            ],
+            "system_uwp": "B6938CE-A"
+        },
+        {
+            "system_name": "Fudge",
+            "system_position": [
+                5,
+                1
+            ],
+            "system_uwp": "C9D4534-A"
+        },
+        {
+            "system_name": "Guard",
+            "system_position": [
+                5,
+                2
+            ],
+            "system_uwp": "D764686-6"
+        },
+        {
+            "system_name": "Jamnagar",
+            "system_position": [
+                5,
+                3
+            ],
+            "system_uwp": "E99A620-8"
+        },
+        {
+            "system_name": "Neto",
+            "system_position": [
+                5,
+                4
+            ],
+            "system_uwp": "A300898-E"
+        },
+        {
+            "system_name": "Chuejou",
+            "system_position": [
+                5,
+                10
+            ],
+            "system_uwp": "B553499-B"
+        },
+        {
+            "system_name": "Rakhaasha",
+            "system_position": [
+                6,
+                1
+            ],
+            "system_uwp": "B310884-C"
+        },
+        {
+            "system_name": "Gasudarsk",
+            "system_position": [
+                6,
+                5
+            ],
+            "system_uwp": "B100ABE-F"
+        },
+        {
+            "system_name": "Feeble",
+            "system_position": [
+                6,
+                7
+            ],
+            "system_uwp": "B573331-B"
+        },
+        {
+            "system_name": "Sadiishumar",
+            "system_position": [
+                6,
+                8
+            ],
+            "system_uwp": "B8D3685-B"
+        },
+        {
+            "system_name": "Quelleff",
+            "system_position": [
+                6,
+                9
+            ],
+            "system_uwp": "A624753-E"
+        },
+        {
+            "system_name": "Laagonaa",
+            "system_position": [
+                7,
+                1
+            ],
+            "system_uwp": "C55177A-8"
+        },
+        {
+            "system_name": "Essen",
+            "system_position": [
+                7,
+                5
+            ],
+            "system_uwp": "C666200-A"
+        },
+        {
+            "system_name": "Narquel",
+            "system_position": [
+                7,
+                9
+            ],
+            "system_uwp": "A3109DG-E"
+        },
+        {
+            "system_name": "Likitornot",
+            "system_position": [
+                8,
+                5
+            ],
+            "system_uwp": "A552505-E"
+        },
+        {
+            "system_name": "Larisa",
+            "system_position": [
+                8,
+                7
+            ],
+            "system_uwp": "C588112-9"
+        },
+        {
+            "system_name": "Eckel",
+            "system_position": [
+                9,
+                1
+            ],
+            "system_uwp": "B837323-C"
+        },
+        {
+            "system_name": "Victory",
+            "system_position": [
+                9,
+                2
+            ],
+            "system_uwp": "C9A7420-A"
+        },
+        {
+            "system_name": "Toxey",
+            "system_position": [
+                9,
+                3
+            ],
+            "system_uwp": "C78A145-B"
+        },
+        {
+            "system_name": "Otimmatu",
+            "system_position": [
+                9,
+                5
+            ],
+            "system_uwp": "D553655-7"
+        },
+        {
+            "system_name": "Quafe",
+            "system_position": [
+                10,
+                7
+            ],
+            "system_uwp": "C433267-B"
+        },
+        {
+            "system_name": "Yovanne",
+            "system_position": [
+                11,
+                2
+            ],
+            "system_uwp": "E200998-A"
+        },
+        {
+            "system_name": "Klenoy",
+            "system_position": [
+                11,
+                3
+            ],
+            "system_uwp": "A623532-E"
+        },
+        {
+            "system_name": "Khunan",
+            "system_position": [
+                11,
+                4
+            ],
+            "system_uwp": "A432554-F"
+        },
+        {
+            "system_name": "Laahii",
+            "system_position": [
+                11,
+                6
+            ],
+            "system_uwp": "C100644-B"
+        },
+        {
+            "system_name": "Kyzir",
+            "system_position": [
+                11,
+                8
+            ],
+            "system_uwp": "C671422-9"
+        },
+        {
+            "system_name": "Libert",
+            "system_position": [
+                11,
+                9
+            ],
+            "system_uwp": "A3109BC-F"
+        },
+        {
+            "system_name": "Taken",
+            "system_position": [
+                12,
+                2
+            ],
+            "system_uwp": "D675300-8"
+        },
+        {
+            "system_name": "Stanton",
+            "system_position": [
+                12,
+                3
+            ],
+            "system_uwp": "D9898B9-7"
+        },
+        {
+            "system_name": "Arkhaapar",
+            "system_position": [
+                12,
+                6
+            ],
+            "system_uwp": "D555746-6"
+        },
+        {
+            "system_name": "Kaanu",
+            "system_position": [
+                12,
+                7
+            ],
+            "system_uwp": "E421498-9"
+        },
+        {
+            "system_name": "Gate",
+            "system_position": [
+                12,
+                8
+            ],
+            "system_uwp": "B659374-C"
+        },
+        {
+            "system_name": "Ridge",
+            "system_position": [
+                12,
+                10
+            ],
+            "system_uwp": "A77A112-F"
+        },
+        {
+            "system_name": "Berlin",
+            "system_position": [
+                13,
+                5
+            ],
+            "system_uwp": "D2009BE-A"
+        },
+        {
+            "system_name": "Medellin",
+            "system_position": [
+                13,
+                6
+            ],
+            "system_uwp": "D645221-7"
+        },
+        {
+            "system_name": "Jesicar",
+            "system_position": [
+                13,
+                7
+            ],
+            "system_uwp": "A564486-D"
+        },
+        {
+            "system_name": "Mixem",
+            "system_position": [
+                13,
+                8
+            ],
+            "system_uwp": "C685830-8"
+        },
+        {
+            "system_name": "Hakalau",
+            "system_position": [
+                13,
+                9
+            ],
+            "system_uwp": "B436400-E"
+        },
+        {
+            "system_name": "Rikhani",
+            "system_position": [
+                14,
+                4
+            ],
+            "system_uwp": "A688772-C"
+        },
+        {
+            "system_name": "Loud",
+            "system_position": [
+                14,
+                5
+            ],
+            "system_uwp": "D894101-8"
+        },
+        {
+            "system_name": "Talca",
+            "system_position": [
+                14,
+                7
+            ],
+            "system_uwp": "A100798-F"
+        },
+        {
+            "system_name": "Glenwald",
+            "system_position": [
+                14,
+                9
+            ],
+            "system_uwp": "E310340-9"
+        },
+        {
+            "system_name": "Uneshuu",
+            "system_position": [
+                15,
+                2
+            ],
+            "system_uwp": "D10088C-9"
+        },
+        {
+            "system_name": "Channel",
+            "system_position": [
+                15,
+                3
+            ],
+            "system_uwp": "B694557-C"
+        },
+        {
+            "system_name": "Verona",
+            "system_position": [
+                15,
+                5
+            ],
+            "system_uwp": "E400112-9"
+        },
+        {
+            "system_name": "Puget",
+            "system_position": [
+                15,
+                8
+            ],
+            "system_uwp": "E7989C9-8"
+        },
+        {
+            "system_name": "Cayene",
+            "system_position": [
+                15,
+                10
+            ],
+            "system_uwp": "D425338-9"
+        },
+        {
+            "system_name": "Zeeland",
+            "system_position": [
+                16,
+                2
+            ],
+            "system_uwp": "E989AA9-B"
+        },
+        {
+            "system_name": "Unsuited",
+            "system_position": [
+                16,
+                10
+            ],
+            "system_uwp": "E0008AE-9"
+        },
+        {
+            "system_name": "Grourard",
+            "system_position": [
+                17,
+                1
+            ],
+            "system_uwp": "A896566-D"
+        },
+        {
+            "system_name": "Onliu",
+            "system_position": [
+                17,
+                4
+            ],
+            "system_uwp": "C310433-B"
+        },
+        {
+            "system_name": "Boyne",
+            "system_position": [
+                17,
+                7
+            ],
+            "system_uwp": "B562546-B"
+        },
+        {
+            "system_name": "Erakhuu",
+            "system_position": [
+                17,
+                8
+            ],
+            "system_uwp": "B89688C-A"
+        },
+        {
+            "system_name": "Navar",
+            "system_position": [
+                18,
+                4
+            ],
+            "system_uwp": "C5479DG-8"
+        },
+        {
+            "system_name": "Maelstrom",
+            "system_position": [
+                18,
+                5
+            ],
+            "system_uwp": "B421210-D"
+        },
+        {
+            "system_name": "Sturgis",
+            "system_position": [
+                18,
+                7
+            ],
+            "system_uwp": "A544203-E"
+        },
+        {
+            "system_name": "Tiasle",
+            "system_position": [
+                19,
+                1
+            ],
+            "system_uwp": "D656AFF-A"
+        },
+        {
+            "system_name": "Houstar",
+            "system_position": [
+                19,
+                5
+            ],
+            "system_uwp": "C8D4620-9"
+        },
+        {
+            "system_name": "Haze",
+            "system_position": [
+                20,
+                3
+            ],
+            "system_uwp": "B74A689-C"
+        },
+        {
+            "system_name": "Sufren",
+            "system_position": [
+                20,
+                4
+            ],
+            "system_uwp": "B686973-C"
+        },
+        {
+            "system_name": "Gamov",
+            "system_position": [
+                21,
+                4
+            ],
+            "system_uwp": "C0009EF-D"
+        },
+        {
+            "system_name": "Heymac",
+            "system_position": [
+                21,
+                5
+            ],
+            "system_uwp": "C300136-B"
+        },
+        {
+            "system_name": "Dahl",
+            "system_position": [
+                22,
+                1
+            ],
+            "system_uwp": "B100510-E"
+        },
+        {
+            "system_name": "Troy",
+            "system_position": [
+                22,
+                3
+            ],
+            "system_uwp": "C622756-A"
+        },
+        {
+            "system_name": "Lassie",
+            "system_position": [
+                22,
+                7
+            ],
+            "system_uwp": "A421338-F"
+        },
+        {
+            "system_name": "Naasha",
+            "system_position": [
+                22,
+                8
+            ],
+            "system_uwp": "D697576-7"
+        },
+        {
+            "system_name": "Backman",
+            "system_position": [
+                22,
+                9
+            ],
+            "system_uwp": "B55497B-C"
+        },
+        {
+            "system_name": "Neefi",
+            "system_position": [
+                22,
+                10
+            ],
+            "system_uwp": "D66A978-A"
+        },
+        {
+            "system_name": "White Sea",
+            "system_position": [
+                23,
+                4
+            ],
+            "system_uwp": "C100537-C"
+        },
+        {
+            "system_name": "Jummy",
+            "system_position": [
+                23,
+                9
+            ],
+            "system_uwp": "E100145-A"
+        },
+        {
+            "system_name": "Hervestia",
+            "system_position": [
+                23,
+                10
+            ],
+            "system_uwp": "C554A76-C"
+        },
+        {
+            "system_name": "Korona",
+            "system_position": [
+                24,
+                1
+            ],
+            "system_uwp": "B523648-B"
+        },
+        {
+            "system_name": "Mazuun",
+            "system_position": [
+                24,
+                2
+            ],
+            "system_uwp": "DA7A630-8"
+        },
+        {
+            "system_name": "Aazuni",
+            "system_position": [
+                24,
+                5
+            ],
+            "system_uwp": "B310463-D"
+        },
+        {
+            "system_name": "Cita",
+            "system_position": [
+                24,
+                7
+            ],
+            "system_uwp": "C544412-9"
+        },
+        {
+            "system_name": "Medora",
+            "system_position": [
+                25,
+                1
+            ],
+            "system_uwp": "A422553-F"
+        },
+        {
+            "system_name": "Jinan",
+            "system_position": [
+                25,
+                3
+            ],
+            "system_uwp": "C572676-8"
+        },
+        {
+            "system_name": "Forward",
+            "system_position": [
+                25,
+                4
+            ],
+            "system_uwp": "C83899A-B"
+        },
+        {
+            "system_name": "Fuso",
+            "system_position": [
+                25,
+                8
+            ],
+            "system_uwp": "B7B3204-D"
+        },
+        {
+            "system_name": "Ashiizar",
+            "system_position": [
+                25,
+                9
+            ],
+            "system_uwp": "C654868-8"
+        },
+        {
+            "system_name": "Accra",
+            "system_position": [
+                26,
+                4
+            ],
+            "system_uwp": "B6877A5-A"
+        },
+        {
+            "system_name": "Khavle",
+            "system_position": [
+                26,
+                5
+            ],
+            "system_uwp": "B434995-E"
+        },
+        {
+            "system_name": "Daasha",
+            "system_position": [
+                26,
+                6
+            ],
+            "system_uwp": "B62A445-E"
+        },
+        {
+            "system_name": "Shareduu",
+            "system_position": [
+                26,
+                9
+            ],
+            "system_uwp": "E431574-9"
+        },
+        {
+            "system_name": "Matunuck",
+            "system_position": [
+                27,
+                1
+            ],
+            "system_uwp": "C853724-8"
+        },
+        {
+            "system_name": "Hike",
+            "system_position": [
+                27,
+                7
+            ],
+            "system_uwp": "B782432-B"
+        },
+        {
+            "system_name": "Gorakpur",
+            "system_position": [
+                27,
+                9
+            ],
+            "system_uwp": "C000325-C"
+        },
+        {
+            "system_name": "Voss",
+            "system_position": [
+                28,
+                2
+            ],
+            "system_uwp": "C867226-9"
+        },
+        {
+            "system_name": "Raazu",
+            "system_position": [
+                28,
+                6
+            ],
+            "system_uwp": "D545575-7"
+        },
+        {
+            "system_name": "Blanket",
+            "system_position": [
+                28,
+                7
+            ],
+            "system_uwp": "C424578-B"
+        },
+        {
+            "system_name": "Lar",
+            "system_position": [
+                29,
+                1
+            ],
+            "system_uwp": "B431479-D"
+        },
+        {
+            "system_name": "Muuze",
+            "system_position": [
+                29,
+                5
+            ],
+            "system_uwp": "C792733-8"
+        },
+        {
+            "system_name": "Dordogne",
+            "system_position": [
+                29,
+                6
+            ],
+            "system_uwp": "A554578-D"
+        },
+        {
+            "system_name": "Nihesi",
+            "system_position": [
+                29,
+                8
+            ],
+            "system_uwp": "A792344-D"
+        },
+        {
+            "system_name": "Toggle",
+            "system_position": [
+                29,
+                10
+            ],
+            "system_uwp": "A100335-F"
+        },
+        {
+            "system_name": "Sanborn",
+            "system_position": [
+                30,
+                1
+            ],
+            "system_uwp": "C583141-9"
+        },
+        {
+            "system_name": "Tommot",
+            "system_position": [
+                30,
+                3
+            ],
+            "system_uwp": "E310101-A"
+        },
+        {
+            "system_name": "146-685",
+            "system_position": [
+                30,
+                4
+            ],
+            "system_uwp": "X794423-5"
+        },
+        {
+            "system_name": "Wake",
+            "system_position": [
+                30,
+                5
+            ],
+            "system_uwp": "A652532-D"
+        },
+        {
+            "system_name": "Muyudness",
+            "system_position": [
+                30,
+                6
+            ],
+            "system_uwp": "D100556-B"
+        },
+        {
+            "system_name": "Ningho",
+            "system_position": [
+                30,
+                8
+            ],
+            "system_uwp": "A577110-D"
+        },
+        {
+            "system_name": "Rockcaster",
+            "system_position": [
+                30,
+                9
+            ],
+            "system_uwp": "A69A424-F"
+        },
+        {
+            "system_name": "Dehrapur",
+            "system_position": [
+                31,
+                2
+            ],
+            "system_uwp": "B423474-D"
+        },
+        {
+            "system_name": "Farm",
+            "system_position": [
+                31,
+                4
+            ],
+            "system_uwp": "C656622-8"
+        },
+        {
+            "system_name": "Agaaga",
+            "system_position": [
+                31,
+                9
+            ],
+            "system_uwp": "B557320-B"
+        },
+        {
+            "system_name": "183-361",
+            "system_position": [
+                32,
+                1
+            ],
+            "system_uwp": "X694889-5"
+        },
+        {
+            "system_name": "Savan",
+            "system_position": [
+                32,
+                2
+            ],
+            "system_uwp": "D544637-6"
+        },
+        {
+            "system_name": "Aight",
+            "system_position": [
+                32,
+                3
+            ],
+            "system_uwp": "C752A99-C"
+        },
+        {
+            "system_name": "Ihishi",
+            "system_position": [
+                32,
+                4
+            ],
+            "system_uwp": "C541335-9"
+        },
+        {
+            "system_name": "Halle",
+            "system_position": [
+                32,
+                6
+            ],
+            "system_uwp": "E626723-7"
+        },
+        {
+            "system_name": "Mosul",
+            "system_position": [
+                1,
+                11
+            ],
+            "system_uwp": "C5868B9-8"
+        },
+        {
+            "system_name": "Toga",
+            "system_position": [
+                1,
+                13
+            ],
+            "system_uwp": "X674200-5"
+        },
+        {
+            "system_name": "Ainor Lisea",
+            "system_position": [
+                1,
+                14
+            ],
+            "system_uwp": "C777510-9"
+        },
+        {
+            "system_name": "Karaguuka",
+            "system_position": [
+                1,
+                16
+            ],
+            "system_uwp": "D789655-8"
+        },
+        {
+            "system_name": "Zeranga",
+            "system_position": [
+                1,
+                17
+            ],
+            "system_uwp": "B100544-E"
+        },
+        {
+            "system_name": "Tomsk",
+            "system_position": [
+                1,
+                20
+            ],
+            "system_uwp": "C4247A8-A"
+        },
+        {
+            "system_name": "Emma",
+            "system_position": [
+                2,
+                11
+            ],
+            "system_uwp": "D591888-6"
+        },
+        {
+            "system_name": "Khaavu",
+            "system_position": [
+                2,
+                13
+            ],
+            "system_uwp": "C427631-A"
+        },
+        {
+            "system_name": "Baanis",
+            "system_position": [
+                2,
+                14
+            ],
+            "system_uwp": "C100120-C"
+        },
+        {
+            "system_name": "Jalhoun",
+            "system_position": [
+                2,
+                15
+            ],
+            "system_uwp": "E310320-9"
+        },
+        {
+            "system_name": "Yidii",
+            "system_position": [
+                2,
+                18
+            ],
+            "system_uwp": "E435577-9"
+        },
+        {
+            "system_name": "Kyzyl",
+            "system_position": [
+                2,
+                20
+            ],
+            "system_uwp": "E57649D-7"
+        },
+        {
+            "system_name": "Chengdu",
+            "system_position": [
+                3,
+                15
+            ],
+            "system_uwp": "C537521-A"
+        },
+        {
+            "system_name": "Allenwald",
+            "system_position": [
+                4,
+                13
+            ],
+            "system_uwp": "D310400-A"
+        },
+        {
+            "system_name": "Kashaashii",
+            "system_position": [
+                4,
+                14
+            ],
+            "system_uwp": "D574400-8"
+        },
+        {
+            "system_name": "Ninja",
+            "system_position": [
+                4,
+                15
+            ],
+            "system_uwp": "C685862-8"
+        },
+        {
+            "system_name": "Terra Far",
+            "system_position": [
+                4,
+                16
+            ],
+            "system_uwp": "A5448AF-C"
+        },
+        {
+            "system_name": "Kosmo",
+            "system_position": [
+                4,
+                17
+            ],
+            "system_uwp": "C549799-9"
+        },
+        {
+            "system_name": "Cuttack",
+            "system_position": [
+                4,
+                18
+            ],
+            "system_uwp": "E575521-7"
+        },
+        {
+            "system_name": "Quota",
+            "system_position": [
+                5,
+                11
+            ],
+            "system_uwp": "A100362-F"
+        },
+        {
+            "system_name": "Ferry",
+            "system_position": [
+                5,
+                12
+            ],
+            "system_uwp": "A647955-F"
+        },
+        {
+            "system_name": "Kovuu",
+            "system_position": [
+                5,
+                14
+            ],
+            "system_uwp": "D574373-7"
+        },
+        {
+            "system_name": "Gai",
+            "system_position": [
+                5,
+                15
+            ],
+            "system_uwp": "C310673-A"
+        },
+        {
+            "system_name": "Niilushaga",
+            "system_position": [
+                5,
+                16
+            ],
+            "system_uwp": "C773559-A"
+        },
+        {
+            "system_name": "Khuugar",
+            "system_position": [
+                5,
+                18
+            ],
+            "system_uwp": "E68758C-7"
+        },
+        {
+            "system_name": "Futatsu",
+            "system_position": [
+                5,
+                19
+            ],
+            "system_uwp": "B542221-B"
+        },
+        {
+            "system_name": "Sudan",
+            "system_position": [
+                6,
+                16
+            ],
+            "system_uwp": "B691372-B"
+        },
+        {
+            "system_name": "Vaasa",
+            "system_position": [
+                6,
+                17
+            ],
+            "system_uwp": "B423244-D"
+        },
+        {
+            "system_name": "Thea",
+            "system_position": [
+                7,
+                12
+            ],
+            "system_uwp": "D100100-B"
+        },
+        {
+            "system_name": "Renaasha",
+            "system_position": [
+                7,
+                13
+            ],
+            "system_uwp": "E541410-7"
+        },
+        {
+            "system_name": "High Point",
+            "system_position": [
+                7,
+                19
+            ],
+            "system_uwp": "C100732-B"
+        },
+        {
+            "system_name": "Martina",
+            "system_position": [
+                8,
+                13
+            ],
+            "system_uwp": "B31068A-C"
+        },
+        {
+            "system_name": "Millo",
+            "system_position": [
+                8,
+                19
+            ],
+            "system_uwp": "E100223-A"
+        },
+        {
+            "system_name": "Beeridashal",
+            "system_position": [
+                8,
+                20
+            ],
+            "system_uwp": "C100410-C"
+        },
+        {
+            "system_name": "Wapiti",
+            "system_position": [
+                9,
+                13
+            ],
+            "system_uwp": "B426353-E"
+        },
+        {
+            "system_name": "Byrna",
+            "system_position": [
+                9,
+                15
+            ],
+            "system_uwp": "B8A5440-C"
+        },
+        {
+            "system_name": "Dasekha",
+            "system_position": [
+                9,
+                17
+            ],
+            "system_uwp": "CA65237-9"
+        },
+        {
+            "system_name": "Mohavi",
+            "system_position": [
+                9,
+                18
+            ],
+            "system_uwp": "A5567CD-C"
+        },
+        {
+            "system_name": "Ramashii",
+            "system_position": [
+                10,
+                12
+            ],
+            "system_uwp": "E879554-9"
+        },
+        {
+            "system_name": "Darryl",
+            "system_position": [
+                10,
+                17
+            ],
+            "system_uwp": "B7796BB-B"
+        },
+        {
+            "system_name": "Last Exit",
+            "system_position": [
+                10,
+                19
+            ],
+            "system_uwp": "A100776-F"
+        },
+        {
+            "system_name": "Fisher",
+            "system_position": [
+                10,
+                20
+            ],
+            "system_uwp": "E794475-7"
+        },
+        {
+            "system_name": "Messier",
+            "system_position": [
+                11,
+                11
+            ],
+            "system_uwp": "B5639AB-C"
+        },
+        {
+            "system_name": "Arriba",
+            "system_position": [
+                11,
+                17
+            ],
+            "system_uwp": "C789537-A"
+        },
+        {
+            "system_name": "Ikhareshu",
+            "system_position": [
+                11,
+                18
+            ],
+            "system_uwp": "B42267B-C"
+        },
+        {
+            "system_name": "Tantelos",
+            "system_position": [
+                12,
+                13
+            ],
+            "system_uwp": "E7928B9-6"
+        },
+        {
+            "system_name": "Lerun",
+            "system_position": [
+                12,
+                16
+            ],
+            "system_uwp": "D67A888-8"
+        },
+        {
+            "system_name": "Twinsong",
+            "system_position": [
+                12,
+                19
+            ],
+            "system_uwp": "E85A544-9"
+        },
+        {
+            "system_name": "Nilii",
+            "system_position": [
+                13,
+                13
+            ],
+            "system_uwp": "E585785-6"
+        },
+        {
+            "system_name": "Pierre",
+            "system_position": [
+                14,
+                11
+            ],
+            "system_uwp": "A310654-F"
+        },
+        {
+            "system_name": "Sasli",
+            "system_position": [
+                14,
+                12
+            ],
+            "system_uwp": "C9C5640-9"
+        },
+        {
+            "system_name": "Viedma",
+            "system_position": [
+                14,
+                15
+            ],
+            "system_uwp": "A200899-E"
+        },
+        {
+            "system_name": "Affuel",
+            "system_position": [
+                14,
+                17
+            ],
+            "system_uwp": "A883520-D"
+        },
+        {
+            "system_name": "Livermore",
+            "system_position": [
+                14,
+                19
+            ],
+            "system_uwp": "B200400-E"
+        },
+        {
+            "system_name": "Gretus",
+            "system_position": [
+                15,
+                12
+            ],
+            "system_uwp": "X310750-7"
+        },
+        {
+            "system_name": "Iris",
+            "system_position": [
+                15,
+                13
+            ],
+            "system_uwp": "D552210-7"
+        },
+        {
+            "system_name": "Aliinashar",
+            "system_position": [
+                15,
+                16
+            ],
+            "system_uwp": "B100426-E"
+        },
+        {
+            "system_name": "Soar",
+            "system_position": [
+                15,
+                18
+            ],
+            "system_uwp": "A586635-C"
+        },
+        {
+            "system_name": "Atabano",
+            "system_position": [
+                15,
+                20
+            ],
+            "system_uwp": "C869673-9"
+        },
+        {
+            "system_name": "Teslin",
+            "system_position": [
+                16,
+                11
+            ],
+            "system_uwp": "D433687-8"
+        },
+        {
+            "system_name": "Erobi",
+            "system_position": [
+                16,
+                12
+            ],
+            "system_uwp": "E8939CD-8"
+        },
+        {
+            "system_name": "Accokeek",
+            "system_position": [
+                16,
+                13
+            ],
+            "system_uwp": "C548675-8"
+        },
+        {
+            "system_name": "Nike",
+            "system_position": [
+                16,
+                14
+            ],
+            "system_uwp": "A693677-C"
+        },
+        {
+            "system_name": "Dudenii",
+            "system_position": [
+                16,
+                17
+            ],
+            "system_uwp": "B421134-D"
+        },
+        {
+            "system_name": "Shelagyote",
+            "system_position": [
+                16,
+                20
+            ],
+            "system_uwp": "X5896B9-3"
+        },
+        {
+            "system_name": "Avat",
+            "system_position": [
+                17,
+                13
+            ],
+            "system_uwp": "E200534-9"
+        },
+        {
+            "system_name": "Weyburn",
+            "system_position": [
+                17,
+                17
+            ],
+            "system_uwp": "E437444-9"
+        },
+        {
+            "system_name": "Shaanii",
+            "system_position": [
+                18,
+                14
+            ],
+            "system_uwp": "C557442-9"
+        },
+        {
+            "system_name": "Waboni",
+            "system_position": [
+                18,
+                15
+            ],
+            "system_uwp": "C672776-8"
+        },
+        {
+            "system_name": "Umorphutwyo",
+            "system_position": [
+                18,
+                16
+            ],
+            "system_uwp": "C5507CB-8"
+        },
+        {
+            "system_name": "Dryden",
+            "system_position": [
+                18,
+                18
+            ],
+            "system_uwp": "D75969A-7"
+        },
+        {
+            "system_name": "Megelina",
+            "system_position": [
+                18,
+                19
+            ],
+            "system_uwp": "D300668-8"
+        },
+        {
+            "system_name": "Remington",
+            "system_position": [
+                18,
+                20
+            ],
+            "system_uwp": "A896565-D"
+        },
+        {
+            "system_name": "Ekuur",
+            "system_position": [
+                19,
+                11
+            ],
+            "system_uwp": "B658332-B"
+        },
+        {
+            "system_name": "Raymore",
+            "system_position": [
+                19,
+                12
+            ],
+            "system_uwp": "D556842-6"
+        },
+        {
+            "system_name": "Khanii",
+            "system_position": [
+                19,
+                14
+            ],
+            "system_uwp": "C53A88B-B"
+        },
+        {
+            "system_name": "Daazu",
+            "system_position": [
+                19,
+                16
+            ],
+            "system_uwp": "C591597-9"
+        },
+        {
+            "system_name": "Tigo",
+            "system_position": [
+                19,
+                18
+            ],
+            "system_uwp": "A41025A-F"
+        },
+        {
+            "system_name": "Arrow Rock",
+            "system_position": [
+                19,
+                19
+            ],
+            "system_uwp": "A310644-E"
+        },
+        {
+            "system_name": "Feeble",
+            "system_position": [
+                20,
+                12
+            ],
+            "system_uwp": "A100333-F"
+        },
+        {
+            "system_name": "Coop",
+            "system_position": [
+                20,
+                13
+            ],
+            "system_uwp": "C428687-A"
+        },
+        {
+            "system_name": "Opheim",
+            "system_position": [
+                20,
+                15
+            ],
+            "system_uwp": "X787369-3"
+        },
+        {
+            "system_name": "Depot",
+            "system_position": [
+                20,
+                18
+            ],
+            "system_uwp": "A00076A-F"
+        },
+        {
+            "system_name": "Nuqual",
+            "system_position": [
+                20,
+                19
+            ],
+            "system_uwp": "B774385-B"
+        },
+        {
+            "system_name": "Bifirs",
+            "system_position": [
+                21,
+                12
+            ],
+            "system_uwp": "D643976-8"
+        },
+        {
+            "system_name": "Grand Fork",
+            "system_position": [
+                21,
+                14
+            ],
+            "system_uwp": "C549599-A"
+        },
+        {
+            "system_name": "Gyration",
+            "system_position": [
+                21,
+                15
+            ],
+            "system_uwp": "D1006A9-9"
+        },
+        {
+            "system_name": "Kandom",
+            "system_position": [
+                21,
+                16
+            ],
+            "system_uwp": "B655987-C"
+        },
+        {
+            "system_name": "Princess",
+            "system_position": [
+                21,
+                17
+            ],
+            "system_uwp": "A310400-F"
+        },
+        {
+            "system_name": "Hold",
+            "system_position": [
+                21,
+                18
+            ],
+            "system_uwp": "B100245-E"
+        },
+        {
+            "system_name": "Gilboa",
+            "system_position": [
+                22,
+                11
+            ],
+            "system_uwp": "D647974-8"
+        },
+        {
+            "system_name": "Gecko",
+            "system_position": [
+                22,
+                12
+            ],
+            "system_uwp": "D592541-7"
+        },
+        {
+            "system_name": "Netti",
+            "system_position": [
+                22,
+                13
+            ],
+            "system_uwp": "B998434-B"
+        },
+        {
+            "system_name": "Yossem",
+            "system_position": [
+                22,
+                16
+            ],
+            "system_uwp": "A100465-F"
+        },
+        {
+            "system_name": "Guild",
+            "system_position": [
+                23,
+                11
+            ],
+            "system_uwp": "C200459-C"
+        },
+        {
+            "system_name": "Oath",
+            "system_position": [
+                23,
+                12
+            ],
+            "system_uwp": "C3108BD-A"
+        },
+        {
+            "system_name": "Raasara",
+            "system_position": [
+                23,
+                14
+            ],
+            "system_uwp": "B679663-B"
+        },
+        {
+            "system_name": "Gilgamesh",
+            "system_position": [
+                23,
+                17
+            ],
+            "system_uwp": "D100796-9"
+        },
+        {
+            "system_name": "Beep",
+            "system_position": [
+                24,
+                11
+            ],
+            "system_uwp": "B310885-C"
+        },
+        {
+            "system_name": "Hewes",
+            "system_position": [
+                24,
+                14
+            ],
+            "system_uwp": "A436645-E"
+        },
+        {
+            "system_name": "Trot",
+            "system_position": [
+                24,
+                15
+            ],
+            "system_uwp": "C310464-B"
+        },
+        {
+            "system_name": "Chief",
+            "system_position": [
+                24,
+                17
+            ],
+            "system_uwp": "B100246-E"
+        },
+        {
+            "system_name": "Didinka",
+            "system_position": [
+                24,
+                19
+            ],
+            "system_uwp": "D578200-8"
+        },
+        {
+            "system_name": "Layne",
+            "system_position": [
+                24,
+                20
+            ],
+            "system_uwp": "C796A9C-C"
+        },
+        {
+            "system_name": "Clarksphere",
+            "system_position": [
+                25,
+                19
+            ],
+            "system_uwp": "E424300-A"
+        },
+        {
+            "system_name": "Westfir",
+            "system_position": [
+                26,
+                13
+            ],
+            "system_uwp": "B426841-C"
+        },
+        {
+            "system_name": "Teeque",
+            "system_position": [
+                26,
+                14
+            ],
+            "system_uwp": "C545569-9"
+        },
+        {
+            "system_name": "Samar",
+            "system_position": [
+                26,
+                15
+            ],
+            "system_uwp": "B576510-B"
+        },
+        {
+            "system_name": "Dema",
+            "system_position": [
+                26,
+                18
+            ],
+            "system_uwp": "C200431-B"
+        },
+        {
+            "system_name": "Feme",
+            "system_position": [
+                27,
+                11
+            ],
+            "system_uwp": "C556300-A"
+        },
+        {
+            "system_name": "Beso",
+            "system_position": [
+                27,
+                13
+            ],
+            "system_uwp": "D000301-B"
+        },
+        {
+            "system_name": "Campobello",
+            "system_position": [
+                27,
+                14
+            ],
+            "system_uwp": "A00046A-F"
+        },
+        {
+            "system_name": "Jedell",
+            "system_position": [
+                27,
+                16
+            ],
+            "system_uwp": "C4349BC-C"
+        },
+        {
+            "system_name": "Jodhpur",
+            "system_position": [
+                27,
+                17
+            ],
+            "system_uwp": "D432445-9"
+        },
+        {
+            "system_name": "Riishu",
+            "system_position": [
+                27,
+                20
+            ],
+            "system_uwp": "D425333-9"
+        },
+        {
+            "system_name": "Aarishuu",
+            "system_position": [
+                28,
+                14
+            ],
+            "system_uwp": "A995544-D"
+        },
+        {
+            "system_name": "Icestar",
+            "system_position": [
+                29,
+                11
+            ],
+            "system_uwp": "D799300-9"
+        },
+        {
+            "system_name": "Konya",
+            "system_position": [
+                29,
+                14
+            ],
+            "system_uwp": "B200205-E"
+        },
+        {
+            "system_name": "Bail 4",
+            "system_position": [
+                29,
+                17
+            ],
+            "system_uwp": "D799755-8"
+        },
+        {
+            "system_name": "La Motte",
+            "system_position": [
+                29,
+                18
+            ],
+            "system_uwp": "C63A404-D"
+        },
+        {
+            "system_name": "Raziira",
+            "system_position": [
+                29,
+                19
+            ],
+            "system_uwp": "C866102-A"
+        },
+        {
+            "system_name": "Hice",
+            "system_position": [
+                29,
+                20
+            ],
+            "system_uwp": "A795222-D"
+        },
+        {
+            "system_name": "Shamaar",
+            "system_position": [
+                30,
+                12
+            ],
+            "system_uwp": "C544335-9"
+        },
+        {
+            "system_name": "Karroo",
+            "system_position": [
+                30,
+                13
+            ],
+            "system_uwp": "A667357-E"
+        },
+        {
+            "system_name": "Mohler",
+            "system_position": [
+                30,
+                15
+            ],
+            "system_uwp": "C8D5588-A"
+        },
+        {
+            "system_name": "Ifuwana",
+            "system_position": [
+                30,
+                16
+            ],
+            "system_uwp": "C59845A-A"
+        },
+        {
+            "system_name": "Asmera",
+            "system_position": [
+                30,
+                20
+            ],
+            "system_uwp": "A310653-F"
+        },
+        {
+            "system_name": "Khedas",
+            "system_position": [
+                31,
+                12
+            ],
+            "system_uwp": "C7A4232-A"
+        },
+        {
+            "system_name": "Farris",
+            "system_position": [
+                31,
+                15
+            ],
+            "system_uwp": "C536125-A"
+        },
+        {
+            "system_name": "Cadiz",
+            "system_position": [
+                31,
+                16
+            ],
+            "system_uwp": "D799450-9"
+        },
+        {
+            "system_name": "Ephraim",
+            "system_position": [
+                31,
+                18
+            ],
+            "system_uwp": "C78977B-9"
+        },
+        {
+            "system_name": "Gashiila",
+            "system_position": [
+                32,
+                11
+            ],
+            "system_uwp": "D879457-9"
+        },
+        {
+            "system_name": "Serege",
+            "system_position": [
+                32,
+                12
+            ],
+            "system_uwp": "AAD647A-E"
+        },
+        {
+            "system_name": "Nantes",
+            "system_position": [
+                32,
+                19
+            ],
+            "system_uwp": "C200442-B"
+        },
+        {
+            "system_name": "Cod",
+            "system_position": [
+                1,
+                21
+            ],
+            "system_uwp": "D553200-8"
+        },
+        {
+            "system_name": "Karakaara",
+            "system_position": [
+                2,
+                25
+            ],
+            "system_uwp": "E642356-8"
+        },
+        {
+            "system_name": "Waken",
+            "system_position": [
+                2,
+                27
+            ],
+            "system_uwp": "D100762-9"
+        },
+        {
+            "system_name": "Ebasha",
+            "system_position": [
+                2,
+                28
+            ],
+            "system_uwp": "A579546-E"
+        },
+        {
+            "system_name": "Hannah",
+            "system_position": [
+                3,
+                23
+            ],
+            "system_uwp": "D979369-8"
+        },
+        {
+            "system_name": "Kendell",
+            "system_position": [
+                3,
+                24
+            ],
+            "system_uwp": "B896664-A"
+        },
+        {
+            "system_name": "Ebekiigase",
+            "system_position": [
+                3,
+                26
+            ],
+            "system_uwp": "C310543-B"
+        },
+        {
+            "system_name": "Pane",
+            "system_position": [
+                3,
+                27
+            ],
+            "system_uwp": "C747676-8"
+        },
+        {
+            "system_name": "Hideous",
+            "system_position": [
+                4,
+                22
+            ],
+            "system_uwp": "C422798-A"
+        },
+        {
+            "system_name": "Flehemu",
+            "system_position": [
+                4,
+                25
+            ],
+            "system_uwp": "B558544-B"
+        },
+        {
+            "system_name": "Laruusalii",
+            "system_position": [
+                4,
+                30
+            ],
+            "system_uwp": "C410311-B"
+        },
+        {
+            "system_name": "Vigo",
+            "system_position": [
+                5,
+                21
+            ],
+            "system_uwp": "D552664-6"
+        },
+        {
+            "system_name": "Pesuuzu",
+            "system_position": [
+                5,
+                24
+            ],
+            "system_uwp": "B766559-C"
+        },
+        {
+            "system_name": "Aahasu",
+            "system_position": [
+                5,
+                26
+            ],
+            "system_uwp": "C423100-C"
+        },
+        {
+            "system_name": "Jinchi",
+            "system_position": [
+                5,
+                29
+            ],
+            "system_uwp": "C581212-9"
+        },
+        {
+            "system_name": "Zokku",
+            "system_position": [
+                5,
+                30
+            ],
+            "system_uwp": "B575444-B"
+        },
+        {
+            "system_name": "Hatfield",
+            "system_position": [
+                6,
+                21
+            ],
+            "system_uwp": "C100534-C"
+        },
+        {
+            "system_name": "Careful",
+            "system_position": [
+                6,
+                26
+            ],
+            "system_uwp": "E100757-A"
+        },
+        {
+            "system_name": "531-210",
+            "system_position": [
+                6,
+                27
+            ],
+            "system_uwp": "X99A675-5"
+        },
+        {
+            "system_name": "Arappa",
+            "system_position": [
+                6,
+                28
+            ],
+            "system_uwp": "C310663-A"
+        },
+        {
+            "system_name": "Quioxan",
+            "system_position": [
+                6,
+                29
+            ],
+            "system_uwp": "B100534-E"
+        },
+        {
+            "system_name": "Jene",
+            "system_position": [
+                7,
+                21
+            ],
+            "system_uwp": "E655543-7"
+        },
+        {
+            "system_name": "Zekhesii",
+            "system_position": [
+                7,
+                22
+            ],
+            "system_uwp": "B765379-B"
+        },
+        {
+            "system_name": "Six Gun",
+            "system_position": [
+                7,
+                23
+            ],
+            "system_uwp": "D98A868-8"
+        },
+        {
+            "system_name": "Oyster",
+            "system_position": [
+                7,
+                26
+            ],
+            "system_uwp": "D200568-9"
+        },
+        {
+            "system_name": "Rouen",
+            "system_position": [
+                7,
+                29
+            ],
+            "system_uwp": "C582577-9"
+        },
+        {
+            "system_name": "Bones",
+            "system_position": [
+                8,
+                21
+            ],
+            "system_uwp": "B778635-A"
+        },
+        {
+            "system_name": "Justabit",
+            "system_position": [
+                8,
+                23
+            ],
+            "system_uwp": "D545689-6"
+        },
+        {
+            "system_name": "Szeged",
+            "system_position": [
+                8,
+                28
+            ],
+            "system_uwp": "C9B7335-A"
+        },
+        {
+            "system_name": "572-108",
+            "system_position": [
+                8,
+                30
+            ],
+            "system_uwp": "D8C1200-9"
+        },
+        {
+            "system_name": "Naknek",
+            "system_position": [
+                9,
+                27
+            ],
+            "system_uwp": "DAC9788-9"
+        },
+        {
+            "system_name": "Palastrup",
+            "system_position": [
+                9,
+                28
+            ],
+            "system_uwp": "A10077A-F"
+        },
+        {
+            "system_name": "Poldepi",
+            "system_position": [
+                9,
+                29
+            ],
+            "system_uwp": "E667101-8"
+        },
+        {
+            "system_name": "Gegaasha",
+            "system_position": [
+                10,
+                21
+            ],
+            "system_uwp": "C7647BC-8"
+        },
+        {
+            "system_name": "Shoehorn",
+            "system_position": [
+                11,
+                23
+            ],
+            "system_uwp": "C200322-B"
+        },
+        {
+            "system_name": "Wellun",
+            "system_position": [
+                11,
+                24
+            ],
+            "system_uwp": "B99A888-C"
+        },
+        {
+            "system_name": "Pequot",
+            "system_position": [
+                11,
+                28
+            ],
+            "system_uwp": "A767885-C"
+        },
+        {
+            "system_name": "Ledge",
+            "system_position": [
+                12,
+                23
+            ],
+            "system_uwp": "E658A9B-A"
+        },
+        {
+            "system_name": "Nani",
+            "system_position": [
+                12,
+                29
+            ],
+            "system_uwp": "D657414-7"
+        },
+        {
+            "system_name": "Helena",
+            "system_position": [
+                12,
+                30
+            ],
+            "system_uwp": "D532420-8"
+        },
+        {
+            "system_name": "Birii",
+            "system_position": [
+                13,
+                21
+            ],
+            "system_uwp": "D100554-B"
+        },
+        {
+            "system_name": "Chimborazo",
+            "system_position": [
+                13,
+                24
+            ],
+            "system_uwp": "C200873-A"
+        },
+        {
+            "system_name": "Iusea",
+            "system_position": [
+                13,
+                25
+            ],
+            "system_uwp": "A554985-E"
+        },
+        {
+            "system_name": "Hammett",
+            "system_position": [
+                13,
+                28
+            ],
+            "system_uwp": "D200512-9"
+        },
+        {
+            "system_name": "Rocha",
+            "system_position": [
+                14,
+                22
+            ],
+            "system_uwp": "E6A2522-8"
+        },
+        {
+            "system_name": "Iqorr",
+            "system_position": [
+                14,
+                26
+            ],
+            "system_uwp": "B435488-D"
+        },
+        {
+            "system_name": "St. James",
+            "system_position": [
+                15,
+                21
+            ],
+            "system_uwp": "C553410-9"
+        },
+        {
+            "system_name": "Cheetah",
+            "system_position": [
+                15,
+                22
+            ],
+            "system_uwp": "B100877-D"
+        },
+        {
+            "system_name": "Bezan",
+            "system_position": [
+                15,
+                24
+            ],
+            "system_uwp": "A663100-E"
+        },
+        {
+            "system_name": "Martinique",
+            "system_position": [
+                15,
+                25
+            ],
+            "system_uwp": "E565314-7"
+        },
+        {
+            "system_name": "Kennebunk",
+            "system_position": [
+                15,
+                30
+            ],
+            "system_uwp": "C69469D-8"
+        },
+        {
+            "system_name": "Nilaa",
+            "system_position": [
+                16,
+                21
+            ],
+            "system_uwp": "B697733-A"
+        },
+        {
+            "system_name": "Wellfleet",
+            "system_position": [
+                16,
+                22
+            ],
+            "system_uwp": "C100533-C"
+        },
+        {
+            "system_name": "Whereitsat",
+            "system_position": [
+                16,
+                24
+            ],
+            "system_uwp": "C1006B9-B"
+        },
+        {
+            "system_name": "Ebekhar",
+            "system_position": [
+                16,
+                28
+            ],
+            "system_uwp": "C989642-9"
+        },
+        {
+            "system_name": "St. Denis",
+            "system_position": [
+                16,
+                30
+            ],
+            "system_uwp": "C3109CB-C"
+        },
+        {
+            "system_name": "Mogumba",
+            "system_position": [
+                18,
+                21
+            ],
+            "system_uwp": "X561410-3"
+        },
+        {
+            "system_name": "Iiselu",
+            "system_position": [
+                18,
+                26
+            ],
+            "system_uwp": "B557563-B"
+        },
+        {
+            "system_name": "Pugout",
+            "system_position": [
+                19,
+                23
+            ],
+            "system_uwp": "E100120-A"
+        },
+        {
+            "system_name": "Jump",
+            "system_position": [
+                20,
+                22
+            ],
+            "system_uwp": "B665432-B"
+        },
+        {
+            "system_name": "Torngat",
+            "system_position": [
+                20,
+                23
+            ],
+            "system_uwp": "E596446-7"
+        },
+        {
+            "system_name": "Overature",
+            "system_position": [
+                21,
+                24
+            ],
+            "system_uwp": "B000541-E"
+        },
+        {
+            "system_name": "Moncton",
+            "system_position": [
+                21,
+                25
+            ],
+            "system_uwp": "E8A3596-8"
+        },
+        {
+            "system_name": "Fuji",
+            "system_position": [
+                21,
+                27
+            ],
+            "system_uwp": "C578544-9"
+        },
+        {
+            "system_name": "Akko",
+            "system_position": [
+                21,
+                29
+            ],
+            "system_uwp": "C300110-B"
+        },
+        {
+            "system_name": "Eberly",
+            "system_position": [
+                21,
+                30
+            ],
+            "system_uwp": "A686775-C"
+        },
+        {
+            "system_name": "Maaduura",
+            "system_position": [
+                22,
+                21
+            ],
+            "system_uwp": "E554312-7"
+        },
+        {
+            "system_name": "Tarsale",
+            "system_position": [
+                22,
+                24
+            ],
+            "system_uwp": "B200830-C"
+        },
+        {
+            "system_name": "Heart",
+            "system_position": [
+                22,
+                25
+            ],
+            "system_uwp": "A978143-D"
+        },
+        {
+            "system_name": "Mason",
+            "system_position": [
+                22,
+                26
+            ],
+            "system_uwp": "C541676-8"
+        },
+        {
+            "system_name": "One Star",
+            "system_position": [
+                22,
+                27
+            ],
+            "system_uwp": "D746599-7"
+        },
+        {
+            "system_name": "Sivo",
+            "system_position": [
+                22,
+                29
+            ],
+            "system_uwp": "C886755-9"
+        },
+        {
+            "system_name": "Veejay",
+            "system_position": [
+                23,
+                21
+            ],
+            "system_uwp": "BAD5364-C"
+        },
+        {
+            "system_name": "Wescap",
+            "system_position": [
+                23,
+                22
+            ],
+            "system_uwp": "D5738BD-6"
+        },
+        {
+            "system_name": "Ayden",
+            "system_position": [
+                24,
+                23
+            ],
+            "system_uwp": "C100312-C"
+        },
+        {
+            "system_name": "Thicket",
+            "system_position": [
+                24,
+                24
+            ],
+            "system_uwp": "D55199C-8"
+        },
+        {
+            "system_name": "Elusive",
+            "system_position": [
+                24,
+                26
+            ],
+            "system_uwp": "C31037A-B"
+        },
+        {
+            "system_name": "Daariida",
+            "system_position": [
+                24,
+                29
+            ],
+            "system_uwp": "D556443-7"
+        },
+        {
+            "system_name": "Aaneru",
+            "system_position": [
+                24,
+                30
+            ],
+            "system_uwp": "C978875-8"
+        },
+        {
+            "system_name": "Seagull",
+            "system_position": [
+                25,
+                21
+            ],
+            "system_uwp": "D7B1430-8"
+        },
+        {
+            "system_name": "Amoy",
+            "system_position": [
+                25,
+                24
+            ],
+            "system_uwp": "D554634-6"
+        },
+        {
+            "system_name": "Baraduusa",
+            "system_position": [
+                25,
+                28
+            ],
+            "system_uwp": "C542231-9"
+        },
+        {
+            "system_name": "Ferenira",
+            "system_position": [
+                27,
+                24
+            ],
+            "system_uwp": "B100165-E"
+        },
+        {
+            "system_name": "Daaliisa",
+            "system_position": [
+                27,
+                25
+            ],
+            "system_uwp": "D7677B8-6"
+        },
+        {
+            "system_name": "Eloji",
+            "system_position": [
+                27,
+                28
+            ],
+            "system_uwp": "B846647-A"
+        },
+        {
+            "system_name": "Exeter",
+            "system_position": [
+                27,
+                29
+            ],
+            "system_uwp": "A769895-D"
+        },
+        {
+            "system_name": "Muni",
+            "system_position": [
+                28,
+                25
+            ],
+            "system_uwp": "B5428C9-A"
+        },
+        {
+            "system_name": "Promise",
+            "system_position": [
+                28,
+                27
+            ],
+            "system_uwp": "A542999-E"
+        },
+        {
+            "system_name": "Poznan",
+            "system_position": [
+                28,
+                30
+            ],
+            "system_uwp": "C432888-A"
+        },
+        {
+            "system_name": "Orsk",
+            "system_position": [
+                29,
+                22
+            ],
+            "system_uwp": "B535321-C"
+        },
+        {
+            "system_name": "Lot",
+            "system_position": [
+                29,
+                25
+            ],
+            "system_uwp": "A545666-C"
+        },
+        {
+            "system_name": "Vahana",
+            "system_position": [
+                29,
+                26
+            ],
+            "system_uwp": "B65A577-D"
+        },
+        {
+            "system_name": "Udone",
+            "system_position": [
+                29,
+                27
+            ],
+            "system_uwp": "A000599-F"
+        },
+        {
+            "system_name": "Gorky",
+            "system_position": [
+                29,
+                29
+            ],
+            "system_uwp": "A200542-F"
+        },
+        {
+            "system_name": "Execute",
+            "system_position": [
+                29,
+                30
+            ],
+            "system_uwp": "C684588-9"
+        },
+        {
+            "system_name": "Asena",
+            "system_position": [
+                30,
+                22
+            ],
+            "system_uwp": "C554855-9"
+        },
+        {
+            "system_name": "Napiiresha",
+            "system_position": [
+                30,
+                23
+            ],
+            "system_uwp": "B559230-C"
+        },
+        {
+            "system_name": "530-053",
+            "system_position": [
+                30,
+                27
+            ],
+            "system_uwp": "X543201-5"
+        },
+        {
+            "system_name": "Davao",
+            "system_position": [
+                30,
+                29
+            ],
+            "system_uwp": "D100677-9"
+        },
+        {
+            "system_name": "Nysorb",
+            "system_position": [
+                30,
+                30
+            ],
+            "system_uwp": "C9B6525-A"
+        },
+        {
+            "system_name": "Tenmet",
+            "system_position": [
+                31,
+                21
+            ],
+            "system_uwp": "B310725-C"
+        },
+        {
+            "system_name": "Tasmania",
+            "system_position": [
+                31,
+                23
+            ],
+            "system_uwp": "A556527-D"
+        },
+        {
+            "system_name": "Sligo",
+            "system_position": [
+                31,
+                26
+            ],
+            "system_uwp": "B878322-B"
+        },
+        {
+            "system_name": "Sittahr",
+            "system_position": [
+                31,
+                29
+            ],
+            "system_uwp": "C766530-9"
+        },
+        {
+            "system_name": "Ijiwa",
+            "system_position": [
+                32,
+                24
+            ],
+            "system_uwp": "B300864-C"
+        },
+        {
+            "system_name": "Lekhaana",
+            "system_position": [
+                32,
+                25
+            ],
+            "system_uwp": "E100223-A"
+        },
+        {
+            "system_name": "Cosenza",
+            "system_position": [
+                32,
+                28
+            ],
+            "system_uwp": "B527485-C"
+        },
+        {
+            "system_name": "Keeper",
+            "system_position": [
+                1,
+                37
+            ],
+            "system_uwp": "C556312-9"
+        },
+        {
+            "system_name": "Ranushana",
+            "system_position": [
+                1,
+                38
+            ],
+            "system_uwp": "E100586-A"
+        },
+        {
+            "system_name": "Kiev",
+            "system_position": [
+                1,
+                39
+            ],
+            "system_uwp": "A530132-9"
+        },
+        {
+            "system_name": "Kimba",
+            "system_position": [
+                2,
+                32
+            ],
+            "system_uwp": "C55576A-8"
+        },
+        {
+            "system_name": "Siphon",
+            "system_position": [
+                2,
+                33
+            ],
+            "system_uwp": "B86A533-D"
+        },
+        {
+            "system_name": "Doom",
+            "system_position": [
+                2,
+                36
+            ],
+            "system_uwp": "X100566-7"
+        },
+        {
+            "system_name": "Sunz",
+            "system_position": [
+                2,
+                37
+            ],
+            "system_uwp": "C8679A8-A"
+        },
+        {
+            "system_name": "Kashi",
+            "system_position": [
+                2,
+                38
+            ],
+            "system_uwp": "C312488-B"
+        },
+        {
+            "system_name": "Khaasamiiri",
+            "system_position": [
+                3,
+                35
+            ],
+            "system_uwp": "C675468-9"
+        },
+        {
+            "system_name": "Carl's World",
+            "system_position": [
+                3,
+                36
+            ],
+            "system_uwp": "B567844-A"
+        },
+        {
+            "system_name": "Vornam",
+            "system_position": [
+                3,
+                38
+            ],
+            "system_uwp": "E675979-8"
+        },
+        {
+            "system_name": "Sequoia",
+            "system_position": [
+                3,
+                39
+            ],
+            "system_uwp": "A546548-D"
+        },
+        {
+            "system_name": "Vision",
+            "system_position": [
+                4,
+                31
+            ],
+            "system_uwp": "A675553-E"
+        },
+        {
+            "system_name": "Angebo",
+            "system_position": [
+                4,
+                32
+            ],
+            "system_uwp": "C200856-B"
+        },
+        {
+            "system_name": "Maasii",
+            "system_position": [
+                4,
+                40
+            ],
+            "system_uwp": "A540330-B"
+        },
+        {
+            "system_name": "Attax",
+            "system_position": [
+                5,
+                31
+            ],
+            "system_uwp": "B5875AE-B"
+        },
+        {
+            "system_name": "Cumber",
+            "system_position": [
+                5,
+                32
+            ],
+            "system_uwp": "B3109CB-E"
+        },
+        {
+            "system_name": "Sheshene",
+            "system_position": [
+                5,
+                33
+            ],
+            "system_uwp": "B100733-D"
+        },
+        {
+            "system_name": "Alone",
+            "system_position": [
+                5,
+                34
+            ],
+            "system_uwp": "E559532-8"
+        },
+        {
+            "system_name": "Jue-ni",
+            "system_position": [
+                5,
+                35
+            ],
+            "system_uwp": "B756358-C"
+        },
+        {
+            "system_name": "Akureyri",
+            "system_position": [
+                5,
+                36
+            ],
+            "system_uwp": "C000555-D"
+        },
+        {
+            "system_name": "Fazed",
+            "system_position": [
+                5,
+                37
+            ],
+            "system_uwp": "D310724-8"
+        },
+        {
+            "system_name": "Sanzbur",
+            "system_position": [
+                5,
+                38
+            ],
+            "system_uwp": "C522743-9"
+        },
+        {
+            "system_name": "Fuquay",
+            "system_position": [
+                6,
+                32
+            ],
+            "system_uwp": "A42316B-F"
+        },
+        {
+            "system_name": "Varina",
+            "system_position": [
+                6,
+                33
+            ],
+            "system_uwp": "C769436-A"
+        },
+        {
+            "system_name": "Tulane",
+            "system_position": [
+                7,
+                31
+            ],
+            "system_uwp": "C581100-A"
+        },
+        {
+            "system_name": "Zee's Place",
+            "system_position": [
+                7,
+                32
+            ],
+            "system_uwp": "D100132-A"
+        },
+        {
+            "system_name": "Pettelli",
+            "system_position": [
+                7,
+                34
+            ],
+            "system_uwp": "B551113-B"
+        },
+        {
+            "system_name": "Amaani",
+            "system_position": [
+                7,
+                40
+            ],
+            "system_uwp": "C100213-8"
+        },
+        {
+            "system_name": "Domo",
+            "system_position": [
+                8,
+                31
+            ],
+            "system_uwp": "A564536-D"
+        },
+        {
+            "system_name": "Cunning",
+            "system_position": [
+                8,
+                32
+            ],
+            "system_uwp": "C788530-9"
+        },
+        {
+            "system_name": "Isee",
+            "system_position": [
+                8,
+                33
+            ],
+            "system_uwp": "C434840-A"
+        },
+        {
+            "system_name": "Dunoon",
+            "system_position": [
+                8,
+                39
+            ],
+            "system_uwp": "B100488-E"
+        },
+        {
+            "system_name": "Khasiigu",
+            "system_position": [
+                8,
+                40
+            ],
+            "system_uwp": "C580331-8"
+        },
+        {
+            "system_name": "Frock",
+            "system_position": [
+                9,
+                31
+            ],
+            "system_uwp": "D5949A9-8"
+        },
+        {
+            "system_name": "Nappa",
+            "system_position": [
+                9,
+                32
+            ],
+            "system_uwp": "D696754-7"
+        },
+        {
+            "system_name": "Emeluura",
+            "system_position": [
+                9,
+                35
+            ],
+            "system_uwp": "D200767-8"
+        },
+        {
+            "system_name": "Woken",
+            "system_position": [
+                9,
+                36
+            ],
+            "system_uwp": "C998565-9"
+        },
+        {
+            "system_name": "Chamawa",
+            "system_position": [
+                9,
+                38
+            ],
+            "system_uwp": "C743689-8"
+        },
+        {
+            "system_name": "Dilkon",
+            "system_position": [
+                9,
+                40
+            ],
+            "system_uwp": "E529675-7"
+        },
+        {
+            "system_name": "Grace",
+            "system_position": [
+                10,
+                31
+            ],
+            "system_uwp": "B551510-B"
+        },
+        {
+            "system_name": "Gus",
+            "system_position": [
+                10,
+                34
+            ],
+            "system_uwp": "D654401-8"
+        },
+        {
+            "system_name": "Cole",
+            "system_position": [
+                10,
+                35
+            ],
+            "system_uwp": "A310227-F"
+        },
+        {
+            "system_name": "Frey",
+            "system_position": [
+                11,
+                33
+            ],
+            "system_uwp": "B5369B6-D"
+        },
+        {
+            "system_name": "Alki",
+            "system_position": [
+                11,
+                36
+            ],
+            "system_uwp": "B100847-D"
+        },
+        {
+            "system_name": "Usheriima",
+            "system_position": [
+                11,
+                38
+            ],
+            "system_uwp": "D534333-8"
+        },
+        {
+            "system_name": "Adryanne",
+            "system_position": [
+                11,
+                39
+            ],
+            "system_uwp": "D530554-7"
+        },
+        {
+            "system_name": "Musiiba",
+            "system_position": [
+                12,
+                33
+            ],
+            "system_uwp": "D544201-8"
+        },
+        {
+            "system_name": "Snoqualmie",
+            "system_position": [
+                12,
+                36
+            ],
+            "system_uwp": "B786500-C"
+        },
+        {
+            "system_name": "Chicago",
+            "system_position": [
+                13,
+                31
+            ],
+            "system_uwp": "D571403-8"
+        },
+        {
+            "system_name": "Duwamish",
+            "system_position": [
+                13,
+                36
+            ],
+            "system_uwp": "C566744-8"
+        },
+        {
+            "system_name": "Ica",
+            "system_position": [
+                13,
+                38
+            ],
+            "system_uwp": "D000200-B"
+        },
+        {
+            "system_name": "Nape",
+            "system_position": [
+                13,
+                39
+            ],
+            "system_uwp": "E000695-7"
+        },
+        {
+            "system_name": "Dawns",
+            "system_position": [
+                13,
+                40
+            ],
+            "system_uwp": "B656745-5"
+        },
+        {
+            "system_name": "Semaachi",
+            "system_position": [
+                14,
+                33
+            ],
+            "system_uwp": "C5547B8-8"
+        },
+        {
+            "system_name": "Burien",
+            "system_position": [
+                14,
+                35
+            ],
+            "system_uwp": "C201566-B"
+        },
+        {
+            "system_name": "Garaag",
+            "system_position": [
+                14,
+                38
+            ],
+            "system_uwp": "D580686-5"
+        },
+        {
+            "system_name": "Obidos",
+            "system_position": [
+                14,
+                40
+            ],
+            "system_uwp": "C000754-A"
+        },
+        {
+            "system_name": "Prosser",
+            "system_position": [
+                15,
+                36
+            ],
+            "system_uwp": "EA887BB-6"
+        },
+        {
+            "system_name": "Prestwick",
+            "system_position": [
+                16,
+                39
+            ],
+            "system_uwp": "C7A6558-8"
+        },
+        {
+            "system_name": "Biremeruun",
+            "system_position": [
+                16,
+                40
+            ],
+            "system_uwp": "C9B67BB-8"
+        },
+        {
+            "system_name": "Waverly",
+            "system_position": [
+                17,
+                33
+            ],
+            "system_uwp": "BAF7203-D"
+        },
+        {
+            "system_name": "Manna",
+            "system_position": [
+                17,
+                37
+            ],
+            "system_uwp": "C8D5359-B"
+        },
+        {
+            "system_name": "Galuuda",
+            "system_position": [
+                17,
+                39
+            ],
+            "system_uwp": "E79A883-5"
+        },
+        {
+            "system_name": "Berens",
+            "system_position": [
+                17,
+                40
+            ],
+            "system_uwp": "A846143-A"
+        },
+        {
+            "system_name": "Dinklewater",
+            "system_position": [
+                18,
+                38
+            ],
+            "system_uwp": "B98A213-B"
+        },
+        {
+            "system_name": "Kinos",
+            "system_position": [
+                18,
+                40
+            ],
+            "system_uwp": "E55887A-6"
+        },
+        {
+            "system_name": "Ruffian",
+            "system_position": [
+                19,
+                33
+            ],
+            "system_uwp": "C54858B-9"
+        },
+        {
+            "system_name": "Bellin",
+            "system_position": [
+                19,
+                34
+            ],
+            "system_uwp": "C996786-8"
+        },
+        {
+            "system_name": "Tygger",
+            "system_position": [
+                19,
+                38
+            ],
+            "system_uwp": "D768321-7"
+        },
+        {
+            "system_name": "Hewlett",
+            "system_position": [
+                20,
+                31
+            ],
+            "system_uwp": "A310748-E"
+        },
+        {
+            "system_name": "Seben",
+            "system_position": [
+                20,
+                37
+            ],
+            "system_uwp": "C694896-8"
+        },
+        {
+            "system_name": "Epic",
+            "system_position": [
+                20,
+                40
+            ],
+            "system_uwp": "E434745-6"
+        },
+        {
+            "system_name": "Geonia",
+            "system_position": [
+                21,
+                34
+            ],
+            "system_uwp": "D53A110-A"
+        },
+        {
+            "system_name": "Tavara",
+            "system_position": [
+                21,
+                36
+            ],
+            "system_uwp": "A67A338-F"
+        },
+        {
+            "system_name": "Pekhuraa",
+            "system_position": [
+                22,
+                36
+            ],
+            "system_uwp": "A784220-D"
+        },
+        {
+            "system_name": "Saagii",
+            "system_position": [
+                23,
+                33
+            ],
+            "system_uwp": "B544736-A"
+        },
+        {
+            "system_name": "Kiiki",
+            "system_position": [
+                23,
+                34
+            ],
+            "system_uwp": "C425666-A"
+        },
+        {
+            "system_name": "Saratov",
+            "system_position": [
+                23,
+                38
+            ],
+            "system_uwp": "D559348-8"
+        },
+        {
+            "system_name": "Kelvin",
+            "system_position": [
+                23,
+                40
+            ],
+            "system_uwp": "B6419BB-9"
+        },
+        {
+            "system_name": "Lexol",
+            "system_position": [
+                24,
+                34
+            ],
+            "system_uwp": "B100664-D"
+        },
+        {
+            "system_name": "Forgotten",
+            "system_position": [
+                24,
+                38
+            ],
+            "system_uwp": "E530886-6"
+        },
+        {
+            "system_name": "Genevens",
+            "system_position": [
+                24,
+                40
+            ],
+            "system_uwp": "E5508C8-5"
+        },
+        {
+            "system_name": "Kappa",
+            "system_position": [
+                25,
+                35
+            ],
+            "system_uwp": "E424444-9"
+        },
+        {
+            "system_name": "Boley",
+            "system_position": [
+                25,
+                39
+            ],
+            "system_uwp": "C434745-6"
+        },
+        {
+            "system_name": "Egg",
+            "system_position": [
+                26,
+                31
+            ],
+            "system_uwp": "C000543-C"
+        },
+        {
+            "system_name": "Donegal",
+            "system_position": [
+                26,
+                32
+            ],
+            "system_uwp": "E100424-A"
+        },
+        {
+            "system_name": "Bikar",
+            "system_position": [
+                26,
+                33
+            ],
+            "system_uwp": "D79A322-9"
+        },
+        {
+            "system_name": "Lira",
+            "system_position": [
+                26,
+                35
+            ],
+            "system_uwp": "D527222-8"
+        },
+        {
+            "system_name": "Ekhapen",
+            "system_position": [
+                26,
+                36
+            ],
+            "system_uwp": "E100555-B"
+        },
+        {
+            "system_name": "Khesanadu",
+            "system_position": [
+                27,
+                31
+            ],
+            "system_uwp": "B788310-B"
+        },
+        {
+            "system_name": "Ryvo",
+            "system_position": [
+                27,
+                34
+            ],
+            "system_uwp": "C682425-9"
+        },
+        {
+            "system_name": "Khirekhera",
+            "system_position": [
+                28,
+                34
+            ],
+            "system_uwp": "B551464-B"
+        },
+        {
+            "system_name": "Acorn",
+            "system_position": [
+                28,
+                35
+            ],
+            "system_uwp": "C100400-D"
+        },
+        {
+            "system_name": "Montezuma",
+            "system_position": [
+                28,
+                36
+            ],
+            "system_uwp": "B562768-A"
+        },
+        {
+            "system_name": "Dijon",
+            "system_position": [
+                28,
+                38
+            ],
+            "system_uwp": "A434548-A"
+        },
+        {
+            "system_name": "049-949",
+            "system_position": [
+                28,
+                39
+            ],
+            "system_uwp": "X520588-7"
+        },
+        {
+            "system_name": "Suudo",
+            "system_position": [
+                28,
+                40
+            ],
+            "system_uwp": "D778535-7"
+        },
+        {
+            "system_name": "Quarry",
+            "system_position": [
+                29,
+                33
+            ],
+            "system_uwp": "B99A343-D"
+        },
+        {
+            "system_name": "Sofar",
+            "system_position": [
+                29,
+                39
+            ],
+            "system_uwp": "A8D4575-9"
+        },
+        {
+            "system_name": "Taumotu",
+            "system_position": [
+                30,
+                33
+            ],
+            "system_uwp": "X100436-7"
+        },
+        {
+            "system_name": "Mitchell",
+            "system_position": [
+                30,
+                34
+            ],
+            "system_uwp": "A10078C-F"
+        },
+        {
+            "system_name": "Agiruur",
+            "system_position": [
+                30,
+                36
+            ],
+            "system_uwp": "C9A3565-A"
+        },
+        {
+            "system_name": "Kide",
+            "system_position": [
+                31,
+                31
+            ],
+            "system_uwp": "C684675-8"
+        },
+        {
+            "system_name": "Lefiguura",
+            "system_position": [
+                31,
+                32
+            ],
+            "system_uwp": "C868552-A"
+        },
+        {
+            "system_name": "Kipper",
+            "system_position": [
+                31,
+                34
+            ],
+            "system_uwp": "D310110-9"
+        },
+        {
+            "system_name": "Gresham",
+            "system_position": [
+                31,
+                38
+            ],
+            "system_uwp": "A3109BE-F"
+        },
+        {
+            "system_name": "Uppsala",
+            "system_position": [
+                31,
+                39
+            ],
+            "system_uwp": "C9795AB-6"
+        },
+        {
+            "system_name": "Futok",
+            "system_position": [
+                31,
+                40
+            ],
+            "system_uwp": "B594633-A"
+        },
+        {
+            "system_name": "Desel",
+            "system_position": [
+                32,
+                31
+            ],
+            "system_uwp": "C1006BC-B"
+        },
+        {
+            "system_name": "Lebherz",
+            "system_position": [
+                32,
+                36
+            ],
+            "system_uwp": "C657834-8"
+        }
+    ]
+}

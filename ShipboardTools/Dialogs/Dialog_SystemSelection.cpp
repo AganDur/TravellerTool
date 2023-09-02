@@ -20,7 +20,7 @@ void Dialog_SystemSelection::setApplication(ApplicationManager *a){
 void Dialog_SystemSelection::loadSystems(){
     // Get all System names from files
     std::string systemFilesPath = global::path() + "Systems";
-    std::vector<std::string> systemNames = global::getAllSystemFiles(systemFilesPath);
+    std::vector<std::string> systemNames = global::getAllJSONFiles(systemFilesPath);
 
     // Clear the combo box
     ui->selectorBox->clear();

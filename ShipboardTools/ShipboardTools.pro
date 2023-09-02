@@ -13,8 +13,13 @@ INCLUDEPATH += Libs\Include
 
 SOURCES += \
     ApplicationManager.cpp \
+    Data/Sector.cpp \
+    Data/Subsector.cpp \
+    Data/System.cpp \
     Dialogs/Dialog_SystemSelection.cpp \
     Globals.cpp \
+    Graphics/Hexagon.cpp \
+    Graphics/MapView.cpp \
     OpenGL/GL_Camera.cpp \
     OpenGL/GL_Instanced.cpp \
     OpenGL/GL_Mesh.cpp \
@@ -32,8 +37,13 @@ SOURCES += \
 
 HEADERS += \
     ApplicationManager.h \
+    Data/Sector.h \
+    Data/Subsector.h \
+    Data/System.h \
     Dialogs/Dialog_SystemSelection.h \
     Globals.h \
+    Graphics/Hexagon.h \
+    Graphics/MapView.h \
     Launcher.h \
     OpenGL/GL_Camera.h \
     OpenGL/GL_Instanced.h \
@@ -87,6 +97,7 @@ COPIES += glMeshes
 COPIES += glTextures
 COPIES += systems
 COPIES += icons
+COPIES += sectors
 
 
 
@@ -95,6 +106,7 @@ CONFIG(debug, debug|release){
     glMeshes.path = $$OUT_PWD/debug/Assets/Meshes
     glTextures.path = $$OUT_PWD/debug/Assets/Textures
     systems.path = $$OUT_PWD/debug/Systems
+    sectors.path = $$OUT_PWD/debug/Sectors
     #icons.path = $$OUT_PWD/debug/Icons
     dllFiles.path = $$OUT_PWD/debug
 }
@@ -103,6 +115,7 @@ CONFIG(release, debug|release) {
     glMeshes.path = $$OUT_PWD/release/Assets/Meshes
     glTextures.path = $$OUT_PWD/release/Assets/Textures
     systems.path = $$OUT_PWD/release/Systems
+    sectors.path = $$OUT_PWD/release/Sectors
     #icons.path = $$OUT_PWD/release/Icons
     dllFiles.path = $$OUT_PWD/release
 }
@@ -121,6 +134,7 @@ glTextures.files = $$files(Assets/Textures/*.jpg)
 
 # LIST OF SYSTEM FILES TO COPY
 systems.files = $$files(Systems/*.json)
+sectors.files = $$files(Sectors/*.json)
 
 # LIST OF ICONS TO COPY
 icons.path = $$OUT_PWD/Icons

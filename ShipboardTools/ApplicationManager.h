@@ -6,6 +6,8 @@
 
 #include <QApplication>
 
+class Window_SectorMap;
+
 class ApplicationManager: public QApplication {
 public:
     ApplicationManager(int argc, char *argv[]);
@@ -13,6 +15,7 @@ public:
 private:
     Launcher launcherWindow;
     Window_SystemViewer systemViewerWindow;
+    Window_SectorMap *sectorMapWindow;
 
     std::string currentSystem;
     std::string currentSelectedSystem;
@@ -20,6 +23,7 @@ private:
 public:
     void showLauncher();
     void showSystemViewer();
+    void showSectorMap();
 
     void openDialog_SystemSelection();
 

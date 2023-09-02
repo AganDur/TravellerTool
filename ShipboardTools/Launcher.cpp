@@ -2,17 +2,13 @@
 #include "ui_Launcher.h"
 #include "ApplicationManager.h"
 
-Launcher::Launcher(QWidget *parent)
-    : QMainWindow(parent)
-    , ui(new Ui::Launcher)
-{
+Launcher::Launcher(QWidget *parent): QMainWindow(parent), ui(new Ui::Launcher) {
     ui->setupUi(this);
     updateTargetSystem("");
     updateCurrentSystem("");
 }
 
-Launcher::~Launcher()
-{
+Launcher::~Launcher(){
     delete ui;
 }
 
@@ -33,9 +29,14 @@ void Launcher::on_SystemMapButton_clicked(){
     this->close();
 }
 
-
 void Launcher::on_LocationButton_clicked(){
     // Open Modal Window to Select System
     this->app->openDialog_SystemSelection();
+}
+
+
+void Launcher::on_SectorMapButton_clicked(){
+    this->app->showSectorMap();
+    this->close();
 }
 

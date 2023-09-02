@@ -27,6 +27,8 @@ private slots:
 
     void on_LocationButton_clicked();
 
+    void on_SectorMapButton_clicked();
+
 private:
     Ui::Launcher *ui;
 

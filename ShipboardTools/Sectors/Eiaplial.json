@@ -1,0 +1,2995 @@
+{
+    "sector_name": "Eiaplial",
+    "sector_position": [
+        -8,
+        -2
+    ],
+    "subsectors": [
+        {
+            "subsector_index": 1,
+            "subsector_name": "Zdebra'"
+        },
+        {
+            "subsector_index": 2,
+            "subsector_name": "Iabrliaiep"
+        },
+        {
+            "subsector_index": 3,
+            "subsector_name": "Estie"
+        },
+        {
+            "subsector_index": 4,
+            "subsector_name": "Vlijiel"
+        },
+        {
+            "subsector_index": 5,
+            "subsector_name": "Dliaple"
+        },
+        {
+            "subsector_index": 6,
+            "subsector_name": "Iebripr"
+        },
+        {
+            "subsector_index": 7,
+            "subsector_name": "Klieshta"
+        },
+        {
+            "subsector_index": 8,
+            "subsector_name": "Peprka"
+        },
+        {
+            "subsector_index": 9,
+            "subsector_name": "Jekrshel"
+        },
+        {
+            "subsector_index": 10,
+            "subsector_name": "Dlonchplieq"
+        },
+        {
+            "subsector_index": 11,
+            "subsector_name": "Eezdrm"
+        },
+        {
+            "subsector_index": 12,
+            "subsector_name": "Iebr"
+        },
+        {
+            "subsector_index": 13,
+            "subsector_name": "Vlibtliansht"
+        },
+        {
+            "subsector_index": 14,
+            "subsector_name": "Tliqlaf"
+        },
+        {
+            "subsector_index": 15,
+            "subsector_name": "Iarnch"
+        },
+        {
+            "subsector_index": 16,
+            "subsector_name": "Chebyij"
+        }
+    ],
+    "systems": [
+        {
+            "system_name": "Iaprpef-70",
+            "system_position": [
+                1,
+                3
+            ],
+            "system_uwp": "X110000-0"
+        },
+        {
+            "system_name": "Ilbriadl-3",
+            "system_position": [
+                1,
+                9
+            ],
+            "system_uwp": "X878000-0"
+        },
+        {
+            "system_name": "Zhdia-61",
+            "system_position": [
+                2,
+                4
+            ],
+            "system_uwp": "X997000-0"
+        },
+        {
+            "system_name": "Dleiabl",
+            "system_position": [
+                3,
+                3
+            ],
+            "system_uwp": "X55A879-4"
+        },
+        {
+            "system_name": "Zhienzneshr",
+            "system_position": [
+                3,
+                4
+            ],
+            "system_uwp": "E553530-4"
+        },
+        {
+            "system_name": "Arebr",
+            "system_position": [
+                4,
+                1
+            ],
+            "system_uwp": "C65A440-9"
+        },
+        {
+            "system_name": "Freleblklinch",
+            "system_position": [
+                4,
+                5
+            ],
+            "system_uwp": "E533526-8"
+        },
+        {
+            "system_name": "Zdiaqrd-13",
+            "system_position": [
+                4,
+                10
+            ],
+            "system_uwp": "X459000-0"
+        },
+        {
+            "system_name": "Densiarep",
+            "system_position": [
+                5,
+                1
+            ],
+            "system_uwp": "C657444-7"
+        },
+        {
+            "system_name": "Zdezdr'strr",
+            "system_position": [
+                5,
+                9
+            ],
+            "system_uwp": "C626540-A"
+        },
+        {
+            "system_name": "Banzo",
+            "system_position": [
+                6,
+                2
+            ],
+            "system_uwp": "X969000-0"
+        },
+        {
+            "system_name": "Zetkro",
+            "system_position": [
+                6,
+                6
+            ],
+            "system_uwp": "E200473-9"
+        },
+        {
+            "system_name": "Tlasheze",
+            "system_position": [
+                6,
+                7
+            ],
+            "system_uwp": "X610000-0"
+        },
+        {
+            "system_name": "Ozhdezhidl",
+            "system_position": [
+                6,
+                8
+            ],
+            "system_uwp": "C100435-8"
+        },
+        {
+            "system_name": "Iafljik-88",
+            "system_position": [
+                7,
+                7
+            ],
+            "system_uwp": "X766000-0"
+        },
+        {
+            "system_name": "Ilzhdienchiel",
+            "system_position": [
+                8,
+                2
+            ],
+            "system_uwp": "B544421-6"
+        },
+        {
+            "system_name": "R'idlji-22",
+            "system_position": [
+                8,
+                5
+            ],
+            "system_uwp": "XAB5000-0"
+        },
+        {
+            "system_name": "Shiedav",
+            "system_position": [
+                9,
+                8
+            ],
+            "system_uwp": "C98A837-8"
+        },
+        {
+            "system_name": "Inshdia",
+            "system_position": [
+                9,
+                10
+            ],
+            "system_uwp": "C49A441-A"
+        },
+        {
+            "system_name": "Noplemaqr",
+            "system_position": [
+                10,
+                4
+            ],
+            "system_uwp": "C677688-8"
+        },
+        {
+            "system_name": "Orenze",
+            "system_position": [
+                11,
+                1
+            ],
+            "system_uwp": "C579420-9"
+        },
+        {
+            "system_name": "Ra-759",
+            "system_position": [
+                11,
+                4
+            ],
+            "system_uwp": "B49A644-D"
+        },
+        {
+            "system_name": "Kriase",
+            "system_position": [
+                11,
+                6
+            ],
+            "system_uwp": "C5418BB-5"
+        },
+        {
+            "system_name": "Stiekdlriav",
+            "system_position": [
+                11,
+                9
+            ],
+            "system_uwp": "C667953-9"
+        },
+        {
+            "system_name": "Rielshizsev",
+            "system_position": [
+                12,
+                6
+            ],
+            "system_uwp": "X779000-0"
+        },
+        {
+            "system_name": "Breiensh",
+            "system_position": [
+                12,
+                7
+            ],
+            "system_uwp": "C466623-6"
+        },
+        {
+            "system_name": "Avzhdientsdl",
+            "system_position": [
+                12,
+                9
+            ],
+            "system_uwp": "B610798-A"
+        },
+        {
+            "system_name": "Iapchti",
+            "system_position": [
+                12,
+                10
+            ],
+            "system_uwp": "A200647-C"
+        },
+        {
+            "system_name": "Stieblech",
+            "system_position": [
+                13,
+                1
+            ],
+            "system_uwp": "D427543-8"
+        },
+        {
+            "system_name": "Evavrzek",
+            "system_position": [
+                13,
+                2
+            ],
+            "system_uwp": "XAB4000-0"
+        },
+        {
+            "system_name": "Enekzats",
+            "system_position": [
+                13,
+                4
+            ],
+            "system_uwp": "X658000-0"
+        },
+        {
+            "system_name": "Idle",
+            "system_position": [
+                13,
+                10
+            ],
+            "system_uwp": "B748420-7"
+        },
+        {
+            "system_name": "Iabrliaiep",
+            "system_position": [
+                14,
+                3
+            ],
+            "system_uwp": "A79A753-C"
+        },
+        {
+            "system_name": "Tliedroch",
+            "system_position": [
+                14,
+                4
+            ],
+            "system_uwp": "X302000-0"
+        },
+        {
+            "system_name": "Zdaflmiatpafr",
+            "system_position": [
+                14,
+                7
+            ],
+            "system_uwp": "B789A66-B"
+        },
+        {
+            "system_name": "Abple",
+            "system_position": [
+                14,
+                9
+            ],
+            "system_uwp": "X458000-0"
+        },
+        {
+            "system_name": "Tlichjda'ich",
+            "system_position": [
+                15,
+                2
+            ],
+            "system_uwp": "X768000-0"
+        },
+        {
+            "system_name": "Shekrej",
+            "system_position": [
+                15,
+                4
+            ],
+            "system_uwp": "C6858A7-3"
+        },
+        {
+            "system_name": "Stizhkropr",
+            "system_position": [
+                15,
+                7
+            ],
+            "system_uwp": "E000536-9"
+        },
+        {
+            "system_name": "Rfflefl",
+            "system_position": [
+                15,
+                8
+            ],
+            "system_uwp": "X658000-0"
+        },
+        {
+            "system_name": "Aqlpa",
+            "system_position": [
+                15,
+                10
+            ],
+            "system_uwp": "B10087A-8"
+        },
+        {
+            "system_name": "Vralieblent",
+            "system_position": [
+                16,
+                1
+            ],
+            "system_uwp": "D889420-7"
+        },
+        {
+            "system_name": "Iliable",
+            "system_position": [
+                16,
+                4
+            ],
+            "system_uwp": "C634678-6"
+        },
+        {
+            "system_name": "Rianjqenspleb",
+            "system_position": [
+                16,
+                5
+            ],
+            "system_uwp": "A764466-B"
+        },
+        {
+            "system_name": "Edvo",
+            "system_position": [
+                16,
+                6
+            ],
+            "system_uwp": "C669786-8"
+        },
+        {
+            "system_name": "Ezh Shtiacht",
+            "system_position": [
+                16,
+                9
+            ],
+            "system_uwp": "A433679-D"
+        },
+        {
+            "system_name": "Renshdraprzh",
+            "system_position": [
+                17,
+                4
+            ],
+            "system_uwp": "A548633-C"
+        },
+        {
+            "system_name": "Stinsqranshi",
+            "system_position": [
+                17,
+                5
+            ],
+            "system_uwp": "A0006A8-F"
+        },
+        {
+            "system_name": "Rpit",
+            "system_position": [
+                18,
+                1
+            ],
+            "system_uwp": "E535643-7"
+        },
+        {
+            "system_name": "Dratldinch",
+            "system_position": [
+                19,
+                1
+            ],
+            "system_uwp": "C314988-C"
+        },
+        {
+            "system_name": "Ezh Steshenc",
+            "system_position": [
+                19,
+                2
+            ],
+            "system_uwp": "C77A998-C"
+        },
+        {
+            "system_name": "Ierl",
+            "system_position": [
+                19,
+                4
+            ],
+            "system_uwp": "A100765-E"
+        },
+        {
+            "system_name": "Kianchi'",
+            "system_position": [
+                19,
+                7
+            ],
+            "system_uwp": "B64189D-8"
+        },
+        {
+            "system_name": "Abdiak",
+            "system_position": [
+                20,
+                1
+            ],
+            "system_uwp": "C756620-4"
+        },
+        {
+            "system_name": "Tatsazstaqr",
+            "system_position": [
+                20,
+                3
+            ],
+            "system_uwp": "A546686-A"
+        },
+        {
+            "system_name": "Padjonz",
+            "system_position": [
+                21,
+                7
+            ],
+            "system_uwp": "A877776-B"
+        },
+        {
+            "system_name": "Estie",
+            "system_position": [
+                22,
+                1
+            ],
+            "system_uwp": "B200994-D"
+        },
+        {
+            "system_name": "Ibrepldial",
+            "system_position": [
+                22,
+                2
+            ],
+            "system_uwp": "A52658A-D"
+        },
+        {
+            "system_name": "Pliapltlatsz",
+            "system_position": [
+                22,
+                5
+            ],
+            "system_uwp": "A85779B-C"
+        },
+        {
+            "system_name": "Fechtief",
+            "system_position": [
+                22,
+                9
+            ],
+            "system_uwp": "C88A751-9"
+        },
+        {
+            "system_name": "Qriadeprianj",
+            "system_position": [
+                23,
+                9
+            ],
+            "system_uwp": "C0009CD-C"
+        },
+        {
+            "system_name": "Paliei",
+            "system_position": [
+                23,
+                10
+            ],
+            "system_uwp": "A77A530-D"
+        },
+        {
+            "system_name": "Drenzha",
+            "system_position": [
+                24,
+                1
+            ],
+            "system_uwp": "X699000-0"
+        },
+        {
+            "system_name": "Irjienshiep",
+            "system_position": [
+                24,
+                10
+            ],
+            "system_uwp": "A7A7686-B"
+        },
+        {
+            "system_name": "Zoshqlak",
+            "system_position": [
+                28,
+                9
+            ],
+            "system_uwp": "A787676-C"
+        },
+        {
+            "system_name": "Dleents",
+            "system_position": [
+                30,
+                9
+            ],
+            "system_uwp": "C63289B-9"
+        },
+        {
+            "system_name": "Vlijiel",
+            "system_position": [
+                31,
+                9
+            ],
+            "system_uwp": "A79359E-D"
+        },
+        {
+            "system_name": "Zhdelshtanzh",
+            "system_position": [
+                2,
+                15
+            ],
+            "system_uwp": "D000522-9"
+        },
+        {
+            "system_name": "Jeptsaqrzda",
+            "system_position": [
+                4,
+                17
+            ],
+            "system_uwp": "C7C2479-9"
+        },
+        {
+            "system_name": "Dliaple",
+            "system_position": [
+                4,
+                18
+            ],
+            "system_uwp": "A84A976-C"
+        },
+        {
+            "system_name": "Qrieshlenzh",
+            "system_position": [
+                4,
+                20
+            ],
+            "system_uwp": "C588420-4"
+        },
+        {
+            "system_name": "Zhablstepl",
+            "system_position": [
+                5,
+                16
+            ],
+            "system_uwp": "C100599-7"
+        },
+        {
+            "system_name": "Ienzhiezh",
+            "system_position": [
+                5,
+                19
+            ],
+            "system_uwp": "X8A4000-0"
+        },
+        {
+            "system_name": "Iena'iebl",
+            "system_position": [
+                5,
+                20
+            ],
+            "system_uwp": "C9B5632-8"
+        },
+        {
+            "system_name": "Aldlivkiash",
+            "system_position": [
+                6,
+                11
+            ],
+            "system_uwp": "B68A75A-8"
+        },
+        {
+            "system_name": "Enshdliepzdi",
+            "system_position": [
+                6,
+                12
+            ],
+            "system_uwp": "X556000-0"
+        },
+        {
+            "system_name": "Broshzhensh",
+            "system_position": [
+                6,
+                13
+            ],
+            "system_uwp": "B41089A-B"
+        },
+        {
+            "system_name": "Zhdiechplia",
+            "system_position": [
+                6,
+                14
+            ],
+            "system_uwp": "C7A6988-9"
+        },
+        {
+            "system_name": "Plabrkier",
+            "system_position": [
+                6,
+                16
+            ],
+            "system_uwp": "C66487C-7"
+        },
+        {
+            "system_name": "Shakiavinch",
+            "system_position": [
+                6,
+                19
+            ],
+            "system_uwp": "X7B1000-0"
+        },
+        {
+            "system_name": "Shajzdenchta",
+            "system_position": [
+                6,
+                20
+            ],
+            "system_uwp": "C5699DB-9"
+        },
+        {
+            "system_name": "Fozhenkiebld",
+            "system_position": [
+                7,
+                14
+            ],
+            "system_uwp": "E857874-4"
+        },
+        {
+            "system_name": "Iepldliap",
+            "system_position": [
+                7,
+                15
+            ],
+            "system_uwp": "C575868-8"
+        },
+        {
+            "system_name": "Ipla",
+            "system_position": [
+                7,
+                17
+            ],
+            "system_uwp": "C683430-6"
+        },
+        {
+            "system_name": "Dliafryek",
+            "system_position": [
+                7,
+                20
+            ],
+            "system_uwp": "X635000-0"
+        },
+        {
+            "system_name": "Pliabriadlpa",
+            "system_position": [
+                8,
+                11
+            ],
+            "system_uwp": "A764655-C"
+        },
+        {
+            "system_name": "Qe'em",
+            "system_position": [
+                8,
+                12
+            ],
+            "system_uwp": "X893000-0"
+        },
+        {
+            "system_name": "Zhdechpo",
+            "system_position": [
+                8,
+                15
+            ],
+            "system_uwp": "X673000-0"
+        },
+        {
+            "system_name": "Etsdrnshdi",
+            "system_position": [
+                8,
+                17
+            ],
+            "system_uwp": "C66AAC7-B"
+        },
+        {
+            "system_name": "Tleqlianzh",
+            "system_position": [
+                8,
+                18
+            ],
+            "system_uwp": "D000789-8"
+        },
+        {
+            "system_name": "Reqlzhdea",
+            "system_position": [
+                8,
+                19
+            ],
+            "system_uwp": "X000000-0"
+        },
+        {
+            "system_name": "Zhde'shtinj",
+            "system_position": [
+                9,
+                11
+            ],
+            "system_uwp": "B547647-A"
+        },
+        {
+            "system_name": "Jichdrietl",
+            "system_position": [
+                9,
+                13
+            ],
+            "system_uwp": "B5539B8-7"
+        },
+        {
+            "system_name": "Shiantie",
+            "system_position": [
+                9,
+                15
+            ],
+            "system_uwp": "C566845-8"
+        },
+        {
+            "system_name": "Tlrdla",
+            "system_position": [
+                9,
+                17
+            ],
+            "system_uwp": "B6668C7-8"
+        },
+        {
+            "system_name": "Echzi",
+            "system_position": [
+                9,
+                18
+            ],
+            "system_uwp": "A0008CE-C"
+        },
+        {
+            "system_name": "Ninzhshter",
+            "system_position": [
+                9,
+                19
+            ],
+            "system_uwp": "A7626AD-B"
+        },
+        {
+            "system_name": "Entsshodrep",
+            "system_position": [
+                10,
+                11
+            ],
+            "system_uwp": "B68A999-C"
+        },
+        {
+            "system_name": "Iaedl",
+            "system_position": [
+                10,
+                12
+            ],
+            "system_uwp": "A632445-D"
+        },
+        {
+            "system_name": "Ilrevchtin",
+            "system_position": [
+                10,
+                14
+            ],
+            "system_uwp": "B000799-B"
+        },
+        {
+            "system_name": "Chiejaze",
+            "system_position": [
+                10,
+                17
+            ],
+            "system_uwp": "A766554-C"
+        },
+        {
+            "system_name": "Srdlvra",
+            "system_position": [
+                10,
+                19
+            ],
+            "system_uwp": "C676636-5"
+        },
+        {
+            "system_name": "Stebrzhda",
+            "system_position": [
+                10,
+                20
+            ],
+            "system_uwp": "X000000-0"
+        },
+        {
+            "system_name": "Riaqlnelal",
+            "system_position": [
+                11,
+                13
+            ],
+            "system_uwp": "A100697-E"
+        },
+        {
+            "system_name": "Atljiel",
+            "system_position": [
+                11,
+                20
+            ],
+            "system_uwp": "X665000-0"
+        },
+        {
+            "system_name": "Brachiach",
+            "system_position": [
+                12,
+                11
+            ],
+            "system_uwp": "D789730-7"
+        },
+        {
+            "system_name": "Jetlchte",
+            "system_position": [
+                12,
+                15
+            ],
+            "system_uwp": "C737553-B"
+        },
+        {
+            "system_name": "Jrntzhdanj",
+            "system_position": [
+                12,
+                17
+            ],
+            "system_uwp": "C532521-9"
+        },
+        {
+            "system_name": "Pianzhedrbapl",
+            "system_position": [
+                12,
+                19
+            ],
+            "system_uwp": "C686877-8"
+        },
+        {
+            "system_name": "Ia'saie",
+            "system_position": [
+                12,
+                20
+            ],
+            "system_uwp": "B575457-9"
+        },
+        {
+            "system_name": "Stakre",
+            "system_position": [
+                13,
+                11
+            ],
+            "system_uwp": "C000797-A"
+        },
+        {
+            "system_name": "Briaqrefle",
+            "system_position": [
+                13,
+                14
+            ],
+            "system_uwp": "A644658-C"
+        },
+        {
+            "system_name": "Ezh Zhdapldr",
+            "system_position": [
+                13,
+                15
+            ],
+            "system_uwp": "B643768-9"
+        },
+        {
+            "system_name": "Zdachooj",
+            "system_position": [
+                13,
+                17
+            ],
+            "system_uwp": "A42669E-C"
+        },
+        {
+            "system_name": "Oiefrienzh",
+            "system_position": [
+                13,
+                18
+            ],
+            "system_uwp": "B649664-A"
+        },
+        {
+            "system_name": "Chiasiavl",
+            "system_position": [
+                13,
+                19
+            ],
+            "system_uwp": "C73699C-B"
+        },
+        {
+            "system_name": "Dazshte'tiabr",
+            "system_position": [
+                13,
+                20
+            ],
+            "system_uwp": "A554798-8"
+        },
+        {
+            "system_name": "Tachets-10",
+            "system_position": [
+                14,
+                11
+            ],
+            "system_uwp": "X665000-0"
+        },
+        {
+            "system_name": "Yiaqlopr",
+            "system_position": [
+                14,
+                12
+            ],
+            "system_uwp": "C474584-6"
+        },
+        {
+            "system_name": "Lenzhshieqls",
+            "system_position": [
+                14,
+                13
+            ],
+            "system_uwp": "B654644-A"
+        },
+        {
+            "system_name": "Zhdiblet",
+            "system_position": [
+                14,
+                18
+            ],
+            "system_uwp": "C441422-A"
+        },
+        {
+            "system_name": "Ieblplamef",
+            "system_position": [
+                14,
+                19
+            ],
+            "system_uwp": "B757457-C"
+        },
+        {
+            "system_name": "Dlezeble",
+            "system_position": [
+                15,
+                11
+            ],
+            "system_uwp": "A545A8C-B"
+        },
+        {
+            "system_name": "Zdad-83",
+            "system_position": [
+                15,
+                12
+            ],
+            "system_uwp": "X7B4000-0"
+        },
+        {
+            "system_name": "Neshabitllen",
+            "system_position": [
+                15,
+                14
+            ],
+            "system_uwp": "B542678-A"
+        },
+        {
+            "system_name": "Tsochtia",
+            "system_position": [
+                15,
+                15
+            ],
+            "system_uwp": "B98A8CD-B"
+        },
+        {
+            "system_name": "Ialiq",
+            "system_position": [
+                15,
+                16
+            ],
+            "system_uwp": "C74748A-9"
+        },
+        {
+            "system_name": "Leshem",
+            "system_position": [
+                15,
+                18
+            ],
+            "system_uwp": "C500599-A"
+        },
+        {
+            "system_name": "Zotstlie",
+            "system_position": [
+                15,
+                20
+            ],
+            "system_uwp": "A669888-B"
+        },
+        {
+            "system_name": "Shteqrtsiepfa",
+            "system_position": [
+                16,
+                13
+            ],
+            "system_uwp": "E674598-7"
+        },
+        {
+            "system_name": "Vintzhedij",
+            "system_position": [
+                16,
+                14
+            ],
+            "system_uwp": "D612661-7"
+        },
+        {
+            "system_name": "Ildlrvlr",
+            "system_position": [
+                16,
+                16
+            ],
+            "system_uwp": "B86A759-9"
+        },
+        {
+            "system_name": "Zhdatstlensh",
+            "system_position": [
+                17,
+                11
+            ],
+            "system_uwp": "C549530-8"
+        },
+        {
+            "system_name": "Pinshia",
+            "system_position": [
+                17,
+                12
+            ],
+            "system_uwp": "C877620-8"
+        },
+        {
+            "system_name": "Tlientsinj",
+            "system_position": [
+                18,
+                16
+            ],
+            "system_uwp": "C6346BB-6"
+        },
+        {
+            "system_name": "Datlieqzde",
+            "system_position": [
+                18,
+                17
+            ],
+            "system_uwp": "X100000-0"
+        },
+        {
+            "system_name": "Pliezheon",
+            "system_position": [
+                20,
+                13
+            ],
+            "system_uwp": "X433000-0"
+        },
+        {
+            "system_name": "Chtrnjshedlt",
+            "system_position": [
+                20,
+                14
+            ],
+            "system_uwp": "B97A887-A"
+        },
+        {
+            "system_name": "Chopvre",
+            "system_position": [
+                20,
+                18
+            ],
+            "system_uwp": "D547674-6"
+        },
+        {
+            "system_name": "Staztiafl",
+            "system_position": [
+                20,
+                20
+            ],
+            "system_uwp": "E653432-4"
+        },
+        {
+            "system_name": "Evlna",
+            "system_position": [
+                21,
+                17
+            ],
+            "system_uwp": "D777543-7"
+        },
+        {
+            "system_name": "Chtiamanzh",
+            "system_position": [
+                22,
+                11
+            ],
+            "system_uwp": "A526772-B"
+        },
+        {
+            "system_name": "Plievliants",
+            "system_position": [
+                22,
+                13
+            ],
+            "system_uwp": "C65858C-8"
+        },
+        {
+            "system_name": "Evlstia",
+            "system_position": [
+                22,
+                18
+            ],
+            "system_uwp": "B565967-9"
+        },
+        {
+            "system_name": "Iabli",
+            "system_position": [
+                23,
+                14
+            ],
+            "system_uwp": "C583445-5"
+        },
+        {
+            "system_name": "Vrrtlfeqr",
+            "system_position": [
+                23,
+                15
+            ],
+            "system_uwp": "E1009AB-9"
+        },
+        {
+            "system_name": "Kliastia",
+            "system_position": [
+                23,
+                16
+            ],
+            "system_uwp": "C548679-8"
+        },
+        {
+            "system_name": "Rtetsdlep",
+            "system_position": [
+                23,
+                18
+            ],
+            "system_uwp": "A9A8754-D"
+        },
+        {
+            "system_name": "Chtieqladl",
+            "system_position": [
+                23,
+                19
+            ],
+            "system_uwp": "CA9A559-B"
+        },
+        {
+            "system_name": "Qeplbliansh",
+            "system_position": [
+                23,
+                20
+            ],
+            "system_uwp": "A8B4663-B"
+        },
+        {
+            "system_name": "Drintstlenzh",
+            "system_position": [
+                24,
+                12
+            ],
+            "system_uwp": "C534899-8"
+        },
+        {
+            "system_name": "Sitsyrb",
+            "system_position": [
+                24,
+                15
+            ],
+            "system_uwp": "B43466A-B"
+        },
+        {
+            "system_name": "Ianzhqrol",
+            "system_position": [
+                24,
+                17
+            ],
+            "system_uwp": "B735731-6"
+        },
+        {
+            "system_name": "Flebzhdij",
+            "system_position": [
+                24,
+                19
+            ],
+            "system_uwp": "D679520-8"
+        },
+        {
+            "system_name": "Shtiblol",
+            "system_position": [
+                25,
+                13
+            ],
+            "system_uwp": "C6549A8-8"
+        },
+        {
+            "system_name": "Denshpabltli",
+            "system_position": [
+                25,
+                16
+            ],
+            "system_uwp": "A8A0510-D"
+        },
+        {
+            "system_name": "Zhashtrbr",
+            "system_position": [
+                25,
+                17
+            ],
+            "system_uwp": "A9CA8AE-C"
+        },
+        {
+            "system_name": "Tseshsteqrint",
+            "system_position": [
+                25,
+                18
+            ],
+            "system_uwp": "B97A420-D"
+        },
+        {
+            "system_name": "Dinchshivl",
+            "system_position": [
+                25,
+                20
+            ],
+            "system_uwp": "C448553-A"
+        },
+        {
+            "system_name": "Zhezhviev",
+            "system_position": [
+                26,
+                11
+            ],
+            "system_uwp": "B8A7A56-E"
+        },
+        {
+            "system_name": "Blirqr",
+            "system_position": [
+                26,
+                12
+            ],
+            "system_uwp": "C679694-9"
+        },
+        {
+            "system_name": "Bliampienshd",
+            "system_position": [
+                26,
+                13
+            ],
+            "system_uwp": "A510666-D"
+        },
+        {
+            "system_name": "Peprka",
+            "system_position": [
+                26,
+                19
+            ],
+            "system_uwp": "B65A99A-D"
+        },
+        {
+            "system_name": "Yanazhvlieql",
+            "system_position": [
+                27,
+                11
+            ],
+            "system_uwp": "C444422-6"
+        },
+        {
+            "system_name": "Drenskiashen",
+            "system_position": [
+                27,
+                13
+            ],
+            "system_uwp": "AA65545-8"
+        },
+        {
+            "system_name": "Ejiajdapl",
+            "system_position": [
+                27,
+                16
+            ],
+            "system_uwp": "B668530-B"
+        },
+        {
+            "system_name": "Iezdeshrbr",
+            "system_position": [
+                27,
+                19
+            ],
+            "system_uwp": "C665622-6"
+        },
+        {
+            "system_name": "Ivistopr",
+            "system_position": [
+                27,
+                20
+            ],
+            "system_uwp": "A535645-B"
+        },
+        {
+            "system_name": "Ezh Yiereja",
+            "system_position": [
+                28,
+                11
+            ],
+            "system_uwp": "A5376A7-C"
+        },
+        {
+            "system_name": "Iplshtidrfivr",
+            "system_position": [
+                28,
+                15
+            ],
+            "system_uwp": "A86877A-B"
+        },
+        {
+            "system_name": "Zianchs-42",
+            "system_position": [
+                28,
+                16
+            ],
+            "system_uwp": "X645000-0"
+        },
+        {
+            "system_name": "Iadrdre",
+            "system_position": [
+                28,
+                18
+            ],
+            "system_uwp": "A527848-C"
+        },
+        {
+            "system_name": "Jitsdezdinsh",
+            "system_position": [
+                29,
+                13
+            ],
+            "system_uwp": "B458655-8"
+        },
+        {
+            "system_name": "Briabrvlria",
+            "system_position": [
+                29,
+                14
+            ],
+            "system_uwp": "B4479B8-C"
+        },
+        {
+            "system_name": "Krntsrv",
+            "system_position": [
+                29,
+                16
+            ],
+            "system_uwp": "D97868A-6"
+        },
+        {
+            "system_name": "Stiamrfr",
+            "system_position": [
+                29,
+                18
+            ],
+            "system_uwp": "B652777-8"
+        },
+        {
+            "system_name": "Zenchdref",
+            "system_position": [
+                30,
+                12
+            ],
+            "system_uwp": "A647669-8"
+        },
+        {
+            "system_name": "Anzhej",
+            "system_position": [
+                30,
+                14
+            ],
+            "system_uwp": "A525655-E"
+        },
+        {
+            "system_name": "Tlibrdish",
+            "system_position": [
+                30,
+                20
+            ],
+            "system_uwp": "A654769-C"
+        },
+        {
+            "system_name": "Vrecha",
+            "system_position": [
+                31,
+                12
+            ],
+            "system_uwp": "C524887-8"
+        },
+        {
+            "system_name": "Bievransh",
+            "system_position": [
+                31,
+                13
+            ],
+            "system_uwp": "X528000-0"
+        },
+        {
+            "system_name": "Naiaqrtla",
+            "system_position": [
+                31,
+                14
+            ],
+            "system_uwp": "B531754-A"
+        },
+        {
+            "system_name": "Zhiedlazdi",
+            "system_position": [
+                31,
+                16
+            ],
+            "system_uwp": "A87A666-B"
+        },
+        {
+            "system_name": "I'de",
+            "system_position": [
+                31,
+                19
+            ],
+            "system_uwp": "B51089D-9"
+        },
+        {
+            "system_name": "Iekrzh",
+            "system_position": [
+                32,
+                16
+            ],
+            "system_uwp": "A652546-D"
+        },
+        {
+            "system_name": "Pokrchtiens",
+            "system_position": [
+                2,
+                26
+            ],
+            "system_uwp": "A88479C-B"
+        },
+        {
+            "system_name": "Pleshtseikr",
+            "system_position": [
+                2,
+                27
+            ],
+            "system_uwp": "E657465-5"
+        },
+        {
+            "system_name": "Ieplzensh-1",
+            "system_position": [
+                2,
+                28
+            ],
+            "system_uwp": "X100000-0"
+        },
+        {
+            "system_name": "Denshfafrenzh",
+            "system_position": [
+                3,
+                22
+            ],
+            "system_uwp": "C45A654-9"
+        },
+        {
+            "system_name": "Erpr",
+            "system_position": [
+                3,
+                23
+            ],
+            "system_uwp": "X635000-0"
+        },
+        {
+            "system_name": "Dajda",
+            "system_position": [
+                3,
+                25
+            ],
+            "system_uwp": "B313987-E"
+        },
+        {
+            "system_name": "Chienzhva",
+            "system_position": [
+                3,
+                30
+            ],
+            "system_uwp": "B65299A-B"
+        },
+        {
+            "system_name": "Diachtiazh",
+            "system_position": [
+                4,
+                21
+            ],
+            "system_uwp": "C646544-6"
+        },
+        {
+            "system_name": "Proshtlastiej",
+            "system_position": [
+                4,
+                24
+            ],
+            "system_uwp": "C100454-B"
+        },
+        {
+            "system_name": "Rdlie",
+            "system_position": [
+                4,
+                27
+            ],
+            "system_uwp": "D767644-1"
+        },
+        {
+            "system_name": "Chtantne",
+            "system_position": [
+                4,
+                28
+            ],
+            "system_uwp": "DA8A7AA-6"
+        },
+        {
+            "system_name": "Ishjivr",
+            "system_position": [
+                5,
+                21
+            ],
+            "system_uwp": "AAA67A9-C"
+        },
+        {
+            "system_name": "Jekrshel",
+            "system_position": [
+                5,
+                22
+            ],
+            "system_uwp": "B422A64-E"
+        },
+        {
+            "system_name": "Jebrr",
+            "system_position": [
+                5,
+                24
+            ],
+            "system_uwp": "B766888-7"
+        },
+        {
+            "system_name": "Dletavldar",
+            "system_position": [
+                5,
+                25
+            ],
+            "system_uwp": "C5525AD-7"
+        },
+        {
+            "system_name": "Tledliepliet",
+            "system_position": [
+                5,
+                28
+            ],
+            "system_uwp": "B59A847-B"
+        },
+        {
+            "system_name": "Zdonshshtiql",
+            "system_position": [
+                6,
+                21
+            ],
+            "system_uwp": "A47956A-E"
+        },
+        {
+            "system_name": "Vriae",
+            "system_position": [
+                6,
+                22
+            ],
+            "system_uwp": "B656434-7"
+        },
+        {
+            "system_name": "Zhdoie",
+            "system_position": [
+                6,
+                25
+            ],
+            "system_uwp": "B167565-C"
+        },
+        {
+            "system_name": "Zdeblets",
+            "system_position": [
+                6,
+                26
+            ],
+            "system_uwp": "A635732-A"
+        },
+        {
+            "system_name": "Tlevria-92",
+            "system_position": [
+                6,
+                30
+            ],
+            "system_uwp": "X644000-0"
+        },
+        {
+            "system_name": "Iebe",
+            "system_position": [
+                7,
+                23
+            ],
+            "system_uwp": "D698500-7"
+        },
+        {
+            "system_name": "Ozfefli",
+            "system_position": [
+                7,
+                25
+            ],
+            "system_uwp": "A565966-E"
+        },
+        {
+            "system_name": "Nedrieatl",
+            "system_position": [
+                7,
+                26
+            ],
+            "system_uwp": "E56A689-5"
+        },
+        {
+            "system_name": "Zhdafshtefle",
+            "system_position": [
+                7,
+                27
+            ],
+            "system_uwp": "A577478-C"
+        },
+        {
+            "system_name": "Ieflanchzhdia",
+            "system_position": [
+                7,
+                29
+            ],
+            "system_uwp": "A437796-C"
+        },
+        {
+            "system_name": "Prendif",
+            "system_position": [
+                8,
+                21
+            ],
+            "system_uwp": "X798000-0"
+        },
+        {
+            "system_name": "Kechiaql",
+            "system_position": [
+                9,
+                25
+            ],
+            "system_uwp": "A420A54-G"
+        },
+        {
+            "system_name": "Tlieldro",
+            "system_position": [
+                9,
+                30
+            ],
+            "system_uwp": "D427578-8"
+        },
+        {
+            "system_name": "Oflchtenzh",
+            "system_position": [
+                12,
+                23
+            ],
+            "system_uwp": "C636478-A"
+        },
+        {
+            "system_name": "Yonshiab",
+            "system_position": [
+                12,
+                24
+            ],
+            "system_uwp": "C654788-6"
+        },
+        {
+            "system_name": "Zhdiplekrsht",
+            "system_position": [
+                13,
+                21
+            ],
+            "system_uwp": "X546000-0"
+        },
+        {
+            "system_name": "Sible'sr",
+            "system_position": [
+                13,
+                29
+            ],
+            "system_uwp": "A4236B8-C"
+        },
+        {
+            "system_name": "Zhdiechplets",
+            "system_position": [
+                14,
+                28
+            ],
+            "system_uwp": "E312767-7"
+        },
+        {
+            "system_name": "Dlildrinz",
+            "system_position": [
+                15,
+                30
+            ],
+            "system_uwp": "B464841-B"
+        },
+        {
+            "system_name": "Ikrfle",
+            "system_position": [
+                16,
+                26
+            ],
+            "system_uwp": "C5519DD-5"
+        },
+        {
+            "system_name": "Iaflfriaienje",
+            "system_position": [
+                16,
+                28
+            ],
+            "system_uwp": "D526985-7"
+        },
+        {
+            "system_name": "Qrepr-43",
+            "system_position": [
+                16,
+                29
+            ],
+            "system_uwp": "X6B4000-0"
+        },
+        {
+            "system_name": "Dlonchplieq",
+            "system_position": [
+                16,
+                30
+            ],
+            "system_uwp": "A68A9AB-E"
+        },
+        {
+            "system_name": "Ezhania",
+            "system_position": [
+                17,
+                25
+            ],
+            "system_uwp": "B858661-8"
+        },
+        {
+            "system_name": "U'zdiap",
+            "system_position": [
+                17,
+                30
+            ],
+            "system_uwp": "A9A7574-C"
+        },
+        {
+            "system_name": "Kiltlianz",
+            "system_position": [
+                18,
+                25
+            ],
+            "system_uwp": "C6969DH-7"
+        },
+        {
+            "system_name": "Ebrchtikazia",
+            "system_position": [
+                18,
+                27
+            ],
+            "system_uwp": "A685864-A"
+        },
+        {
+            "system_name": "Blrbfiench",
+            "system_position": [
+                20,
+                25
+            ],
+            "system_uwp": "B642765-A"
+        },
+        {
+            "system_name": "Krokfechsaql",
+            "system_position": [
+                20,
+                26
+            ],
+            "system_uwp": "B9D5461-A"
+        },
+        {
+            "system_name": "Blazezchtr'",
+            "system_position": [
+                20,
+                30
+            ],
+            "system_uwp": "C5768AA-8"
+        },
+        {
+            "system_name": "Ejienzh",
+            "system_position": [
+                21,
+                23
+            ],
+            "system_uwp": "A200644-B"
+        },
+        {
+            "system_name": "Eezdrm",
+            "system_position": [
+                21,
+                25
+            ],
+            "system_uwp": "A42698B-E"
+        },
+        {
+            "system_name": "Brria",
+            "system_position": [
+                21,
+                26
+            ],
+            "system_uwp": "A7A4445-D"
+        },
+        {
+            "system_name": "Enshchtiadrd",
+            "system_position": [
+                22,
+                21
+            ],
+            "system_uwp": "X526000-0"
+        },
+        {
+            "system_name": "Vleshiezhden",
+            "system_position": [
+                22,
+                23
+            ],
+            "system_uwp": "A8D6866-C"
+        },
+        {
+            "system_name": "Ezhsha",
+            "system_position": [
+                22,
+                24
+            ],
+            "system_uwp": "B55978A-B"
+        },
+        {
+            "system_name": "Zdiantseienzh",
+            "system_position": [
+                22,
+                26
+            ],
+            "system_uwp": "B100999-F"
+        },
+        {
+            "system_name": "Dle'il",
+            "system_position": [
+                22,
+                29
+            ],
+            "system_uwp": "B44278C-A"
+        },
+        {
+            "system_name": "Rezhja'",
+            "system_position": [
+                23,
+                27
+            ],
+            "system_uwp": "B6A2768-A"
+        },
+        {
+            "system_name": "Enchniaz",
+            "system_position": [
+                23,
+                29
+            ],
+            "system_uwp": "E89A742-5"
+        },
+        {
+            "system_name": "Ekrki",
+            "system_position": [
+                23,
+                30
+            ],
+            "system_uwp": "B539665-A"
+        },
+        {
+            "system_name": "Iei",
+            "system_position": [
+                24,
+                21
+            ],
+            "system_uwp": "B556541-8"
+        },
+        {
+            "system_name": "Fieshench",
+            "system_position": [
+                24,
+                25
+            ],
+            "system_uwp": "B8966BB-A"
+        },
+        {
+            "system_name": "Vledlqliap",
+            "system_position": [
+                24,
+                26
+            ],
+            "system_uwp": "A687866-8"
+        },
+        {
+            "system_name": "Dieiash",
+            "system_position": [
+                24,
+                27
+            ],
+            "system_uwp": "E43357C-8"
+        },
+        {
+            "system_name": "Eenzhial",
+            "system_position": [
+                25,
+                21
+            ],
+            "system_uwp": "B451697-7"
+        },
+        {
+            "system_name": "Plinshpej",
+            "system_position": [
+                25,
+                22
+            ],
+            "system_uwp": "A526943-C"
+        },
+        {
+            "system_name": "Riadiedr",
+            "system_position": [
+                25,
+                24
+            ],
+            "system_uwp": "B538777-A"
+        },
+        {
+            "system_name": "Denzi",
+            "system_position": [
+                25,
+                25
+            ],
+            "system_uwp": "BAA8675-8"
+        },
+        {
+            "system_name": "Izadria",
+            "system_position": [
+                25,
+                26
+            ],
+            "system_uwp": "A431A94-D"
+        },
+        {
+            "system_name": "Lobliabr",
+            "system_position": [
+                25,
+                27
+            ],
+            "system_uwp": "B512551-8"
+        },
+        {
+            "system_name": "Ibrosa",
+            "system_position": [
+                25,
+                29
+            ],
+            "system_uwp": "A242779-C"
+        },
+        {
+            "system_name": "Stablanj",
+            "system_position": [
+                26,
+                26
+            ],
+            "system_uwp": "A583745-B"
+        },
+        {
+            "system_name": "Tlelniabr",
+            "system_position": [
+                27,
+                21
+            ],
+            "system_uwp": "E000569-9"
+        },
+        {
+            "system_name": "Iebr",
+            "system_position": [
+                27,
+                22
+            ],
+            "system_uwp": "A52499C-F"
+        },
+        {
+            "system_name": "Zdika",
+            "system_position": [
+                27,
+                24
+            ],
+            "system_uwp": "A67579B-C"
+        },
+        {
+            "system_name": "Chrshedr",
+            "system_position": [
+                27,
+                26
+            ],
+            "system_uwp": "A8338CA-A"
+        },
+        {
+            "system_name": "Tlaseq",
+            "system_position": [
+                27,
+                27
+            ],
+            "system_uwp": "C55879D-5"
+        },
+        {
+            "system_name": "Chtentchtiebl",
+            "system_position": [
+                27,
+                28
+            ],
+            "system_uwp": "A97A7AB-B"
+        },
+        {
+            "system_name": "Vroldletvied",
+            "system_position": [
+                28,
+                21
+            ],
+            "system_uwp": "B6958DB-8"
+        },
+        {
+            "system_name": "Zenzhiensh",
+            "system_position": [
+                28,
+                22
+            ],
+            "system_uwp": "C0008A8-7"
+        },
+        {
+            "system_name": "Enzhensfrant",
+            "system_position": [
+                28,
+                26
+            ],
+            "system_uwp": "C11069A-8"
+        },
+        {
+            "system_name": "Qlrdremod",
+            "system_position": [
+                28,
+                29
+            ],
+            "system_uwp": "D5569C7-8"
+        },
+        {
+            "system_name": "Prinjkliansh",
+            "system_position": [
+                29,
+                27
+            ],
+            "system_uwp": "E65A988-9"
+        },
+        {
+            "system_name": "Blalvle",
+            "system_position": [
+                29,
+                29
+            ],
+            "system_uwp": "A642998-B"
+        },
+        {
+            "system_name": "Ieidljan",
+            "system_position": [
+                29,
+                30
+            ],
+            "system_uwp": "B79A8AF-9"
+        },
+        {
+            "system_name": "Shiljdetlsedl",
+            "system_position": [
+                30,
+                23
+            ],
+            "system_uwp": "B7589BB-9"
+        },
+        {
+            "system_name": "Zhaplchtaq",
+            "system_position": [
+                30,
+                24
+            ],
+            "system_uwp": "A56599B-D"
+        },
+        {
+            "system_name": "Stiansefriash",
+            "system_position": [
+                30,
+                28
+            ],
+            "system_uwp": "B675773-9"
+        },
+        {
+            "system_name": "Zhdens-90",
+            "system_position": [
+                30,
+                29
+            ],
+            "system_uwp": "X797000-0"
+        },
+        {
+            "system_name": "Tsabrodl",
+            "system_position": [
+                30,
+                30
+            ],
+            "system_uwp": "B400625-C"
+        },
+        {
+            "system_name": "Itltrvl",
+            "system_position": [
+                31,
+                21
+            ],
+            "system_uwp": "C659579-6"
+        },
+        {
+            "system_name": "Efeq",
+            "system_position": [
+                31,
+                22
+            ],
+            "system_uwp": "B536789-9"
+        },
+        {
+            "system_name": "Tliplal",
+            "system_position": [
+                31,
+                25
+            ],
+            "system_uwp": "B579783-9"
+        },
+        {
+            "system_name": "Sedle",
+            "system_position": [
+                31,
+                26
+            ],
+            "system_uwp": "A7A0756-C"
+        },
+        {
+            "system_name": "Srptier",
+            "system_position": [
+                32,
+                24
+            ],
+            "system_uwp": "C693798-6"
+        },
+        {
+            "system_name": "Minzhblinzh",
+            "system_position": [
+                32,
+                28
+            ],
+            "system_uwp": "B6B3545-A"
+        },
+        {
+            "system_name": "Fleqlqlashch",
+            "system_position": [
+                32,
+                29
+            ],
+            "system_uwp": "B662488-B"
+        },
+        {
+            "system_name": "Qlavrr-28",
+            "system_position": [
+                1,
+                33
+            ],
+            "system_uwp": "X683000-0"
+        },
+        {
+            "system_name": "Zdiaztl-73",
+            "system_position": [
+                1,
+                36
+            ],
+            "system_uwp": "X7B7000-0"
+        },
+        {
+            "system_name": "Iplpaf",
+            "system_position": [
+                2,
+                31
+            ],
+            "system_uwp": "X766000-0"
+        },
+        {
+            "system_name": "Breentebr-1",
+            "system_position": [
+                3,
+                32
+            ],
+            "system_uwp": "X586000-0"
+        },
+        {
+            "system_name": "Stijets",
+            "system_position": [
+                3,
+                37
+            ],
+            "system_uwp": "X544000-0"
+        },
+        {
+            "system_name": "Zdeltli-22",
+            "system_position": [
+                3,
+                40
+            ],
+            "system_uwp": "X8D4000-0"
+        },
+        {
+            "system_name": "Zhdafrlobr",
+            "system_position": [
+                4,
+                34
+            ],
+            "system_uwp": "X564000-0"
+        },
+        {
+            "system_name": "Feqrjrnshenib",
+            "system_position": [
+                4,
+                35
+            ],
+            "system_uwp": "X69A000-0"
+        },
+        {
+            "system_name": "Jachnapl",
+            "system_position": [
+                5,
+                32
+            ],
+            "system_uwp": "XAC4000-0"
+        },
+        {
+            "system_name": "Tlialiaipr",
+            "system_position": [
+                5,
+                39
+            ],
+            "system_uwp": "X537000-0"
+        },
+        {
+            "system_name": "Niapls-63",
+            "system_position": [
+                6,
+                33
+            ],
+            "system_uwp": "X427000-0"
+        },
+        {
+            "system_name": "Kritsshaiev",
+            "system_position": [
+                6,
+                35
+            ],
+            "system_uwp": "X565755-1"
+        },
+        {
+            "system_name": "Ostents-51",
+            "system_position": [
+                6,
+                37
+            ],
+            "system_uwp": "X100000-0"
+        },
+        {
+            "system_name": "Vlibtliansht",
+            "system_position": [
+                7,
+                36
+            ],
+            "system_uwp": "C64399A-8"
+        },
+        {
+            "system_name": "Ekpadlma",
+            "system_position": [
+                8,
+                32
+            ],
+            "system_uwp": "X531000-0"
+        },
+        {
+            "system_name": "Qianzh-73",
+            "system_position": [
+                8,
+                35
+            ],
+            "system_uwp": "X648000-0"
+        },
+        {
+            "system_name": "Elpredr",
+            "system_position": [
+                8,
+                40
+            ],
+            "system_uwp": "X664000-0"
+        },
+        {
+            "system_name": "Shrtltsinz",
+            "system_position": [
+                9,
+                33
+            ],
+            "system_uwp": "A8C6676-B"
+        },
+        {
+            "system_name": "Trlianta'",
+            "system_position": [
+                10,
+                31
+            ],
+            "system_uwp": "E68759C-2"
+        },
+        {
+            "system_name": "Zdaqdesh",
+            "system_position": [
+                10,
+                33
+            ],
+            "system_uwp": "A30067A-E"
+        },
+        {
+            "system_name": "Dretllrnt",
+            "system_position": [
+                10,
+                34
+            ],
+            "system_uwp": "B664A83-B"
+        },
+        {
+            "system_name": "Setjonsshal",
+            "system_position": [
+                11,
+                31
+            ],
+            "system_uwp": "C7949B8-7"
+        },
+        {
+            "system_name": "Jinsshinze",
+            "system_position": [
+                11,
+                37
+            ],
+            "system_uwp": "X642000-0"
+        },
+        {
+            "system_name": "Tsiedlpriesr",
+            "system_position": [
+                12,
+                31
+            ],
+            "system_uwp": "C754668-3"
+        },
+        {
+            "system_name": "Renchchtiefe",
+            "system_position": [
+                12,
+                39
+            ],
+            "system_uwp": "C645868-5"
+        },
+        {
+            "system_name": "Anchim",
+            "system_position": [
+                12,
+                40
+            ],
+            "system_uwp": "X668000-0"
+        },
+        {
+            "system_name": "Jenzdieq",
+            "system_position": [
+                13,
+                39
+            ],
+            "system_uwp": "X676000-0"
+        },
+        {
+            "system_name": "Pleqbifiepr",
+            "system_position": [
+                14,
+                33
+            ],
+            "system_uwp": "X100000-0"
+        },
+        {
+            "system_name": "Qreshdop",
+            "system_position": [
+                14,
+                34
+            ],
+            "system_uwp": "X000000-0"
+        },
+        {
+            "system_name": "Shteblqians",
+            "system_position": [
+                14,
+                37
+            ],
+            "system_uwp": "EAD745A-6"
+        },
+        {
+            "system_name": "Alplapl",
+            "system_position": [
+                14,
+                40
+            ],
+            "system_uwp": "C534723-8"
+        },
+        {
+            "system_name": "Ensents",
+            "system_position": [
+                15,
+                33
+            ],
+            "system_uwp": "B5A57A7-9"
+        },
+        {
+            "system_name": "Atltovvlrtl",
+            "system_position": [
+                15,
+                39
+            ],
+            "system_uwp": "C443523-5"
+        },
+        {
+            "system_name": "Rdretsbri",
+            "system_position": [
+                15,
+                40
+            ],
+            "system_uwp": "C866522-5"
+        },
+        {
+            "system_name": "Qepazh",
+            "system_position": [
+                16,
+                34
+            ],
+            "system_uwp": "C667532-4"
+        },
+        {
+            "system_name": "Adstrch",
+            "system_position": [
+                16,
+                35
+            ],
+            "system_uwp": "X671000-0"
+        },
+        {
+            "system_name": "Sechraf",
+            "system_position": [
+                16,
+                40
+            ],
+            "system_uwp": "C667521-4"
+        },
+        {
+            "system_name": "Zhdielifench",
+            "system_position": [
+                17,
+                33
+            ],
+            "system_uwp": "C595554-7"
+        },
+        {
+            "system_name": "Injpedlchieb",
+            "system_position": [
+                17,
+                34
+            ],
+            "system_uwp": "D000544-8"
+        },
+        {
+            "system_name": "Ifra",
+            "system_position": [
+                17,
+                36
+            ],
+            "system_uwp": "A554510-C"
+        },
+        {
+            "system_name": "Kletsienjmo",
+            "system_position": [
+                17,
+                40
+            ],
+            "system_uwp": "B62A578-E"
+        },
+        {
+            "system_name": "Ezh Idlchteq",
+            "system_position": [
+                18,
+                34
+            ],
+            "system_uwp": "B641AAD-A"
+        },
+        {
+            "system_name": "Dielie-60",
+            "system_position": [
+                18,
+                40
+            ],
+            "system_uwp": "X500000-0"
+        },
+        {
+            "system_name": "Fietssedl",
+            "system_position": [
+                19,
+                31
+            ],
+            "system_uwp": "AAF7568-B"
+        },
+        {
+            "system_name": "Zdiabstibrkl",
+            "system_position": [
+                19,
+                34
+            ],
+            "system_uwp": "E655778-1"
+        },
+        {
+            "system_name": "Stiblzdabl",
+            "system_position": [
+                20,
+                32
+            ],
+            "system_uwp": "C543553-6"
+        },
+        {
+            "system_name": "Etlshev",
+            "system_position": [
+                21,
+                33
+            ],
+            "system_uwp": "B999743-A"
+        },
+        {
+            "system_name": "Ezh Dlafrshi",
+            "system_position": [
+                21,
+                35
+            ],
+            "system_uwp": "A545A94-B"
+        },
+        {
+            "system_name": "Iantszeiansh",
+            "system_position": [
+                21,
+                36
+            ],
+            "system_uwp": "A331664-B"
+        },
+        {
+            "system_name": "Tlrnchzhden-2",
+            "system_position": [
+                21,
+                38
+            ],
+            "system_uwp": "X694000-0"
+        },
+        {
+            "system_name": "Atshtrbtlie",
+            "system_position": [
+                21,
+                39
+            ],
+            "system_uwp": "A101532-D"
+        },
+        {
+            "system_name": "Eqroniench",
+            "system_position": [
+                22,
+                33
+            ],
+            "system_uwp": "E7658BC-2"
+        },
+        {
+            "system_name": "Ivrvle",
+            "system_position": [
+                22,
+                37
+            ],
+            "system_uwp": "B642579-B"
+        },
+        {
+            "system_name": "Jienkipl",
+            "system_position": [
+                22,
+                40
+            ],
+            "system_uwp": "B210658-C"
+        },
+        {
+            "system_name": "Iarnch",
+            "system_position": [
+                23,
+                31
+            ],
+            "system_uwp": "B6569BE-C"
+        },
+        {
+            "system_name": "Stiedfleprpl",
+            "system_position": [
+                23,
+                35
+            ],
+            "system_uwp": "E858545-3"
+        },
+        {
+            "system_name": "Dredliapr",
+            "system_position": [
+                23,
+                37
+            ],
+            "system_uwp": "C525442-8"
+        },
+        {
+            "system_name": "Itsa",
+            "system_position": [
+                24,
+                35
+            ],
+            "system_uwp": "A50259B-D"
+        },
+        {
+            "system_name": "Ieshflazzhdi",
+            "system_position": [
+                25,
+                31
+            ],
+            "system_uwp": "C450875-9"
+        },
+        {
+            "system_name": "Anzhfeensh",
+            "system_position": [
+                25,
+                36
+            ],
+            "system_uwp": "D644437-7"
+        },
+        {
+            "system_name": "Emzheshstajaf",
+            "system_position": [
+                25,
+                37
+            ],
+            "system_uwp": "C636676-9"
+        },
+        {
+            "system_name": "Ie'tlaq",
+            "system_position": [
+                25,
+                38
+            ],
+            "system_uwp": "B678540-8"
+        },
+        {
+            "system_name": "Frezhadr",
+            "system_position": [
+                26,
+                33
+            ],
+            "system_uwp": "X100000-0"
+        },
+        {
+            "system_name": "Jiech-71",
+            "system_position": [
+                26,
+                35
+            ],
+            "system_uwp": "X440000-0"
+        },
+        {
+            "system_name": "Yiblstachtie",
+            "system_position": [
+                26,
+                37
+            ],
+            "system_uwp": "A577A77-B"
+        },
+        {
+            "system_name": "Efiesteql",
+            "system_position": [
+                26,
+                38
+            ],
+            "system_uwp": "C668656-8"
+        },
+        {
+            "system_name": "Idlrvlrnj",
+            "system_position": [
+                26,
+                39
+            ],
+            "system_uwp": "CA8A565-9"
+        },
+        {
+            "system_name": "Drrvltlopl",
+            "system_position": [
+                26,
+                40
+            ],
+            "system_uwp": "C672723-5"
+        },
+        {
+            "system_name": "Krifrke-61",
+            "system_position": [
+                27,
+                38
+            ],
+            "system_uwp": "X745000-0"
+        },
+        {
+            "system_name": "Ifljiatlja",
+            "system_position": [
+                27,
+                39
+            ],
+            "system_uwp": "E46A896-6"
+        },
+        {
+            "system_name": "Qlitdliekla",
+            "system_position": [
+                27,
+                40
+            ],
+            "system_uwp": "A661699-7"
+        },
+        {
+            "system_name": "Chebyij",
+            "system_position": [
+                28,
+                32
+            ],
+            "system_uwp": "A000A9C-G"
+        },
+        {
+            "system_name": "Edlensh",
+            "system_position": [
+                28,
+                34
+            ],
+            "system_uwp": "BAD749B-9"
+        },
+        {
+            "system_name": "Dliatstsafrq",
+            "system_position": [
+                28,
+                37
+            ],
+            "system_uwp": "X614000-0"
+        },
+        {
+            "system_name": "Riaiezdle",
+            "system_position": [
+                28,
+                40
+            ],
+            "system_uwp": "C200468-9"
+        },
+        {
+            "system_name": "Qeans",
+            "system_position": [
+                29,
+                34
+            ],
+            "system_uwp": "A8A0410-D"
+        },
+        {
+            "system_name": "Tieflfeqok",
+            "system_position": [
+                29,
+                39
+            ],
+            "system_uwp": "C753575-7"
+        },
+        {
+            "system_name": "Netlo",
+            "system_position": [
+                30,
+                32
+            ],
+            "system_uwp": "B684863-8"
+        },
+        {
+            "system_name": "Niarafbranjt",
+            "system_position": [
+                30,
+                36
+            ],
+            "system_uwp": "B300446-9"
+        },
+        {
+            "system_name": "Eflieflno",
+            "system_position": [
+                30,
+                39
+            ],
+            "system_uwp": "DAF4614-6"
+        },
+        {
+            "system_name": "Iapedliadl",
+            "system_position": [
+                31,
+                38
+            ],
+            "system_uwp": "B543636-A"
+        },
+        {
+            "system_name": "Istapr",
+            "system_position": [
+                31,
+                40
+            ],
+            "system_uwp": "C438784-9"
+        },
+        {
+            "system_name": "Plakzhdapl",
+            "system_position": [
+                32,
+                31
+            ],
+            "system_uwp": "B443410-A"
+        },
+        {
+            "system_name": "Satlolpiakli",
+            "system_position": [
+                32,
+                32
+            ],
+            "system_uwp": "AA9A9AB-F"
+        },
+        {
+            "system_name": "Miezhchtiebl",
+            "system_position": [
+                32,
+                37
+            ],
+            "system_uwp": "B529554-E"
+        },
+        {
+            "system_name": "Dleqjonch",
+            "system_position": [
+                32,
+                39
+            ],
+            "system_uwp": "A756777-B"
+        }
+    ]
+}

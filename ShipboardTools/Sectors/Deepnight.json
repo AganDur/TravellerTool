@@ -1,0 +1,182 @@
+{
+    "sector_name": "Deepnight",
+    "sector_position": [
+        -12,
+        3
+    ],
+    "subsectors": [
+        {
+            "subsector_index": 1,
+            "subsector_name": "A"
+        },
+        {
+            "subsector_index": 2,
+            "subsector_name": "B"
+        },
+        {
+            "subsector_index": 3,
+            "subsector_name": "C"
+        },
+        {
+            "subsector_index": 4,
+            "subsector_name": "D"
+        },
+        {
+            "subsector_index": 5,
+            "subsector_name": "E"
+        },
+        {
+            "subsector_index": 6,
+            "subsector_name": "F"
+        },
+        {
+            "subsector_index": 7,
+            "subsector_name": "G"
+        },
+        {
+            "subsector_index": 8,
+            "subsector_name": "H"
+        },
+        {
+            "subsector_index": 9,
+            "subsector_name": "I"
+        },
+        {
+            "subsector_index": 10,
+            "subsector_name": "J"
+        },
+        {
+            "subsector_index": 11,
+            "subsector_name": "K"
+        },
+        {
+            "subsector_index": 12,
+            "subsector_name": "L"
+        },
+        {
+            "subsector_index": 13,
+            "subsector_name": "m"
+        },
+        {
+            "subsector_index": 14,
+            "subsector_name": "n"
+        },
+        {
+            "subsector_index": 15,
+            "subsector_name": "o"
+        },
+        {
+            "subsector_index": 16,
+            "subsector_name": "p"
+        }
+    ],
+    "systems": [
+        {
+            "system_name": "HNI-A",
+            "system_position": [
+                27,
+                16
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "HNI-B",
+            "system_position": [
+                28,
+                18
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "HNP-A",
+            "system_position": [
+                30,
+                13
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "HNI-C",
+            "system_position": [
+                30,
+                15
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "HNP-B",
+            "system_position": [
+                31,
+                19
+            ],
+            "system_uwp": ""
+        },
+
+
+
+        {
+            "system_name": "DNS-AQ-305",
+            "system_position": [
+                3,
+                25
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "DNS-AQ-306",
+            "system_position": [
+                3,
+                26
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "DNS-AQ-307",
+            "system_position": [
+                3,
+                27
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "DNS-AQ-406",
+            "system_position": [
+                4,
+                26
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "DNS-AQ-407",
+            "system_position": [
+                4,
+                27
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "DNS-AQ-505",
+            "system_position": [
+                5,
+                25
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "DNS-AQ-606",
+            "system_position": [
+                6,
+                26
+            ],
+            "system_uwp": ""
+        },
+        {
+            "system_name": "DNS-AQ-706",
+            "system_position": [
+                7,
+                26
+            ],
+            "system_uwp": ""
+        }
+    ]
+}
