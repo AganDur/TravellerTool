@@ -6,9 +6,10 @@
 const char* vertexSource =
         "#version 450 core\n"
         "layout (location=0) in vec3 posAttr;\n"
+        "uniform mat4 model;\n"
         "uniform mat4 matrix;\n"
         "void main() {\n"
-        "gl_Position = matrix * vec4(posAttr, 1.0);\n"
+        "gl_Position = matrix * model * vec4(posAttr, 1.0);\n"
         "}";
 
 const char* fragmentSource =
@@ -33,24 +34,14 @@ GL_Orbit::GL_Orbit(QVector3D center, float semiMajor, float semiMinor, int rotat
     if(semiMinor==semiMajor){
         eccentricity = 0;
         distanceToFocus = 0;
-        focus1 = center;
-        focus2 = center;
     }
 
     // When the orbit is an ellipsis
     else{
-        eccentricity = sqrt(1 - (semiMajor*semiMajor / semiMinor*semiMinor));
-
+        eccentricity = sqrt(1 - ((semiMinor*semiMinor) / (semiMajor*semiMajor)));
         float c2 = (semiMajor*semiMajor) - (semiMinor*semiMinor);
         float c1 = sqrt(c2);
         distanceToFocus = c1;
-
-        QVector3D f = center;
-        f.setX(center.x() - c1);
-        focus1 = f;
-
-        f.setX(center.x() + c1);
-        focus2 = f;
     }
 
     completeSurface = 3.14 * semiMajor * semiMinor;
@@ -89,6 +80,16 @@ GL_Orbit::GL_Orbit(QVector3D center, float semiMajor, float semiMinor, int rotat
     }
 
     color = QVector3D(0.5, 0.5, 0.5);
+
+    G = 1;
+    M = 1;
+    m = 1;
+    float r = semiMajor + distanceToFocus;
+
+    originalVelocity = G*M*((2/r) - (1/semiMajor));
+    originalVelocity = sqrt(originalVelocity);
+    this->pos = QVector3D(semiMajor + distanceToFocus, 0, 0);
+    this->p = QVector3D(0, m*originalVelocity, 0);
 }
 
 // Copy Constructor
@@ -99,8 +100,6 @@ GL_Orbit::GL_Orbit(GL_Orbit &o){
     this->eccentricity = o.eccentricity;
     this->distanceToFocus = o.distanceToFocus;
     this->rotation = o.rotation;
-    this->focus1 = o.focus1;
-    this->focus2 = o.focus2;
 
     this->vertices = o.vertices;
 
@@ -108,6 +107,14 @@ GL_Orbit::GL_Orbit(GL_Orbit &o){
     this->completeSurface = o.completeSurface;
     this->lastAngle = o.lastAngle;
     this->orbitalPeriod = o.orbitalPeriod;
+
+    this->originalVelocity = o.originalVelocity;
+    this->G = o.G;
+    this->M = o.M;
+    this->m = o.m;
+
+    this->pos = QVector3D(semiMajor + distanceToFocus, 0, 0);
+    this->p = QVector3D(0, m*originalVelocity, 0);
 
     prepare();
 }
@@ -132,41 +139,48 @@ float GL_Orbit::getSemiMajor() {
  * CurrentAngle gives the x/y coordinates based on the render-time-based angle.
  */
 float GL_Orbit::getX_NoAngle(){
-    float xO = semiMajor;
-    float yO = 0;
-    float X = xO*cos(rotation*3.14/180) - yO*sin(rotation*3.14/180);
+    float X;
+    if(eccentricity == 0){
+        float x0 = semiMajor;
+        X = x0;
+    }
+    else {
+        float x0 = semiMajor;
+        X = x0 + distanceToFocus;
+    }
+
     return X;
 }
 float GL_Orbit::getX_Angle(float angle){
     float xO = semiMajor * cos(angle*3.14/180);
     float yO = semiMinor * sin(angle*3.14/180);
-    float X = xO*cos(rotation*3.14/180) - yO*sin(rotation*3.14/180);
+    float X = xO + distanceToFocus;
     return X;
 }
 float GL_Orbit::getX_CurrentAngle(){
-    float xO = semiMajor * cos(lastAngle*3.14/180);
-    float yO = semiMinor * sin(lastAngle*3.14/180);
-    float X = xO*cos(rotation*3.14/180) - yO*sin(rotation*3.14/180);
-    return X;
+    //float xO = semiMajor * cos(lastAngle*3.14/180);
+    //float yO = semiMinor * sin(lastAngle*3.14/180);
+    //float X = xO + distanceToFocus;
+    return pos.x();
 }
 
 float GL_Orbit::getY_NoAngle(){
     float xO = semiMajor;
     float yO = 0;
-    float Y = yO*cos(rotation*3.14/180) + xO*sin(rotation*3.14/180);
+    float Y = 0;//y0*cos(rotation*3.14/180) + xO*sin(rotation*3.14/180);
     return Y;
 }
 float GL_Orbit::getY_Angle(float angle){
     float xO = semiMajor * cos(angle*3.14/180);
     float yO = semiMinor * sin(angle*3.14/180);
-    float Y = yO*cos(rotation*3.14/180) + xO*sin(rotation*3.14/180);
+    float Y = yO;//yO*cos(rotation*3.14/180) + xO*sin(rotation*3.14/180);
     return Y;
 }
 float GL_Orbit::getY_CurrentAngle(){
-    float xO = semiMajor * cos(lastAngle*3.14/180);
-    float yO = semiMinor * sin(lastAngle*3.14/180);
-    float Y = yO*cos(rotation*3.14/180) + xO*sin(rotation*3.14/180);
-    return Y;
+    //float xO = semiMajor * cos(lastAngle*3.14/180);
+    //float yO = semiMinor * sin(lastAngle*3.14/180);
+    //float Y = yO;//*cos(rotation*3.14/180) + xO*sin(rotation*3.14/180);
+    return pos.y();
 }
 
 
@@ -186,6 +200,7 @@ void GL_Orbit::prepare(){
     m_positionAttribute = shaderProgram->attributeLocation("posAttr");
     m_colorUniform = shaderProgram->uniformLocation("color");
     m_projectionMatrixUniform = shaderProgram->uniformLocation("matrix");
+    m_modelMatrixUniform = shaderProgram->uniformLocation("model");
 
     VAO.destroy();
     VAO.create();
@@ -209,10 +224,48 @@ void GL_Orbit::increaseAngle(double timeRatio){
     if(lastAngle >= 360) lastAngle -= 360;
 }
 
+void GL_Orbit::calculateOrbit(double timeStep){
+    double step = fmin(0.001, timeStep);
+
+    for(double i=0 ; i<timeStep ; i+=step){
+        // Get normalize Position vector (R)
+        QVector3D normPos = pos;
+        normPos.normalize();
+
+        // Get Force vector (F)
+        QVector3D F = -G*M*m*(normPos/(pos.length()*pos.length())) ;
+
+        // Get new Momentum vector (P)
+        QVector3D vec = this->p + F*step;
+
+        // Get new Position vector (R)
+        QVector3D position = pos + vec*step/m;
+
+        p = vec;
+        pos = position;
+    }
+/*
+    // Calculate resulting angle
+    double r = abs(pos.length());
+    double inner= semiMajor*(1 - (eccentricity * eccentricity));
+    double outer = (1/eccentricity) * (1 - inner/r);
+    double angle = acos(outer);
+    if(inner/r > 1) {
+        outer = (1/eccentricity) * ((inner/r) - 1);
+        angle = acos(-1) - acos(outer);
+    }
+
+    lastAngle = angle * 180/3.14;
+    if(pos.y() < 0){
+        lastAngle = 360 - lastAngle;
+    }
+*/
+}
+
 /*----------------------*
  *   OPENGL FUNCTIONS   *
  *----------------------*/
-void GL_Orbit::render(QMatrix4x4 projectionViewMatrix){
+void GL_Orbit::render(QMatrix4x4 modelMatrix, QMatrix4x4 projectionViewMatrix){
     QOpenGLFunctions *f = QOpenGLContext::currentContext()->functions();
 
     f->glEnable(GL_LINE_SMOOTH);
@@ -227,6 +280,7 @@ void GL_Orbit::render(QMatrix4x4 projectionViewMatrix){
     f->glEnableVertexAttribArray(0);
     f->glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3*sizeof(GLfloat), (void*)0);
 
+    shaderProgram->setUniformValue(m_modelMatrixUniform, modelMatrix);
     shaderProgram->setUniformValue(m_projectionMatrixUniform, projectionViewMatrix);
     shaderProgram->setUniformValue(m_colorUniform, QVector3D(1,1,1));
 

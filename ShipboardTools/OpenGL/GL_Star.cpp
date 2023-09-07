@@ -6,7 +6,7 @@
  *   CONSTRUCTORS   *
  *------------------*/
 // Default Class Constructor
-GL_Star::GL_Star(std::vector<GLfloat> vertices, std::vector<unsigned int> indices, std::string stellarClass, float radius, float mass, QVector3D color) : GL_Unique{vertices, indices, color}{
+GL_Star::GL_Star(std::vector<GLfloat> vertices, std::vector<unsigned int> indices, std::string stellarClass, float radius, float mass, QVector3D color, GL_Orbit orbit) : GL_Unique{vertices, indices, color}, stellarOrbit{orbit}{
     this->size = radius;
     this->mass = mass;
 
@@ -62,10 +62,16 @@ void GL_Star::compileShaders(std::string vertexShaderName, std::string fragmentS
 }
 
 void GL_Star::render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QVector3D diffuseLight){
+    QMatrix4x4 parentTransform;
+    if(this->parent!=nullptr) parentTransform.translate(parent->getPosition());
+
     QOpenGLFunctions *f = QOpenGLContext::currentContext()->functions();
 
     QMatrix4x4 model;
     model.setToIdentity();
+    this->position = QVector3D(this->stellarOrbit.getX_CurrentAngle(), this->stellarOrbit.getY_CurrentAngle(), 0);
+    if(this->stellarOrbit.getSemiMajor()<=0) position = QVector3D(0,0,0);
+    model.translate(position);
     model.scale(scale);
 
     VAO.bind();
@@ -83,4 +89,19 @@ void GL_Star::render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QV
 
     shaderProgram->release();
     VAO.release();
+
+    if(this->stellarOrbit.getSemiMajor()>0) {
+        model.setToIdentity();
+        if(this->parent!=nullptr) model.translate(parent->getPosition());
+        this->stellarOrbit.render(model, projectionViewMatrix);
+    }
+}
+
+void GL_Star::updateTime(double timeRatio){
+    //stellarOrbit.increaseAngle(timeRatio);
+    stellarOrbit.calculateOrbit(timeRatio);
+}
+
+QVector3D GL_Star::getPosition(){
+    return this->position;
 }

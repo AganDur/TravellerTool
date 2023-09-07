@@ -72,6 +72,10 @@ GL_Object::GL_Object(GL_Object &object){
 GL_Object::~GL_Object() {
 }
 
+void GL_Object::setParent(GL_Object *parent){
+    this->parent = parent;
+}
+
 
 /*-----------------------*
  *   OPEN GL FUNCTIONS   *
@@ -241,4 +245,8 @@ void GL_Object::updateTime(double timeRatio){
 QVector3D GL_Object::getColor(){
     qDebug() << "VIRTUAL GET COLOR IN GL_Object SHOULD BE REDEFINED IN CHILD CLASS;";
     return QVector3D(0.0f,0.0f,0.0f);
+}
+
+QVector3D GL_Object::getPosition(){
+    return QVector3D(0,0,0);
 }

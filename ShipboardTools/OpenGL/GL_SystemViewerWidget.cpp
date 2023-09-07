@@ -35,17 +35,6 @@ void GL_SystemViewerWidget::keyPress(){
         return;
     }
 
-    // Up Arrow
-    if(GetAsyncKeyState(0x26) & 0x100000){
-        this->orbitingSpeed *= 10;
-        if(orbitingSpeed > 1) orbitingSpeed = 1;
-    }
-    // Down Arrow
-    else if(GetAsyncKeyState(0x28) & 0x100000){
-        this->orbitingSpeed /= 10;
-        if(orbitingSpeed < 0.01) orbitingSpeed = 0.01;
-    }
-
     // R Key
     if(GetAsyncKeyState(0x52) & 0x100000){
         camera->reset();
@@ -78,6 +67,21 @@ void GL_SystemViewerWidget::keyPress(){
     else if(GetAsyncKeyState(0x41) & 0x100000){
         camera->moveUp(-.25);
     }
+}
+
+void GL_SystemViewerWidget::timeKeyPress(){
+    // Up Arrow
+    if(GetAsyncKeyState(0x26) & 0x100000){
+        this->orbitingSpeedIndex += 1;
+        if(orbitingSpeedIndex >= 12) orbitingSpeedIndex = 11;
+    }
+    // Down Arrow
+    else if(GetAsyncKeyState(0x28) & 0x100000){
+        this->orbitingSpeedIndex -=1;
+        if(orbitingSpeedIndex < 0) orbitingSpeedIndex = 0;
+    }
+    orbitingSpeed = speedValues[orbitingSpeedIndex] / 10;
+    qDebug() << this->orbitingSpeed;
 }
 
 // If the widget is currently tracking the mouse, this event is called on mouse movement
@@ -154,8 +158,16 @@ void GL_SystemViewerWidget::updateData(std::string file){
             QVector3D color(r,g,b);
             float rad = starObject.value("radius").toDouble();
 
+            float semiMajor = starObject.value("semi-major").toDouble(0);
+            float eccentricity = starObject.value("eccentricity").toDouble(0);
+            float semiMinor = semiMajor * sqrt(1 - (eccentricity*eccentricity));
+            qDebug() << semiMinor;
+            qDebug() << semiMajor;
+
+            GL_Orbit starOrbit(QVector3D(0, 0, 0), semiMajor, semiMinor,0);
+
             // Add star to models
-            GL_Star *star = new GL_Star(starVertices, sphereIndices, starClass, rad, 0.0, color);
+            GL_Star *star = new GL_Star(starVertices, sphereIndices, starClass, rad, 0.0, color, starOrbit);
             star->loadTexture("starTexture1.jpg");
             models.push_back(star);
         }
@@ -181,7 +193,6 @@ void GL_SystemViewerWidget::updateData(std::string file){
                 SemiMajor = orbitObject.value("semi-major").toDouble();
                 SemiMinor = orbitObject.value("semi-minor").toDouble();
             }
-
             GL_Orbit* o = new GL_Orbit(QVector3D(0,0,0), SemiMajor, SemiMinor, 0);
             if(orbitObject.contains("color")){
                 QJsonObject colorObject = orbitObject.value("color").toObject();
@@ -207,8 +218,16 @@ void GL_SystemViewerWidget::updateData(std::string file){
             std::string textureName = world.value("texture").toString().toStdString();
             if(textureName.empty()) textureName="venus.jpg";
 
+
+            GL_Object *par = nullptr;
+            int parentIndex = orbiting.toObject().value("parent").toInt(-1);
+            if (parentIndex>=0 && parentIndex<this->models.size()) par = models.at(parentIndex);
+            qDebug() << (parentIndex);
+
+
             GL_Planet* p = new GL_Planet(planetVertices, sphereIndices, size, *o, name, uwp);
             p->loadTexture(textureName);
+            p->setParent(par);
             models.push_back(p);
         }
 
@@ -276,6 +295,10 @@ void GL_SystemViewerWidget::initialize(){
     connect(&timer, &QTimer::timeout, this, &GL_SystemViewerWidget::keyPress);
     timer.setInterval(10);
     timer.start();
+
+    connect(&timer2, &QTimer::timeout, this, &GL_SystemViewerWidget::timeKeyPress);
+    timer2.setInterval(100);
+    timer2.start();
 }
 void GL_SystemViewerWidget::initSphere(){
     Assimp::Importer importer;

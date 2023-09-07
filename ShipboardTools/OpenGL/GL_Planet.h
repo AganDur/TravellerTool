@@ -15,6 +15,7 @@ public:
     GL_Planet(std::vector<GLfloat> vertices, std::vector<unsigned int> indices, float size, GL_Orbit orbit, std::string name, std::string uwp);
     ~GL_Planet();
 
+
 /*-----------------------*
  *   PLANET PARAMETERS   *
  *-----------------------*/
@@ -37,11 +38,14 @@ private:
 
     int nb_frames;
 
+    QVector3D position;
+
 /*----------------------*
  *   GETTER FUNCTIONS   *
  *----------------------*/
 private:
     QMatrix4x4 getModelMatrix();
+    QVector3D getPosition() override;
 
 /*----------------------*
  *   OPENGL FUNCTIONS   *

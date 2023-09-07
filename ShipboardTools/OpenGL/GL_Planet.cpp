@@ -60,11 +60,19 @@ QMatrix4x4 GL_Planet::getModelMatrix(){
     float positionX = planetaryOrbit.getX_CurrentAngle();
     float positionY = planetaryOrbit.getY_CurrentAngle();
 
+    if(this->parent!=nullptr) model.translate(parent->getPosition());
     model.translate(QVector3D(positionX, positionY, 0.0f));
     model.rotate(pitchAngle, QVector3D(0.0f, 1.0f, 0.0f));
     model.scale(scale);
 
+    if(parent!=nullptr) this->position = parent->getPosition() + QVector3D(positionX, positionY, 0);
+    else this->position = QVector3D(positionX, positionY, 0);
+
     return model;
+}
+
+QVector3D GL_Planet::getPosition(){
+    return position;
 }
 
 /*----------------------*
@@ -91,9 +99,11 @@ void GL_Planet::compileShaders(std::string vertexShaderName, std::string fragmen
 }
 
 void GL_Planet::render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QVector3D diffuseLight){
+
     QOpenGLFunctions *f = QOpenGLContext::currentContext()->functions();
 
     QMatrix4x4 model = getModelMatrix();
+
     QMatrix3x3 normalMatrix = model.normalMatrix();
 
     VAO.bind();
@@ -117,11 +127,14 @@ void GL_Planet::render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, 
     nb_frames ++;
 
     // CALL ORBIT RENDER TOO
-    this->planetaryOrbit.render(projectionViewMatrix);
+    model.setToIdentity();
+    if(this->parent!=nullptr) model.translate(parent->getPosition());
+    this->planetaryOrbit.render(model, projectionViewMatrix);
 }
 
 void GL_Planet::updateTime(double timeRatio){
-    planetaryOrbit.increaseAngle(timeRatio);
+    //planetaryOrbit.increaseAngle(timeRatio);
+    planetaryOrbit.calculateOrbit(timeRatio);
 }
 
 

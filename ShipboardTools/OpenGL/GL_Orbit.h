@@ -24,12 +24,13 @@ private:
     float distanceToFocus;
     float rotation;
 
-    QVector3D focus1;
-    QVector3D focus2;    
-
     float completeSurface;
     float lastAngle = 0;
     float orbitalPeriod;
+
+    float G, M, m;
+    float originalVelocity;
+    QVector3D p, pos;
 
 /*-----------------------*
  *   OPENGL PARAMETERS   *
@@ -42,7 +43,7 @@ private:
     QOpenGLVertexArrayObject VAO;
     QOpenGLBuffer *VBO = nullptr;
 
-    GLint m_positionAttribute=0, m_projectionMatrixUniform=0, m_colorUniform=0;
+    GLint m_positionAttribute=0, m_modelMatrixUniform=0, m_projectionMatrixUniform=0, m_colorUniform=0;
 
 /*----------------------*
  *   GETTER FUNCTIONS   *
@@ -72,11 +73,13 @@ public:
     }
     void increaseAngle(double timeRatio);
 
+    void calculateOrbit(double timeStep);
+
 /*----------------------*
  *   OPENGL FUNCTIONS   *
  *----------------------*/
 public:
-    void render(QMatrix4x4 projectionViewMatrix);
+    void render(QMatrix4x4 modelMatrix, QMatrix4x4 projectionViewMatrix);
 
 };
 

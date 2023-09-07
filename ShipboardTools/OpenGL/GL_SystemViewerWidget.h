@@ -39,6 +39,8 @@ private:
  *   OPENGL VARIABLES   *
  *----------------------*/
 private:
+    const float speedValues[12] = {0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1};
+
     bool isInitialized = false;
 
     int m_frame = 0;
@@ -47,6 +49,7 @@ private:
     QMatrix4x4 projection;
     GL_Camera *camera;
 
+    int orbitingSpeedIndex = 0;
     float orbitingSpeed = 0.01;
 
     std::vector<GL_Object*> models;
@@ -61,13 +64,14 @@ private:
     qint64 currentFrame = 0;
     qint64 lastFrame = 0;
     QElapsedTimer elapsedTimer;
-    QTimer timer;
+    QTimer timer, timer2;
 
 /*-----------------------*
  *   CONTROL FUNCTIONS   *
  *-----------------------*/
 public:
     void keyPress();
+    void timeKeyPress();
     void mouseMoveEvent(QMouseEvent *e) override;
     void mousePressEvent(QMouseEvent *e) override;
     void leaveEvent(QEvent *e) override;

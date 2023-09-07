@@ -24,6 +24,8 @@ public:
     GL_Object(GL_Object &object);
     virtual ~GL_Object();
 
+    void setParent(GL_Object *parent);
+
 /*------------------------*
  *   OPEN GL PARAMETERS   *
  *------------------------*/
@@ -43,6 +45,8 @@ protected:
      */
     std::vector<GLfloat> vertices;
     std::vector<unsigned int> indices;
+
+    GL_Object *parent = nullptr;
 
     QOpenGLTexture *texture;
 
@@ -69,6 +73,8 @@ public:
     virtual void updateTime(double timeRatio);
 
     virtual QVector3D getColor();
+
+    virtual QVector3D getPosition();
 };
 
 #endif // GL_OBJECT_H

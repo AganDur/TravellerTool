@@ -40,7 +40,8 @@ namespace global {
         QJsonParseError errorPtr;
         QJsonDocument document = QJsonDocument::fromJson(data, &errorPtr);
         if(document.isNull()){
-            qDebug() << "Parse failed";
+            qDebug() << "Parse failed: ";
+            qDebug() << errorPtr.errorString();
         }
         else {
             root = document.object();
