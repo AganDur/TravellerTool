@@ -8,7 +8,7 @@
 #include <QTimer>
 #include <QSurfaceFormat>
 
-Window_SystemViewer::Window_SystemViewer(QWidget *parent):
+Window_SystemViewer::Window_SystemViewer(std::string system, QWidget *parent):
     QMainWindow(parent),
     ui(new Ui::Window_SystemViewer)
 {
@@ -21,7 +21,7 @@ Window_SystemViewer::Window_SystemViewer(QWidget *parent):
     ui->setupUi(this);
     setWindowTitle(tr("TEST2"));
 
-    gl = new GL_SystemViewerWidget(this, "Acrid");
+    gl = new GL_SystemViewerWidget(this, system);
 
     ui->horizontalLayout->insertWidget(0, gl);
     startGL();

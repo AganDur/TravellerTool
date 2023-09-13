@@ -4,8 +4,9 @@
 #include "Window_SectorMap.h"
 #include "Dialogs/Dialog_SystemSelection.h"
 
-ApplicationManager::ApplicationManager(int argc, char *argv[]): QApplication{argc, argv}, launcherWindow{Launcher()}, systemViewerWindow{Window_SystemViewer()}{
+ApplicationManager::ApplicationManager(int argc, char *argv[]): QApplication{argc, argv}, launcherWindow{Launcher()}{
     launcherWindow.setApplicationManager(this);
+    this->currentSystem = "Acrid";
 }
 
 void ApplicationManager::changeSystem(std::string newSystem){
@@ -17,11 +18,15 @@ void ApplicationManager::showLauncher(){
 }
 
 void ApplicationManager::showSystemViewer(){
-    this->systemViewerWindow.show();
+
+    this->systemViewerWindow = new Window_SystemViewer(this->currentSystem);
+
+    this->systemViewerWindow->show();
 }
 
 void ApplicationManager::showSectorMap(){
     this->sectorMapWindow = new Window_SectorMap();
+    this->sectorMapWindow->setApplication(this);
     this->sectorMapWindow->show();
 }
 

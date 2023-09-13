@@ -14,7 +14,7 @@ public:
 
 private:
     Launcher launcherWindow;
-    Window_SystemViewer systemViewerWindow;
+    Window_SystemViewer *systemViewerWindow;
     Window_SectorMap *sectorMapWindow;
 
     std::string currentSystem;

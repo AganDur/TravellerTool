@@ -21,6 +21,7 @@
 GL_SystemViewerWidget::GL_SystemViewerWidget(QWidget *parent, std::string systemName): GL_Widget{parent}{
     system = systemName;
 }
+
 /*-----------------------*
  *   CONTROL FUNCTIONS   *
  *-----------------------*/
@@ -111,6 +112,7 @@ void GL_SystemViewerWidget::mouseMoveEvent(QMouseEvent *e){
     changeMousePosition();
 }
 
+
 void GL_SystemViewerWidget::mousePressEvent(QMouseEvent *e){
     if(!attachMouse){
         attachMouse = true;
@@ -161,8 +163,6 @@ void GL_SystemViewerWidget::updateData(std::string file){
             float semiMajor = starObject.value("semi-major").toDouble(0);
             float eccentricity = starObject.value("eccentricity").toDouble(0);
             float semiMinor = semiMajor * sqrt(1 - (eccentricity*eccentricity));
-            qDebug() << semiMinor;
-            qDebug() << semiMajor;
 
             GL_Orbit starOrbit(QVector3D(0, 0, 0), semiMajor, semiMinor,0);
 
@@ -272,6 +272,7 @@ void GL_SystemViewerWidget::resizeGL(int w, int h){
 void GL_SystemViewerWidget::setApp(ApplicationManager *a){
     this->application = a;
 }
+
 void GL_SystemViewerWidget::initialize(){
     camera = new GL_Camera();
     camera->setPosition(QVector3D(0.0f, 0.0f, 50.0f));
@@ -300,6 +301,7 @@ void GL_SystemViewerWidget::initialize(){
     timer2.setInterval(100);
     timer2.start();
 }
+
 void GL_SystemViewerWidget::initSphere(){
     Assimp::Importer importer;
     const aiScene* scene = importer.ReadFile(global::path() + "Assets/Meshes/star.obj", aiProcess_Triangulate | aiProcess_FlipUVs);
@@ -366,7 +368,6 @@ void GL_SystemViewerWidget::render(){
     view = camera->getView();
 
     QMatrix4x4 projectionViewMatrix = projection * view;
-
     QVector3D diffuseLight = models.at(0)->getColor();
 
     for(GL_Object *m: models){

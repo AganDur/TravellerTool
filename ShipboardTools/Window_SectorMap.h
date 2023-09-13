@@ -10,6 +10,7 @@ namespace Ui {
 class Hexagon;
 class Sector;
 class QGraphicsScene;
+class ApplicationManager;
 
 class Window_SectorMap : public QMainWindow{
     Q_OBJECT
@@ -18,14 +19,26 @@ public:
     explicit Window_SectorMap(QWidget *parent = nullptr);
     ~Window_SectorMap();
 
+    void setApplication(ApplicationManager *a);
+
     void setDetails(Hexagon *hexagon);
 
     void setSystemMapButtonDisabled(bool disable);
 
     void loadSector(QJsonObject root);
+
     void setupSector(Sector *s);//, std::map<std::array<int,2>, class hexSystem*> map);
 
+private slots:
+    void on_systemMapButton_clicked();
+
 private:
+    ApplicationManager *app;
+
+    std::vector<Sector*> sectors;
+
+    std::string selectedSystem;
+
     Ui::Window_SectorMap *ui;
 
     QGraphicsScene *scene;

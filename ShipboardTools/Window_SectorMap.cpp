@@ -8,6 +8,8 @@
 #include "Data/Sector.h"
 #include "Data/Subsector.h"
 
+#include "ApplicationManager.h"
+
 #include <QJsonObject>
 #include <QJsonArray>
 
@@ -38,12 +40,28 @@ Window_SectorMap::~Window_SectorMap(){
     delete ui;
 }
 
+void Window_SectorMap::setApplication(ApplicationManager *a){
+    app = a;
+}
+
 void Window_SectorMap::setDetails(Hexagon *hexagon){
     ui->groupBox->setVisible(true);
     ui->hexEdit->setText(QString::fromStdString(hexagon->getHexCode()));
     ui->nameEdit->setText(QString::fromStdString(hexagon->getName()));
     ui->uwpEdit->setText(QString::fromStdString(hexagon->getUWP()));
     ui->sectorEdit->setText(QString::fromStdString(hexagon->getSectorName()));
+    this->selectedSystem = hexagon->getName();
+
+    // Check if system exists
+    std::vector<std::string> systems = global::getAllJSONFiles(global::path()+"/Systems");
+    bool foundSystem = false;
+    for(std::string sys : systems){
+        if(sys.compare(this->selectedSystem) == 0){
+            foundSystem = true;
+            break;
+        }
+    }
+    ui->systemMapButton->setEnabled(foundSystem);
 }
 
 void Window_SectorMap::setSystemMapButtonDisabled(bool disable){
@@ -90,6 +108,58 @@ void Window_SectorMap::loadSector(QJsonObject root){
     sec->setSystems(map);
 
     this->setupSector(sec);
+}
+
+void Window_SectorMap::fillSector(Sector *s) {
+
+}
+
+void Window_SectorMap::setupLimitedSector(Sector *s) {
+    float offsetX = hexRadius * (1 + sin(30*PI/180));
+    float offsetY = hexRadius * (cos(30*PI/180)) - 0.6;
+
+    float w = 32 * offsetX;
+    float h = 40 * offsetY*2;
+
+    float sectorX = s->getX() * w ;
+    float sectorY = s->getY() * h ;
+
+    /*---------------------*
+     *     SECTOR MARK     *
+     *---------------------*/
+    QPen p;
+    p.setCosmetic(true);
+    p.setWidth(2);
+    QGraphicsRectItem *r = new QGraphicsRectItem(QRectF(0, 0, w, h));
+    r->setPen(p);
+    QTransform rectT;
+    rectT.translate(sectorX-hexRadius, sectorY-offsetY);
+    r->setTransform(rectT);
+
+    /*---------------------*
+     *     SECTOR TEXT     *
+     *---------------------*/
+    QGraphicsTextItem *sT = new QGraphicsTextItem(QString::fromStdString(s->getName()),r);
+    QFont f;
+    f.setPointSize(500);
+    sT->setFont(f);
+    sT->setDefaultTextColor(Qt::red);
+
+    // CALCULATE CORRECT POSITION WITH ROTATION
+    QPointF center = sT->boundingRect().center();
+    QPointF sectorCenter = r->boundingRect().center();
+    QPointF centerDiff = sectorCenter - center;
+    float width=sT->boundingRect().width();
+    float height = sT->boundingRect().height();
+
+    QTransform textPos;
+    textPos.translate(centerDiff.x()+width/2, centerDiff.y()+height/2);
+    textPos.rotate(-45);
+    textPos.translate(-width/2, -height/2);
+    sT->setTransform(textPos);
+    sT->setVisible(false);
+
+    scene->addItem(r);
 }
 
 void Window_SectorMap::setupSector(Sector *s){//, std::map<std::array<int,2>, class hexSystem*> map){
@@ -167,3 +237,9 @@ void Window_SectorMap::setupSector(Sector *s){//, std::map<std::array<int,2>, cl
         }
     }
 }
+
+void Window_SectorMap::on_systemMapButton_clicked(){
+    this->app->changeSystem(this->selectedSystem);
+    this->app->showSystemViewer();
+}
+

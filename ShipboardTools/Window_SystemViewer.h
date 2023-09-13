@@ -14,7 +14,7 @@ class Window_SystemViewer : public QMainWindow
     Q_OBJECT
 
 public:
-    explicit Window_SystemViewer(QWidget *parent = nullptr);
+    explicit Window_SystemViewer(std::string system, QWidget *parent = nullptr);
     ~Window_SystemViewer();
 
     void startGL();

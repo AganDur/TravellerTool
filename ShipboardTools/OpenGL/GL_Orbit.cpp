@@ -227,39 +227,25 @@ void GL_Orbit::increaseAngle(double timeRatio){
 void GL_Orbit::calculateOrbit(double timeStep){
     double step = fmin(0.001, timeStep);
 
-    for(double i=0 ; i<timeStep ; i+=step){
-        // Get normalize Position vector (R)
-        QVector3D normPos = pos;
-        normPos.normalize();
+    if(this->semiMajor > 0 ){
+        for(double i=0 ; i<timeStep ; i+=step){
+            // Get normalize Position vector (R)
+            QVector3D normPos = pos;
+            normPos.normalize();
 
-        // Get Force vector (F)
-        QVector3D F = -G*M*m*(normPos/(pos.length()*pos.length())) ;
+            // Get Force vector (F)
+            QVector3D F = -G*M*m*(normPos/(pos.length()*pos.length())) ;
 
-        // Get new Momentum vector (P)
-        QVector3D vec = this->p + F*step;
+            // Get new Momentum vector (P)
+            QVector3D vec = this->p + F*step;
 
-        // Get new Position vector (R)
-        QVector3D position = pos + vec*step/m;
+            // Get new Position vector (R)
+            QVector3D position = pos + vec*step/m;
 
-        p = vec;
-        pos = position;
+            p = vec;
+            pos = position;
+        }
     }
-/*
-    // Calculate resulting angle
-    double r = abs(pos.length());
-    double inner= semiMajor*(1 - (eccentricity * eccentricity));
-    double outer = (1/eccentricity) * (1 - inner/r);
-    double angle = acos(outer);
-    if(inner/r > 1) {
-        outer = (1/eccentricity) * ((inner/r) - 1);
-        angle = acos(-1) - acos(outer);
-    }
-
-    lastAngle = angle * 180/3.14;
-    if(pos.y() < 0){
-        lastAngle = 360 - lastAngle;
-    }
-*/
 }
 
 /*----------------------*
