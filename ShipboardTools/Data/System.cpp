@@ -16,6 +16,10 @@ void System::setSector(Sector *s){
     this->sector = s;
 }
 
+void System::setHexagon(Hexagon *hex){
+    this->graphicsHexagon = hex;
+}
+
 std::string System::getName(){
     return this->name;
 }
@@ -30,4 +34,8 @@ std::string System::getHex(){
 
 Sector* System::getSector(){
     return this->sector;
+}
+
+Hexagon *System::getHexagon(){
+    return this->graphicsHexagon;
 }

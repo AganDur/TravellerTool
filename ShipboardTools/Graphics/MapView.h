@@ -19,6 +19,8 @@ public:
 
     bool findSystem(std::string name);
 
+    void viewMoved();
+
 private:
     Window_SectorMap *window;
     float zoomFactor = 1;

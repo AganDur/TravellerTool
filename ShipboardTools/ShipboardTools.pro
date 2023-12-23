@@ -18,8 +18,10 @@ SOURCES += \
     Data/System.cpp \
     Dialogs/Dialog_SystemSelection.cpp \
     Globals.cpp \
+    Graphics/DeleteElementsWorker.cpp \
     Graphics/Hexagon.cpp \
     Graphics/MapView.cpp \
+    Graphics/Rectangle.cpp \
     OpenGL/GL_Camera.cpp \
     OpenGL/GL_Instanced.cpp \
     OpenGL/GL_Mesh.cpp \
@@ -42,8 +44,10 @@ HEADERS += \
     Data/System.h \
     Dialogs/Dialog_SystemSelection.h \
     Globals.h \
+    Graphics/DeleteElementsWorker.h \
     Graphics/Hexagon.h \
     Graphics/MapView.h \
+    Graphics/Rectangle.h \
     Launcher.h \
     OpenGL/GL_Camera.h \
     OpenGL/GL_Instanced.h \
