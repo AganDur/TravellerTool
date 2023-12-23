@@ -9,6 +9,8 @@ uniform vec3 diffuseLight;
 uniform vec3 ambientLight;
 uniform sampler2D textureData;
 
+out vec4 outColor;
+
 void main() {
     vec3 norm = normalize(vertNormal);
 
@@ -18,5 +20,5 @@ void main() {
 
     vec3 col = color * (diffuse + ambientLight);
 
-    gl_FragColor = texture(textureData, textureCoords) * vec4(col, 1);
+    outColor = texture(textureData, textureCoords) * vec4(col, 1);
 }
