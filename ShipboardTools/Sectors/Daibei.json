@@ -1,0 +1,3699 @@
+{
+    "sector_name": "Daibei",
+    "sector_position": [
+        -1,
+        2
+    ],
+    "subsectors": [
+        {
+            "subsector_index": 1,
+            "subsector_name": "Edge"
+        },
+        {
+            "subsector_index": 2,
+            "subsector_name": "Alun"
+        },
+        {
+            "subsector_index": 3,
+            "subsector_name": "Standish"
+        },
+        {
+            "subsector_index": 4,
+            "subsector_name": "Iingar"
+        },
+        {
+            "subsector_index": 5,
+            "subsector_name": "Woomera"
+        },
+        {
+            "subsector_index": 6,
+            "subsector_name": "Outback"
+        },
+        {
+            "subsector_index": 7,
+            "subsector_name": "Amdani"
+        },
+        {
+            "subsector_index": 8,
+            "subsector_name": "Conda"
+        },
+        {
+            "subsector_index": 9,
+            "subsector_name": "Zhemi"
+        },
+        {
+            "subsector_index": 10,
+            "subsector_name": "Mulaar"
+        },
+        {
+            "subsector_index": 11,
+            "subsector_name": "Dudin"
+        },
+        {
+            "subsector_index": 12,
+            "subsector_name": "Cruxway"
+        },
+        {
+            "subsector_index": 13,
+            "subsector_name": "Gaalorn"
+        },
+        {
+            "subsector_index": 14,
+            "subsector_name": "Hermes"
+        },
+        {
+            "subsector_index": 15,
+            "subsector_name": "Narya"
+        },
+        {
+            "subsector_index": 16,
+            "subsector_name": "Orvon"
+        }
+    ],
+    "systems": [
+        {
+            "system_name": "Grumith",
+            "system_position": [
+                2,
+                10
+            ],
+            "system_uwp": "D8D5341-8"
+        },
+        {
+            "system_name": "Perishan",
+            "system_position": [
+                4,
+                7
+            ],
+            "system_uwp": "A300200-E"
+        },
+        {
+            "system_name": "Eola",
+            "system_position": [
+                4,
+                9
+            ],
+            "system_uwp": "D76A147-8"
+        },
+        {
+            "system_name": "Jurin",
+            "system_position": [
+                4,
+                10
+            ],
+            "system_uwp": "A85A166-F"
+        },
+        {
+            "system_name": "Warinir",
+            "system_position": [
+                5,
+                7
+            ],
+            "system_uwp": "A889978-F"
+        },
+        {
+            "system_name": "Nyanar",
+            "system_position": [
+                5,
+                10
+            ],
+            "system_uwp": "B567466-B"
+        },
+        {
+            "system_name": "Imili",
+            "system_position": [
+                6,
+                8
+            ],
+            "system_uwp": "A3107BG-E"
+        },
+        {
+            "system_name": "Bharna",
+            "system_position": [
+                7,
+                5
+            ],
+            "system_uwp": "C66957C-A"
+        },
+        {
+            "system_name": "Skara",
+            "system_position": [
+                7,
+                7
+            ],
+            "system_uwp": "C200746-A"
+        },
+        {
+            "system_name": "Pillars",
+            "system_position": [
+                7,
+                9
+            ],
+            "system_uwp": "C433501-C"
+        },
+        {
+            "system_name": "Azer",
+            "system_position": [
+                7,
+                10
+            ],
+            "system_uwp": "A9D8650-E"
+        },
+        {
+            "system_name": "Sundown",
+            "system_position": [
+                8,
+                5
+            ],
+            "system_uwp": "D884622-6"
+        },
+        {
+            "system_name": "Eketa",
+            "system_position": [
+                8,
+                7
+            ],
+            "system_uwp": "X74A634-5"
+        },
+        {
+            "system_name": "Twillight",
+            "system_position": [
+                8,
+                8
+            ],
+            "system_uwp": "B657436-B"
+        },
+        {
+            "system_name": "Glimis",
+            "system_position": [
+                8,
+                10
+            ],
+            "system_uwp": "B100441-E"
+        },
+        {
+            "system_name": "Guurilii",
+            "system_position": [
+                9,
+                4
+            ],
+            "system_uwp": "C426542-B"
+        },
+        {
+            "system_name": "Caeseria",
+            "system_position": [
+                9,
+                9
+            ],
+            "system_uwp": "C31058B-B"
+        },
+        {
+            "system_name": "Sethnakhte",
+            "system_position": [
+                10,
+                3
+            ],
+            "system_uwp": "B553346-B"
+        },
+        {
+            "system_name": "Capua",
+            "system_position": [
+                10,
+                4
+            ],
+            "system_uwp": "B000249-E"
+        },
+        {
+            "system_name": "Karnak",
+            "system_position": [
+                10,
+                6
+            ],
+            "system_uwp": "C693422-9"
+        },
+        {
+            "system_name": "Aswan",
+            "system_position": [
+                10,
+                8
+            ],
+            "system_uwp": "B000412-E"
+        },
+        {
+            "system_name": "Shaid Mamke",
+            "system_position": [
+                11,
+                1
+            ],
+            "system_uwp": "D00097C-B"
+        },
+        {
+            "system_name": "Parasol",
+            "system_position": [
+                11,
+                4
+            ],
+            "system_uwp": "C548632-8"
+        },
+        {
+            "system_name": "Homer",
+            "system_position": [
+                11,
+                7
+            ],
+            "system_uwp": "C000452-D"
+        },
+        {
+            "system_name": "Mordor",
+            "system_position": [
+                11,
+                8
+            ],
+            "system_uwp": "B434253-E"
+        },
+        {
+            "system_name": "Attica",
+            "system_position": [
+                12,
+                2
+            ],
+            "system_uwp": "B200515-D"
+        },
+        {
+            "system_name": "Illikurii",
+            "system_position": [
+                12,
+                4
+            ],
+            "system_uwp": "C100434-C"
+        },
+        {
+            "system_name": "Carguulam",
+            "system_position": [
+                12,
+                6
+            ],
+            "system_uwp": "D58658B-7"
+        },
+        {
+            "system_name": "Simplicity",
+            "system_position": [
+                13,
+                1
+            ],
+            "system_uwp": "B100676-D"
+        },
+        {
+            "system_name": "Splendor",
+            "system_position": [
+                13,
+                3
+            ],
+            "system_uwp": "C9D4878-9"
+        },
+        {
+            "system_name": "Autumn",
+            "system_position": [
+                13,
+                4
+            ],
+            "system_uwp": "B795764-A"
+        },
+        {
+            "system_name": "Siikanaa",
+            "system_position": [
+                13,
+                8
+            ],
+            "system_uwp": "C627248-A"
+        },
+        {
+            "system_name": "Hodgins",
+            "system_position": [
+                14,
+                5
+            ],
+            "system_uwp": "X542662-5"
+        },
+        {
+            "system_name": "Red Sands",
+            "system_position": [
+                14,
+                6
+            ],
+            "system_uwp": "C555896-8"
+        },
+        {
+            "system_name": "Scepter",
+            "system_position": [
+                14,
+                8
+            ],
+            "system_uwp": "B4336A9-C"
+        },
+        {
+            "system_name": "L'Engle",
+            "system_position": [
+                15,
+                2
+            ],
+            "system_uwp": "C67A430-B"
+        },
+        {
+            "system_name": "Lisle",
+            "system_position": [
+                15,
+                5
+            ],
+            "system_uwp": "B88A336-D"
+        },
+        {
+            "system_name": "Purgatory",
+            "system_position": [
+                15,
+                6
+            ],
+            "system_uwp": "D635369-7"
+        },
+        {
+            "system_name": "Wedge",
+            "system_position": [
+                15,
+                8
+            ],
+            "system_uwp": "A300863-E"
+        },
+        {
+            "system_name": "Vaarini",
+            "system_position": [
+                15,
+                9
+            ],
+            "system_uwp": "C556772-8"
+        },
+        {
+            "system_name": "Reyivik",
+            "system_position": [
+                15,
+                10
+            ],
+            "system_uwp": "B778687-A"
+        },
+        {
+            "system_name": "Diamond Head",
+            "system_position": [
+                16,
+                8
+            ],
+            "system_uwp": "A675837-C"
+        },
+        {
+            "system_name": "Ossifur",
+            "system_position": [
+                17,
+                1
+            ],
+            "system_uwp": "C8D3641-9"
+        },
+        {
+            "system_name": "Enigma",
+            "system_position": [
+                17,
+                5
+            ],
+            "system_uwp": "D400111-9"
+        },
+        {
+            "system_name": "Tarens",
+            "system_position": [
+                17,
+                8
+            ],
+            "system_uwp": "A400679-E"
+        },
+        {
+            "system_name": "Naagishda",
+            "system_position": [
+                18,
+                2
+            ],
+            "system_uwp": "E200656-9"
+        },
+        {
+            "system_name": "Shigakham",
+            "system_position": [
+                18,
+                10
+            ],
+            "system_uwp": "A100300-F"
+        },
+        {
+            "system_name": "Erin's Star",
+            "system_position": [
+                19,
+                1
+            ],
+            "system_uwp": "C694524-9"
+        },
+        {
+            "system_name": "Ikkusham",
+            "system_position": [
+                19,
+                2
+            ],
+            "system_uwp": "B100447-E"
+        },
+        {
+            "system_name": "Specter",
+            "system_position": [
+                19,
+                3
+            ],
+            "system_uwp": "B100200-F"
+        },
+        {
+            "system_name": "Daisy",
+            "system_position": [
+                19,
+                4
+            ],
+            "system_uwp": "C3008A8-A"
+        },
+        {
+            "system_name": "Salona",
+            "system_position": [
+                19,
+                7
+            ],
+            "system_uwp": "E737610-7"
+        },
+        {
+            "system_name": "Tranquility",
+            "system_position": [
+                19,
+                9
+            ],
+            "system_uwp": "D310155-A"
+        },
+        {
+            "system_name": "Zazish",
+            "system_position": [
+                20,
+                1
+            ],
+            "system_uwp": "A63A68B-F"
+        },
+        {
+            "system_name": "Zagiku",
+            "system_position": [
+                20,
+                4
+            ],
+            "system_uwp": "B424532-D"
+        },
+        {
+            "system_name": "Maduun",
+            "system_position": [
+                20,
+                5
+            ],
+            "system_uwp": "B538332-C"
+        },
+        {
+            "system_name": "Corvus",
+            "system_position": [
+                20,
+                7
+            ],
+            "system_uwp": "A544435-D"
+        },
+        {
+            "system_name": "Epkiip",
+            "system_position": [
+                20,
+                9
+            ],
+            "system_uwp": "B894553-C"
+        },
+        {
+            "system_name": "Horsefly",
+            "system_position": [
+                20,
+                10
+            ],
+            "system_uwp": "E84A445-9"
+        },
+        {
+            "system_name": "Delany",
+            "system_position": [
+                21,
+                2
+            ],
+            "system_uwp": "E78A452-A"
+        },
+        {
+            "system_name": "Cobald",
+            "system_position": [
+                21,
+                7
+            ],
+            "system_uwp": "C645102-A"
+        },
+        {
+            "system_name": "Botirill",
+            "system_position": [
+                21,
+                8
+            ],
+            "system_uwp": "C637146-A"
+        },
+        {
+            "system_name": "Shurugashad",
+            "system_position": [
+                21,
+                9
+            ],
+            "system_uwp": "C000305-D"
+        },
+        {
+            "system_name": "Memmmulid",
+            "system_position": [
+                22,
+                2
+            ],
+            "system_uwp": "D998333-7"
+        },
+        {
+            "system_name": "Vargus",
+            "system_position": [
+                22,
+                3
+            ],
+            "system_uwp": "D84A430-9"
+        },
+        {
+            "system_name": "Seddon",
+            "system_position": [
+                23,
+                1
+            ],
+            "system_uwp": "A96A762-E"
+        },
+        {
+            "system_name": "Dibnah",
+            "system_position": [
+                23,
+                3
+            ],
+            "system_uwp": "C794776-8"
+        },
+        {
+            "system_name": "Comox",
+            "system_position": [
+                23,
+                6
+            ],
+            "system_uwp": "C769444-A"
+        },
+        {
+            "system_name": "Broguun",
+            "system_position": [
+                23,
+                10
+            ],
+            "system_uwp": "B100446-E"
+        },
+        {
+            "system_name": "Queens",
+            "system_position": [
+                24,
+                1
+            ],
+            "system_uwp": "D100779-9"
+        },
+        {
+            "system_name": "Giinaca",
+            "system_position": [
+                24,
+                4
+            ],
+            "system_uwp": "C581569-9"
+        },
+        {
+            "system_name": "Zehpyr",
+            "system_position": [
+                24,
+                5
+            ],
+            "system_uwp": "B432457-E"
+        },
+        {
+            "system_name": "Ravkovic",
+            "system_position": [
+                24,
+                6
+            ],
+            "system_uwp": "B100120-E"
+        },
+        {
+            "system_name": "Zelda",
+            "system_position": [
+                24,
+                8
+            ],
+            "system_uwp": "A000663-F"
+        },
+        {
+            "system_name": "Lesiuii",
+            "system_position": [
+                24,
+                9
+            ],
+            "system_uwp": "D562435-7"
+        },
+        {
+            "system_name": "Maiiu",
+            "system_position": [
+                24,
+                10
+            ],
+            "system_uwp": "C100767-B"
+        },
+        {
+            "system_name": "Alikaanii",
+            "system_position": [
+                25,
+                1
+            ],
+            "system_uwp": "C5327AD-9"
+        },
+        {
+            "system_name": "Pharnaaka",
+            "system_position": [
+                25,
+                4
+            ],
+            "system_uwp": "E54557A-7"
+        },
+        {
+            "system_name": "Moyenne",
+            "system_position": [
+                25,
+                9
+            ],
+            "system_uwp": "E766344-7"
+        },
+        {
+            "system_name": "Felicity",
+            "system_position": [
+                26,
+                3
+            ],
+            "system_uwp": "C788100-A"
+        },
+        {
+            "system_name": "Regnander",
+            "system_position": [
+                26,
+                6
+            ],
+            "system_uwp": "C541216-9"
+        },
+        {
+            "system_name": "Vaneenoo",
+            "system_position": [
+                26,
+                10
+            ],
+            "system_uwp": "B300555-E"
+        },
+        {
+            "system_name": "Straylight",
+            "system_position": [
+                27,
+                2
+            ],
+            "system_uwp": "C553449-9"
+        },
+        {
+            "system_name": "Caarimii",
+            "system_position": [
+                27,
+                5
+            ],
+            "system_uwp": "D3007CC-8"
+        },
+        {
+            "system_name": "Karguulam",
+            "system_position": [
+                27,
+                6
+            ],
+            "system_uwp": "AA97664-C"
+        },
+        {
+            "system_name": "Vanders",
+            "system_position": [
+                27,
+                8
+            ],
+            "system_uwp": "A636638-D"
+        },
+        {
+            "system_name": "Joi",
+            "system_position": [
+                28,
+                3
+            ],
+            "system_uwp": "C9858A9-8"
+        },
+        {
+            "system_name": "Inferum Mare",
+            "system_position": [
+                28,
+                6
+            ],
+            "system_uwp": "B86A327-D"
+        },
+        {
+            "system_name": "Manyana",
+            "system_position": [
+                29,
+                1
+            ],
+            "system_uwp": "E89A365-9"
+        },
+        {
+            "system_name": "Portal",
+            "system_position": [
+                29,
+                2
+            ],
+            "system_uwp": "B525634-B"
+        },
+        {
+            "system_name": "Kelpie",
+            "system_position": [
+                29,
+                4
+            ],
+            "system_uwp": "B678500-C"
+        },
+        {
+            "system_name": "Loiaccono",
+            "system_position": [
+                29,
+                8
+            ],
+            "system_uwp": "D552441-7"
+        },
+        {
+            "system_name": "Ithapanya",
+            "system_position": [
+                29,
+                9
+            ],
+            "system_uwp": "E310314-9"
+        },
+        {
+            "system_name": "Viguilli",
+            "system_position": [
+                30,
+                1
+            ],
+            "system_uwp": "A869650-E"
+        },
+        {
+            "system_name": "Ruins",
+            "system_position": [
+                30,
+                3
+            ],
+            "system_uwp": "C100226-C"
+        },
+        {
+            "system_name": "Spirit",
+            "system_position": [
+                30,
+                6
+            ],
+            "system_uwp": "B566243-B"
+        },
+        {
+            "system_name": "Iinen",
+            "system_position": [
+                30,
+                10
+            ],
+            "system_uwp": "A593989-E"
+        },
+        {
+            "system_name": "Zuuragaath",
+            "system_position": [
+                31,
+                8
+            ],
+            "system_uwp": "C200476-B"
+        },
+        {
+            "system_name": "Helaguuran",
+            "system_position": [
+                32,
+                1
+            ],
+            "system_uwp": "B00058B-E"
+        },
+        {
+            "system_name": "Ziggurat",
+            "system_position": [
+                32,
+                3
+            ],
+            "system_uwp": "C996633-8"
+        },
+        {
+            "system_name": "Blackcombe",
+            "system_position": [
+                32,
+                4
+            ],
+            "system_uwp": "A43288A-E"
+        },
+        {
+            "system_name": "Shards",
+            "system_position": [
+                32,
+                6
+            ],
+            "system_uwp": "B782545-B"
+        },
+        {
+            "system_name": "Aduulikgaa",
+            "system_position": [
+                32,
+                8
+            ],
+            "system_uwp": "B310466-D"
+        },
+        {
+            "system_name": "Victorignox",
+            "system_position": [
+                32,
+                10
+            ],
+            "system_uwp": "C985566-9"
+        },
+        {
+            "system_name": "Korik",
+            "system_position": [
+                1,
+                12
+            ],
+            "system_uwp": "B200456-E"
+        },
+        {
+            "system_name": "Woomera",
+            "system_position": [
+                1,
+                14
+            ],
+            "system_uwp": "A5839CC-E"
+        },
+        {
+            "system_name": "Illyana",
+            "system_position": [
+                1,
+                20
+            ],
+            "system_uwp": "B100413-E"
+        },
+        {
+            "system_name": "Shinnar",
+            "system_position": [
+                2,
+                20
+            ],
+            "system_uwp": "B100403-F"
+        },
+        {
+            "system_name": "Nyola",
+            "system_position": [
+                3,
+                16
+            ],
+            "system_uwp": "C76626A-9"
+        },
+        {
+            "system_name": "L'kus",
+            "system_position": [
+                3,
+                17
+            ],
+            "system_uwp": "C967557-A"
+        },
+        {
+            "system_name": "Vonid",
+            "system_position": [
+                3,
+                20
+            ],
+            "system_uwp": "E300454-A"
+        },
+        {
+            "system_name": "Skyia",
+            "system_position": [
+                4,
+                11
+            ],
+            "system_uwp": "E562410-7"
+        },
+        {
+            "system_name": "Judgement",
+            "system_position": [
+                4,
+                20
+            ],
+            "system_uwp": "B000135-E"
+        },
+        {
+            "system_name": "Tyers",
+            "system_position": [
+                5,
+                16
+            ],
+            "system_uwp": "C300554-C"
+        },
+        {
+            "system_name": "Nirel",
+            "system_position": [
+                6,
+                11
+            ],
+            "system_uwp": "C300543-B"
+        },
+        {
+            "system_name": "Macey",
+            "system_position": [
+                6,
+                13
+            ],
+            "system_uwp": "B31058C-D"
+        },
+        {
+            "system_name": "Faie",
+            "system_position": [
+                6,
+                15
+            ],
+            "system_uwp": "B200412-D"
+        },
+        {
+            "system_name": "Bandy",
+            "system_position": [
+                7,
+                14
+            ],
+            "system_uwp": "C100586-C"
+        },
+        {
+            "system_name": "Chyerra",
+            "system_position": [
+                7,
+                18
+            ],
+            "system_uwp": "C547100-A"
+        },
+        {
+            "system_name": "Wosi",
+            "system_position": [
+                7,
+                20
+            ],
+            "system_uwp": "A685556-E"
+        },
+        {
+            "system_name": "Iniya",
+            "system_position": [
+                8,
+                17
+            ],
+            "system_uwp": "B665866-A"
+        },
+        {
+            "system_name": "Shiuan",
+            "system_position": [
+                8,
+                20
+            ],
+            "system_uwp": "E655567-7"
+        },
+        {
+            "system_name": "Hatshepsut II",
+            "system_position": [
+                9,
+                12
+            ],
+            "system_uwp": "C798156-A"
+        },
+        {
+            "system_name": "Athenae",
+            "system_position": [
+                9,
+                13
+            ],
+            "system_uwp": "A86A344-F"
+        },
+        {
+            "system_name": "Nazgul",
+            "system_position": [
+                9,
+                16
+            ],
+            "system_uwp": "B30089D-C"
+        },
+        {
+            "system_name": "Vanya",
+            "system_position": [
+                10,
+                12
+            ],
+            "system_uwp": "B796200-C"
+        },
+        {
+            "system_name": "Sparta",
+            "system_position": [
+                11,
+                13
+            ],
+            "system_uwp": "C987568-9"
+        },
+        {
+            "system_name": "Thebes",
+            "system_position": [
+                11,
+                14
+            ],
+            "system_uwp": "A675898-C"
+        },
+        {
+            "system_name": "Suza",
+            "system_position": [
+                11,
+                18
+            ],
+            "system_uwp": "E57679C-6"
+        },
+        {
+            "system_name": "Kin's Tower",
+            "system_position": [
+                11,
+                19
+            ],
+            "system_uwp": "D541544-7"
+        },
+        {
+            "system_name": "Kulinaar",
+            "system_position": [
+                12,
+                14
+            ],
+            "system_uwp": "E100541-A"
+        },
+        {
+            "system_name": "Aihtekhtea",
+            "system_position": [
+                12,
+                16
+            ],
+            "system_uwp": "C555550-A"
+        },
+        {
+            "system_name": "Ithilnaur",
+            "system_position": [
+                12,
+                19
+            ],
+            "system_uwp": "C200577-B"
+        },
+        {
+            "system_name": "Suguura",
+            "system_position": [
+                13,
+                17
+            ],
+            "system_uwp": "B574466-B"
+        },
+        {
+            "system_name": "Moore's World",
+            "system_position": [
+                13,
+                20
+            ],
+            "system_uwp": "D300666-8"
+        },
+        {
+            "system_name": "Ulikaari",
+            "system_position": [
+                14,
+                11
+            ],
+            "system_uwp": "C100330-C"
+        },
+        {
+            "system_name": "Burnaby",
+            "system_position": [
+                14,
+                13
+            ],
+            "system_uwp": "D772524-7"
+        },
+        {
+            "system_name": "Atun",
+            "system_position": [
+                14,
+                15
+            ],
+            "system_uwp": "E566315-7"
+        },
+        {
+            "system_name": "Tarma",
+            "system_position": [
+                15,
+                11
+            ],
+            "system_uwp": "C100665-B"
+        },
+        {
+            "system_name": "Marathon",
+            "system_position": [
+                15,
+                12
+            ],
+            "system_uwp": "EA5A89B-8"
+        },
+        {
+            "system_name": "Eketta",
+            "system_position": [
+                15,
+                13
+            ],
+            "system_uwp": "A571352-E"
+        },
+        {
+            "system_name": "Kitspiox",
+            "system_position": [
+                15,
+                20
+            ],
+            "system_uwp": "C552331-9"
+        },
+        {
+            "system_name": "Parnassis",
+            "system_position": [
+                16,
+                12
+            ],
+            "system_uwp": "C000220-C"
+        },
+        {
+            "system_name": "Sissel",
+            "system_position": [
+                16,
+                14
+            ],
+            "system_uwp": "C774300-A"
+        },
+        {
+            "system_name": "Tyrrhenum",
+            "system_position": [
+                16,
+                15
+            ],
+            "system_uwp": "D97A668-8"
+        },
+        {
+            "system_name": "Tremor",
+            "system_position": [
+                16,
+                16
+            ],
+            "system_uwp": "C699622-9"
+        },
+        {
+            "system_name": "Constantine",
+            "system_position": [
+                16,
+                17
+            ],
+            "system_uwp": "E544733-6"
+        },
+        {
+            "system_name": "Vendel's Star",
+            "system_position": [
+                16,
+                18
+            ],
+            "system_uwp": "B626346-C"
+        },
+        {
+            "system_name": "Kikish",
+            "system_position": [
+                17,
+                11
+            ],
+            "system_uwp": "D000266-A"
+        },
+        {
+            "system_name": "Kiinia",
+            "system_position": [
+                17,
+                12
+            ],
+            "system_uwp": "EAD9642-8"
+        },
+        {
+            "system_name": "Iisar",
+            "system_position": [
+                17,
+                16
+            ],
+            "system_uwp": "E85959E-8"
+        },
+        {
+            "system_name": "Tower",
+            "system_position": [
+                18,
+                11
+            ],
+            "system_uwp": "C769776-9"
+        },
+        {
+            "system_name": "Enlu",
+            "system_position": [
+                18,
+                12
+            ],
+            "system_uwp": "D544514-7"
+        },
+        {
+            "system_name": "Duugi",
+            "system_position": [
+                18,
+                18
+            ],
+            "system_uwp": "C100400-D"
+        },
+        {
+            "system_name": "Mater",
+            "system_position": [
+                18,
+                19
+            ],
+            "system_uwp": "E766300-8"
+        },
+        {
+            "system_name": "Aquilon",
+            "system_position": [
+                18,
+                20
+            ],
+            "system_uwp": "A645367-D"
+        },
+        {
+            "system_name": "Kagusamar",
+            "system_position": [
+                19,
+                11
+            ],
+            "system_uwp": "C200234-B"
+        },
+        {
+            "system_name": "Girgaleka",
+            "system_position": [
+                19,
+                16
+            ],
+            "system_uwp": "A427689-E"
+        },
+        {
+            "system_name": "Unkashe",
+            "system_position": [
+                20,
+                11
+            ],
+            "system_uwp": "D549AAE-B"
+        },
+        {
+            "system_name": "Kukisakuga",
+            "system_position": [
+                20,
+                13
+            ],
+            "system_uwp": "B9D447A-C"
+        },
+        {
+            "system_name": "Amdani",
+            "system_position": [
+                20,
+                14
+            ],
+            "system_uwp": "A865AEA-F"
+        },
+        {
+            "system_name": "Agukikhiga",
+            "system_position": [
+                20,
+                15
+            ],
+            "system_uwp": "C879311-A"
+        },
+        {
+            "system_name": "Raven's Wood",
+            "system_position": [
+                20,
+                20
+            ],
+            "system_uwp": "B565301-C"
+        },
+        {
+            "system_name": "Vettesse",
+            "system_position": [
+                21,
+                11
+            ],
+            "system_uwp": "D3108CB-8"
+        },
+        {
+            "system_name": "Ahmun",
+            "system_position": [
+                21,
+                13
+            ],
+            "system_uwp": "C10078C-B"
+        },
+        {
+            "system_name": "Lappin",
+            "system_position": [
+                21,
+                16
+            ],
+            "system_uwp": "CAF5765-9"
+        },
+        {
+            "system_name": "Macella",
+            "system_position": [
+                21,
+                19
+            ],
+            "system_uwp": "A53657B-E"
+        },
+        {
+            "system_name": "Chilton",
+            "system_position": [
+                22,
+                12
+            ],
+            "system_uwp": "C541766-8"
+        },
+        {
+            "system_name": "Wagnild",
+            "system_position": [
+                22,
+                14
+            ],
+            "system_uwp": "C435687-A"
+        },
+        {
+            "system_name": "Uvatha",
+            "system_position": [
+                22,
+                17
+            ],
+            "system_uwp": "D595422-7"
+        },
+        {
+            "system_name": "Llwyellen",
+            "system_position": [
+                23,
+                11
+            ],
+            "system_uwp": "C66788C-8"
+        },
+        {
+            "system_name": "Bagherzadeh",
+            "system_position": [
+                23,
+                16
+            ],
+            "system_uwp": "D100238-A"
+        },
+        {
+            "system_name": "Laudumash",
+            "system_position": [
+                23,
+                19
+            ],
+            "system_uwp": "D310A99-C"
+        },
+        {
+            "system_name": "Chapel Mews",
+            "system_position": [
+                23,
+                20
+            ],
+            "system_uwp": "B6487A9-A"
+        },
+        {
+            "system_name": "Leroux",
+            "system_position": [
+                24,
+                11
+            ],
+            "system_uwp": "D426588-9"
+        },
+        {
+            "system_name": "Fyvie",
+            "system_position": [
+                24,
+                13
+            ],
+            "system_uwp": "C553463-9"
+        },
+        {
+            "system_name": "Gilden",
+            "system_position": [
+                24,
+                15
+            ],
+            "system_uwp": "A431400-F"
+        },
+        {
+            "system_name": "Miller's Glen",
+            "system_position": [
+                24,
+                19
+            ],
+            "system_uwp": "C785451-A"
+        },
+        {
+            "system_name": "Locu",
+            "system_position": [
+                26,
+                11
+            ],
+            "system_uwp": "D535446-8"
+        },
+        {
+            "system_name": "Mossbar",
+            "system_position": [
+                27,
+                12
+            ],
+            "system_uwp": "C569359-B"
+        },
+        {
+            "system_name": "Yarfeg",
+            "system_position": [
+                27,
+                13
+            ],
+            "system_uwp": "C200223-B"
+        },
+        {
+            "system_name": "Rendroch",
+            "system_position": [
+                27,
+                14
+            ],
+            "system_uwp": "B638400-D"
+        },
+        {
+            "system_name": "Salla",
+            "system_position": [
+                27,
+                16
+            ],
+            "system_uwp": "D310557-A"
+        },
+        {
+            "system_name": "Conda",
+            "system_position": [
+                27,
+                18
+            ],
+            "system_uwp": "A5969CD-E"
+        },
+        {
+            "system_name": "Durgaarurkim",
+            "system_position": [
+                27,
+                20
+            ],
+            "system_uwp": "B957979-C"
+        },
+        {
+            "system_name": "Bander",
+            "system_position": [
+                28,
+                15
+            ],
+            "system_uwp": "E897524-7"
+        },
+        {
+            "system_name": "Dunker",
+            "system_position": [
+                28,
+                18
+            ],
+            "system_uwp": "C10056A-C"
+        },
+        {
+            "system_name": "Luan",
+            "system_position": [
+                29,
+                12
+            ],
+            "system_uwp": "B100566-E"
+        },
+        {
+            "system_name": "Hograine",
+            "system_position": [
+                29,
+                13
+            ],
+            "system_uwp": "A542878-C"
+        },
+        {
+            "system_name": "Oravais",
+            "system_position": [
+                29,
+                15
+            ],
+            "system_uwp": "C546888-8"
+        },
+        {
+            "system_name": "Paltea",
+            "system_position": [
+                29,
+                18
+            ],
+            "system_uwp": "C754430-9"
+        },
+        {
+            "system_name": "Hotagen",
+            "system_position": [
+                30,
+                12
+            ],
+            "system_uwp": "E423594-9"
+        },
+        {
+            "system_name": "E'lam",
+            "system_position": [
+                30,
+                13
+            ],
+            "system_uwp": "B9D47A8-B"
+        },
+        {
+            "system_name": "Darvell",
+            "system_position": [
+                30,
+                16
+            ],
+            "system_uwp": "C773787-8"
+        },
+        {
+            "system_name": "Temeraire",
+            "system_position": [
+                30,
+                20
+            ],
+            "system_uwp": "B585779-A"
+        },
+        {
+            "system_name": "Pengith",
+            "system_position": [
+                31,
+                15
+            ],
+            "system_uwp": "C200313-B"
+        },
+        {
+            "system_name": "Kivalo",
+            "system_position": [
+                31,
+                16
+            ],
+            "system_uwp": "C544635-8"
+        },
+        {
+            "system_name": "Thorfell",
+            "system_position": [
+                32,
+                11
+            ],
+            "system_uwp": "E100847-9"
+        },
+        {
+            "system_name": "Skebo",
+            "system_position": [
+                32,
+                18
+            ],
+            "system_uwp": "E793543-7"
+        },
+        {
+            "system_name": "Zypher",
+            "system_position": [
+                1,
+                22
+            ],
+            "system_uwp": "C78A646-A"
+        },
+        {
+            "system_name": "Luna",
+            "system_position": [
+                1,
+                23
+            ],
+            "system_uwp": "B100455-F"
+        },
+        {
+            "system_name": "Ostia",
+            "system_position": [
+                1,
+                24
+            ],
+            "system_uwp": "B888110-B"
+        },
+        {
+            "system_name": "Ashima",
+            "system_position": [
+                1,
+                26
+            ],
+            "system_uwp": "C749984-B"
+        },
+        {
+            "system_name": "Sineli",
+            "system_position": [
+                1,
+                27
+            ],
+            "system_uwp": "A526476-E"
+        },
+        {
+            "system_name": "Locri",
+            "system_position": [
+                2,
+                23
+            ],
+            "system_uwp": "E98A521-9"
+        },
+        {
+            "system_name": "Iulii",
+            "system_position": [
+                2,
+                28
+            ],
+            "system_uwp": "C855300-A"
+        },
+        {
+            "system_name": "Persistance",
+            "system_position": [
+                3,
+                23
+            ],
+            "system_uwp": "E432331-9"
+        },
+        {
+            "system_name": "Troy",
+            "system_position": [
+                3,
+                24
+            ],
+            "system_uwp": "B774414-B"
+        },
+        {
+            "system_name": "Depot",
+            "system_position": [
+                3,
+                26
+            ],
+            "system_uwp": "A9B956A-F"
+        },
+        {
+            "system_name": "Delphi",
+            "system_position": [
+                3,
+                27
+            ],
+            "system_uwp": "A94A100-F"
+        },
+        {
+            "system_name": "Haajar",
+            "system_position": [
+                3,
+                28
+            ],
+            "system_uwp": "D997663-6"
+        },
+        {
+            "system_name": "Riedigar",
+            "system_position": [
+                3,
+                30
+            ],
+            "system_uwp": "E200233-9"
+        },
+        {
+            "system_name": "Sotto",
+            "system_position": [
+                4,
+                24
+            ],
+            "system_uwp": "B432856-D"
+        },
+        {
+            "system_name": "Kuliiga",
+            "system_position": [
+                4,
+                29
+            ],
+            "system_uwp": "B666698-A"
+        },
+        {
+            "system_name": "Amazonia",
+            "system_position": [
+                5,
+                26
+            ],
+            "system_uwp": "B594775-A"
+        },
+        {
+            "system_name": "Xanthe",
+            "system_position": [
+                5,
+                27
+            ],
+            "system_uwp": "B984758-B"
+        },
+        {
+            "system_name": "Byers World",
+            "system_position": [
+                5,
+                30
+            ],
+            "system_uwp": "A10069A-F"
+        },
+        {
+            "system_name": "Caspar",
+            "system_position": [
+                6,
+                22
+            ],
+            "system_uwp": "D75A310-9"
+        },
+        {
+            "system_name": "Vaal",
+            "system_position": [
+                6,
+                24
+            ],
+            "system_uwp": "D597779-6"
+        },
+        {
+            "system_name": "Zhemi",
+            "system_position": [
+                6,
+                27
+            ],
+            "system_uwp": "C89AA8C-E"
+        },
+        {
+            "system_name": "Hades",
+            "system_position": [
+                6,
+                28
+            ],
+            "system_uwp": "B100569-E"
+        },
+        {
+            "system_name": "Sirocco",
+            "system_position": [
+                6,
+                30
+            ],
+            "system_uwp": "C76A413-B"
+        },
+        {
+            "system_name": "Tobasco",
+            "system_position": [
+                7,
+                22
+            ],
+            "system_uwp": "C692422-9"
+        },
+        {
+            "system_name": "Chapman",
+            "system_position": [
+                7,
+                27
+            ],
+            "system_uwp": "B310566-D"
+        },
+        {
+            "system_name": "Gershunas",
+            "system_position": [
+                7,
+                28
+            ],
+            "system_uwp": "C552675-8"
+        },
+        {
+            "system_name": "Olympus",
+            "system_position": [
+                8,
+                23
+            ],
+            "system_uwp": "E310200-A"
+        },
+        {
+            "system_name": "Daionie",
+            "system_position": [
+                8,
+                24
+            ],
+            "system_uwp": "B56165A-B"
+        },
+        {
+            "system_name": "Vargenheim",
+            "system_position": [
+                8,
+                25
+            ],
+            "system_uwp": "E100148-A"
+        },
+        {
+            "system_name": "Glacier",
+            "system_position": [
+                8,
+                26
+            ],
+            "system_uwp": "A899656-E"
+        },
+        {
+            "system_name": "Sarina",
+            "system_position": [
+                8,
+                28
+            ],
+            "system_uwp": "C310446-B"
+        },
+        {
+            "system_name": "Haden",
+            "system_position": [
+                8,
+                30
+            ],
+            "system_uwp": "X66A630-4"
+        },
+        {
+            "system_name": "Duurmurze",
+            "system_position": [
+                9,
+                22
+            ],
+            "system_uwp": "B574A9A-E"
+        },
+        {
+            "system_name": "Wheeler",
+            "system_position": [
+                9,
+                24
+            ],
+            "system_uwp": "D654114-7"
+        },
+        {
+            "system_name": "Repin",
+            "system_position": [
+                9,
+                29
+            ],
+            "system_uwp": "E63177A-7"
+        },
+        {
+            "system_name": "White Mountain",
+            "system_position": [
+                9,
+                30
+            ],
+            "system_uwp": "C31087C-A"
+        },
+        {
+            "system_name": "Zwingle",
+            "system_position": [
+                10,
+                24
+            ],
+            "system_uwp": "D792410-7"
+        },
+        {
+            "system_name": "Kuguuri",
+            "system_position": [
+                10,
+                26
+            ],
+            "system_uwp": "B310867-C"
+        },
+        {
+            "system_name": "Thutmosis III",
+            "system_position": [
+                10,
+                28
+            ],
+            "system_uwp": "B410541-D"
+        },
+        {
+            "system_name": "T'vira",
+            "system_position": [
+                11,
+                26
+            ],
+            "system_uwp": "B542555-C"
+        },
+        {
+            "system_name": "Tirigiilii",
+            "system_position": [
+                11,
+                27
+            ],
+            "system_uwp": "D543455-8"
+        },
+        {
+            "system_name": "Osita",
+            "system_position": [
+                11,
+                28
+            ],
+            "system_uwp": "B200533-D"
+        },
+        {
+            "system_name": "Pilos",
+            "system_position": [
+                11,
+                30
+            ],
+            "system_uwp": "BA77433-B"
+        },
+        {
+            "system_name": "Silence",
+            "system_position": [
+                12,
+                21
+            ],
+            "system_uwp": "B733389-C"
+        },
+        {
+            "system_name": "Polarity",
+            "system_position": [
+                12,
+                23
+            ],
+            "system_uwp": "C96A545-B"
+        },
+        {
+            "system_name": "Lynx",
+            "system_position": [
+                12,
+                29
+            ],
+            "system_uwp": "C585204-A"
+        },
+        {
+            "system_name": "Harmony",
+            "system_position": [
+                12,
+                30
+            ],
+            "system_uwp": "A675334-D"
+        },
+        {
+            "system_name": "Amun",
+            "system_position": [
+                13,
+                22
+            ],
+            "system_uwp": "B100435-E"
+        },
+        {
+            "system_name": "Hestia",
+            "system_position": [
+                13,
+                24
+            ],
+            "system_uwp": "C435575-B"
+        },
+        {
+            "system_name": "Drako",
+            "system_position": [
+                13,
+                26
+            ],
+            "system_uwp": "C538474-A"
+        },
+        {
+            "system_name": "McGwire",
+            "system_position": [
+                13,
+                29
+            ],
+            "system_uwp": "A310105-F"
+        },
+        {
+            "system_name": "Kimchi",
+            "system_position": [
+                14,
+                21
+            ],
+            "system_uwp": "B100443-E"
+        },
+        {
+            "system_name": "Juniper",
+            "system_position": [
+                14,
+                25
+            ],
+            "system_uwp": "B100532-E"
+        },
+        {
+            "system_name": "Coquitlam",
+            "system_position": [
+                14,
+                27
+            ],
+            "system_uwp": "E100866-9"
+        },
+        {
+            "system_name": "Port Kells",
+            "system_position": [
+                14,
+                28
+            ],
+            "system_uwp": "E100574-A"
+        },
+        {
+            "system_name": "Mendelson",
+            "system_position": [
+                15,
+                25
+            ],
+            "system_uwp": "D568338-7"
+        },
+        {
+            "system_name": "Dawn",
+            "system_position": [
+                15,
+                26
+            ],
+            "system_uwp": "C566543-9"
+        },
+        {
+            "system_name": "Juuri Banii",
+            "system_position": [
+                15,
+                29
+            ],
+            "system_uwp": "A565546-D"
+        },
+        {
+            "system_name": "Handel",
+            "system_position": [
+                16,
+                26
+            ],
+            "system_uwp": "B544433-B"
+        },
+        {
+            "system_name": "Mozart",
+            "system_position": [
+                16,
+                27
+            ],
+            "system_uwp": "E400441-9"
+        },
+        {
+            "system_name": "Schubert",
+            "system_position": [
+                16,
+                29
+            ],
+            "system_uwp": "C433611-A"
+        },
+        {
+            "system_name": "Hadria",
+            "system_position": [
+                16,
+                30
+            ],
+            "system_uwp": "CA8A344-B"
+        },
+        {
+            "system_name": "Ur",
+            "system_position": [
+                17,
+                21
+            ],
+            "system_uwp": "B425415-D"
+        },
+        {
+            "system_name": "Uukaminukhu",
+            "system_position": [
+                17,
+                24
+            ],
+            "system_uwp": "DA8A746-8"
+        },
+        {
+            "system_name": "Beethoven",
+            "system_position": [
+                17,
+                25
+            ],
+            "system_uwp": "C55A476-B"
+        },
+        {
+            "system_name": "Corve",
+            "system_position": [
+                17,
+                29
+            ],
+            "system_uwp": "B572ABA-B"
+        },
+        {
+            "system_name": "Tyres",
+            "system_position": [
+                17,
+                30
+            ],
+            "system_uwp": "A653200-E"
+        },
+        {
+            "system_name": "Sardinia",
+            "system_position": [
+                18,
+                21
+            ],
+            "system_uwp": "E1007BB-9"
+        },
+        {
+            "system_name": "Bould",
+            "system_position": [
+                18,
+                24
+            ],
+            "system_uwp": "C100200-D"
+        },
+        {
+            "system_name": "Wishart",
+            "system_position": [
+                18,
+                25
+            ],
+            "system_uwp": "E310201-A"
+        },
+        {
+            "system_name": "Leesing",
+            "system_position": [
+                18,
+                27
+            ],
+            "system_uwp": "E775452-8"
+        },
+        {
+            "system_name": "Panorama Ridge",
+            "system_position": [
+                18,
+                29
+            ],
+            "system_uwp": "D200584-9"
+        },
+        {
+            "system_name": "Udo",
+            "system_position": [
+                19,
+                22
+            ],
+            "system_uwp": "A9896BB-D"
+        },
+        {
+            "system_name": "Prince",
+            "system_position": [
+                19,
+                25
+            ],
+            "system_uwp": "D564255-8"
+        },
+        {
+            "system_name": "Khatmandu",
+            "system_position": [
+                19,
+                29
+            ],
+            "system_uwp": "E588334-7"
+        },
+        {
+            "system_name": "Mott",
+            "system_position": [
+                19,
+                30
+            ],
+            "system_uwp": "C551114-9"
+        },
+        {
+            "system_name": "Escher",
+            "system_position": [
+                20,
+                21
+            ],
+            "system_uwp": "C978730-8"
+        },
+        {
+            "system_name": "Fender",
+            "system_position": [
+                20,
+                23
+            ],
+            "system_uwp": "A100865-F"
+        },
+        {
+            "system_name": "Baarn",
+            "system_position": [
+                20,
+                25
+            ],
+            "system_uwp": "C0007A6-B"
+        },
+        {
+            "system_name": "Dudin",
+            "system_position": [
+                20,
+                28
+            ],
+            "system_uwp": "D745A67-A"
+        },
+        {
+            "system_name": "Amarsi",
+            "system_position": [
+                21,
+                21
+            ],
+            "system_uwp": "E994733-6"
+        },
+        {
+            "system_name": "Ditcham",
+            "system_position": [
+                21,
+                22
+            ],
+            "system_uwp": "D786131-7"
+        },
+        {
+            "system_name": "Ahwai",
+            "system_position": [
+                21,
+                24
+            ],
+            "system_uwp": "E591574-7"
+        },
+        {
+            "system_name": "Lorimer",
+            "system_position": [
+                21,
+                26
+            ],
+            "system_uwp": "B987483-B"
+        },
+        {
+            "system_name": "Phong",
+            "system_position": [
+                21,
+                29
+            ],
+            "system_uwp": "C564645-8"
+        },
+        {
+            "system_name": "Lok",
+            "system_position": [
+                22,
+                24
+            ],
+            "system_uwp": "B879485-C"
+        },
+        {
+            "system_name": "Ren",
+            "system_position": [
+                22,
+                28
+            ],
+            "system_uwp": "C887212-9"
+        },
+        {
+            "system_name": "Ashurst Wood",
+            "system_position": [
+                23,
+                22
+            ],
+            "system_uwp": "C64A101-C"
+        },
+        {
+            "system_name": "Zenone",
+            "system_position": [
+                23,
+                23
+            ],
+            "system_uwp": "C5667AC-8"
+        },
+        {
+            "system_name": "Tukera",
+            "system_position": [
+                24,
+                23
+            ],
+            "system_uwp": "E693AA8-A"
+        },
+        {
+            "system_name": "Xiang",
+            "system_position": [
+                24,
+                26
+            ],
+            "system_uwp": "X581114-3"
+        },
+        {
+            "system_name": "Girillovitch",
+            "system_position": [
+                24,
+                28
+            ],
+            "system_uwp": "D543755-7"
+        },
+        {
+            "system_name": "Rennox",
+            "system_position": [
+                24,
+                29
+            ],
+            "system_uwp": "A200113-F"
+        },
+        {
+            "system_name": "Adanac",
+            "system_position": [
+                25,
+                24
+            ],
+            "system_uwp": "CA6A454-C"
+        },
+        {
+            "system_name": "Anchor",
+            "system_position": [
+                25,
+                28
+            ],
+            "system_uwp": "B525873-B"
+        },
+        {
+            "system_name": "Chemi",
+            "system_position": [
+                25,
+                30
+            ],
+            "system_uwp": "C888413-9"
+        },
+        {
+            "system_name": "Dharma",
+            "system_position": [
+                26,
+                21
+            ],
+            "system_uwp": "C555599-9"
+        },
+        {
+            "system_name": "Carnivora",
+            "system_position": [
+                26,
+                22
+            ],
+            "system_uwp": "C694664-8"
+        },
+        {
+            "system_name": "Regiimaa",
+            "system_position": [
+                26,
+                23
+            ],
+            "system_uwp": "C435388-B"
+        },
+        {
+            "system_name": "St. Sebastien",
+            "system_position": [
+                26,
+                24
+            ],
+            "system_uwp": "D200310-9"
+        },
+        {
+            "system_name": "Paris",
+            "system_position": [
+                26,
+                26
+            ],
+            "system_uwp": "A100248-F"
+        },
+        {
+            "system_name": "Helena",
+            "system_position": [
+                26,
+                27
+            ],
+            "system_uwp": "A96A776-E"
+        },
+        {
+            "system_name": "Inthavixay",
+            "system_position": [
+                27,
+                22
+            ],
+            "system_uwp": "D553316-7"
+        },
+        {
+            "system_name": "Daelan",
+            "system_position": [
+                27,
+                23
+            ],
+            "system_uwp": "C310100-C"
+        },
+        {
+            "system_name": "Flamme",
+            "system_position": [
+                27,
+                29
+            ],
+            "system_uwp": "E546451-8"
+        },
+        {
+            "system_name": "Dunklheim",
+            "system_position": [
+                27,
+                30
+            ],
+            "system_uwp": "C400212-B"
+        },
+        {
+            "system_name": "Ulie",
+            "system_position": [
+                28,
+                22
+            ],
+            "system_uwp": "D76A520-9"
+        },
+        {
+            "system_name": "Saturna",
+            "system_position": [
+                28,
+                28
+            ],
+            "system_uwp": "B529302-E"
+        },
+        {
+            "system_name": "Thetis",
+            "system_position": [
+                28,
+                29
+            ],
+            "system_uwp": "D200231-9"
+        },
+        {
+            "system_name": "Galliano",
+            "system_position": [
+                28,
+                30
+            ],
+            "system_uwp": "C98989B-9"
+        },
+        {
+            "system_name": "Dime",
+            "system_position": [
+                29,
+                22
+            ],
+            "system_uwp": "B65557A-B"
+        },
+        {
+            "system_name": "Cruxway",
+            "system_position": [
+                29,
+                26
+            ],
+            "system_uwp": "C89A963-C"
+        },
+        {
+            "system_name": "Nirvana",
+            "system_position": [
+                29,
+                28
+            ],
+            "system_uwp": "C5638A9-8"
+        },
+        {
+            "system_name": "Tartarus",
+            "system_position": [
+                29,
+                29
+            ],
+            "system_uwp": "E422852-9"
+        },
+        {
+            "system_name": "Perth",
+            "system_position": [
+                29,
+                30
+            ],
+            "system_uwp": "A300301-F"
+        },
+        {
+            "system_name": "New Melbourne",
+            "system_position": [
+                30,
+                21
+            ],
+            "system_uwp": "E557312-7"
+        },
+        {
+            "system_name": "Gcoverega",
+            "system_position": [
+                30,
+                24
+            ],
+            "system_uwp": "D300463-9"
+        },
+        {
+            "system_name": "Bobonong",
+            "system_position": [
+                31,
+                21
+            ],
+            "system_uwp": "A591759-D"
+        },
+        {
+            "system_name": "Chartrand",
+            "system_position": [
+                31,
+                27
+            ],
+            "system_uwp": "B665323-B"
+        },
+        {
+            "system_name": "Karukuwisa",
+            "system_position": [
+                31,
+                28
+            ],
+            "system_uwp": "B100366-E"
+        },
+        {
+            "system_name": "Dawson",
+            "system_position": [
+                31,
+                29
+            ],
+            "system_uwp": "D200956-B"
+        },
+        {
+            "system_name": "Maroelaboom",
+            "system_position": [
+                31,
+                30
+            ],
+            "system_uwp": "B100535-E"
+        },
+        {
+            "system_name": "Amoah",
+            "system_position": [
+                32,
+                24
+            ],
+            "system_uwp": "B978757-B"
+        },
+        {
+            "system_name": "805-111",
+            "system_position": [
+                32,
+                25
+            ],
+            "system_uwp": "D736988-7"
+        },
+        {
+            "system_name": "Rahim",
+            "system_position": [
+                32,
+                26
+            ],
+            "system_uwp": "A00077B-F"
+        },
+        {
+            "system_name": "Yerxa",
+            "system_position": [
+                32,
+                28
+            ],
+            "system_uwp": "D300555-A"
+        },
+        {
+            "system_name": "Ilin",
+            "system_position": [
+                32,
+                29
+            ],
+            "system_uwp": "E310997-A"
+        },
+        {
+            "system_name": "Whisper",
+            "system_position": [
+                32,
+                30
+            ],
+            "system_uwp": "C656324-9"
+        },
+        {
+            "system_name": "Townend",
+            "system_position": [
+                1,
+                31
+            ],
+            "system_uwp": "C410462-B"
+        },
+        {
+            "system_name": "Cynowa",
+            "system_position": [
+                1,
+                33
+            ],
+            "system_uwp": "C310544-B"
+        },
+        {
+            "system_name": "Elk",
+            "system_position": [
+                1,
+                38
+            ],
+            "system_uwp": "C100422-C"
+        },
+        {
+            "system_name": "Uston",
+            "system_position": [
+                1,
+                39
+            ],
+            "system_uwp": "A100A98-E"
+        },
+        {
+            "system_name": "Aston",
+            "system_position": [
+                1,
+                40
+            ],
+            "system_uwp": "A0005AC-E"
+        },
+        {
+            "system_name": "Diana's World",
+            "system_position": [
+                2,
+                36
+            ],
+            "system_uwp": "B566576-B"
+        },
+        {
+            "system_name": "Odin",
+            "system_position": [
+                2,
+                37
+            ],
+            "system_uwp": "A310558-E"
+        },
+        {
+            "system_name": "Magyar",
+            "system_position": [
+                2,
+                40
+            ],
+            "system_uwp": "C424732-A"
+        },
+        {
+            "system_name": "Selket",
+            "system_position": [
+                3,
+                32
+            ],
+            "system_uwp": "B684300-C"
+        },
+        {
+            "system_name": "Seti IV",
+            "system_position": [
+                3,
+                33
+            ],
+            "system_uwp": "A566521-D"
+        },
+        {
+            "system_name": "Handel",
+            "system_position": [
+                3,
+                34
+            ],
+            "system_uwp": "C998348-9"
+        },
+        {
+            "system_name": "Tolkien",
+            "system_position": [
+                3,
+                35
+            ],
+            "system_uwp": "A878411-D"
+        },
+        {
+            "system_name": "Deir el-Medina",
+            "system_position": [
+                3,
+                39
+            ],
+            "system_uwp": "B525647-B"
+        },
+        {
+            "system_name": "Tremor",
+            "system_position": [
+                4,
+                32
+            ],
+            "system_uwp": "B310543-D"
+        },
+        {
+            "system_name": "Whiteside",
+            "system_position": [
+                4,
+                35
+            ],
+            "system_uwp": "C100359-D"
+        },
+        {
+            "system_name": "Sosa",
+            "system_position": [
+                4,
+                36
+            ],
+            "system_uwp": "E571564-7"
+        },
+        {
+            "system_name": "Wrigley",
+            "system_position": [
+                4,
+                37
+            ],
+            "system_uwp": "B310655-D"
+        },
+        {
+            "system_name": "Pastel",
+            "system_position": [
+                4,
+                40
+            ],
+            "system_uwp": "B575210-B"
+        },
+        {
+            "system_name": "Larissa",
+            "system_position": [
+                5,
+                31
+            ],
+            "system_uwp": "B436457-E"
+        },
+        {
+            "system_name": "Cameron",
+            "system_position": [
+                5,
+                36
+            ],
+            "system_uwp": "A835855-E"
+        },
+        {
+            "system_name": "Syliskia",
+            "system_position": [
+                6,
+                34
+            ],
+            "system_uwp": "C100895-B"
+        },
+        {
+            "system_name": "Gulurkhi",
+            "system_position": [
+                6,
+                36
+            ],
+            "system_uwp": "C0009A7-D"
+        },
+        {
+            "system_name": "Harp",
+            "system_position": [
+                6,
+                39
+            ],
+            "system_uwp": "A000520-E"
+        },
+        {
+            "system_name": "Antioch",
+            "system_position": [
+                7,
+                31
+            ],
+            "system_uwp": "C689203-B"
+        },
+        {
+            "system_name": "Cauldren",
+            "system_position": [
+                7,
+                36
+            ],
+            "system_uwp": "C100204-D"
+        },
+        {
+            "system_name": "Muffin",
+            "system_position": [
+                8,
+                31
+            ],
+            "system_uwp": "C6389A9-B"
+        },
+        {
+            "system_name": "Memnon",
+            "system_position": [
+                8,
+                32
+            ],
+            "system_uwp": "A655300-E"
+        },
+        {
+            "system_name": "Sheikh Taya",
+            "system_position": [
+                8,
+                33
+            ],
+            "system_uwp": "C66A453-C"
+        },
+        {
+            "system_name": "el-Qurn",
+            "system_position": [
+                8,
+                38
+            ],
+            "system_uwp": "E898599-7"
+        },
+        {
+            "system_name": "Luxor",
+            "system_position": [
+                8,
+                39
+            ],
+            "system_uwp": "C655775-8"
+        },
+        {
+            "system_name": "Lushiir",
+            "system_position": [
+                9,
+                32
+            ],
+            "system_uwp": "B5916A7-A"
+        },
+        {
+            "system_name": "Damar",
+            "system_position": [
+                9,
+                37
+            ],
+            "system_uwp": "E9969A9-8"
+        },
+        {
+            "system_name": "Parade",
+            "system_position": [
+                9,
+                40
+            ],
+            "system_uwp": "A5458AA-C"
+        },
+        {
+            "system_name": "Kiiri",
+            "system_position": [
+                10,
+                31
+            ],
+            "system_uwp": "A669300-F"
+        },
+        {
+            "system_name": "Asim",
+            "system_position": [
+                10,
+                32
+            ],
+            "system_uwp": "C100311-C"
+        },
+        {
+            "system_name": "Voluun",
+            "system_position": [
+                10,
+                33
+            ],
+            "system_uwp": "B879831-B"
+        },
+        {
+            "system_name": "Parsifal",
+            "system_position": [
+                10,
+                39
+            ],
+            "system_uwp": "A66A696-E"
+        },
+        {
+            "system_name": "Maakan",
+            "system_position": [
+                11,
+                31
+            ],
+            "system_uwp": "C57288D-8"
+        },
+        {
+            "system_name": "Lancelot",
+            "system_position": [
+                11,
+                37
+            ],
+            "system_uwp": "A435336-E"
+        },
+        {
+            "system_name": "Bedivere",
+            "system_position": [
+                11,
+                38
+            ],
+            "system_uwp": "B556445-B"
+        },
+        {
+            "system_name": "Gawain",
+            "system_position": [
+                11,
+                40
+            ],
+            "system_uwp": "A979201-E"
+        },
+        {
+            "system_name": "Nu Polis",
+            "system_position": [
+                12,
+                36
+            ],
+            "system_uwp": "D624979-9"
+        },
+        {
+            "system_name": "Skatter",
+            "system_position": [
+                12,
+                38
+            ],
+            "system_uwp": "B000669-D"
+        },
+        {
+            "system_name": "Acropolis",
+            "system_position": [
+                13,
+                36
+            ],
+            "system_uwp": "B88856A-B"
+        },
+        {
+            "system_name": "Chrono",
+            "system_position": [
+                13,
+                39
+            ],
+            "system_uwp": "E543563-7"
+        },
+        {
+            "system_name": "Hermes",
+            "system_position": [
+                14,
+                31
+            ],
+            "system_uwp": "D100ABA-D"
+        },
+        {
+            "system_name": "Firine",
+            "system_position": [
+                14,
+                38
+            ],
+            "system_uwp": "C692121-9"
+        },
+        {
+            "system_name": "Kirsch",
+            "system_position": [
+                14,
+                39
+            ],
+            "system_uwp": "B573320-B"
+        },
+        {
+            "system_name": "Phars",
+            "system_position": [
+                14,
+                40
+            ],
+            "system_uwp": "BA69644-B"
+        },
+        {
+            "system_name": "Aspare",
+            "system_position": [
+                15,
+                33
+            ],
+            "system_uwp": "C100214-C"
+        },
+        {
+            "system_name": "Accent",
+            "system_position": [
+                15,
+                34
+            ],
+            "system_uwp": "C541523-9"
+        },
+        {
+            "system_name": "Pierson",
+            "system_position": [
+                15,
+                36
+            ],
+            "system_uwp": "C565879-8"
+        },
+        {
+            "system_name": "Xenon",
+            "system_position": [
+                15,
+                37
+            ],
+            "system_uwp": "AAD5357-F"
+        },
+        {
+            "system_name": "Kafal",
+            "system_position": [
+                15,
+                39
+            ],
+            "system_uwp": "E548351-8"
+        },
+        {
+            "system_name": "Litten",
+            "system_position": [
+                16,
+                32
+            ],
+            "system_uwp": "C547320-9"
+        },
+        {
+            "system_name": "Brewin",
+            "system_position": [
+                16,
+                35
+            ],
+            "system_uwp": "A784200-E"
+        },
+        {
+            "system_name": "Oifuerr",
+            "system_position": [
+                16,
+                37
+            ],
+            "system_uwp": "B310AD9-E"
+        },
+        {
+            "system_name": "Axis",
+            "system_position": [
+                16,
+                39
+            ],
+            "system_uwp": "D434212-9"
+        },
+        {
+            "system_name": "Phillips World",
+            "system_position": [
+                17,
+                31
+            ],
+            "system_uwp": "B94A643-C"
+        },
+        {
+            "system_name": "Victoria",
+            "system_position": [
+                17,
+                34
+            ],
+            "system_uwp": "D100799-9"
+        },
+        {
+            "system_name": "Stasin",
+            "system_position": [
+                17,
+                36
+            ],
+            "system_uwp": "E000220-A"
+        },
+        {
+            "system_name": "Charon",
+            "system_position": [
+                17,
+                37
+            ],
+            "system_uwp": "C4347A9-A"
+        },
+        {
+            "system_name": "Coast",
+            "system_position": [
+                17,
+                39
+            ],
+            "system_uwp": "D668769-6"
+        },
+        {
+            "system_name": "Saint Dalmatia",
+            "system_position": [
+                18,
+                31
+            ],
+            "system_uwp": "B424756-D"
+        },
+        {
+            "system_name": "Serindipity",
+            "system_position": [
+                18,
+                32
+            ],
+            "system_uwp": "X75A431-5"
+        },
+        {
+            "system_name": "Ash",
+            "system_position": [
+                18,
+                38
+            ],
+            "system_uwp": "C96A334-B"
+        },
+        {
+            "system_name": "Pearl",
+            "system_position": [
+                19,
+                33
+            ],
+            "system_uwp": "C500596-A"
+        },
+        {
+            "system_name": "Narya",
+            "system_position": [
+                19,
+                34
+            ],
+            "system_uwp": "C877ADD-A"
+        },
+        {
+            "system_name": "Huntress",
+            "system_position": [
+                19,
+                35
+            ],
+            "system_uwp": "A200589-F"
+        },
+        {
+            "system_name": "Dionitia",
+            "system_position": [
+                19,
+                36
+            ],
+            "system_uwp": "D893465-7"
+        },
+        {
+            "system_name": "Nanaimo",
+            "system_position": [
+                19,
+                38
+            ],
+            "system_uwp": "C100354-D"
+        },
+        {
+            "system_name": "Stewart",
+            "system_position": [
+                19,
+                39
+            ],
+            "system_uwp": "E310246-9"
+        },
+        {
+            "system_name": "Ring",
+            "system_position": [
+                20,
+                31
+            ],
+            "system_uwp": "B437267-D"
+        },
+        {
+            "system_name": "Brennan",
+            "system_position": [
+                20,
+                33
+            ],
+            "system_uwp": "B572634-A"
+        },
+        {
+            "system_name": "Ladanyi",
+            "system_position": [
+                20,
+                39
+            ],
+            "system_uwp": "C43445A-C"
+        },
+        {
+            "system_name": "Ciaran",
+            "system_position": [
+                20,
+                40
+            ],
+            "system_uwp": "B797754-B"
+        },
+        {
+            "system_name": "Mackswith",
+            "system_position": [
+                21,
+                31
+            ],
+            "system_uwp": "C100369-C"
+        },
+        {
+            "system_name": "Eurtrik",
+            "system_position": [
+                21,
+                36
+            ],
+            "system_uwp": "B572466-B"
+        },
+        {
+            "system_name": "Karukhi",
+            "system_position": [
+                21,
+                37
+            ],
+            "system_uwp": "C567AED-C"
+        },
+        {
+            "system_name": "Murazor",
+            "system_position": [
+                22,
+                31
+            ],
+            "system_uwp": "B558334-B"
+        },
+        {
+            "system_name": "Akorahil",
+            "system_position": [
+                22,
+                32
+            ],
+            "system_uwp": "E425587-9"
+        },
+        {
+            "system_name": "Guiv",
+            "system_position": [
+                22,
+                34
+            ],
+            "system_uwp": "D310566-9"
+        },
+        {
+            "system_name": "Hela",
+            "system_position": [
+                22,
+                35
+            ],
+            "system_uwp": "C8878A8-8"
+        },
+        {
+            "system_name": "Kimel",
+            "system_position": [
+                22,
+                39
+            ],
+            "system_uwp": "A555AEH-F"
+        },
+        {
+            "system_name": "Woosnam",
+            "system_position": [
+                23,
+                37
+            ],
+            "system_uwp": "B544113-B"
+        },
+        {
+            "system_name": "Link",
+            "system_position": [
+                23,
+                40
+            ],
+            "system_uwp": "B692773-A"
+        },
+        {
+            "system_name": "Battista",
+            "system_position": [
+                24,
+                31
+            ],
+            "system_uwp": "C310438-B"
+        },
+        {
+            "system_name": "Corinth",
+            "system_position": [
+                24,
+                32
+            ],
+            "system_uwp": "C576685-8"
+        },
+        {
+            "system_name": "Fister",
+            "system_position": [
+                24,
+                35
+            ],
+            "system_uwp": "X432787-6"
+        },
+        {
+            "system_name": "Renaissance",
+            "system_position": [
+                25,
+                33
+            ],
+            "system_uwp": "B798266-B"
+        },
+        {
+            "system_name": "Mgg",
+            "system_position": [
+                25,
+                35
+            ],
+            "system_uwp": "A551998-E"
+        },
+        {
+            "system_name": "Caverna",
+            "system_position": [
+                25,
+                36
+            ],
+            "system_uwp": "BA7A554-E"
+        },
+        {
+            "system_name": "Karma",
+            "system_position": [
+                25,
+                37
+            ],
+            "system_uwp": "A988369-D"
+        },
+        {
+            "system_name": "Raamiigi",
+            "system_position": [
+                25,
+                38
+            ],
+            "system_uwp": "C438525-B"
+        },
+        {
+            "system_name": "Vengilis",
+            "system_position": [
+                25,
+                40
+            ],
+            "system_uwp": "E553300-8"
+        },
+        {
+            "system_name": "Caapestrii",
+            "system_position": [
+                26,
+                35
+            ],
+            "system_uwp": "A2008DC-C"
+        },
+        {
+            "system_name": "Vespers",
+            "system_position": [
+                26,
+                38
+            ],
+            "system_uwp": "D31069B-8"
+        },
+        {
+            "system_name": "Horizon",
+            "system_position": [
+                26,
+                40
+            ],
+            "system_uwp": "C553100-A"
+        },
+        {
+            "system_name": "Illyricum",
+            "system_position": [
+                27,
+                31
+            ],
+            "system_uwp": "C766201-A"
+        },
+        {
+            "system_name": "Port Hardy",
+            "system_position": [
+                27,
+                32
+            ],
+            "system_uwp": "C310269-B"
+        },
+        {
+            "system_name": "Knossos",
+            "system_position": [
+                27,
+                37
+            ],
+            "system_uwp": "A724473-E"
+        },
+        {
+            "system_name": "Purgatory",
+            "system_position": [
+                28,
+                32
+            ],
+            "system_uwp": "C300766-A"
+        },
+        {
+            "system_name": "Clusium",
+            "system_position": [
+                28,
+                33
+            ],
+            "system_uwp": "B63A588-E"
+        },
+        {
+            "system_name": "Bemolango",
+            "system_position": [
+                28,
+                37
+            ],
+            "system_uwp": "B6847A7-A"
+        },
+        {
+            "system_name": "Funhalouro",
+            "system_position": [
+                28,
+                38
+            ],
+            "system_uwp": "C310368-B"
+        },
+        {
+            "system_name": "Antsalova",
+            "system_position": [
+                29,
+                31
+            ],
+            "system_uwp": "A9D5321-E"
+        },
+        {
+            "system_name": "Mapai",
+            "system_position": [
+                29,
+                32
+            ],
+            "system_uwp": "B310876-C"
+        },
+        {
+            "system_name": "Orvon",
+            "system_position": [
+                29,
+                35
+            ],
+            "system_uwp": "C5659D9-8"
+        },
+        {
+            "system_name": "Fraserburg",
+            "system_position": [
+                29,
+                36
+            ],
+            "system_uwp": "B976775-A"
+        },
+        {
+            "system_name": "Black Tusk",
+            "system_position": [
+                29,
+                37
+            ],
+            "system_uwp": "C876351-A"
+        },
+        {
+            "system_name": "Corcyra",
+            "system_position": [
+                29,
+                38
+            ],
+            "system_uwp": "B425200-E"
+        },
+        {
+            "system_name": "Whistler",
+            "system_position": [
+                29,
+                39
+            ],
+            "system_uwp": "B555767-A"
+        },
+        {
+            "system_name": "Port Royal",
+            "system_position": [
+                30,
+                31
+            ],
+            "system_uwp": "C574765-8"
+        },
+        {
+            "system_name": "Sutherlund",
+            "system_position": [
+                30,
+                33
+            ],
+            "system_uwp": "C3107A9-A"
+        },
+        {
+            "system_name": "Haradapan",
+            "system_position": [
+                30,
+                35
+            ],
+            "system_uwp": "C868141-9"
+        },
+        {
+            "system_name": "St. Lucia",
+            "system_position": [
+                30,
+                37
+            ],
+            "system_uwp": "C95A769-A"
+        },
+        {
+            "system_name": "Whyte",
+            "system_position": [
+                30,
+                39
+            ],
+            "system_uwp": "D100687-9"
+        },
+        {
+            "system_name": "White Horse",
+            "system_position": [
+                31,
+                32
+            ],
+            "system_uwp": "A55788A-C"
+        },
+        {
+            "system_name": "Swaziland",
+            "system_position": [
+                31,
+                33
+            ],
+            "system_uwp": "X8D58AA-3"
+        },
+        {
+            "system_name": "Asahikawa",
+            "system_position": [
+                31,
+                37
+            ],
+            "system_uwp": "E100203-B"
+        },
+        {
+            "system_name": "Chiba",
+            "system_position": [
+                31,
+                38
+            ],
+            "system_uwp": "B668247-B"
+        },
+        {
+            "system_name": "Emarnshahr",
+            "system_position": [
+                31,
+                40
+            ],
+            "system_uwp": "B424500-E"
+        },
+        {
+            "system_name": "Ayaz",
+            "system_position": [
+                32,
+                34
+            ],
+            "system_uwp": "D657215-7"
+        },
+        {
+            "system_name": "Grunwald",
+            "system_position": [
+                32,
+                35
+            ],
+            "system_uwp": "C668873-8"
+        },
+        {
+            "system_name": "Ulianov",
+            "system_position": [
+                32,
+                37
+            ],
+            "system_uwp": "E644240-7"
+        },
+        {
+            "system_name": "Tura",
+            "system_position": [
+                32,
+                39
+            ],
+            "system_uwp": "C310954-D"
+        }
+    ]
+}

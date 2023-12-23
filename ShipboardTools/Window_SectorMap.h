@@ -29,6 +29,15 @@ public:
 
     void setupSector(Sector *s);//, std::map<std::array<int,2>, class hexSystem*> map);
 
+    void showSystemDetails(QPointF topLeft, QPointF bottomRight);
+    void hideSystemDetails(QPointF topLeft, QPointF bottomRight);
+    void showLimitedSystems(QPointF topLeft, QPointF bottomRight);
+    void hideSystems(QPointF topLeft, QPointF bottomRight);
+    void showSubsectors(QPointF topLeft, QPointF bottomRight);
+    void hideSubsectors(QPointF topLeft, QPointF bottomRight);
+    void showSectors(QPointF topLeft, QPointF bottomRight);
+    void hideSectors(QPointF topLeft, QPointF bottomRight);
+
 private slots:
     void on_systemMapButton_clicked();
 

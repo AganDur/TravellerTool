@@ -236,7 +236,105 @@ void Window_SectorMap::setupSector(Sector *s){//, std::map<std::array<int,2>, cl
             scene->addItem(hex);
         }
     }
+<<<<<<< Updated upstream
+=======
+
 }
+
+void Window_SectorMap::updateViewPosition(QPointF topLeft, QPointF bottomRight){
+    float offsetX = hexRadius * (1 + sin(30*PI/180));
+    float offsetY = hexRadius * (cos(30*PI/180)) - 0.6;
+
+    float w = 32 * offsetX;
+    float h = 40 * offsetY*2;
+
+    int topLeftSectorX = floor(topLeft.x()  / w);
+    int bottomRightSectorX = floor(bottomRight.x() / w);
+    int topLeftSectorY = floor(topLeft.y() / h);
+    int bottomRightSectorY = floor(bottomRight.y() / h);
+
+    for(Sector *s : this->sectors){
+        if(s->getX() > bottomRightSectorX || s->getX() < topLeftSectorX || s->getY() > bottomRightSectorY || s->getY() < topLeftSectorY){
+            if(!s->getHidden()) s->setHidden(true);
+        }
+        else {
+            if(!s->getLoaded()) this->fillSector(s);
+            else s->setHidden(false);
+        }
+    }
+
+}
+
+void Window_SectorMap::updateShownData(bool hideSystems, QPointF topLeft, QPointF bottomRight){
+    float offsetX = hexRadius * (1 + sin(30*PI/180));
+    float offsetY = hexRadius * (cos(30*PI/180)) - 0.6;
+
+    float w = 32 * offsetX;
+    float h = 40 * offsetY*2;
+
+    int topLeftSectorX = floor(topLeft.x()  / w);
+    int bottomRightSectorX = floor(bottomRight.x() / w);
+    int topLeftSectorY = floor(topLeft.y() / h);
+    int bottomRightSectorY = floor(bottomRight.y() / h);
+
+    for (Sector *s : this->sectors){
+        if(hideSystems && !s->getHidden()) s->setHidden(true);
+        else {
+            if(s->getX() <= bottomRightSectorX && s->getX() >= topLeftSectorX && s->getY() <= bottomRightSectorY && s->getY() >= topLeftSectorY) s->setHidden(false);
+        }
+    }
+>>>>>>> Stashed changes
+}
+
+void Window_SectorMap::showSystemDetails(QPointF topLeft, QPointF bottomRight){
+    //GET CURRENT COORDINATES
+    float offsetX = hexRadius * (1 + sin(30*PI/180));
+    float offsetY = hexRadius * (cos(30*PI/180)) - 0.6;
+
+    float w = 32 * offsetX;
+    float h = 40 * offsetY*2;
+
+    int topLeftSectorX = floor(topLeft.x()  / w);
+    int bottomRightSectorX = floor(bottomRight.x() / w);
+    int topLeftSectorY = floor(topLeft.y() / h);
+    int bottomRightSectorY = floor(bottomRight.y() / h);
+
+    for (Sector *s : this->sectors){
+        if(!(s->getX() > bottomRightSectorX || s->getX() < topLeftSectorX || s->getY() > bottomRightSectorY || s->getY() < topLeftSectorY)){
+            if(!s->getLoaded()) this->fillSector(s);
+            //else s->showSystemDetails();
+        }
+    }
+}
+
+void Window_SectorMap::hideSystemDetails(QPointF topLeft, QPointF bottomRight){
+
+}
+
+void Window_SectorMap::showLimitedSystems(QPointF topLeft, QPointF bottomRight){
+
+}
+
+void Window_SectorMap::hideSystems(QPointF topLeft, QPointF bottomRight){
+
+}
+
+void Window_SectorMap::showSubsectors(QPointF topLeft, QPointF bottomRight){
+
+}
+
+void Window_SectorMap::hideSubsectors(QPointF topLeft, QPointF bottomRight){
+
+}
+
+void Window_SectorMap::showSectors(QPointF topLeft, QPointF bottomRight){
+
+}
+
+void Window_SectorMap::hideSectors(QPointF topLeft, QPointF bottomRight){
+
+}
+
 
 void Window_SectorMap::on_systemMapButton_clicked(){
     this->app->changeSystem(this->selectedSystem);

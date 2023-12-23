@@ -1,0 +1,2939 @@
+{
+    "sector_name": "Foreven",
+    "sector_position": [
+        -5,
+        -1
+    ],
+    "subsectors": [
+        {
+            "subsector_index": 1,
+            "subsector_name": "65"
+        },
+        {
+            "subsector_index": 2,
+            "subsector_name": "66"
+        },
+        {
+            "subsector_index": 3,
+            "subsector_name": "67"
+        },
+        {
+            "subsector_index": 4,
+            "subsector_name": "Massina"
+        },
+        {
+            "subsector_index": 5,
+            "subsector_name": "69"
+        },
+        {
+            "subsector_index": 6,
+            "subsector_name": "70"
+        },
+        {
+            "subsector_index": 7,
+            "subsector_name": "71"
+        },
+        {
+            "subsector_index": 8,
+            "subsector_name": "Fessor"
+        },
+        {
+            "subsector_index": 9,
+            "subsector_name": "73"
+        },
+        {
+            "subsector_index": 10,
+            "subsector_name": "74"
+        },
+        {
+            "subsector_index": 11,
+            "subsector_name": "75"
+        },
+        {
+            "subsector_index": 12,
+            "subsector_name": "Reidain"
+        },
+        {
+            "subsector_index": 13,
+            "subsector_name": "77"
+        },
+        {
+            "subsector_index": 14,
+            "subsector_name": "78"
+        },
+        {
+            "subsector_index": 15,
+            "subsector_name": "79"
+        },
+        {
+            "subsector_index": 16,
+            "subsector_name": "Urnian"
+        }
+    ],
+    "systems": [
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                3
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                4
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                2
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                3
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                2
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                4
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                5
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                6
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                8
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                9
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                1
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                2
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                3
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                4
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                8
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                2
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                3
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                4
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                5
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                7
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                8
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                4
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                7
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                10
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                8
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                1
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                7
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                10
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                2
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                8
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                9
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                10
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                7
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                2
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                3
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                9
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                5
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                9
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                3
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                4
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                7
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                3
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                4
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                5
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                10
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                1
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                4
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                7
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                2
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                1
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                3
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                4
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                4
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                6
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                7
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                8
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                1
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                5
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                2
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                3
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                5
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                2
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                3
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                2
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                9
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                4
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                6
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                9
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                10
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                1
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                2
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                2
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                3
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                7
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                8
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                10
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                10
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                5
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                7
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                8
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                5
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                7
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                10
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                3
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                6
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                7
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                8
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                1
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                4
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                5
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                6
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                12
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                13
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                16
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                11
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                12
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                13
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                14
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                18
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                12
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                11
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                12
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                18
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                13
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                16
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                17
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                20
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                12
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                12
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                16
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                17
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                20
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                14
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                15
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                18
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                19
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                20
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                11
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                14
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                15
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                19
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                12
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                16
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                11
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                12
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                15
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "Zdovesil",
+            "system_position": [
+                12,
+                12
+            ],
+            "system_uwp": "A65588A-9"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                14
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                16
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                18
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                12
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                14
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                16
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                17
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                19
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                11
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                12
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                16
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                19
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                19
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                12
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                17
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "Tlebria",
+            "system_position": [
+                16,
+                18
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                19
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                20
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                12
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                13
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                15
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                16
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                17
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                15
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                20
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                17
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                13
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                11
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                14
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                11
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                20
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                12
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                17
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                18
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                20
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                11
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                13
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                14
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                15
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                16
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                12
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                15
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                11
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                12
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                14
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                20
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                20
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                13
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                14
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                15
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                18
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                20
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                11
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                15
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                16
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                19
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                12
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                14
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                15
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                17
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                29
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                30
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                23
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                24
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                26
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                27
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                22
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                24
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                26
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                26
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                27
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                23
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                23
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                30
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                22
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                25
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                26
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                30
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                26
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                24
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                26
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                24
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                25
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                29
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                30
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                22
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                23
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                26
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                27
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                28
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                29
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                23
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                28
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                22
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                28
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                30
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                24
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                25
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                26
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                28
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                29
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                22
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                28
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                26
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                27
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                21
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                22
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                23
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                21
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                23
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                28
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                25
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                30
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                25
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                26
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                28
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                22
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                27
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                28
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                29
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                30
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "Hollis",
+            "system_position": [
+                25,
+                23
+            ],
+            "system_uwp": "A370642-C"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                27
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                28
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                23
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                24
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                22
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                23
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                29
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                23
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                24
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                25
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                26
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                27
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                21
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                27
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                28
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                26
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                29
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                27
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "Alenzar",
+            "system_position": [
+                32,
+                29
+            ],
+            "system_uwp": "C000414-9"
+        },
+        {
+            "system_name": "Raschev",
+            "system_position": [
+                32,
+                30
+            ],
+            "system_uwp": "C8697C4-6"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                31
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                35
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                36
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                32
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                35
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                36
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                39
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                32
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                35
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                36
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                31
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                36
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                37
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                39
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                38
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                33
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                34
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                39
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                32
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                34
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                35
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                37
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                39
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                40
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                35
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                32
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                39
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                39
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                40
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                34
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                39
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                40
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                35
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                32
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                34
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                36
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                39
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                31
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                32
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                34
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "Avalar",
+            "system_position": [
+                16,
+                36
+            ],
+            "system_uwp": "A75599C-C"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                37
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                39
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                40
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                34
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                38
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                39
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                33
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                34
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                40
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                36
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                38
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                40
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                35
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                36
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                37
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                31
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                36
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                37
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                34
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                35
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                31
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                33
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                32
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                37
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                32
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                34
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                31
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                36
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                39
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                40
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                33
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                34
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                35
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                36
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                38
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                34
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                35
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                37
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                38
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                40
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                34
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                35
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                37
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                31
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                34
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                35
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                32
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                38
+            ],
+            "system_uwp": "???????-?"
+        }
+    ]
+}

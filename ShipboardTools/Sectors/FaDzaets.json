@@ -1,0 +1,2019 @@
+{
+    "sector_name": "Fa Dzaets",
+    "sector_position": [
+        -1,
+        -3
+    ],
+    "subsectors": [
+        {
+            "subsector_index": 1,
+            "subsector_name": "Veakouna"
+        },
+        {
+            "subsector_index": 2,
+            "subsector_name": "Akhorgh"
+        },
+        {
+            "subsector_index": 3,
+            "subsector_name": "Gnokdhis"
+        },
+        {
+            "subsector_index": 4,
+            "subsector_name": "Thaengg"
+        },
+        {
+            "subsector_index": 5,
+            "subsector_name": "Uroedhfuez"
+        },
+        {
+            "subsector_index": 6,
+            "subsector_name": "Oughzkur"
+        },
+        {
+            "subsector_index": 7,
+            "subsector_name": "Gvaellai"
+        },
+        {
+            "subsector_index": 8,
+            "subsector_name": "Noeuekf"
+        },
+        {
+            "subsector_index": 9,
+            "subsector_name": "Dhaerzae"
+        },
+        {
+            "subsector_index": 10,
+            "subsector_name": "Agzorrue"
+        },
+        {
+            "subsector_index": 11,
+            "subsector_name": "Llarrkelkokh"
+        },
+        {
+            "subsector_index": 12,
+            "subsector_name": "Ounnon"
+        },
+        {
+            "subsector_index": 13,
+            "subsector_name": "Agzedz"
+        },
+        {
+            "subsector_index": 14,
+            "subsector_name": "Thalrue"
+        },
+        {
+            "subsector_index": 15,
+            "subsector_name": "Zuzog"
+        },
+        {
+            "subsector_index": 16,
+            "subsector_name": "Uefaekhs"
+        }
+    ],
+    "systems": [
+        {
+            "system_name": "Dzaerangaersoen",
+            "system_position": [
+                2,
+                1
+            ],
+            "system_uwp": "C655320-4"
+        },
+        {
+            "system_name": "Ksoedhoksikduegh",
+            "system_position": [
+                2,
+                5
+            ],
+            "system_uwp": "C300577-9"
+        },
+        {
+            "system_name": "Vudhgnaghz",
+            "system_position": [
+                3,
+                4
+            ],
+            "system_uwp": "B436977-B"
+        },
+        {
+            "system_name": "Angudhfuegh",
+            "system_position": [
+                3,
+                9
+            ],
+            "system_uwp": "A230456-C"
+        },
+        {
+            "system_name": "Angudhfuegh",
+            "system_position": [
+                3,
+                10
+            ],
+            "system_uwp": "A230456-C"
+        },
+        {
+            "system_name": "Kfaengozil",
+            "system_position": [
+                4,
+                1
+            ],
+            "system_uwp": "E87736A-5"
+        },
+        {
+            "system_name": "Dzoeghdzalogkfalanoghoks",
+            "system_position": [
+                4,
+                4
+            ],
+            "system_uwp": "A232776-9"
+        },
+        {
+            "system_name": "Dhustsogruenaerdzughz",
+            "system_position": [
+                4,
+                6
+            ],
+            "system_uwp": "E34079B-6"
+        },
+        {
+            "system_name": "Rronguel",
+            "system_position": [
+                4,
+                8
+            ],
+            "system_uwp": "C251622-6"
+        },
+        {
+            "system_name": "Rronguel",
+            "system_position": [
+                4,
+                10
+            ],
+            "system_uwp": "C251622-6"
+        },
+        {
+            "system_name": "Ragvuoroengvoghzaks",
+            "system_position": [
+                6,
+                6
+            ],
+            "system_uwp": "E542555-1"
+        },
+        {
+            "system_name": "Ruuegzaladh",
+            "system_position": [
+                6,
+                8
+            ],
+            "system_uwp": "E342658-8"
+        },
+        {
+            "system_name": "Nokferrghauekkfeghzaengu",
+            "system_position": [
+                7,
+                2
+            ],
+            "system_uwp": "C988677-3"
+        },
+        {
+            "system_name": "Ghaeakigzuekh",
+            "system_position": [
+                7,
+                6
+            ],
+            "system_uwp": "A434589-D"
+        },
+        {
+            "system_name": "Ghaeakigzuekh",
+            "system_position": [
+                7,
+                9
+            ],
+            "system_uwp": "A434589-D"
+        },
+        {
+            "system_name": "Veakouna",
+            "system_position": [
+                8,
+                1
+            ],
+            "system_uwp": "A746200-C"
+        },
+        {
+            "system_name": "Veakouna",
+            "system_position": [
+                8,
+                2
+            ],
+            "system_uwp": "A746200-C"
+        },
+        {
+            "system_name": "Veakouna",
+            "system_position": [
+                8,
+                3
+            ],
+            "system_uwp": "A746200-C"
+        },
+        {
+            "system_name": "Knaengdzouksueg",
+            "system_position": [
+                8,
+                4
+            ],
+            "system_uwp": "D100200-B"
+        },
+        {
+            "system_name": "Gaefae",
+            "system_position": [
+                8,
+                7
+            ],
+            "system_uwp": "E896301-4"
+        },
+        {
+            "system_name": "Gvaenuekfourr",
+            "system_position": [
+                9,
+                1
+            ],
+            "system_uwp": "D540484-6"
+        },
+        {
+            "system_name": "Gvaenuekfourr",
+            "system_position": [
+                9,
+                2
+            ],
+            "system_uwp": "D540484-6"
+        },
+        {
+            "system_name": "Gvaenuekfourr",
+            "system_position": [
+                9,
+                3
+            ],
+            "system_uwp": "D540484-6"
+        },
+        {
+            "system_name": "Gvaenuekfourr",
+            "system_position": [
+                9,
+                5
+            ],
+            "system_uwp": "D540484-6"
+        },
+        {
+            "system_name": "Adhagvaedoe",
+            "system_position": [
+                10,
+                3
+            ],
+            "system_uwp": "E140001-3"
+        },
+        {
+            "system_name": "Korzoukulkfueghzdzorgvung",
+            "system_position": [
+                10,
+                5
+            ],
+            "system_uwp": "C9C4202-9"
+        },
+        {
+            "system_name": "Foekseaerrkhongsokokstharrgh",
+            "system_position": [
+                10,
+                7
+            ],
+            "system_uwp": "X582420-2"
+        },
+        {
+            "system_name": "Zakhsoukhsinfokhssun",
+            "system_position": [
+                10,
+                10
+            ],
+            "system_uwp": "B696234-9"
+        },
+        {
+            "system_name": "Kfoangksoegzksae",
+            "system_position": [
+                11,
+                4
+            ],
+            "system_uwp": "A100224-A"
+        },
+        {
+            "system_name": "Kfoangksoegzksae",
+            "system_position": [
+                11,
+                5
+            ],
+            "system_uwp": "A100224-A"
+        },
+        {
+            "system_name": "Kothongkharz",
+            "system_position": [
+                11,
+                7
+            ],
+            "system_uwp": "A436674-9"
+        },
+        {
+            "system_name": "Aengaeghuekhstsoel",
+            "system_position": [
+                12,
+                2
+            ],
+            "system_uwp": "A432110-8"
+        },
+        {
+            "system_name": "Aengaeghuekhstsoel",
+            "system_position": [
+                12,
+                3
+            ],
+            "system_uwp": "A432110-8"
+        },
+        {
+            "system_name": "Aengaeghuekhstsoel",
+            "system_position": [
+                12,
+                4
+            ],
+            "system_uwp": "A432110-8"
+        },
+        {
+            "system_name": "Kfaerron",
+            "system_position": [
+                12,
+                5
+            ],
+            "system_uwp": "B74A6AA-8"
+        },
+        {
+            "system_name": "Sangourrghukdzorr",
+            "system_position": [
+                13,
+                1
+            ],
+            "system_uwp": "B854554-7"
+        },
+        {
+            "system_name": "Sangourrghukdzorr",
+            "system_position": [
+                13,
+                3
+            ],
+            "system_uwp": "B854554-7"
+        },
+        {
+            "system_name": "Sangourrghukdzorr",
+            "system_position": [
+                13,
+                4
+            ],
+            "system_uwp": "B854554-7"
+        },
+        {
+            "system_name": "Toskfurolkaekh",
+            "system_position": [
+                14,
+                3
+            ],
+            "system_uwp": "B000427-B"
+        },
+        {
+            "system_name": "Thaeuoenorrnakaedh",
+            "system_position": [
+                15,
+                4
+            ],
+            "system_uwp": "A476100-D"
+        },
+        {
+            "system_name": "Alers",
+            "system_position": [
+                15,
+                6
+            ],
+            "system_uwp": "CADA345-B"
+        },
+        {
+            "system_name": "Alers",
+            "system_position": [
+                15,
+                9
+            ],
+            "system_uwp": "CADA345-B"
+        },
+        {
+            "system_name": "Uengriks",
+            "system_position": [
+                16,
+                1
+            ],
+            "system_uwp": "D120889-6"
+        },
+        {
+            "system_name": "Uengriks",
+            "system_position": [
+                16,
+                3
+            ],
+            "system_uwp": "D120889-6"
+        },
+        {
+            "system_name": "Koekhsokhsdolek",
+            "system_position": [
+                16,
+                5
+            ],
+            "system_uwp": "B210501-9"
+        },
+        {
+            "system_name": "Dillanen",
+            "system_position": [
+                16,
+                10
+            ],
+            "system_uwp": "C54AA78-9"
+        },
+        {
+            "system_name": "Zoughzvungran",
+            "system_position": [
+                17,
+                2
+            ],
+            "system_uwp": "C546232-6"
+        },
+        {
+            "system_name": "Kfagaknu",
+            "system_position": [
+                17,
+                8
+            ],
+            "system_uwp": "E636778-6"
+        },
+        {
+            "system_name": "Sanatsvoekhog",
+            "system_position": [
+                18,
+                1
+            ],
+            "system_uwp": "D726000-1"
+        },
+        {
+            "system_name": "Nganrounggaegguz",
+            "system_position": [
+                18,
+                8
+            ],
+            "system_uwp": "BAFA543-C"
+        },
+        {
+            "system_name": "Kseghgodh",
+            "system_position": [
+                19,
+                6
+            ],
+            "system_uwp": "C36848C-6"
+        },
+        {
+            "system_name": "Kseghgodh",
+            "system_position": [
+                19,
+                7
+            ],
+            "system_uwp": "C36848C-6"
+        },
+        {
+            "system_name": "Zidhoorr",
+            "system_position": [
+                20,
+                1
+            ],
+            "system_uwp": "C344412-4"
+        },
+        {
+            "system_name": "Zidhoorr",
+            "system_position": [
+                20,
+                3
+            ],
+            "system_uwp": "C344412-4"
+        },
+        {
+            "system_name": "Dhoknaekfuers",
+            "system_position": [
+                20,
+                4
+            ],
+            "system_uwp": "A322444-C"
+        },
+        {
+            "system_name": "Oeoengnokdhis",
+            "system_position": [
+                21,
+                7
+            ],
+            "system_uwp": "A524A68-G"
+        },
+        {
+            "system_name": "Nguegovaghek",
+            "system_position": [
+                21,
+                10
+            ],
+            "system_uwp": "E638876-0"
+        },
+        {
+            "system_name": "Zarzikhdaeg",
+            "system_position": [
+                22,
+                1
+            ],
+            "system_uwp": "B000468-A"
+        },
+        {
+            "system_name": "Zarzikhdaeg",
+            "system_position": [
+                22,
+                2
+            ],
+            "system_uwp": "B000468-A"
+        },
+        {
+            "system_name": "Ksenganzar",
+            "system_position": [
+                22,
+                7
+            ],
+            "system_uwp": "C346879-3"
+        },
+        {
+            "system_name": "Ingaeksllaelarrgaethog",
+            "system_position": [
+                22,
+                9
+            ],
+            "system_uwp": "D4946BC-1"
+        },
+        {
+            "system_name": "Gzaeou",
+            "system_position": [
+                23,
+                2
+            ],
+            "system_uwp": "C400977-9"
+        },
+        {
+            "system_name": "Gvoedzaerug",
+            "system_position": [
+                23,
+                7
+            ],
+            "system_uwp": "CAB4AFK-8"
+        },
+        {
+            "system_name": "Naenoetssa",
+            "system_position": [
+                24,
+                3
+            ],
+            "system_uwp": "C25057A-5"
+        },
+        {
+            "system_name": "Llaengksaesuezarrghaerr",
+            "system_position": [
+                25,
+                1
+            ],
+            "system_uwp": "B8B7588-7"
+        },
+        {
+            "system_name": "Naerraghoungluersdoekfaz",
+            "system_position": [
+                25,
+                8
+            ],
+            "system_uwp": "A896563-B"
+        },
+        {
+            "system_name": "Aknaen",
+            "system_position": [
+                26,
+                1
+            ],
+            "system_uwp": "E6557AC-0"
+        },
+        {
+            "system_name": "Dhokhgoesgzaengueks",
+            "system_position": [
+                26,
+                3
+            ],
+            "system_uwp": "B32065A-B"
+        },
+        {
+            "system_name": "Kfaengfaegzuedz",
+            "system_position": [
+                26,
+                8
+            ],
+            "system_uwp": "C638765-5"
+        },
+        {
+            "system_name": "Kfuengluengaghaeng",
+            "system_position": [
+                26,
+                10
+            ],
+            "system_uwp": "A746674-8"
+        },
+        {
+            "system_name": "Saenallsogvursdzits",
+            "system_position": [
+                27,
+                2
+            ],
+            "system_uwp": "D100643-4"
+        },
+        {
+            "system_name": "Saenallsogvursdzits",
+            "system_position": [
+                27,
+                3
+            ],
+            "system_uwp": "D100643-4"
+        },
+        {
+            "system_name": "Fokhgholl",
+            "system_position": [
+                27,
+                6
+            ],
+            "system_uwp": "E402678-6"
+        },
+        {
+            "system_name": "Kaedzorrgansukh",
+            "system_position": [
+                28,
+                1
+            ],
+            "system_uwp": "EA9A9A8-6"
+        },
+        {
+            "system_name": "Kadzghangknaz",
+            "system_position": [
+                28,
+                6
+            ],
+            "system_uwp": "E764551-5"
+        },
+        {
+            "system_name": "Thaenggaerrghrorae",
+            "system_position": [
+                28,
+                9
+            ],
+            "system_uwp": "A8B0103-C"
+        },
+        {
+            "system_name": "Ghoknoeghekaekh",
+            "system_position": [
+                29,
+                4
+            ],
+            "system_uwp": "C586977-5"
+        },
+        {
+            "system_name": "Ghoknoeghekaekh",
+            "system_position": [
+                29,
+                5
+            ],
+            "system_uwp": "C586977-5"
+        },
+        {
+            "system_name": "Zinnedhon",
+            "system_position": [
+                29,
+                7
+            ],
+            "system_uwp": "A562679-7"
+        },
+        {
+            "system_name": "Deiuedourrgh",
+            "system_position": [
+                30,
+                8
+            ],
+            "system_uwp": "C98A468-5"
+        },
+        {
+            "system_name": "Ozaaeving",
+            "system_position": [
+                31,
+                2
+            ],
+            "system_uwp": "A430777-A"
+        },
+        {
+            "system_name": "Ksuerazvaegh",
+            "system_position": [
+                31,
+                3
+            ],
+            "system_uwp": "A500975-B"
+        },
+        {
+            "system_name": "Ksuerazvaegh",
+            "system_position": [
+                31,
+                5
+            ],
+            "system_uwp": "A500975-B"
+        },
+        {
+            "system_name": "Ksuerazvaegh",
+            "system_position": [
+                31,
+                6
+            ],
+            "system_uwp": "A500975-B"
+        },
+        {
+            "system_name": "Doaekfoe",
+            "system_position": [
+                31,
+                7
+            ],
+            "system_uwp": "E564666-4"
+        },
+        {
+            "system_name": "Giknaghaergnoedh",
+            "system_position": [
+                32,
+                3
+            ],
+            "system_uwp": "C200110-5"
+        },
+        {
+            "system_name": "Giknaghaergnoedh",
+            "system_position": [
+                32,
+                4
+            ],
+            "system_uwp": "C200110-5"
+        },
+        {
+            "system_name": "Khozkhanueks",
+            "system_position": [
+                32,
+                7
+            ],
+            "system_uwp": "C360422-7"
+        },
+        {
+            "system_name": "Khozkhanueks",
+            "system_position": [
+                32,
+                8
+            ],
+            "system_uwp": "C360422-7"
+        },
+        {
+            "system_name": "Ghaerergvoulorz",
+            "system_position": [
+                1,
+                13
+            ],
+            "system_uwp": "C9A2777-8"
+        },
+        {
+            "system_name": "Dhuou",
+            "system_position": [
+                1,
+                19
+            ],
+            "system_uwp": "B596211-4"
+        },
+        {
+            "system_name": "Khuekoekoeksghan",
+            "system_position": [
+                2,
+                13
+            ],
+            "system_uwp": "B7A4330-B"
+        },
+        {
+            "system_name": "Ikaekoeng",
+            "system_position": [
+                2,
+                18
+            ],
+            "system_uwp": "C335643-5"
+        },
+        {
+            "system_name": "Saaetsoukhksaeng",
+            "system_position": [
+                3,
+                13
+            ],
+            "system_uwp": "A544115-A"
+        },
+        {
+            "system_name": "Saaetsoukhksaeng",
+            "system_position": [
+                3,
+                14
+            ],
+            "system_uwp": "A544115-A"
+        },
+        {
+            "system_name": "Gougzagvoe",
+            "system_position": [
+                3,
+                19
+            ],
+            "system_uwp": "C736210-6"
+        },
+        {
+            "system_name": "Gougzagvoe",
+            "system_position": [
+                3,
+                20
+            ],
+            "system_uwp": "C736210-6"
+        },
+        {
+            "system_name": "Rronguel",
+            "system_position": [
+                4,
+                12
+            ],
+            "system_uwp": "C251622-6"
+        },
+        {
+            "system_name": "Ksoughzlerrglaethoer",
+            "system_position": [
+                4,
+                13
+            ],
+            "system_uwp": "C360533-6"
+        },
+        {
+            "system_name": "Zakhsounzuekathzaekhsrel",
+            "system_position": [
+                4,
+                15
+            ],
+            "system_uwp": "C210434-B"
+        },
+        {
+            "system_name": "Ngaeknonogh",
+            "system_position": [
+                4,
+                19
+            ],
+            "system_uwp": "D400657-6"
+        },
+        {
+            "system_name": "Eloekhrarr",
+            "system_position": [
+                5,
+                15
+            ],
+            "system_uwp": "D678696-4"
+        },
+        {
+            "system_name": "Knourravoekhs",
+            "system_position": [
+                5,
+                17
+            ],
+            "system_uwp": "D000559-9"
+        },
+        {
+            "system_name": "Kaeggaegzukan",
+            "system_position": [
+                5,
+                18
+            ],
+            "system_uwp": "B8C5200-C"
+        },
+        {
+            "system_name": "Ruuegzaladh",
+            "system_position": [
+                6,
+                11
+            ],
+            "system_uwp": "E342658-8"
+        },
+        {
+            "system_name": "Goenaelkfoungtsing",
+            "system_position": [
+                6,
+                13
+            ],
+            "system_uwp": "B340562-B"
+        },
+        {
+            "system_name": "Garrarro",
+            "system_position": [
+                6,
+                15
+            ],
+            "system_uwp": "CAD647A-4"
+        },
+        {
+            "system_name": "Dhegu",
+            "system_position": [
+                6,
+                17
+            ],
+            "system_uwp": "C460320-8"
+        },
+        {
+            "system_name": "Uroedhfuez",
+            "system_position": [
+                6,
+                18
+            ],
+            "system_uwp": "A000786-D"
+        },
+        {
+            "system_name": "Ghikhaers",
+            "system_position": [
+                7,
+                12
+            ],
+            "system_uwp": "A7A4302-8"
+        },
+        {
+            "system_name": "Dzaersaesae",
+            "system_position": [
+                8,
+                12
+            ],
+            "system_uwp": "C542124-6"
+        },
+        {
+            "system_name": "Goenarrghakhsugz",
+            "system_position": [
+                8,
+                14
+            ],
+            "system_uwp": "E784579-6"
+        },
+        {
+            "system_name": "Kfagonguae",
+            "system_position": [
+                8,
+                15
+            ],
+            "system_uwp": "B120548-B"
+        },
+        {
+            "system_name": "Rrosokhsaersoekhdez",
+            "system_position": [
+                8,
+                18
+            ],
+            "system_uwp": "E775001-6"
+        },
+        {
+            "system_name": "Kaegzzongksuzak",
+            "system_position": [
+                8,
+                19
+            ],
+            "system_uwp": "E665202-6"
+        },
+        {
+            "system_name": "Tsavaekelleokaets",
+            "system_position": [
+                9,
+                13
+            ],
+            "system_uwp": "E362322-4"
+        },
+        {
+            "system_name": "Kfoukhsoeksakhoel",
+            "system_position": [
+                9,
+                19
+            ],
+            "system_uwp": "E610878-4"
+        },
+        {
+            "system_name": "Thallaeuekhourrg",
+            "system_position": [
+                10,
+                14
+            ],
+            "system_uwp": "B34277B-8"
+        },
+        {
+            "system_name": "Varsarsgoughzkur",
+            "system_position": [
+                10,
+                16
+            ],
+            "system_uwp": "A9A1332-B"
+        },
+        {
+            "system_name": "Vaghueoekogkfenoung",
+            "system_position": [
+                10,
+                18
+            ],
+            "system_uwp": "C373200-B"
+        },
+        {
+            "system_name": "Dueknounora",
+            "system_position": [
+                11,
+                14
+            ],
+            "system_uwp": "B140566-A"
+        },
+        {
+            "system_name": "Dueknounora",
+            "system_position": [
+                11,
+                15
+            ],
+            "system_uwp": "B140566-A"
+        },
+        {
+            "system_name": "Avathuedztus",
+            "system_position": [
+                12,
+                16
+            ],
+            "system_uwp": "A535879-A"
+        },
+        {
+            "system_name": "Avathuedztus",
+            "system_position": [
+                12,
+                17
+            ],
+            "system_uwp": "A535879-A"
+        },
+        {
+            "system_name": "Avathuedztus",
+            "system_position": [
+                12,
+                18
+            ],
+            "system_uwp": "A535879-A"
+        },
+        {
+            "system_name": "Ksurrghoukuragu",
+            "system_position": [
+                12,
+                19
+            ],
+            "system_uwp": "C569766-7"
+        },
+        {
+            "system_name": "Ksurrghoukuragu",
+            "system_position": [
+                12,
+                20
+            ],
+            "system_uwp": "C569766-7"
+        },
+        {
+            "system_name": "Thakhaen",
+            "system_position": [
+                13,
+                11
+            ],
+            "system_uwp": "B697002-9"
+        },
+        {
+            "system_name": "Knadhekhdzourrghael",
+            "system_position": [
+                13,
+                14
+            ],
+            "system_uwp": "D656278-3"
+        },
+        {
+            "system_name": "Ghaengoe",
+            "system_position": [
+                13,
+                16
+            ],
+            "system_uwp": "D643101-2"
+        },
+        {
+            "system_name": "Kfaeraekhokhag",
+            "system_position": [
+                14,
+                16
+            ],
+            "system_uwp": "D443545-7"
+        },
+        {
+            "system_name": "Vezghoutstueg",
+            "system_position": [
+                14,
+                18
+            ],
+            "system_uwp": "B100873-8"
+        },
+        {
+            "system_name": "Fazoklael",
+            "system_position": [
+                15,
+                12
+            ],
+            "system_uwp": "B200642-7"
+        },
+        {
+            "system_name": "Zige",
+            "system_position": [
+                15,
+                18
+            ],
+            "system_uwp": "B556610-8"
+        },
+        {
+            "system_name": "Zige",
+            "system_position": [
+                15,
+                19
+            ],
+            "system_uwp": "B556610-8"
+        },
+        {
+            "system_name": "Khaezvitsllugh",
+            "system_position": [
+                16,
+                13
+            ],
+            "system_uwp": "C582764-6"
+        },
+        {
+            "system_name": "Ghaeksaraen",
+            "system_position": [
+                16,
+                14
+            ],
+            "system_uwp": "D67A001-5"
+        },
+        {
+            "system_name": "Ghaeksaraen",
+            "system_position": [
+                16,
+                15
+            ],
+            "system_uwp": "D67A001-5"
+        },
+        {
+            "system_name": "Oghughafaedzzikhs",
+            "system_position": [
+                16,
+                18
+            ],
+            "system_uwp": "D79A459-7"
+        },
+        {
+            "system_name": "Gaethadhoedhong",
+            "system_position": [
+                17,
+                15
+            ],
+            "system_uwp": "C689745-7"
+        },
+        {
+            "system_name": "Gaethadhoedhong",
+            "system_position": [
+                17,
+                16
+            ],
+            "system_uwp": "C689745-7"
+        },
+        {
+            "system_name": "Khirurs",
+            "system_position": [
+                19,
+                11
+            ],
+            "system_uwp": "C9A6898-7"
+        },
+        {
+            "system_name": "Kothengthek",
+            "system_position": [
+                19,
+                12
+            ],
+            "system_uwp": "C342522-5"
+        },
+        {
+            "system_name": "Ghuekaedzkherrg",
+            "system_position": [
+                20,
+                19
+            ],
+            "system_uwp": "C000974-A"
+        },
+        {
+            "system_name": "Range",
+            "system_position": [
+                20,
+                20
+            ],
+            "system_uwp": "E769766-3"
+        },
+        {
+            "system_name": "Vungaeraraerrgh",
+            "system_position": [
+                21,
+                14
+            ],
+            "system_uwp": "B78A579-B"
+        },
+        {
+            "system_name": "Gvaellai",
+            "system_position": [
+                21,
+                19
+            ],
+            "system_uwp": "C447675-7"
+        },
+        {
+            "system_name": "Rueksersaetsknugh",
+            "system_position": [
+                23,
+                11
+            ],
+            "system_uwp": "C899200-7"
+        },
+        {
+            "system_name": "Rratsotsdzeng",
+            "system_position": [
+                26,
+                16
+            ],
+            "system_uwp": "E485569-3"
+        },
+        {
+            "system_name": "Dzethedzarzgvaeghaekhkuegh",
+            "system_position": [
+                28,
+                12
+            ],
+            "system_uwp": "C251000-5"
+        },
+        {
+            "system_name": "Fogoeganrron",
+            "system_position": [
+                29,
+                11
+            ],
+            "system_uwp": "D7688DG-0"
+        },
+        {
+            "system_name": "Noeuekfoungong",
+            "system_position": [
+                29,
+                13
+            ],
+            "system_uwp": "B768955-9"
+        },
+        {
+            "system_name": "Adaeokfue",
+            "system_position": [
+                30,
+                14
+            ],
+            "system_uwp": "E524330-2"
+        },
+        {
+            "system_name": "Rangoenghorar",
+            "system_position": [
+                1,
+                24
+            ],
+            "system_uwp": "C240002-8"
+        },
+        {
+            "system_name": "Ghaksoenkankfongoghaedz",
+            "system_position": [
+                2,
+                21
+            ],
+            "system_uwp": "B361564-8"
+        },
+        {
+            "system_name": "Radzaenodztsaerr",
+            "system_position": [
+                2,
+                30
+            ],
+            "system_uwp": "D334544-5"
+        },
+        {
+            "system_name": "Llikhun",
+            "system_position": [
+                3,
+                23
+            ],
+            "system_uwp": "B767414-9"
+        },
+        {
+            "system_name": "Errfaghgnaekhdhol",
+            "system_position": [
+                3,
+                24
+            ],
+            "system_uwp": "A532553-A"
+        },
+        {
+            "system_name": "Llokhsuezaeloenggvaerrkhoksi",
+            "system_position": [
+                4,
+                24
+            ],
+            "system_uwp": "B738597-B"
+        },
+        {
+            "system_name": "Kiloekithkhik",
+            "system_position": [
+                5,
+                23
+            ],
+            "system_uwp": "B325656-8"
+        },
+        {
+            "system_name": "Vanaerrglloghz",
+            "system_position": [
+                6,
+                21
+            ],
+            "system_uwp": "C21087A-3"
+        },
+        {
+            "system_name": "Kfoekuthuegvue",
+            "system_position": [
+                6,
+                23
+            ],
+            "system_uwp": "A8B4114-C"
+        },
+        {
+            "system_name": "Laeghaghztaeggighghoull",
+            "system_position": [
+                6,
+                25
+            ],
+            "system_uwp": "E350100-2"
+        },
+        {
+            "system_name": "Fakhsdhaerzae",
+            "system_position": [
+                6,
+                28
+            ],
+            "system_uwp": "A332533-C"
+        },
+        {
+            "system_name": "Knoghkoughae",
+            "system_position": [
+                6,
+                30
+            ],
+            "system_uwp": "C532147-3"
+        },
+        {
+            "system_name": "Kirraerraellounguegh",
+            "system_position": [
+                7,
+                26
+            ],
+            "system_uwp": "C754775-1"
+        },
+        {
+            "system_name": "Kirraerraellounguegh",
+            "system_position": [
+                7,
+                28
+            ],
+            "system_uwp": "C754775-1"
+        },
+        {
+            "system_name": "Guvaer",
+            "system_position": [
+                8,
+                21
+            ],
+            "system_uwp": "CA98410-2"
+        },
+        {
+            "system_name": "Kfoksoudhrrigha",
+            "system_position": [
+                8,
+                26
+            ],
+            "system_uwp": "A422666-9"
+        },
+        {
+            "system_name": "Zoullakhael",
+            "system_position": [
+                9,
+                27
+            ],
+            "system_uwp": "E884440-6"
+        },
+        {
+            "system_name": "Zaaesikhoe",
+            "system_position": [
+                9,
+                30
+            ],
+            "system_uwp": "A552576-9"
+        },
+        {
+            "system_name": "Vuersanuekhuengouz",
+            "system_position": [
+                10,
+                24
+            ],
+            "system_uwp": "B672752-A"
+        },
+        {
+            "system_name": "Koeae",
+            "system_position": [
+                10,
+                28
+            ],
+            "system_uwp": "E97A7CA-5"
+        },
+        {
+            "system_name": "Koutuenakhuengin",
+            "system_position": [
+                11,
+                23
+            ],
+            "system_uwp": "B140300-D"
+        },
+        {
+            "system_name": "Llozok",
+            "system_position": [
+                11,
+                27
+            ],
+            "system_uwp": "C664444-9"
+        },
+        {
+            "system_name": "Goekhsikhs",
+            "system_position": [
+                11,
+                29
+            ],
+            "system_uwp": "X682000-0"
+        },
+        {
+            "system_name": "Loesaego",
+            "system_position": [
+                12,
+                22
+            ],
+            "system_uwp": "C541676-5"
+        },
+        {
+            "system_name": "Loesaego",
+            "system_position": [
+                12,
+                23
+            ],
+            "system_uwp": "C541676-5"
+        },
+        {
+            "system_name": "Agzorruekhkfoerri",
+            "system_position": [
+                12,
+                24
+            ],
+            "system_uwp": "C332979-9"
+        },
+        {
+            "system_name": "Agzorruekhkfoerri",
+            "system_position": [
+                12,
+                26
+            ],
+            "system_uwp": "C332979-9"
+        },
+        {
+            "system_name": "Gueroengksuekh",
+            "system_position": [
+                12,
+                27
+            ],
+            "system_uwp": "B420688-8"
+        },
+        {
+            "system_name": "Ergur",
+            "system_position": [
+                13,
+                24
+            ],
+            "system_uwp": "B510510-8"
+        },
+        {
+            "system_name": "Ergur",
+            "system_position": [
+                13,
+                25
+            ],
+            "system_uwp": "B510510-8"
+        },
+        {
+            "system_name": "Azikhsodho",
+            "system_position": [
+                13,
+                27
+            ],
+            "system_uwp": "C224212-7"
+        },
+        {
+            "system_name": "Azikhsodho",
+            "system_position": [
+                13,
+                29
+            ],
+            "system_uwp": "C224212-7"
+        },
+        {
+            "system_name": "Khueugaenguekzarrg",
+            "system_position": [
+                14,
+                24
+            ],
+            "system_uwp": "C330979-A"
+        },
+        {
+            "system_name": "Ksuangkharrgh",
+            "system_position": [
+                14,
+                27
+            ],
+            "system_uwp": "C150872-4"
+        },
+        {
+            "system_name": "Ksuangkharrgh",
+            "system_position": [
+                14,
+                28
+            ],
+            "system_uwp": "C150872-4"
+        },
+        {
+            "system_name": "Gvatu",
+            "system_position": [
+                15,
+                22
+            ],
+            "system_uwp": "B616410-8"
+        },
+        {
+            "system_name": "Giksrrongoedhalla",
+            "system_position": [
+                15,
+                28
+            ],
+            "system_uwp": "B53A778-D"
+        },
+        {
+            "system_name": "Giksrrongoedhalla",
+            "system_position": [
+                15,
+                30
+            ],
+            "system_uwp": "B53A778-D"
+        },
+        {
+            "system_name": "Uevorrkfodze",
+            "system_position": [
+                16,
+                25
+            ],
+            "system_uwp": "A536331-9"
+        },
+        {
+            "system_name": "Ghurorrakfougaengaerrorr",
+            "system_position": [
+                16,
+                27
+            ],
+            "system_uwp": "A99A323-C"
+        },
+        {
+            "system_name": "Ghurorrakfougaengaerrorr",
+            "system_position": [
+                16,
+                30
+            ],
+            "system_uwp": "A99A323-C"
+        },
+        {
+            "system_name": "Garrgthueghraeghuerz",
+            "system_position": [
+                17,
+                27
+            ],
+            "system_uwp": "D99A353-7"
+        },
+        {
+            "system_name": "Ouakour",
+            "system_position": [
+                18,
+                30
+            ],
+            "system_uwp": "E338321-4"
+        },
+        {
+            "system_name": "Llarrkelkokh",
+            "system_position": [
+                19,
+                28
+            ],
+            "system_uwp": "A150575-A"
+        },
+        {
+            "system_name": "Thaellonsuerrallaek",
+            "system_position": [
+                19,
+                30
+            ],
+            "system_uwp": "E666203-2"
+        },
+        {
+            "system_name": "Uefaekhsoursllon",
+            "system_position": [
+                20,
+                30
+            ],
+            "system_uwp": "E466434-7"
+        },
+        {
+            "system_name": "Kiou",
+            "system_position": [
+                1,
+                31
+            ],
+            "system_uwp": "E534326-5"
+        },
+        {
+            "system_name": "Kiou",
+            "system_position": [
+                1,
+                32
+            ],
+            "system_uwp": "E534326-5"
+        },
+        {
+            "system_name": "Dovo",
+            "system_position": [
+                1,
+                33
+            ],
+            "system_uwp": "B748697-6"
+        },
+        {
+            "system_name": "Dovo",
+            "system_position": [
+                1,
+                34
+            ],
+            "system_uwp": "B748697-6"
+        },
+        {
+            "system_name": "Kadhaenikhs",
+            "system_position": [
+                1,
+                35
+            ],
+            "system_uwp": "C73A100-B"
+        },
+        {
+            "system_name": "Kadhaenikhs",
+            "system_position": [
+                1,
+                37
+            ],
+            "system_uwp": "C73A100-B"
+        },
+        {
+            "system_name": "Radzaenodztsaerr",
+            "system_position": [
+                2,
+                32
+            ],
+            "system_uwp": "D334544-5"
+        },
+        {
+            "system_name": "Ruekhsaelkodzors",
+            "system_position": [
+                2,
+                38
+            ],
+            "system_uwp": "B596532-7"
+        },
+        {
+            "system_name": "Ulliannoerr",
+            "system_position": [
+                3,
+                35
+            ],
+            "system_uwp": "B374467-8"
+        },
+        {
+            "system_name": "Ulliannoerr",
+            "system_position": [
+                3,
+                36
+            ],
+            "system_uwp": "B374467-8"
+        },
+        {
+            "system_name": "Duerrkhueth",
+            "system_position": [
+                3,
+                38
+            ],
+            "system_uwp": "C573514-8"
+        },
+        {
+            "system_name": "Duerrkhueth",
+            "system_position": [
+                3,
+                39
+            ],
+            "system_uwp": "C573514-8"
+        },
+        {
+            "system_name": "Onguerrighzounnguerra",
+            "system_position": [
+                4,
+                33
+            ],
+            "system_uwp": "B546A76-A"
+        },
+        {
+            "system_name": "Onguerrighzounnguerra",
+            "system_position": [
+                4,
+                34
+            ],
+            "system_uwp": "B546A76-A"
+        },
+        {
+            "system_name": "Outsalae",
+            "system_position": [
+                4,
+                37
+            ],
+            "system_uwp": "D998689-4"
+        },
+        {
+            "system_name": "Gazrroerak",
+            "system_position": [
+                4,
+                38
+            ],
+            "system_uwp": "A225597-D"
+        },
+        {
+            "system_name": "Gazrroerak",
+            "system_position": [
+                4,
+                39
+            ],
+            "system_uwp": "A225597-D"
+        },
+        {
+            "system_name": "Ikhsorrgrrudz",
+            "system_position": [
+                5,
+                37
+            ],
+            "system_uwp": "D510400-3"
+        },
+        {
+            "system_name": "Odugh",
+            "system_position": [
+                6,
+                36
+            ],
+            "system_uwp": "B332247-B"
+        },
+        {
+            "system_name": "Kfuegvoerrodz",
+            "system_position": [
+                6,
+                39
+            ],
+            "system_uwp": "XAE3751-0"
+        },
+        {
+            "system_name": "Gakhsadall",
+            "system_position": [
+                7,
+                32
+            ],
+            "system_uwp": "A645972-D"
+        },
+        {
+            "system_name": "Gakhsadall",
+            "system_position": [
+                7,
+                33
+            ],
+            "system_uwp": "A645972-D"
+        },
+        {
+            "system_name": "Khuedorurzvaeng",
+            "system_position": [
+                7,
+                38
+            ],
+            "system_uwp": "E687579-2"
+        },
+        {
+            "system_name": "Llorrargnoksath",
+            "system_position": [
+                7,
+                40
+            ],
+            "system_uwp": "B997640-7"
+        },
+        {
+            "system_name": "Koeghzongorrae",
+            "system_position": [
+                8,
+                31
+            ],
+            "system_uwp": "A352101-B"
+        },
+        {
+            "system_name": "Ghaerruekakh",
+            "system_position": [
+                8,
+                33
+            ],
+            "system_uwp": "E441788-6"
+        },
+        {
+            "system_name": "Gherouzdounkhakhaekhug",
+            "system_position": [
+                9,
+                32
+            ],
+            "system_uwp": "E243566-5"
+        },
+        {
+            "system_name": "Agaknae",
+            "system_position": [
+                9,
+                38
+            ],
+            "system_uwp": "C778554-9"
+        },
+        {
+            "system_name": "Knougthangvuen",
+            "system_position": [
+                10,
+                36
+            ],
+            "system_uwp": "B626536-9"
+        },
+        {
+            "system_name": "Thalrueloukhs",
+            "system_position": [
+                10,
+                39
+            ],
+            "system_uwp": "A9D0854-9"
+        },
+        {
+            "system_name": "Thalrueloukhs",
+            "system_position": [
+                10,
+                40
+            ],
+            "system_uwp": "A9D0854-9"
+        },
+        {
+            "system_name": "Khiaeue",
+            "system_position": [
+                11,
+                32
+            ],
+            "system_uwp": "C110876-6"
+        },
+        {
+            "system_name": "Llotourzong",
+            "system_position": [
+                11,
+                33
+            ],
+            "system_uwp": "C442352-7"
+        },
+        {
+            "system_name": "Ghivokhaka",
+            "system_position": [
+                11,
+                39
+            ],
+            "system_uwp": "D555222-4"
+        },
+        {
+            "system_name": "Roetsuetsdharrghgaerr",
+            "system_position": [
+                12,
+                34
+            ],
+            "system_uwp": "C798775-2"
+        },
+        {
+            "system_name": "Anuekhakhsror",
+            "system_position": [
+                13,
+                33
+            ],
+            "system_uwp": "C772879-5"
+        },
+        {
+            "system_name": "Gneknognorae",
+            "system_position": [
+                13,
+                40
+            ],
+            "system_uwp": "D777226-2"
+        },
+        {
+            "system_name": "Ksuangkharrgh",
+            "system_position": [
+                14,
+                32
+            ],
+            "system_uwp": "C150872-4"
+        },
+        {
+            "system_name": "Zuzog",
+            "system_position": [
+                14,
+                35
+            ],
+            "system_uwp": "B310887-B"
+        },
+        {
+            "system_name": "Ronzoutslloez",
+            "system_position": [
+                14,
+                40
+            ],
+            "system_uwp": "D515000-2"
+        },
+        {
+            "system_name": "Gaekighdhagh",
+            "system_position": [
+                15,
+                32
+            ],
+            "system_uwp": "D7786A9-4"
+        },
+        {
+            "system_name": "Gaekighdhagh",
+            "system_position": [
+                15,
+                35
+            ],
+            "system_uwp": "D7786A9-4"
+        },
+        {
+            "system_name": "Gaekighdhagh",
+            "system_position": [
+                15,
+                36
+            ],
+            "system_uwp": "D7786A9-4"
+        },
+        {
+            "system_name": "Gaekighdhagh",
+            "system_position": [
+                15,
+                37
+            ],
+            "system_uwp": "D7786A9-4"
+        }
+    ]
+}

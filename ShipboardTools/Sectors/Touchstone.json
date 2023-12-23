@@ -1,0 +1,1347 @@
+{
+    "sector_name": "Touchstone",
+    "sector_position": [
+        -5,
+        1
+    ],
+    "subsectors": [
+        {
+            "subsector_index": 1,
+            "subsector_name": "Ekteiu"
+        },
+        {
+            "subsector_index": 2,
+            "subsector_name": "Kyahiyleakhaw"
+        },
+        {
+            "subsector_index": 3,
+            "subsector_name": "Hiryarloah"
+        },
+        {
+            "subsector_index": 4,
+            "subsector_name": "Eietorl Easea'"
+        },
+        {
+            "subsector_index": 5,
+            "subsector_name": "A Ekhyolyooul"
+        },
+        {
+            "subsector_index": 6,
+            "subsector_name": "Iheihoarla"
+        },
+        {
+            "subsector_index": 7,
+            "subsector_name": "Aosola"
+        },
+        {
+            "subsector_index": 8,
+            "subsector_name": "Ikairleah"
+        },
+        {
+            "subsector_index": 9,
+            "subsector_name": "Earluiloiw"
+        },
+        {
+            "subsector_index": 10,
+            "subsector_name": "Taikhahriysea'yoruh"
+        },
+        {
+            "subsector_index": 11,
+            "subsector_name": "Tarlaihiyr"
+        },
+        {
+            "subsector_index": 12,
+            "subsector_name": "Oheaaye'eal"
+        },
+        {
+            "subsector_index": 13,
+            "subsector_name": "Iywe'uar"
+        },
+        {
+            "subsector_index": 14,
+            "subsector_name": "Hritihtoi"
+        },
+        {
+            "subsector_index": 15,
+            "subsector_name": "Ayaau'khte"
+        },
+        {
+            "subsector_index": 16,
+            "subsector_name": "Ala'ourl"
+        }
+    ],
+    "systems": [
+        {
+            "system_name": "Eaeu",
+            "system_position": [
+                1,
+                3
+            ],
+            "system_uwp": "C556327-6"
+        },
+        {
+            "system_name": "Ehuah",
+            "system_position": [
+                1,
+                5
+            ],
+            "system_uwp": "C5A0556-8"
+        },
+        {
+            "system_name": "Ealo",
+            "system_position": [
+                1,
+                6
+            ],
+            "system_uwp": "C737776-7"
+        },
+        {
+            "system_name": "Ahryeao",
+            "system_position": [
+                1,
+                7
+            ],
+            "system_uwp": "C553551-8"
+        },
+        {
+            "system_name": "Khtaitelro",
+            "system_position": [
+                1,
+                8
+            ],
+            "system_uwp": "C343233-6"
+        },
+        {
+            "system_name": "Iwialreio",
+            "system_position": [
+                1,
+                9
+            ],
+            "system_uwp": "C410336-8"
+        },
+        {
+            "system_name": "Ause",
+            "system_position": [
+                1,
+                10
+            ],
+            "system_uwp": "C340344-7"
+        },
+        {
+            "system_name": "Yaihye",
+            "system_position": [
+                2,
+                2
+            ],
+            "system_uwp": "C300767-6"
+        },
+        {
+            "system_name": "Kayue",
+            "system_position": [
+                2,
+                8
+            ],
+            "system_uwp": "C795653-6"
+        },
+        {
+            "system_name": "Tuktaiyweah",
+            "system_position": [
+                3,
+                3
+            ],
+            "system_uwp": "C585536-7"
+        },
+        {
+            "system_name": "Hkeahkiy",
+            "system_position": [
+                3,
+                6
+            ],
+            "system_uwp": "C867212-6"
+        },
+        {
+            "system_name": "Hleai",
+            "system_position": [
+                4,
+                3
+            ],
+            "system_uwp": "C659656-8"
+        },
+        {
+            "system_name": "Eroarife",
+            "system_position": [
+                5,
+                3
+            ],
+            "system_uwp": "C633A95-A"
+        },
+        {
+            "system_name": "Feyuriyrl",
+            "system_position": [
+                5,
+                7
+            ],
+            "system_uwp": "A87A201-E"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                1
+            ],
+            "system_uwp": "X386000-0"
+        },
+        {
+            "system_name": "Olreahyorl",
+            "system_position": [
+                6,
+                3
+            ],
+            "system_uwp": "C233877-9"
+        },
+        {
+            "system_name": "Fair",
+            "system_position": [
+                6,
+                4
+            ],
+            "system_uwp": "A669A8D-E"
+        },
+        {
+            "system_name": "Uasa",
+            "system_position": [
+                6,
+                5
+            ],
+            "system_uwp": "A797630-9"
+        },
+        {
+            "system_name": "Astiyikho",
+            "system_position": [
+                6,
+                6
+            ],
+            "system_uwp": "A739636-C"
+        },
+        {
+            "system_name": "Ar'Chrinhdah",
+            "system_position": [
+                6,
+                8
+            ],
+            "system_uwp": "D6746C6-6"
+        },
+        {
+            "system_name": "Eahiya",
+            "system_position": [
+                7,
+                3
+            ],
+            "system_uwp": "A312425-E"
+        },
+        {
+            "system_name": "Ktiyefiyai",
+            "system_position": [
+                7,
+                4
+            ],
+            "system_uwp": "A411312-C"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                8
+            ],
+            "system_uwp": "X788000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                10
+            ],
+            "system_uwp": "X433000-0"
+        },
+        {
+            "system_name": "Easiyhiyw",
+            "system_position": [
+                8,
+                2
+            ],
+            "system_uwp": "A342200-D"
+        },
+        {
+            "system_name": "Herlaleei",
+            "system_position": [
+                8,
+                6
+            ],
+            "system_uwp": "A454353-D"
+        },
+        {
+            "system_name": "Oia",
+            "system_position": [
+                8,
+                8
+            ],
+            "system_uwp": "A869743-A"
+        },
+        {
+            "system_name": "Elyetea",
+            "system_position": [
+                8,
+                9
+            ],
+            "system_uwp": "A41058A-E"
+        },
+        {
+            "system_name": "Aarlayaoa",
+            "system_position": [
+                9,
+                7
+            ],
+            "system_uwp": "D665458-5"
+        },
+        {
+            "system_name": "Tarlirl",
+            "system_position": [
+                10,
+                3
+            ],
+            "system_uwp": "E666565-2"
+        },
+        {
+            "system_name": "Htukheahoia",
+            "system_position": [
+                10,
+                6
+            ],
+            "system_uwp": "D745679-5"
+        },
+        {
+            "system_name": "Uieah",
+            "system_position": [
+                10,
+                8
+            ],
+            "system_uwp": "D200461-9"
+        },
+        {
+            "system_name": "Htyeua'as",
+            "system_position": [
+                11,
+                4
+            ],
+            "system_uwp": "E564234-4"
+        },
+        {
+            "system_name": "Khteasa",
+            "system_position": [
+                11,
+                5
+            ],
+            "system_uwp": "E9A6448-3"
+        },
+        {
+            "system_name": "Tryeouoaeakh",
+            "system_position": [
+                11,
+                8
+            ],
+            "system_uwp": "D210AC9-7"
+        },
+        {
+            "system_name": "Khtaoweiha",
+            "system_position": [
+                12,
+                9
+            ],
+            "system_uwp": "D456688-2"
+        },
+        {
+            "system_name": "Wielderness",
+            "system_position": [
+                13,
+                7
+            ],
+            "system_uwp": "X7A2000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                1
+            ],
+            "system_uwp": "X99A000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                7
+            ],
+            "system_uwp": "X536000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                10
+            ],
+            "system_uwp": "X460000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                1
+            ],
+            "system_uwp": "X638000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                2
+            ],
+            "system_uwp": "X9C5000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                6
+            ],
+            "system_uwp": "X788000-0"
+        },
+        {
+            "system_name": "Q-464-X",
+            "system_position": [
+                15,
+                7
+            ],
+            "system_uwp": "X327000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                8
+            ],
+            "system_uwp": "X436000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                10
+            ],
+            "system_uwp": "X300000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                6
+            ],
+            "system_uwp": "X355000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                7
+            ],
+            "system_uwp": "X565000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                1
+            ],
+            "system_uwp": "X300000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                7
+            ],
+            "system_uwp": "X636000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                9
+            ],
+            "system_uwp": "XA87000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                1
+            ],
+            "system_uwp": "X271000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                3
+            ],
+            "system_uwp": "X110000-0"
+        },
+        {
+            "system_name": "Arihiy'oilew",
+            "system_position": [
+                18,
+                5
+            ],
+            "system_uwp": "E566567-3"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                7
+            ],
+            "system_uwp": "X677000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                8
+            ],
+            "system_uwp": "X535000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                4
+            ],
+            "system_uwp": "X226000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                7
+            ],
+            "system_uwp": "X649000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                2
+            ],
+            "system_uwp": "X638000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                3
+            ],
+            "system_uwp": "X677000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                6
+            ],
+            "system_uwp": "X380000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                7
+            ],
+            "system_uwp": "X7A0000-0"
+        },
+        {
+            "system_name": "Htuiauiyeyo",
+            "system_position": [
+                21,
+                2
+            ],
+            "system_uwp": "E7A6486-5"
+        },
+        {
+            "system_name": "Grief",
+            "system_position": [
+                21,
+                6
+            ],
+            "system_uwp": "E330300-7"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                8
+            ],
+            "system_uwp": "X877000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                9
+            ],
+            "system_uwp": "X437000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                10
+            ],
+            "system_uwp": "X463000-0"
+        },
+        {
+            "system_name": "Easihiyewa",
+            "system_position": [
+                22,
+                2
+            ],
+            "system_uwp": "E667212-5"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                5
+            ],
+            "system_uwp": "X786000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                7
+            ],
+            "system_uwp": "X692000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                9
+            ],
+            "system_uwp": "X644000-0"
+        },
+        {
+            "system_name": "Hikhtyerl",
+            "system_position": [
+                23,
+                4
+            ],
+            "system_uwp": "E242668-6"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                8
+            ],
+            "system_uwp": "X100000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                9
+            ],
+            "system_uwp": "X536000-0"
+        },
+        {
+            "system_name": "Iyaea",
+            "system_position": [
+                24,
+                1
+            ],
+            "system_uwp": "E656447-5"
+        },
+        {
+            "system_name": "Khtyakhtalr",
+            "system_position": [
+                24,
+                3
+            ],
+            "system_uwp": "E77A552-9"
+        },
+        {
+            "system_name": "Uaseirl",
+            "system_position": [
+                24,
+                6
+            ],
+            "system_uwp": "E31076B-7"
+        },
+        {
+            "system_name": "Iyhahkah",
+            "system_position": [
+                25,
+                5
+            ],
+            "system_uwp": "B7A7644-9"
+        },
+        {
+            "system_name": "Takhaia",
+            "system_position": [
+                25,
+                7
+            ],
+            "system_uwp": "C878203-7"
+        },
+        {
+            "system_name": "Eaha'ekh",
+            "system_position": [
+                25,
+                10
+            ],
+            "system_uwp": "C16069A-7"
+        },
+        {
+            "system_name": "Afo",
+            "system_position": [
+                26,
+                7
+            ],
+            "system_uwp": "B84A649-8"
+        },
+        {
+            "system_name": "Ektaw",
+            "system_position": [
+                26,
+                8
+            ],
+            "system_uwp": "C564855-5"
+        },
+        {
+            "system_name": "Hwoufeeike",
+            "system_position": [
+                27,
+                1
+            ],
+            "system_uwp": "E5646AE-2"
+        },
+        {
+            "system_name": "Oawya",
+            "system_position": [
+                27,
+                3
+            ],
+            "system_uwp": "E423498-4"
+        },
+        {
+            "system_name": "Hkeilryalea",
+            "system_position": [
+                27,
+                4
+            ],
+            "system_uwp": "B693202-C"
+        },
+        {
+            "system_name": "Kouas",
+            "system_position": [
+                27,
+                9
+            ],
+            "system_uwp": "C7A4464-6"
+        },
+        {
+            "system_name": "Eareihkih",
+            "system_position": [
+                27,
+                10
+            ],
+            "system_uwp": "C669200-6"
+        },
+        {
+            "system_name": "Fihyahei",
+            "system_position": [
+                28,
+                6
+            ],
+            "system_uwp": "C110678-9"
+        },
+        {
+            "system_name": "Hleahiohyo",
+            "system_position": [
+                29,
+                2
+            ],
+            "system_uwp": "C855569-5"
+        },
+        {
+            "system_name": "Htaastea",
+            "system_position": [
+                30,
+                3
+            ],
+            "system_uwp": "C9B5ABD-8"
+        },
+        {
+            "system_name": "Truikhtyeh",
+            "system_position": [
+                30,
+                4
+            ],
+            "system_uwp": "C56389E-5"
+        },
+        {
+            "system_name": "Alriais",
+            "system_position": [
+                30,
+                5
+            ],
+            "system_uwp": "C636451-8"
+        },
+        {
+            "system_name": "Aseirl",
+            "system_position": [
+                30,
+                6
+            ],
+            "system_uwp": "C538AA8-C"
+        },
+        {
+            "system_name": "Kuiy",
+            "system_position": [
+                30,
+                10
+            ],
+            "system_uwp": "C77A354-7"
+        },
+        {
+            "system_name": "Hkahiiyoukhe",
+            "system_position": [
+                31,
+                2
+            ],
+            "system_uwp": "C323677-6"
+        },
+        {
+            "system_name": "Ealehkaasal",
+            "system_position": [
+                31,
+                4
+            ],
+            "system_uwp": "A455557-B"
+        },
+        {
+            "system_name": "Oikh",
+            "system_position": [
+                31,
+                6
+            ],
+            "system_uwp": "A301664-C"
+        },
+        {
+            "system_name": "Yo'auiheiwo",
+            "system_position": [
+                32,
+                8
+            ],
+            "system_uwp": "A9B7322-9"
+        },
+        {
+            "system_name": "Uaseirl",
+            "system_position": [
+                32,
+                9
+            ],
+            "system_uwp": "X432400-5"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                13
+            ],
+            "system_uwp": "X100000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                14
+            ],
+            "system_uwp": "X547000-0"
+        },
+        {
+            "system_name": "Yukheawealruahiykh",
+            "system_position": [
+                1,
+                16
+            ],
+            "system_uwp": "E474570-9"
+        },
+        {
+            "system_name": "VF-221-X",
+            "system_position": [
+                1,
+                18
+            ],
+            "system_uwp": "X8B3000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                20
+            ],
+            "system_uwp": "X312000-0"
+        },
+        {
+            "system_name": "Ahikhoiweala",
+            "system_position": [
+                2,
+                12
+            ],
+            "system_uwp": "D789650-3"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                17
+            ],
+            "system_uwp": "X522000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                19
+            ],
+            "system_uwp": "X757000-0"
+        },
+        {
+            "system_name": "Tlerahkaoii",
+            "system_position": [
+                3,
+                12
+            ],
+            "system_uwp": "B3616BE-9"
+        },
+        {
+            "system_name": "Uiwyehih",
+            "system_position": [
+                3,
+                16
+            ],
+            "system_uwp": "B578145-8"
+        },
+        {
+            "system_name": "Eeiwiraikh",
+            "system_position": [
+                3,
+                17
+            ],
+            "system_uwp": "B65525A-9"
+        },
+        {
+            "system_name": "Khtaktatawes",
+            "system_position": [
+                4,
+                11
+            ],
+            "system_uwp": "BA9A8DD-8"
+        },
+        {
+            "system_name": "Feirirlakh",
+            "system_position": [
+                4,
+                13
+            ],
+            "system_uwp": "B8958C7-D"
+        },
+        {
+            "system_name": "Ie",
+            "system_position": [
+                4,
+                14
+            ],
+            "system_uwp": "B55258B-7"
+        },
+        {
+            "system_name": "Heaeailoilao",
+            "system_position": [
+                4,
+                15
+            ],
+            "system_uwp": "B300376-8"
+        },
+        {
+            "system_name": "Htoi'uh",
+            "system_position": [
+                4,
+                17
+            ],
+            "system_uwp": "B626699-7"
+        },
+        {
+            "system_name": "O'ahi",
+            "system_position": [
+                5,
+                12
+            ],
+            "system_uwp": "B5A4278-B"
+        },
+        {
+            "system_name": "Eiarea",
+            "system_position": [
+                5,
+                15
+            ],
+            "system_uwp": "B363634-9"
+        },
+        {
+            "system_name": "Ousohalraolr",
+            "system_position": [
+                5,
+                17
+            ],
+            "system_uwp": "B235469-B"
+        },
+        {
+            "system_name": "Eafa",
+            "system_position": [
+                6,
+                12
+            ],
+            "system_uwp": "B68548D-A"
+        },
+        {
+            "system_name": "Uiaihteala",
+            "system_position": [
+                6,
+                13
+            ],
+            "system_uwp": "B9A5155-5"
+        },
+        {
+            "system_name": "La'erahao",
+            "system_position": [
+                6,
+                15
+            ],
+            "system_uwp": "B344410-9"
+        },
+        {
+            "system_name": "Earawya",
+            "system_position": [
+                7,
+                13
+            ],
+            "system_uwp": "B65A6A7-C"
+        },
+        {
+            "system_name": "Hkaiea",
+            "system_position": [
+                7,
+                15
+            ],
+            "system_uwp": "B554854-A"
+        },
+        {
+            "system_name": "Lei",
+            "system_position": [
+                9,
+                11
+            ],
+            "system_uwp": "B522400-8"
+        },
+        {
+            "system_name": "Kteaaheae",
+            "system_position": [
+                9,
+                12
+            ],
+            "system_uwp": "B655512-B"
+        },
+        {
+            "system_name": "Hlirl",
+            "system_position": [
+                10,
+                13
+            ],
+            "system_uwp": "C86A303-9"
+        },
+        {
+            "system_name": "Htiayu",
+            "system_position": [
+                10,
+                16
+            ],
+            "system_uwp": "C628664-5"
+        },
+        {
+            "system_name": "Aolawiy",
+            "system_position": [
+                11,
+                12
+            ],
+            "system_uwp": "C9A7615-9"
+        },
+        {
+            "system_name": "Hryeye",
+            "system_position": [
+                12,
+                12
+            ],
+            "system_uwp": "B897100-8"
+        },
+        {
+            "system_name": "Tiys",
+            "system_position": [
+                12,
+                13
+            ],
+            "system_uwp": "C300200-7"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                16
+            ],
+            "system_uwp": "X7A4000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                14
+            ],
+            "system_uwp": "X548000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                11
+            ],
+            "system_uwp": "X644000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                14
+            ],
+            "system_uwp": "XA9A000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                11
+            ],
+            "system_uwp": "X784000-0"
+        },
+        {
+            "system_name": "Aosola Fringe",
+            "system_position": [
+                16,
+                12
+            ],
+            "system_uwp": "X999000-0"
+        },
+        {
+            "system_name": "Daydyor Yashas",
+            "system_position": [
+                16,
+                20
+            ],
+            "system_uwp": "X683973-D"
+        },
+        {
+            "system_name": "Forbidden",
+            "system_position": [
+                21,
+                14
+            ],
+            "system_uwp": "X120000-0"
+        },
+        {
+            "system_name": "Rraerrgdzakaek",
+            "system_position": [
+                22,
+                11
+            ],
+            "system_uwp": "C4665A4-A"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                12
+            ],
+            "system_uwp": "X572000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                11
+            ],
+            "system_uwp": "X676000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                13
+            ],
+            "system_uwp": "X312000-0"
+        },
+        {
+            "system_name": "Rayraleck",
+            "system_position": [
+                25,
+                16
+            ],
+            "system_uwp": "C77A354-7"
+        },
+        {
+            "system_name": "Ealriysilrai",
+            "system_position": [
+                27,
+                11
+            ],
+            "system_uwp": "C673ACD-A"
+        },
+        {
+            "system_name": "Uiye",
+            "system_position": [
+                30,
+                11
+            ],
+            "system_uwp": "D3245DC-7"
+        },
+        {
+            "system_name": "Caplis",
+            "system_position": [
+                2,
+                21
+            ],
+            "system_uwp": "C341300-A"
+        },
+        {
+            "system_name": "VF-398-X",
+            "system_position": [
+                15,
+                30
+            ],
+            "system_uwp": "X78A000-0"
+        },
+        {
+            "system_name": "Allbutbarren",
+            "system_position": [
+                16,
+                21
+            ],
+            "system_uwp": "X410000-0"
+        },
+        {
+            "system_name": "T-O-1",
+            "system_position": [
+                20,
+                22
+            ],
+            "system_uwp": "X578775-2"
+        },
+        {
+            "system_name": "Greatlake",
+            "system_position": [
+                25,
+                29
+            ],
+            "system_uwp": "X78A000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                34
+            ],
+            "system_uwp": "X231000-0"
+        },
+        {
+            "system_name": "Silenne",
+            "system_position": [
+                1,
+                39
+            ],
+            "system_uwp": "X649872-1"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                35
+            ],
+            "system_uwp": "X100000-0"
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                40
+            ],
+            "system_uwp": "X303000-0"
+        },
+        {
+            "system_name": "Kamlenkammiiii",
+            "system_position": [
+                8,
+                36
+            ],
+            "system_uwp": "X494000-0"
+        },
+        {
+            "system_name": "Nahartu",
+            "system_position": [
+                9,
+                33
+            ],
+            "system_uwp": "X431000-0"
+        },
+        {
+            "system_name": "NX-38-S1",
+            "system_position": [
+                10,
+                39
+            ],
+            "system_uwp": "X431000-0"
+        },
+        {
+            "system_name": "Imoniege",
+            "system_position": [
+                20,
+                37
+            ],
+            "system_uwp": "???????-?"
+        },
+        {
+            "system_name": "Phobetor",
+            "system_position": [
+                23,
+                33
+            ],
+            "system_uwp": "B766873-9"
+        }
+    ]
+}

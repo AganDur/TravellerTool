@@ -43,6 +43,9 @@ void MapView::mousePressEvent(QMouseEvent *event){
 }
 
 void MapView::wheelEvent(QWheelEvent *event){
+    /*----------------------------*
+     *   UPDATE THE ZOOM FACTOR   *
+     *----------------------------*/
     QPoint delta = event->angleDelta()/8;
     float previousFactor = zoomFactor;
     if(delta.y()>0){
@@ -53,6 +56,40 @@ void MapView::wheelEvent(QWheelEvent *event){
         zoomFactor *= 1/1.5;
         this->scale(1/1.5,1/1.5);
     }
+
+    /*-----------------------------------------------*
+     *   UPDATE DETAILS SHOWN BASED ON ZOOM FACTOR   *
+     *-----------------------------------------------*/
+    // When zooming in
+    if(zoomFactor > previousFactor){
+        if(zoomFactor==2/10){
+            //showSystemDetails();
+        }
+        else if(zoomFactor==1/10){
+            //hideSubsectors();
+            //showLimitedSystems();
+        }
+        else if(zoomFactor==1/20){
+            //HideSectors();
+        }
+        else if(zoomFactor==1/30){
+            //ShowSubsectors();
+        }
+    }
+    // When zooming out
+    else if(zoomFactor < previousFactor){
+        if(zoomFactor==1/10){
+            //hideSystemDetails();
+        }
+        else if(zoomFactor==1/20){
+            //HideSystems();
+            //ShowSubsectors();
+        }
+        else if(zoomFactor==1/30){
+            //ShowSectors();
+        }
+    }
+
 
     if(zoomFactor < 0.4 && previousFactor>=0.4){
         QList<QGraphicsItem*> at = this->scene()->items();
