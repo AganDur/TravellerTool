@@ -11,6 +11,7 @@ Hexagon::Hexagon(float radius, QPoint center, System *system){
     this->radius = radius;
     this->center = center;
     this->hexSystem = system;
+    this->hexSystem->setHexagon(this);
 
     QTransform transformMatrix;
     transformMatrix.translate(center.x(), center.y());

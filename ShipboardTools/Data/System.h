@@ -5,6 +5,7 @@
 #include <string>
 
 class Sector;
+class Hexagon;
 
 class System{
 public:
@@ -12,17 +13,21 @@ public:
     System(std::string name, std::string uwp, std::string hexLocation);
 
     void setSector(Sector *s);
+    void setHexagon(Hexagon *hex);
 
     std::string getName();
     std::string getUWP();
     std::string getHex();
 
     Sector* getSector();
+    Hexagon* getHexagon();
 
 private:
     std::string name;
     std::string uwp;
     std::string hexLocation;
+
+    Hexagon *graphicsHexagon;
 
     Sector *sector;
 };

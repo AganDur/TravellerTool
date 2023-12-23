@@ -25,9 +25,13 @@ public:
 
     void setSystemMapButtonDisabled(bool disable);
 
-    void loadSector(QJsonObject root);
-
+    void loadSector(std::string filename);
+    void fillSector(Sector *s);
+    void setupLimitedSector(Sector *s);
     void setupSector(Sector *s);//, std::map<std::array<int,2>, class hexSystem*> map);
+
+    void updateViewPosition(QPointF topLeft, QPointF bottomRight);
+    void updateShownData(bool hideSystems, QPointF topLeft, QPointF bottomRight);
 
 private slots:
     void on_systemMapButton_clicked();

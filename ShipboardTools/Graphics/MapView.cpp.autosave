@@ -98,6 +98,7 @@ void MapView::wheelEvent(QWheelEvent *event){
         hideHexes = true;
         // Hide Hexes and show Sector Names
         QList<QGraphicsItem*> at = this->scene()->items();
+        this->scene().items().
         for(QGraphicsItem* it: at){
             // Hide Hexes
             if(dynamic_cast<Hexagon*>(it)!=nullptr) it->hide();

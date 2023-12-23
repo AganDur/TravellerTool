@@ -2,9 +2,12 @@
 #include "System.h"
 #include "Subsector.h"
 
+#include "Graphics/Hexagon.h"
+
 #include <array>
 
-Sector::Sector(std::string name, int x, int y){
+Sector::Sector(std::string filename, std::string name, int x, int y){
+    this->fileName = filename;
     this->name = name;
     this->x = x;
     this->y = y;
@@ -13,6 +16,10 @@ Sector::Sector(std::string name, int x, int y){
 
 std::string Sector::getName(){
     return this->name;
+}
+
+std::string Sector::getFileName(){
+    return this->fileName;
 }
 
 int Sector::getX() {
@@ -36,6 +43,14 @@ System *Sector::getSystem(int systemX, int systemY){
     return sys;
 }
 
+bool Sector::getLoaded(){
+    return this->loaded;
+}
+
+bool Sector::getHidden(){
+    return this->hidden;
+}
+
 void Sector::setSystems(std::map<std::array<int, 2>, System *> systems){
     this->systems = systems;
 }
@@ -46,6 +61,19 @@ void Sector::setSubsector(Subsector *sub){
     }
     else {
         this->subsectors.at(sub->getIndex()) = sub;
+    }
+}
+
+void Sector::setLoaded(bool load){
+    this->loaded = load;
+}
+
+void Sector::setHidden(bool hide){
+    this->hidden = hide;
+
+    // Go through all Systems and hide/show them
+    for(auto it = systems.begin() ; it!=systems.end() ; ++it){
+        it->second->getHexagon()->setVisible(!hide);
     }
 }
 

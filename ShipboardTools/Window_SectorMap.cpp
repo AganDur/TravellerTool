@@ -15,6 +15,8 @@
 
 #include <QGraphicsRectItem>
 
+#include <math.h>
+
 #define PI 3.14159265
 
 float hexRadius = 100;
@@ -32,7 +34,7 @@ Window_SectorMap::Window_SectorMap(QWidget *parent) : QMainWindow(parent), ui(ne
 
     std::vector<std::string> sectorFileNames = global::getAllJSONFiles(global::path()+"Sectors/");
     for(std::string sector: sectorFileNames){
-        this->loadSector(global::openJSON(QString::fromStdString(global::path()+"Sectors/"+sector+".json")));
+        this->loadSector(sector);
     }
 }
 
@@ -68,13 +70,15 @@ void Window_SectorMap::setSystemMapButtonDisabled(bool disable){
     ui->systemMapButton->setDisabled(disable);
 }
 
-void Window_SectorMap::loadSector(QJsonObject root){
+void Window_SectorMap::loadSector(std::string filename){
+    QJsonObject root = global::openJSON(QString::fromStdString(global::path()+"Sectors/"+filename+".json"));
+
     QJsonValue sectorPos = root.value("sector_position");
     auto sectorX = sectorPos.toArray().at(0).toInt(0);
     auto sectorY = sectorPos.toArray().at(1).toInt(0);
     auto sectorName = root.value("sector_name").toString();
 
-    Sector *sec = new Sector(sectorName.toStdString(), sectorX, sectorY);
+    Sector *sec = new Sector(filename, sectorName.toStdString(), sectorX, sectorY);
 
     QJsonValue subsectorsRoot = root.value("subsectors");
     for(QJsonValue sub: subsectorsRoot.toArray()){
@@ -85,8 +89,18 @@ void Window_SectorMap::loadSector(QJsonObject root){
         sec->setSubsector(subsector);
     }
 
+    this->sectors.push_back(sec);
+    this->setupLimitedSector(sec);
+}
+
+void Window_SectorMap::fillSector(Sector *s) {
+    std::string sectorName = s->getFileName();
+
+    QJsonObject root = global::openJSON(QString::fromStdString(global::path()+"/Sectors/"+sectorName+".json"));
+
     std::map<std::array<int,2>, class System*> map;
     QJsonValue systemsRoot = root.value("systems");
+
     for(QJsonValue s: systemsRoot.toArray()){
         QString nS = s.toObject().value("system_name").toString();
         QString uwpS = s.toObject().value("system_uwp").toString();
@@ -105,13 +119,9 @@ void Window_SectorMap::loadSector(QJsonObject root){
 
         map.insert({k, sys});
     }
-    sec->setSystems(map);
-
-    this->setupSector(sec);
-}
-
-void Window_SectorMap::fillSector(Sector *s) {
-
+    s->setSystems(map);
+    s->setLoaded(true);
+    this->setupSector(s);
 }
 
 void Window_SectorMap::setupLimitedSector(Sector *s) {
@@ -172,44 +182,6 @@ void Window_SectorMap::setupSector(Sector *s){//, std::map<std::array<int,2>, cl
     float sectorX = s->getX() * w ;
     float sectorY = s->getY() * h ;
 
-    /*---------------------*
-     *     SECTOR MARK     *
-     *---------------------*/
-    QPen p;
-    p.setCosmetic(true);
-    p.setWidth(2);
-    QGraphicsRectItem *r = new QGraphicsRectItem(QRectF(0, 0, w, h));
-    r->setPen(p);
-    QTransform rectT;
-    rectT.translate(sectorX-hexRadius, sectorY-offsetY);
-    r->setTransform(rectT);
-
-    /*---------------------*
-     *     SECTOR TEXT     *
-     *---------------------*/
-    QGraphicsTextItem *sT = new QGraphicsTextItem(QString::fromStdString(s->getName()),r);
-    QFont f;
-    f.setPointSize(500);
-    sT->setFont(f);
-    sT->setDefaultTextColor(Qt::red);
-
-    // CALCULATE CORRECT POSITION WITH ROTATION
-    QPointF center = sT->boundingRect().center();
-    QPointF sectorCenter = r->boundingRect().center();
-    QPointF centerDiff = sectorCenter - center;
-    float width=sT->boundingRect().width();
-    float height = sT->boundingRect().height();
-
-    QTransform textPos;
-    textPos.translate(centerDiff.x()+width/2, centerDiff.y()+height/2);
-    textPos.rotate(-45);
-    textPos.translate(-width/2, -height/2);
-    sT->setTransform(textPos);
-    sT->setVisible(false);
-
-    scene->addItem(r);
-
-
     /*-----------------*
      *     SYSTEMS     *
      *-----------------*/
@@ -234,6 +206,57 @@ void Window_SectorMap::setupSector(Sector *s){//, std::map<std::array<int,2>, cl
             sys->setSector(s);
             Hexagon *hex = new Hexagon(hexRadius, QPoint(sectorX + positionX,sectorY + positionY), sys);
             scene->addItem(hex);
+        }
+    }
+
+}
+
+void Window_SectorMap::updateViewPosition(QPointF topLeft, QPointF bottomRight){
+    float offsetX = hexRadius * (1 + sin(30*PI/180));
+    float offsetY = hexRadius * (cos(30*PI/180)) - 0.6;
+
+    float w = 32 * offsetX;
+    float h = 40 * offsetY*2;
+
+    int topLeftSectorX = floor(topLeft.x()  / w);
+    int middleSectorX = floor((bottomRight.x() + topLeft.x())/(2*w));
+    int middleSectorY = floor((bottomRight.y() + topLeft.y())/(2*h));
+    int bottomRightSectorX = floor(bottomRight.x() / w);
+    int topLeftSectorY = floor(topLeft.y() / h);
+    int bottomRightSectorY = floor(bottomRight.y() / h);
+
+    for(Sector *s : this->sectors){
+        if(!s->getLoaded()){
+            //if(s->getX() <= bottomRightSectorX && s->getX() >= topLeftSectorX && s->getY() <= bottomRightSectorY && s->getY() >= topLeftSectorY){
+            if(s->getX() == middleSectorX && s->getY() == middleSectorY){
+                this->fillSector(s);
+            }
+        }
+        else if(!s->getHidden()) {
+            if(s->getX() > bottomRightSectorX || s->getX() < topLeftSectorX || s->getY() > bottomRightSectorY || s->getY() < topLeftSectorY){
+                s->setHidden(true);
+            }
+        }
+    }
+
+}
+
+void Window_SectorMap::updateShownData(bool hideSystems, QPointF topLeft, QPointF bottomRight){
+    float offsetX = hexRadius * (1 + sin(30*PI/180));
+    float offsetY = hexRadius * (cos(30*PI/180)) - 0.6;
+
+    float w = 32 * offsetX;
+    float h = 40 * offsetY*2;
+
+    int topLeftSectorX = floor(topLeft.x()  / w);
+    int bottomRightSectorX = floor(bottomRight.x() / w);
+    int topLeftSectorY = floor(topLeft.y() / h);
+    int bottomRightSectorY = floor(bottomRight.y() / h);
+
+    for (Sector *s : this->sectors){
+        if(hideSystems && !s->getHidden()) s->setHidden(true);
+        else {
+            if(s->getX() <= bottomRightSectorX && s->getX() >= topLeftSectorX && s->getY() <= bottomRightSectorY && s->getY() >= topLeftSectorY) s->setHidden(false);
         }
     }
 }
