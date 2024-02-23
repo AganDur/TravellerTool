@@ -21,13 +21,13 @@ void ApplicationManager::showSystemViewer(){
 
     this->systemViewerWindow = new Window_SystemViewer(this->currentSystem);
 
-    this->systemViewerWindow->show();
+    this->systemViewerWindow->showMaximized();
 }
 
 void ApplicationManager::showSectorMap(){
     this->sectorMapWindow = new Window_SectorMap();
     this->sectorMapWindow->setApplication(this);
-    this->sectorMapWindow->show();
+    this->sectorMapWindow->showMaximized();
 }
 
 void ApplicationManager::openDialog_SystemSelection(){

@@ -19,6 +19,9 @@
      <widget class="MapView" name="mapView"/>
     </item>
     <item>
+     <widget class="QLCDNumber" name="zoomLogger"/>
+    </item>
+    <item>
      <widget class="QGroupBox" name="groupBox">
       <property name="title">
        <string>Details</string>

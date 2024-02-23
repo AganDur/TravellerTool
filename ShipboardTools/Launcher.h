@@ -23,10 +23,7 @@ public:
     void updateCurrentSystem(std::string current);
 
 private slots:
-    void on_SystemMapButton_clicked();
-
     void on_LocationButton_clicked();
-
     void on_SectorMapButton_clicked();
 
 private:

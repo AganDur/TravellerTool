@@ -23,7 +23,7 @@ Window_SystemViewer::Window_SystemViewer(std::string system, QWidget *parent):
 
     gl = new GL_SystemViewerWidget(this, system);
 
-    ui->horizontalLayout->insertWidget(0, gl);
+    ui->horizontalLayout->insertWidget(0, gl, 2);
     startGL();
 
     this->setMouseTracking(true);

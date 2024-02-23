@@ -2,12 +2,15 @@
 #include "Data/System.h"
 #include "Data/Sector.h"
 
+#include <iostream>
+#include <stdlib.h>
+
 #include <QPen>
 #include <QPainter>
 
 #define PI 3.14159265
 
-Hexagon::Hexagon(float radius, QPoint center, System *system){
+Hexagon::Hexagon(float radius, QPoint center, System *system, int category){
     this->radius = radius;
     this->center = center;
     this->hexSystem = system;
@@ -17,33 +20,37 @@ Hexagon::Hexagon(float radius, QPoint center, System *system){
     transformMatrix.translate(center.x(), center.y());
     this->setTransform(transformMatrix);
 
+    this->nameOffset = radius*3/12;
+    this->nameSecondaryOffset = radius*2/5;
+    this->uwpOffset = radius*3/5;
+    this->tradeHorOffset = radius*1/5;
+    this->tradeVertOffset = 0;
+    this->hexOffset = -radius*4/5;
+
     /*-------------------------*
      *     SETUP SUB ITEMS     *
      *-------------------------*/
-    QFont font;
-    font.setPointSize(20);
-
     if(!system->getName().empty()){
-        QGraphicsTextItem *nameText = new QGraphicsTextItem(QString::fromStdString(system->getName()), this);
-        nameText->setFont(font);
-        QTransform nameTransform;
-        float nameWidth = nameText->boundingRect().width();
-        nameTransform.translate(-nameWidth/2, radius*1/3);
-        nameText->setTransform(nameTransform);
+        nameText = new QGraphicsTextItem(QString::fromStdString(getName()), this);
+        nameText->setFont(QFont("Helvetica",20));
+        centerText(nameText, 0, nameSecondaryOffset);
 
-        QGraphicsTextItem *hexText = new QGraphicsTextItem(QString::fromStdString(system->getHex()),this);
-        hexText->setFont(font);
-        QTransform hexTransform;
-        float hexWidth = hexText->boundingRect().width();
-        hexTransform.translate(-hexWidth/2, -radius*4/5);
-        hexText->setTransform(hexTransform);
+        uwpText = new QGraphicsTextItem(QString::fromStdString(getUWP()),this);
+        uwpText->setFont(QFont("Arial",10));
+        centerText(uwpText, 0, uwpOffset);
 
-        QGraphicsEllipseItem *planetSymbol = new QGraphicsEllipseItem(QRectF(-20, -20, 40, 40), this);
-        QPen pen;
-        pen.setWidth(2);
-        planetSymbol->setPen(pen);
-        planetSymbol->setBrush(Qt::blue);
+        hexCodeText = new QGraphicsTextItem(QString::fromStdString(getHexCode()),this);
+        hexCodeText->setFont(QFont("Arial",20));
+        centerText(hexCodeText, 0, hexOffset);
+
+        tradeCodeText = new QGraphicsTextItem(QString::fromStdString(getTradeCode()),this);
+        tradeCodeText->setFont(QFont("Arial",8));
+        tradeCodeText->setDefaultTextColor(Qt::red);
+        centerText(tradeCodeText, tradeHorOffset, tradeVertOffset, false);
+
+        this->createSystemSymbol(category);
     }
+    this->showLimitedInfo();
 }
 
 QRectF Hexagon::boundingRect() const{
@@ -94,4 +101,85 @@ std::string Hexagon::getUWP(){
 
 std::string Hexagon::getSectorName(){
     return this->hexSystem->getSector()->getName();
+}
+
+std::string Hexagon::getTradeCode(){
+    return this->hexSystem->getTradeCode();
+}
+
+void Hexagon::createSystemSymbol(int category){
+    QPen pen;
+    switch(category){
+        case 0:
+            systemSymbol = new QGraphicsEllipseItem(QRectF(-20, -20, 40, 40), this);
+            pen.setWidth(2);
+            ((QGraphicsEllipseItem*)systemSymbol)->setPen(pen);
+            ((QGraphicsEllipseItem*)systemSymbol)->setBrush(Qt::darkGray);
+            break;
+        case 1:
+            systemSymbol = new QGraphicsEllipseItem(QRectF(-20, -20, 40, 40), this);
+            pen.setWidth(2);
+            ((QGraphicsEllipseItem*)systemSymbol)->setPen(pen);
+            ((QGraphicsEllipseItem*)systemSymbol)->setBrush(Qt::blue);
+            break;
+        default:
+            systemSymbol = new QGraphicsEllipseItem(QRectF(-20, -20, 40, 40), this);
+            pen.setWidth(2);
+            ((QGraphicsEllipseItem*)systemSymbol)->setPen(pen);
+            ((QGraphicsEllipseItem*)systemSymbol)->setBrush(Qt::black);
+    }
+}
+
+void Hexagon::showLimitedInfo() {
+    if(!this->getName().empty()) {
+        this->getHexCodeText()->show();
+        QFont updatedFont = this->getHexCodeText()->font();
+        updatedFont.setPointSize(27);
+        this->getHexCodeText()->setFont(updatedFont);
+
+        this->getNameText()->show();
+        updatedFont = this->getNameText()->font();
+        updatedFont.setPointSize(27);
+        this->getNameText()->setFont(updatedFont);
+
+        this->getTradeCodeText()->hide();
+        this->getUwpText()->hide();
+
+        centerText(this->getHexCodeText(), 0, this->hexOffset);
+        centerText(this->getNameText(), 0, this->nameSecondaryOffset);
+        centerText(this->getUwpText(), 0, this->uwpOffset);
+        centerText(this->getTradeCodeText(), this->tradeHorOffset, this->tradeVertOffset, false);
+    }
+}
+
+void Hexagon::showFullInfo() {
+    if(!this->getName().empty()) {
+        this->getHexCodeText()->show();
+        QFont updatedFont = this->getHexCodeText()->font();
+        updatedFont.setPointSize(20);
+        this->getHexCodeText()->setFont(updatedFont);
+
+        this->getNameText()->show();
+        updatedFont = this->getNameText()->font();
+        updatedFont.setPointSize(20);
+        this->getNameText()->setFont(updatedFont);
+
+        this->getTradeCodeText()->show();
+        this->getUwpText()->show();
+
+        centerText(this->getHexCodeText(), 0, this->hexOffset);
+        centerText(this->getNameText(), 0, this->nameOffset);
+        centerText(this->getUwpText(), 0, this->uwpOffset);
+        centerText(this->getTradeCodeText(), this->tradeHorOffset, this->tradeVertOffset, false);
+    }
+}
+
+void Hexagon::centerText(QGraphicsTextItem *textItem, float horizontalOffset, float verticalOffset, bool offsetCenter){
+    QTransform textTransform;
+    float nameWidth = textItem->boundingRect().width();
+    float horizontal = horizontalOffset;
+    if(offsetCenter) horizontal -= nameWidth/2;
+
+    textTransform.translate(horizontal, verticalOffset);
+    textItem->setTransform(textTransform);
 }

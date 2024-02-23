@@ -22,6 +22,7 @@ public:
     void setApplication(ApplicationManager *a);
 
     void setDetails(Hexagon *hexagon);
+    void setZoomLog(float zoomLevel);
 
     void setSystemMapButtonDisabled(bool disable);
 

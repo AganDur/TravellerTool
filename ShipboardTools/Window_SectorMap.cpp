@@ -34,6 +34,8 @@ Window_SectorMap::Window_SectorMap(QWidget *parent) : QMainWindow(parent), ui(ne
     for(std::string sector: sectorFileNames){
         this->loadSector(sector);
     }
+
+    setZoomLog(0.4);
 }
 
 Window_SectorMap::~Window_SectorMap(){
@@ -64,6 +66,10 @@ void Window_SectorMap::setDetails(Hexagon *hexagon){
     ui->systemMapButton->setEnabled(foundSystem);
 }
 
+void Window_SectorMap::setZoomLog(float zoomLevel){
+    ui->zoomLogger->display(zoomLevel*10);
+}
+
 void Window_SectorMap::setSystemMapButtonDisabled(bool disable){
     ui->systemMapButton->setDisabled(disable);
 }
@@ -91,8 +97,8 @@ void Window_SectorMap::loadSector(std::string filename){
     this->setupLimitedSector(sec);
 }
 
-void Window_SectorMap::fillSector(Sector *s) {
-    std::string sectorName = s->getFileName();
+void Window_SectorMap::fillSector(Sector *sector) {
+    std::string sectorName = sector->getFileName();
 
     QJsonObject root = global::openJSON(QString::fromStdString(global::path()+"/Sectors/"+sectorName+".json"));
 
@@ -100,26 +106,27 @@ void Window_SectorMap::fillSector(Sector *s) {
     QJsonValue systemsRoot = root.value("systems");
 
     for(QJsonValue s: systemsRoot.toArray()){
-        QString nS = s.toObject().value("system_name").toString();
-        QString uwpS = s.toObject().value("system_uwp").toString();
+        QString systemName = s.toObject().value("system_name").toString();
+        QString systemUWP = s.toObject().value("system_uwp").toString();
+        QString systemTrade = s.toObject().value("system_trade_code").toString();
 
-        int sX = s.toObject().value("system_position").toArray().at(0).toInt(0);
-        int sY = s.toObject().value("system_position").toArray().at(1).toInt(0);
+        int systemX = s.toObject().value("system_position").toArray().at(0).toInt(0);
+        int systemY = s.toObject().value("system_position").toArray().at(1).toInt(0);
 
         std::string psX = "";
-        if (sX<10) psX = "0";
+        if (systemX<10) psX = "0";
         std::string psY = "";
-        if (sY<10) psY = "0";
-        std::string pS = psX+std::to_string(sX)+psY+std::to_string(sY);
+        if (systemY<10) psY = "0";
+        std::string systemHexCode = psX+std::to_string(systemX)+psY+std::to_string(systemY);
 
-        System *sys = new System(nS.toStdString(), uwpS.toStdString(), pS);
-        std::array<int, 2> k = {sX, sY};
+        System *sys = new System(systemName.toStdString(), systemUWP.toStdString(), systemHexCode, systemTrade.toStdString());
+        std::array<int, 2> k = {systemX, systemY};
 
         map.insert({k, sys});
     }
-    s->setSystems(map);
-    s->setLoaded(true);
-    this->setupSector(s);
+    sector->setSystems(map);
+    sector->setLoaded(true);
+    this->setupSector(sector);
 }
 
 void Window_SectorMap::setupLimitedSector(Sector *s) {
@@ -170,15 +177,15 @@ void Window_SectorMap::setupLimitedSector(Sector *s) {
     scene->addItem(r);
 }
 
-void Window_SectorMap::setupSector(Sector *s){//, std::map<std::array<int,2>, class hexSystem*> map){
+void Window_SectorMap::setupSector(Sector *sector){
     float offsetX = hexRadius * (1 + sin(30*PI/180));
     float offsetY = hexRadius * (cos(30*PI/180)) - 0.6;
 
     float w = 32 * offsetX;
     float h = 40 * offsetY*2;
 
-    float sectorX = s->getX() * w ;
-    float sectorY = s->getY() * h ;
+    float sectorX = sector->getX() * w ;
+    float sectorY = sector->getY() * h ;
 
     /*-----------------*
      *     SYSTEMS     *
@@ -191,18 +198,18 @@ void Window_SectorMap::setupSector(Sector *s){//, std::map<std::array<int,2>, cl
             float positionX = (i-1) * offsetX;
             float positionY = (j-1) * 2 * offsetY + offsetYColumn; // offsetY * (2j - 1) = 2 * j * (hW - 0.1) - (hW - 0.1) = 2j*hW - 0.2j - hW + 0.1
 
-            System *sys = s->getSystem(i, j);
-            if (sys == nullptr) {
+            System *system = sector->getSystem(i, j);
+            if (system == nullptr) {
                 std::string hexCode = "";
                 if(i < 10) hexCode += "0";
                 hexCode += std::to_string(i);
                 if(j<10) hexCode += "0";
                 hexCode += std::to_string(j);
 
-                sys=new System("", "", hexCode);
+                system=new System("", "", hexCode, "");
             }
-            sys->setSector(s);
-            Hexagon *hex = new Hexagon(hexRadius, QPoint(sectorX + positionX,sectorY + positionY), sys);
+            system->setSector(sector);
+            Hexagon *hex = new Hexagon(hexRadius, QPoint(sectorX + positionX,sectorY + positionY), system);
             scene->addItem(hex);
         }
     }

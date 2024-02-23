@@ -18,6 +18,8 @@ MapView::MapView(){
 MapView::MapView(QWidget *parent) : QGraphicsView{parent}{
     connect(this->horizontalScrollBar(), &QScrollBar::valueChanged, this, &MapView::viewMoved);
     connect(this->verticalScrollBar(), &QScrollBar::valueChanged, this, &MapView::viewMoved);
+
+    this->scale(this->zoomFactor, this->zoomFactor);
 }
 
 void MapView::setWindow(Window_SectorMap *w){
@@ -51,14 +53,16 @@ void MapView::wheelEvent(QWheelEvent *event){
      *----------------------------*/
     QPoint delta = event->angleDelta()/8;
     float previousFactor = zoomFactor;
-    if(delta.y()>0){
-        zoomFactor *= 1.5;
-        this->scale(1.5, 1.5);
+    if(delta.y()>0 && zoomFactor<maximumZoom){
+        this->zoomFactor *= this->zoomStep;
+        this->scale(this->zoomStep, this->zoomStep);
     }
-    else {
-        zoomFactor *= 1/1.5;
-        this->scale(1/1.5,1/1.5);
+    else if (delta.y()<0 && zoomFactor>minimumZoom) {
+        this->zoomFactor /= this->zoomStep;
+        this->scale(1/this->zoomStep, 1/this->zoomStep);
     }
+
+    this->window->setZoomLog(zoomFactor);
 
     /*-----------------------------------------------*
      *   UPDATE DETAILS SHOWN BASED ON ZOOM FACTOR   *
@@ -94,44 +98,24 @@ void MapView::wheelEvent(QWheelEvent *event){
     }
 
 
-    if(zoomFactor < 0.4 && previousFactor>=0.4){
+    if(zoomFactor < 0.9 && previousFactor>=0.9){
         QList<QGraphicsItem*> at = this->scene()->items();
         for(QGraphicsItem* it: at){
-            QGraphicsTextItem *t = dynamic_cast<QGraphicsTextItem*>(it);
-            if(t!=nullptr && dynamic_cast<Hexagon*>(it->parentItem())!=nullptr){
-                QFont font;
-                font.setPointSize(30);
-
-                float oldWidth = t->boundingRect().width();
-                t->setFont(font);
-                float newWidth = t->boundingRect().width();
-
-                QTransform oldTransform = t->transform();
-                oldTransform.translate(oldWidth/2 - newWidth/2, -10);
-                t->setTransform(oldTransform);
+            if(it!=nullptr && dynamic_cast<Hexagon*>(it)!=nullptr){
+                dynamic_cast<Hexagon*>(it)->showLimitedInfo();
             }
         }
     }
-    if(zoomFactor >= 0.4 && previousFactor<0.4) {
+    if(zoomFactor >= 0.9 && previousFactor<0.9) {
         QList<QGraphicsItem*> at = this->scene()->items();
         for(QGraphicsItem* it: at){
-            QGraphicsTextItem *t = dynamic_cast<QGraphicsTextItem*>(it);
-            if(t!=nullptr && dynamic_cast<Hexagon*>(it->parentItem())!=nullptr){
-                QFont font;
-                font.setPointSize(20);
-
-                float oldWidth = t->boundingRect().width();
-                t->setFont(font);
-                float newWidth = t->boundingRect().width();
-
-                QTransform oldTransform = t->transform();
-                oldTransform.translate(oldWidth/2 - newWidth/2, 10);
-                t->setTransform(oldTransform);
+            if(it!=nullptr && dynamic_cast<Hexagon*>(it)!=nullptr){
+                dynamic_cast<Hexagon*>(it)->showFullInfo();
             }
         }
     }
 
-    if(zoomFactor<(0.2*1.5) && !hideHexes){
+    if(zoomFactor<(0.2) && !hideHexes){
         hideHexes = true;
         // Hide Hexes and show Sector Names
         QList<QGraphicsItem*> at = this->scene()->items();
@@ -142,13 +126,16 @@ void MapView::wheelEvent(QWheelEvent *event){
             if(dynamic_cast<QGraphicsTextItem*>(it)!=nullptr && dynamic_cast<Hexagon*>(it->parentItem())==nullptr) it->setVisible(true);
         }
     }
-    if(zoomFactor>(0.2*1.5) && hideHexes){
+    if(zoomFactor>(0.2) && hideHexes){
         hideHexes = false;
         // Show Hexes and hide Sector Names
         QList<QGraphicsItem*> at = this->scene()->items();
         for(QGraphicsItem* it: at){
             // Show Hexes
-            if(dynamic_cast<Hexagon*>(it)!=nullptr) it->setVisible(true);
+            if(dynamic_cast<Hexagon*>(it)!=nullptr) {
+                it->setVisible(true);
+                dynamic_cast<Hexagon*>(it)->showLimitedInfo();
+            }
             // Hide Sector Text
             if(dynamic_cast<QGraphicsTextItem*>(it)!=nullptr && dynamic_cast<Hexagon*>(it->parentItem())==nullptr) it->hide();
         }

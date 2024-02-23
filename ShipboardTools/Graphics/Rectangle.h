@@ -15,6 +15,7 @@ public:
 private:
     std::vector<Hexagon*> hexes;
     std::string name;
+
 };
 
 #endif // RECTANGLE_H

@@ -4,12 +4,14 @@ System::System(){
     this->name = "";
     this->uwp = "";
     this->hexLocation = "";
+    this->tradeCode = "";
 }
 
-System::System(std::string name, std::string uwp, std::string hexLocation){
+System::System(std::string name, std::string uwp, std::string hexLocation, std::string tradeCode){
     this->name = name;
     this->uwp = uwp;
     this->hexLocation = hexLocation;
+    this->tradeCode = tradeCode;
 }
 
 void System::setSector(Sector *s){
@@ -30,6 +32,10 @@ std::string System::getUWP(){
 
 std::string System::getHex(){
     return this->hexLocation;
+}
+
+std::string System::getTradeCode(){
+    return this->tradeCode;
 }
 
 Sector* System::getSector(){

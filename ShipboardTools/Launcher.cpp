@@ -24,11 +24,6 @@ void Launcher::updateCurrentSystem(std::string current){
     ui->currentSystemTitle->setText(QString("Current System = ") + QString::fromStdString(current));
 }
 
-void Launcher::on_SystemMapButton_clicked(){
-    this->app->showSystemViewer();
-    this->close();
-}
-
 void Launcher::on_LocationButton_clicked(){
     // Open Modal Window to Select System
     this->app->openDialog_SystemSelection();

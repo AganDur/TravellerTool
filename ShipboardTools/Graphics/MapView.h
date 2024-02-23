@@ -23,7 +23,12 @@ public:
 
 private:
     Window_SectorMap *window;
-    float zoomFactor = 1;
+
+    float zoomFactor = 0.4;
+    float minimumZoom = 0.012;
+    float maximumZoom = 1;
+    float zoomStep = 1.5;
+
     bool hideHexes = false;
 
     std::vector<std::string> systems;
