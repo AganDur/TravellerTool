@@ -28,6 +28,8 @@ public:
     void setLoaded(bool load);
     void setHidden(bool hide);
 
+    std::vector<Subsector*> getSubsectors() { return subsectors; }
+
     //std::vector<int[2]> getSystemsAtDistance(int start[], int distance);
 
 private:

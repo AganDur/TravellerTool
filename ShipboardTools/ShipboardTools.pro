@@ -21,7 +21,7 @@ SOURCES += \
     Graphics/DeleteElementsWorker.cpp \
     Graphics/Hexagon.cpp \
     Graphics/MapView.cpp \
-    Graphics/Rectangle.cpp \
+    Graphics/SectorRectangle.cpp \
     OpenGL/GL_Camera.cpp \
     OpenGL/GL_Instanced.cpp \
     OpenGL/GL_Mesh.cpp \
@@ -47,7 +47,7 @@ HEADERS += \
     Graphics/DeleteElementsWorker.h \
     Graphics/Hexagon.h \
     Graphics/MapView.h \
-    Graphics/Rectangle.h \
+    Graphics/SectorRectangle.h \
     Launcher.h \
     OpenGL/GL_Camera.h \
     OpenGL/GL_Instanced.h \

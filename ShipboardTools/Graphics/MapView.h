@@ -29,6 +29,8 @@ private:
     float maximumZoom = 1;
     float zoomStep = 1.5;
 
+    int zoomLevel;
+
     bool hideHexes = false;
 
     std::vector<std::string> systems;

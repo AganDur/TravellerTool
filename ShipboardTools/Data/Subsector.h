@@ -9,6 +9,7 @@ public:
     Subsector(std::string name, int index);
 
     int getIndex();
+    std::string getName(){ return name; }
 
 private:
     int index;

@@ -3,6 +3,7 @@
 #include "Globals.h"
 
 #include "Graphics/Hexagon.h"
+#include "Graphics/SectorRectangle.h"
 
 #include "Data/System.h"
 #include "Data/Sector.h"
@@ -142,39 +143,28 @@ void Window_SectorMap::setupLimitedSector(Sector *s) {
     /*---------------------*
      *     SECTOR MARK     *
      *---------------------*/
-    QPen p;
-    p.setCosmetic(true);
-    p.setWidth(2);
-    QGraphicsRectItem *r = new QGraphicsRectItem(QRectF(0, 0, w, h));
-    r->setPen(p);
+    SectorRectangle *sectorRec = new SectorRectangle(QRectF(0, 0, w, h), s->getName());
     QTransform rectT;
     rectT.translate(sectorX-hexRadius, sectorY-offsetY);
-    r->setTransform(rectT);
+    sectorRec->setTransform(rectT);
 
-    /*---------------------*
-     *     SECTOR TEXT     *
-     *---------------------*/
-    QGraphicsTextItem *sT = new QGraphicsTextItem(QString::fromStdString(s->getName()),r);
-    QFont f;
-    f.setPointSize(500);
-    sT->setFont(f);
-    sT->setDefaultTextColor(Qt::red);
+    scene->addItem(sectorRec);
 
-    // CALCULATE CORRECT POSITION WITH ROTATION
-    QPointF center = sT->boundingRect().center();
-    QPointF sectorCenter = r->boundingRect().center();
-    QPointF centerDiff = sectorCenter - center;
-    float width=sT->boundingRect().width();
-    float height = sT->boundingRect().height();
+    /*------------------------*
+     *     SUBSECTOR MARK     *
+     *------------------------*/
+    for(Subsector* subsector : s->getSubsectors()){
+        int index = subsector->getIndex() - 1;
+        int x = index%4;
+        int y = index/4;
 
-    QTransform textPos;
-    textPos.translate(centerDiff.x()+width/2, centerDiff.y()+height/2);
-    textPos.rotate(-45);
-    textPos.translate(-width/2, -height/2);
-    sT->setTransform(textPos);
-    sT->setVisible(false);
+        SectorRectangle *subsectorRec = new SectorRectangle(QRectF(0, 0, w/4, h/4), subsector->getName(), true);
+        QTransform rectSubT;
+        rectSubT.translate(sectorX-hexRadius + w*x/4, sectorY-offsetY + h*y/4);
+        subsectorRec->setTransform(rectSubT);
 
-    scene->addItem(r);
+        scene->addItem(subsectorRec);
+    }
 }
 
 void Window_SectorMap::setupSector(Sector *sector){

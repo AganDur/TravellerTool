@@ -3,6 +3,7 @@
 #include "Window_SectorMap.h"
 
 #include "Hexagon.h"
+#include "SectorRectangle.h"
 
 #include "Globals.h"
 
@@ -67,77 +68,111 @@ void MapView::wheelEvent(QWheelEvent *event){
     /*-----------------------------------------------*
      *   UPDATE DETAILS SHOWN BASED ON ZOOM FACTOR   *
      *-----------------------------------------------*/
+    QList<QGraphicsItem*> at = this->scene()->items();
+
     // When zooming in
     if(zoomFactor > previousFactor){
-        if(zoomFactor==2/10){
-            //showSystemDetails();
+        if(zoomFactor > 0.9){
+            if(zoomLevel != 0){
+                for(QGraphicsItem* it: at){
+                    if(it!=nullptr && dynamic_cast<Hexagon*>(it)!=nullptr){
+                        dynamic_cast<Hexagon*>(it)->showFullInfo();
+                    }
+                }
+            }
+            zoomLevel = 0;
+            this->hideHexes = false;
         }
-        else if(zoomFactor==1/10){
-            //hideSubsectors();
-            //showLimitedSystems();
+        else if(zoomFactor > 0.2){
+            if(zoomLevel !=1){
+                for(QGraphicsItem* it: at){
+                    if(it!=nullptr && dynamic_cast<Hexagon*>(it)!=nullptr){
+                        dynamic_cast<Hexagon*>(it)->show();
+                        dynamic_cast<Hexagon*>(it)->showLimitedInfo();
+                    }
+                    // Hide SubSector and Sector text
+                    if(dynamic_cast<SectorRectangle*>(it)!=nullptr){
+                        (dynamic_cast<SectorRectangle*>(it))->hideText();
+                    }
+                }
+            }
+            zoomLevel = 1;
+            this->hideHexes = false;
         }
-        else if(zoomFactor==1/20){
-            //HideSectors();
+        else if(zoomFactor > 0.1){
+            if(zoomLevel !=2){
+                for(QGraphicsItem* it: at){
+                    // Hide Sector text
+                    if(dynamic_cast<SectorRectangle*>(it)!=nullptr && !(dynamic_cast<SectorRectangle*>(it))->isSubsector()){
+                        (dynamic_cast<SectorRectangle*>(it))->hideText();
+                    }
+                }
+            }
+            zoomLevel = 2;
         }
-        else if(zoomFactor==1/30){
-            //ShowSubsectors();
+        else if(zoomFactor > 0.05){
+            if(zoomLevel != 3){
+                for(QGraphicsItem* it: at){
+                    // Show SubSector text
+                    if(dynamic_cast<SectorRectangle*>(it)!=nullptr && (dynamic_cast<SectorRectangle*>(it))->isSubsector()){
+                        (dynamic_cast<SectorRectangle*>(it))->showText();
+                    }
+                }
+            }
+            zoomLevel = 3;
         }
     }
     // When zooming out
     else if(zoomFactor < previousFactor){
-        if(zoomFactor==1/10){
-            //hideSystemDetails();
-        }
-        else if(zoomFactor==1/20){
-            //HideSystems();
-            //ShowSubsectors();
-        }
-        else if(zoomFactor==1/30){
-            //ShowSectors();
-        }
-    }
-
-
-    if(zoomFactor < 0.9 && previousFactor>=0.9){
-        QList<QGraphicsItem*> at = this->scene()->items();
-        for(QGraphicsItem* it: at){
-            if(it!=nullptr && dynamic_cast<Hexagon*>(it)!=nullptr){
-                dynamic_cast<Hexagon*>(it)->showLimitedInfo();
+        if(zoomFactor < 0.05){
+            if(zoomLevel != 4){
+                for(QGraphicsItem* it: at){
+                    // Hide SubSector text
+                    if(dynamic_cast<SectorRectangle*>(it)!=nullptr && (dynamic_cast<SectorRectangle*>(it))->isSubsector()){
+                        (dynamic_cast<SectorRectangle*>(it))->hideText();
+                    }
+                }
             }
+            zoomLevel = 4;
+            this->hideHexes = true;
         }
-    }
-    if(zoomFactor >= 0.9 && previousFactor<0.9) {
-        QList<QGraphicsItem*> at = this->scene()->items();
-        for(QGraphicsItem* it: at){
-            if(it!=nullptr && dynamic_cast<Hexagon*>(it)!=nullptr){
-                dynamic_cast<Hexagon*>(it)->showFullInfo();
+        else if(zoomFactor < 0.1){
+            if(zoomLevel != 3){
+                for(QGraphicsItem* it: at){
+                    // Show Sector text
+                    if(dynamic_cast<SectorRectangle*>(it)!=nullptr && !(dynamic_cast<SectorRectangle*>(it))->isSubsector()){
+                        (dynamic_cast<SectorRectangle*>(it))->showText();
+                    }
+                }
             }
+            zoomLevel = 3;
+            this->hideHexes = true;
         }
-    }
+        else if(zoomFactor < 0.2){
+            if(zoomLevel != 2){
+                for(QGraphicsItem* it: at){
+                    if(it!=nullptr && dynamic_cast<Hexagon*>(it)!=nullptr){
+                        dynamic_cast<Hexagon*>(it)->hide();
+                    }
 
-    if(zoomFactor<(0.2) && !hideHexes){
-        hideHexes = true;
-        // Hide Hexes and show Sector Names
-        QList<QGraphicsItem*> at = this->scene()->items();
-        for(QGraphicsItem* it: at){
-            // Hide Hexes
-            if(dynamic_cast<Hexagon*>(it)!=nullptr) it->hide();
-            // Show Sector text
-            if(dynamic_cast<QGraphicsTextItem*>(it)!=nullptr && dynamic_cast<Hexagon*>(it->parentItem())==nullptr) it->setVisible(true);
-        }
-    }
-    if(zoomFactor>(0.2) && hideHexes){
-        hideHexes = false;
-        // Show Hexes and hide Sector Names
-        QList<QGraphicsItem*> at = this->scene()->items();
-        for(QGraphicsItem* it: at){
-            // Show Hexes
-            if(dynamic_cast<Hexagon*>(it)!=nullptr) {
-                it->setVisible(true);
-                dynamic_cast<Hexagon*>(it)->showLimitedInfo();
+                    // Show SubSector text
+                    if(dynamic_cast<SectorRectangle*>(it)!=nullptr && (dynamic_cast<SectorRectangle*>(it))->isSubsector()){
+                        (dynamic_cast<SectorRectangle*>(it))->showText();
+                    }
+                }
             }
-            // Hide Sector Text
-            if(dynamic_cast<QGraphicsTextItem*>(it)!=nullptr && dynamic_cast<Hexagon*>(it->parentItem())==nullptr) it->hide();
+            zoomLevel = 2;
+            this->hideHexes = true;
+        }
+        else if(zoomFactor < 0.9){
+            if(zoomLevel != 1){
+                for(QGraphicsItem* it: at){
+                    if(it!=nullptr && dynamic_cast<Hexagon*>(it)!=nullptr){
+                        dynamic_cast<Hexagon*>(it)->showLimitedInfo();
+                    }
+                }
+            }
+            zoomLevel = 1;
         }
     }
 }
