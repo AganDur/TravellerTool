@@ -21,6 +21,8 @@ public:
 
     void reloadData(std::string system);
 
+    void closeEvent(QCloseEvent *event);
+
 private:
     Ui::Window_SystemViewer *ui;
     GL_SystemViewerWidget *gl;

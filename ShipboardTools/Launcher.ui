@@ -11,26 +11,30 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Launcher</string>
+   <string/>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
-    <item row="4" column="2">
-     <widget class="QPushButton" name="RoboticsLabButton">
+    <item row="2" column="3">
+     <widget class="QPushButton" name="GarageButton">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
       <property name="text">
-       <string>Robotics Lab</string>
+       <string>COMING : Garage</string>
       </property>
      </widget>
     </item>
-    <item row="6" column="2">
-     <widget class="QLabel" name="targetSystemTitle">
-      <property name="text">
-       <string>Selected System = </string>
-      </property>
-     </widget>
-    </item>
-    <item row="5" column="2" colspan="2">
+    <item row="3" column="2" colspan="2">
      <widget class="QPushButton" name="ShipyardButton">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
       <property name="font">
        <font>
         <family>Adamsky SF</family>
@@ -38,7 +42,7 @@
        </font>
       </property>
       <property name="text">
-       <string>Shipyard</string>
+       <string>COMING : Shipyard</string>
       </property>
       <property name="icon">
        <iconset>
@@ -53,49 +57,22 @@
       </property>
      </widget>
     </item>
-    <item row="4" column="3">
-     <widget class="QPushButton" name="GarageButton">
+    <item row="1" column="3">
+     <widget class="QPushButton" name="GunSmithButton">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
       <property name="text">
-       <string>Garage</string>
+       <string>COMING : Gun Smith</string>
       </property>
      </widget>
     </item>
     <item row="0" column="2" colspan="2">
-     <widget class="QPushButton" name="LocationButton">
-      <property name="text">
-       <string>&lt;Current Location&gt;</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="2" colspan="2">
-     <widget class="Line" name="line">
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="3">
-     <widget class="QPushButton" name="GunSmithButton">
-      <property name="text">
-       <string>Gun Smith</string>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="2">
-     <widget class="QPushButton" name="CSCButton">
-      <property name="text">
-       <string>Central Supply Catalogue</string>
-      </property>
-     </widget>
-    </item>
-    <item row="7" column="2">
-     <widget class="QLabel" name="currentSystemTitle">
-      <property name="text">
-       <string>Current System = </string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="2" colspan="2">
      <widget class="QPushButton" name="SectorMapButton">
       <property name="font">
        <font>
@@ -105,6 +82,36 @@
       </property>
       <property name="text">
        <string>Sector Map</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QPushButton" name="RoboticsLabButton">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>COMING : Robotics Lab</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QPushButton" name="CSCButton">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>COMING : Central Supply Catalogue</string>
       </property>
      </widget>
     </item>

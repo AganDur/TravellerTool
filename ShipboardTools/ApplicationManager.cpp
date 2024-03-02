@@ -6,6 +6,7 @@
 
 ApplicationManager::ApplicationManager(int argc, char *argv[]): QApplication{argc, argv}, launcherWindow{Launcher()}{
     launcherWindow.setApplicationManager(this);
+    sectorMapWindow=nullptr;
     this->currentSystem = "Acrid";
 }
 
@@ -25,9 +26,13 @@ void ApplicationManager::showSystemViewer(){
 }
 
 void ApplicationManager::showSectorMap(){
+    if(this->sectorMapWindow!=nullptr) {
+        delete sectorMapWindow;
+    }
+
     this->sectorMapWindow = new Window_SectorMap();
     this->sectorMapWindow->setApplication(this);
-    this->sectorMapWindow->showMaximized();
+    this->sectorMapWindow->show();//Maximized();
 }
 
 void ApplicationManager::openDialog_SystemSelection(){
@@ -37,7 +42,3 @@ void ApplicationManager::openDialog_SystemSelection(){
     dialog->show();
 }
 
-void ApplicationManager::updateSelectedSystem(std::string newSystem){
-    this->currentSelectedSystem = newSystem;
-    this->launcherWindow.updateTargetSystem(newSystem);
-}

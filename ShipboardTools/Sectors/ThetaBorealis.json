@@ -78,7 +78,8 @@
                 4
             ],
             "system_trade_code": "Ag Ni",
-            "system_uwp": "B575684-8"
+            "system_uwp": "B575684-8",
+            "system_zone": ""
         },
         {
             "system_name": "Peladons",
@@ -87,7 +88,8 @@
                 10
             ],
             "system_trade_code": "He Ni Cp",
-            "system_uwp": "A772585-A"
+            "system_uwp": "A772585-A",
+            "system_zone": ""
         },
         {
             "system_name": "Quandre",
@@ -96,7 +98,8 @@
                 2
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "B698121-8"
+            "system_uwp": "B698121-8",
+            "system_zone": ""
         },
         {
             "system_name": "Lomodo",
@@ -105,7 +108,8 @@
                 4
             ],
             "system_trade_code": "Fl Ni (Osp) Di(Byl) Di(Irf)",
-            "system_uwp": "E7A6650-8"
+            "system_uwp": "E7A6650-8",
+            "system_zone": ""
         },
         {
             "system_name": "Boswool",
@@ -114,7 +118,8 @@
                 5
             ],
             "system_trade_code": "Lo Wa",
-            "system_uwp": "B66A153-D"
+            "system_uwp": "B66A153-D",
+            "system_zone": ""
         },
         {
             "system_name": "Eltonia",
@@ -123,7 +128,8 @@
                 6
             ],
             "system_trade_code": "Ic Ni O:",
-            "system_uwp": "D411465-8"
+            "system_uwp": "D411465-8",
+            "system_zone": ""
         },
         {
             "system_name": "Quesros",
@@ -132,7 +138,8 @@
                 7
             ],
             "system_trade_code": "Ni Pa",
-            "system_uwp": "B747472-A"
+            "system_uwp": "B747472-A",
+            "system_zone": ""
         },
         {
             "system_name": "Creoll",
@@ -141,7 +148,8 @@
                 2
             ],
             "system_trade_code": "Ag",
-            "system_uwp": "C554722-5"
+            "system_uwp": "C554722-5",
+            "system_zone": ""
         },
         {
             "system_name": "Poltan",
@@ -150,7 +158,8 @@
                 3
             ],
             "system_trade_code": "Wa",
-            "system_uwp": "C65A742-9"
+            "system_uwp": "C65A742-9",
+            "system_zone": ""
         },
         {
             "system_name": "Xenia",
@@ -159,7 +168,8 @@
                 6
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "C563131-6"
+            "system_uwp": "C563131-6",
+            "system_zone": ""
         },
         {
             "system_name": "Lexaria",
@@ -168,7 +178,8 @@
                 4
             ],
             "system_trade_code": "Ni Pa",
-            "system_uwp": "C676446-7"
+            "system_uwp": "C676446-7",
+            "system_zone": ""
         },
         {
             "system_name": "Wignatau",
@@ -177,7 +188,8 @@
                 6
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "B661386-8"
+            "system_uwp": "B661386-8",
+            "system_zone": ""
         },
         {
             "system_name": "Sildona",
@@ -186,7 +198,8 @@
                 8
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "D310240-7"
+            "system_uwp": "D310240-7",
+            "system_zone": ""
         },
         {
             "system_name": "Westmoore",
@@ -195,7 +208,8 @@
                 10
             ],
             "system_trade_code": "Lo Va",
-            "system_uwp": "B100200-B"
+            "system_uwp": "B100200-B",
+            "system_zone": ""
         },
         {
             "system_name": "Alonion",
@@ -204,7 +218,8 @@
                 6
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "D598235-6"
+            "system_uwp": "D598235-6",
+            "system_zone": ""
         },
         {
             "system_name": "Thrace",
@@ -213,7 +228,8 @@
                 7
             ],
             "system_trade_code": "Ni Wa",
-            "system_uwp": "E67A697-8"
+            "system_uwp": "E67A697-8",
+            "system_zone": ""
         },
         {
             "system_name": "Kapalon",
@@ -222,7 +238,8 @@
                 9
             ],
             "system_trade_code": "As Na Ni Va",
-            "system_uwp": "B000632-B"
+            "system_uwp": "B000632-B",
+            "system_zone": ""
         },
         {
             "system_name": "Reejus",
@@ -231,7 +248,8 @@
                 7
             ],
             "system_trade_code": "He Lo",
-            "system_uwp": "C6B0354-9"
+            "system_uwp": "C6B0354-9",
+            "system_zone": ""
         },
         {
             "system_name": "Krytolon",
@@ -240,7 +258,8 @@
                 9
             ],
             "system_trade_code": "Ag Ni",
-            "system_uwp": "C545636-5"
+            "system_uwp": "C545636-5",
+            "system_zone": ""
         },
         {
             "system_name": "Burning Sty",
@@ -249,7 +268,8 @@
                 10
             ],
             "system_trade_code": "Lo Va",
-            "system_uwp": "C200100-A"
+            "system_uwp": "C200100-A",
+            "system_zone": ""
         },
         {
             "system_name": "Carmello",
@@ -258,7 +278,8 @@
                 6
             ],
             "system_trade_code": "Ni Pa",
-            "system_uwp": "C897463-5"
+            "system_uwp": "C897463-5",
+            "system_zone": ""
         },
         {
             "system_name": "Hydronaut",
@@ -267,7 +288,8 @@
                 9
             ],
             "system_trade_code": "Ba Wa Di(Halkyons)",
-            "system_uwp": "E58A000-0"
+            "system_uwp": "E58A000-0",
+            "system_zone": ""
         },
         {
             "system_name": "Nauvoo",
@@ -276,7 +298,8 @@
                 10
             ],
             "system_trade_code": "Ni",
-            "system_uwp": "A627403-B"
+            "system_uwp": "A627403-B",
+            "system_zone": ""
         },
         {
             "system_name": "Magpie",
@@ -285,7 +308,8 @@
                 6
             ],
             "system_trade_code": "Ag Pi",
-            "system_uwp": "B595777-9"
+            "system_uwp": "B595777-9",
+            "system_zone": ""
         },
         {
             "system_name": "Regalice",
@@ -294,7 +318,8 @@
                 8
             ],
             "system_trade_code": "Fl Ni",
-            "system_uwp": "B6A4430-A"
+            "system_uwp": "B6A4430-A",
+            "system_zone": ""
         },
         {
             "system_name": "Siderion",
@@ -303,7 +328,8 @@
                 9
             ],
             "system_trade_code": "As Na Ni Va O:",
-            "system_uwp": "A000667-C"
+            "system_uwp": "A000667-C",
+            "system_zone": ""
         },
         {
             "system_name": "Sinigo",
@@ -312,7 +338,8 @@
                 1
             ],
             "system_trade_code": "Ni Pa",
-            "system_uwp": "C554421-6"
+            "system_uwp": "C554421-6",
+            "system_zone": ""
         },
         {
             "system_name": "Dalain",
@@ -321,7 +348,8 @@
                 8
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "B585132-B"
+            "system_uwp": "B585132-B",
+            "system_zone": ""
         },
         {
             "system_name": "Ivorholm",
@@ -330,7 +358,8 @@
                 1
             ],
             "system_trade_code": "Pz",
-            "system_uwp": "D5347AE-6"
+            "system_uwp": "D5347AE-6",
+            "system_zone": "A"
         },
         {
             "system_name": "Perx",
@@ -339,7 +368,8 @@
                 2
             ],
             "system_trade_code": "Lo Po",
-            "system_uwp": "C423214-B"
+            "system_uwp": "C423214-B",
+            "system_zone": ""
         },
         {
             "system_name": "Falcon",
@@ -348,7 +378,8 @@
                 1
             ],
             "system_trade_code": "Ni O:",
-            "system_uwp": "D539668-6"
+            "system_uwp": "D539668-6",
+            "system_zone": ""
         },
         {
             "system_name": "Attaray",
@@ -357,7 +388,8 @@
                 2
             ],
             "system_trade_code": "Ag Ni Ga Ri",
-            "system_uwp": "C766647-6"
+            "system_uwp": "C766647-6",
+            "system_zone": ""
         },
         {
             "system_name": "Ralmu",
@@ -366,7 +398,8 @@
                 3
             ],
             "system_trade_code": "Ic Ni",
-            "system_uwp": "C312447-8"
+            "system_uwp": "C312447-8",
+            "system_zone": ""
         },
         {
             "system_name": "Galores",
@@ -375,7 +408,8 @@
                 4
             ],
             "system_trade_code": "Na Pi O:",
-            "system_uwp": "B310769-8"
+            "system_uwp": "B310769-8",
+            "system_zone": ""
         },
         {
             "system_name": "Kalsop",
@@ -384,7 +418,8 @@
                 2
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "D628321-7"
+            "system_uwp": "D628321-7",
+            "system_zone": ""
         },
         {
             "system_name": "Edhoda",
@@ -393,7 +428,8 @@
                 4
             ],
             "system_trade_code": "Ni Po",
-            "system_uwp": "C543647-5"
+            "system_uwp": "C543647-5",
+            "system_zone": ""
         },
         {
             "system_name": "Orr",
@@ -402,7 +438,8 @@
                 8
             ],
             "system_trade_code": "Fl Ni",
-            "system_uwp": "DAC9500-9"
+            "system_uwp": "DAC9500-9",
+            "system_zone": ""
         },
         {
             "system_name": "Dinian",
@@ -411,7 +448,8 @@
                 9
             ],
             "system_trade_code": "Hi Pz",
-            "system_uwp": "B5569CE-9"
+            "system_uwp": "B5569CE-9",
+            "system_zone": "A"
         },
         {
             "system_name": "Pylter",
@@ -420,7 +458,8 @@
                 4
             ],
             "system_trade_code": "De He Ni Po",
-            "system_uwp": "D4205A8-7"
+            "system_uwp": "D4205A8-7",
+            "system_zone": ""
         },
         {
             "system_name": "Jyhala",
@@ -429,7 +468,8 @@
                 6
             ],
             "system_trade_code": "Na Ni Va",
-            "system_uwp": "E300654-7"
+            "system_uwp": "E300654-7",
+            "system_zone": ""
         },
         {
             "system_name": "Talf",
@@ -438,7 +478,8 @@
                 7
             ],
             "system_trade_code": "Ni Pa",
-            "system_uwp": "C566455-7"
+            "system_uwp": "C566455-7",
+            "system_zone": ""
         },
         {
             "system_name": "Malvord",
@@ -447,7 +488,8 @@
                 2
             ],
             "system_trade_code": "Ag Ri Pz",
-            "system_uwp": "C5657AE-8"
+            "system_uwp": "C5657AE-8",
+            "system_zone": "A"
         },
         {
             "system_name": "Falbin",
@@ -456,7 +498,8 @@
                 3
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "C889320-7"
+            "system_uwp": "C889320-7",
+            "system_zone": ""
         },
         {
             "system_name": "Huflink",
@@ -465,7 +508,8 @@
                 4
             ],
             "system_trade_code": "Ag Fo",
-            "system_uwp": "X556751-0"
+            "system_uwp": "X556751-0",
+            "system_zone": "R"
         },
         {
             "system_name": "Bisak",
@@ -474,7 +518,8 @@
                 5
             ],
             "system_trade_code": "He Ni",
-            "system_uwp": "E6A0647-8"
+            "system_uwp": "E6A0647-8",
+            "system_zone": ""
         },
         {
             "system_name": "Pautho",
@@ -483,7 +528,8 @@
                 6
             ],
             "system_trade_code": "Ni Pa",
-            "system_uwp": "A567456-D"
+            "system_uwp": "A567456-D",
+            "system_zone": ""
         },
         {
             "system_name": "Tarmo",
@@ -492,7 +538,8 @@
                 8
             ],
             "system_trade_code": "Fl He Ni",
-            "system_uwp": "D8B2588-8"
+            "system_uwp": "D8B2588-8",
+            "system_zone": ""
         },
         {
             "system_name": "Isbelra",
@@ -501,7 +548,8 @@
                 2
             ],
             "system_trade_code": "De He Ni Po Cp",
-            "system_uwp": "A420589-D"
+            "system_uwp": "A420589-D",
+            "system_zone": ""
         },
         {
             "system_name": "Kathol",
@@ -510,7 +558,8 @@
                 8
             ],
             "system_trade_code": "He Hi In",
-            "system_uwp": "C7A0975-8"
+            "system_uwp": "C7A0975-8",
+            "system_zone": ""
         },
         {
             "system_name": "Caxel",
@@ -519,7 +568,8 @@
                 9
             ],
             "system_trade_code": "Hi Ga Pr Pz",
-            "system_uwp": "D7879AA-6"
+            "system_uwp": "D7879AA-6",
+            "system_zone": "A"
         },
         {
             "system_name": "Wanmor",
@@ -528,7 +578,8 @@
                 10
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "D965226-4"
+            "system_uwp": "D965226-4",
+            "system_zone": ""
         },
         {
             "system_name": "Cugleb",
@@ -537,7 +588,8 @@
                 1
             ],
             "system_trade_code": "Ba",
-            "system_uwp": "E544000-0"
+            "system_uwp": "E544000-0",
+            "system_zone": ""
         },
         {
             "system_name": "Hocdef",
@@ -546,7 +598,8 @@
                 3
             ],
             "system_trade_code": "Ic Ni Va",
-            "system_uwp": "D403444-7"
+            "system_uwp": "D403444-7",
+            "system_zone": ""
         },
         {
             "system_name": "Forgald",
@@ -555,7 +608,8 @@
                 6
             ],
             "system_trade_code": "Oc Ph",
-            "system_uwp": "BA5A834-B"
+            "system_uwp": "BA5A834-B",
+            "system_zone": ""
         },
         {
             "system_name": "Kullen",
@@ -564,7 +618,8 @@
                 9
             ],
             "system_trade_code": "Ni Va Da",
-            "system_uwp": "B3005AA-9"
+            "system_uwp": "B3005AA-9",
+            "system_zone": "A"
         },
         {
             "system_name": "Deckert",
@@ -573,7 +628,8 @@
                 2
             ],
             "system_trade_code": "Fl Ni",
-            "system_uwp": "C8A6422-8"
+            "system_uwp": "C8A6422-8",
+            "system_zone": ""
         },
         {
             "system_name": "Synth",
@@ -582,7 +638,8 @@
                 8
             ],
             "system_trade_code": "De He Ni Po Da",
-            "system_uwp": "E540523-5"
+            "system_uwp": "E540523-5",
+            "system_zone": "A"
         },
         {
             "system_name": "Jairbax",
@@ -591,7 +648,8 @@
                 9
             ],
             "system_trade_code": "Ni Pa",
-            "system_uwp": "E68447A-4"
+            "system_uwp": "E68447A-4",
+            "system_zone": ""
         },
         {
             "system_name": "Nedric",
@@ -600,7 +658,8 @@
                 3
             ],
             "system_trade_code": "Ni Wa",
-            "system_uwp": "B89A524-C"
+            "system_uwp": "B89A524-C",
+            "system_zone": ""
         },
         {
             "system_name": "Tongal",
@@ -609,7 +668,8 @@
                 4
             ],
             "system_trade_code": "Ni Va Fo O:",
-            "system_uwp": "X400565-7"
+            "system_uwp": "X400565-7",
+            "system_zone": "R"
         },
         {
             "system_name": "Hevad",
@@ -618,7 +678,8 @@
                 6
             ],
             "system_trade_code": "Hi Pz",
-            "system_uwp": "C4369AD-8"
+            "system_uwp": "C4369AD-8",
+            "system_zone": "A"
         },
         {
             "system_name": "Candri",
@@ -627,7 +688,8 @@
                 10
             ],
             "system_trade_code": "He Lo",
-            "system_uwp": "B571345-9"
+            "system_uwp": "B571345-9",
+            "system_zone": ""
         },
         {
             "system_name": "Pacadia",
@@ -636,7 +698,8 @@
                 6
             ],
             "system_trade_code": "Ni",
-            "system_uwp": "D737474-6"
+            "system_uwp": "D737474-6",
+            "system_zone": ""
         },
         {
             "system_name": "Lacdor",
@@ -645,7 +708,8 @@
                 9
             ],
             "system_trade_code": "Ic Na Pi Pz",
-            "system_uwp": "A5117BF-B"
+            "system_uwp": "A5117BF-B",
+            "system_zone": "A"
         },
         {
             "system_name": "Smedley",
@@ -654,7 +718,8 @@
                 10
             ],
             "system_trade_code": "Wa Pi",
-            "system_uwp": "E84A7A7-5"
+            "system_uwp": "E84A7A7-5",
+            "system_zone": ""
         },
         {
             "system_name": "Gadmoth",
@@ -663,7 +728,8 @@
                 1
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "B979336-A"
+            "system_uwp": "B979336-A",
+            "system_zone": ""
         },
         {
             "system_name": "Brekot",
@@ -672,7 +738,8 @@
                 2
             ],
             "system_trade_code": "Lo Ga",
-            "system_uwp": "B885258-8"
+            "system_uwp": "B885258-8",
+            "system_zone": ""
         },
         {
             "system_name": "Kanell",
@@ -681,7 +748,8 @@
                 8
             ],
             "system_trade_code": "Ag Pz",
-            "system_uwp": "E558734-2"
+            "system_uwp": "E558734-2",
+            "system_zone": "A"
         },
         {
             "system_name": "Tarstal",
@@ -690,7 +758,8 @@
                 9
             ],
             "system_trade_code": "Fl Ni",
-            "system_uwp": "D8A4522-8"
+            "system_uwp": "D8A4522-8",
+            "system_zone": ""
         },
         {
             "system_name": "Medkin",
@@ -699,7 +768,8 @@
                 2
             ],
             "system_trade_code": "Na Po Ph Pi",
-            "system_uwp": "E4238A8-8"
+            "system_uwp": "E4238A8-8",
+            "system_zone": ""
         },
         {
             "system_name": "Daloil",
@@ -708,7 +778,8 @@
                 3
             ],
             "system_trade_code": "Ni",
-            "system_uwp": "D434676-6"
+            "system_uwp": "D434676-6",
+            "system_zone": ""
         },
         {
             "system_name": "Garatol",
@@ -717,7 +788,8 @@
                 5
             ],
             "system_trade_code": "Ph Pi Pz",
-            "system_uwp": "C8998BC-7"
+            "system_uwp": "C8998BC-7",
+            "system_zone": "A"
         },
         {
             "system_name": "Basgem",
@@ -726,7 +798,8 @@
                 8
             ],
             "system_trade_code": "Hi Pr O:",
-            "system_uwp": "C764965-8"
+            "system_uwp": "C764965-8",
+            "system_zone": ""
         },
         {
             "system_name": "Reerack",
@@ -735,7 +808,8 @@
                 8
             ],
             "system_trade_code": "Ag Ni",
-            "system_uwp": "A575500-B"
+            "system_uwp": "A575500-B",
+            "system_zone": ""
         },
         {
             "system_name": "Sanus",
@@ -744,7 +818,8 @@
                 2
             ],
             "system_trade_code": "Ag Ni",
-            "system_uwp": "C678647-7"
+            "system_uwp": "C678647-7",
+            "system_zone": ""
         },
         {
             "system_name": "Kansel",
@@ -753,7 +828,8 @@
                 7
             ],
             "system_trade_code": "Ni Po",
-            "system_uwp": "A552424-9"
+            "system_uwp": "A552424-9",
+            "system_zone": ""
         },
         {
             "system_name": "Guanalade",
@@ -762,7 +838,8 @@
                 6
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "C697200-A"
+            "system_uwp": "C697200-A",
+            "system_zone": ""
         },
         {
             "system_name": "Chang-Su",
@@ -771,7 +848,8 @@
                 10
             ],
             "system_trade_code": "De Hi Na Po",
-            "system_uwp": "C4309B7-7"
+            "system_uwp": "C4309B7-7",
+            "system_zone": ""
         },
         {
             "system_name": "Cordoba",
@@ -780,7 +858,8 @@
                 1
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "C544215-9"
+            "system_uwp": "C544215-9",
+            "system_zone": ""
         },
         {
             "system_name": "Falmout",
@@ -789,7 +868,8 @@
                 2
             ],
             "system_trade_code": "Lo Po",
-            "system_uwp": "A552100-C"
+            "system_uwp": "A552100-C",
+            "system_zone": ""
         },
         {
             "system_name": "Indmaea",
@@ -798,7 +878,8 @@
                 4
             ],
             "system_trade_code": "De He Ni Po",
-            "system_uwp": "B540646-7"
+            "system_uwp": "B540646-7",
+            "system_zone": ""
         },
         {
             "system_name": "Granian",
@@ -807,7 +888,8 @@
                 5
             ],
             "system_trade_code": "Ag Ni Ga",
-            "system_uwp": "A656557-B"
+            "system_uwp": "A656557-B",
+            "system_zone": ""
         },
         {
             "system_name": "Sapies",
@@ -816,7 +898,8 @@
                 6
             ],
             "system_trade_code": "Ag Ni (Cygmo) Mitz?",
-            "system_uwp": "A854643-9"
+            "system_uwp": "A854643-9",
+            "system_zone": ""
         },
         {
             "system_name": "Chevoit",
@@ -825,7 +908,8 @@
                 7
             ],
             "system_trade_code": "Lo Po",
-            "system_uwp": "B432300-9"
+            "system_uwp": "B432300-9",
+            "system_zone": ""
         },
         {
             "system_name": "Mosule",
@@ -834,7 +918,8 @@
                 10
             ],
             "system_trade_code": "Lo Po O:",
-            "system_uwp": "B551264-9"
+            "system_uwp": "B551264-9",
+            "system_zone": ""
         },
         {
             "system_name": "Oujda",
@@ -843,7 +928,8 @@
                 3
             ],
             "system_trade_code": "He Hi In Na Po Pz",
-            "system_uwp": "A421ACF-D"
+            "system_uwp": "A421ACF-D",
+            "system_zone": "A"
         },
         {
             "system_name": "Ryswick",
@@ -852,7 +938,8 @@
                 5
             ],
             "system_trade_code": "Ni Po",
-            "system_uwp": "C653643-8"
+            "system_uwp": "C653643-8",
+            "system_zone": ""
         },
         {
             "system_name": "Tamatave",
@@ -861,7 +948,8 @@
                 8
             ],
             "system_trade_code": "He Ni Po",
-            "system_uwp": "B422498-D"
+            "system_uwp": "B422498-D",
+            "system_zone": ""
         },
         {
             "system_name": "Yampul",
@@ -870,7 +958,8 @@
                 9
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "D573121-7"
+            "system_uwp": "D573121-7",
+            "system_zone": ""
         },
         {
             "system_name": "Pyremide",
@@ -879,7 +968,8 @@
                 4
             ],
             "system_trade_code": "Ni Oc Pr",
-            "system_uwp": "CA8A522-9"
+            "system_uwp": "CA8A522-9",
+            "system_zone": ""
         },
         {
             "system_name": "Ferropas",
@@ -888,7 +978,8 @@
                 8
             ],
             "system_trade_code": "Lo Po",
-            "system_uwp": "C553110-8"
+            "system_uwp": "C553110-8",
+            "system_zone": ""
         },
         {
             "system_name": "Delsdor",
@@ -897,7 +988,8 @@
                 1
             ],
             "system_trade_code": "Ni Da",
-            "system_uwp": "B77968C-B"
+            "system_uwp": "B77968C-B",
+            "system_zone": "A"
         },
         {
             "system_name": "Vonbar",
@@ -906,7 +998,8 @@
                 2
             ],
             "system_trade_code": "Ba",
-            "system_uwp": "E625000-0"
+            "system_uwp": "E625000-0",
+            "system_zone": ""
         },
         {
             "system_name": "Wabor-Parn",
@@ -915,7 +1008,8 @@
                 3
             ],
             "system_trade_code": "Ni Pa (Bose)5 (Trist)5",
-            "system_uwp": "E545420-5"
+            "system_uwp": "E545420-5",
+            "system_zone": ""
         },
         {
             "system_name": "Heamon",
@@ -924,7 +1018,8 @@
                 4
             ],
             "system_trade_code": "Lo Po",
-            "system_uwp": "E431321-6"
+            "system_uwp": "E431321-6",
+            "system_zone": ""
         },
         {
             "system_name": "Crexel",
@@ -933,7 +1028,8 @@
                 1
             ],
             "system_trade_code": "He Ni Po O:",
-            "system_uwp": "C422466-9"
+            "system_uwp": "C422466-9",
+            "system_zone": ""
         },
         {
             "system_name": "Olikunz",
@@ -942,7 +1038,8 @@
                 3
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "B410335-B"
+            "system_uwp": "B410335-B",
+            "system_zone": ""
         },
         {
             "system_name": "Mrunkil",
@@ -951,7 +1048,8 @@
                 4
             ],
             "system_trade_code": "Ni Pa",
-            "system_uwp": "C768477-5"
+            "system_uwp": "C768477-5",
+            "system_zone": ""
         },
         {
             "system_name": "Relmer",
@@ -960,7 +1058,8 @@
                 5
             ],
             "system_trade_code": "He Lo Po",
-            "system_uwp": "B542200-A"
+            "system_uwp": "B542200-A",
+            "system_zone": ""
         },
         {
             "system_name": "Gadwop",
@@ -969,7 +1068,8 @@
                 6
             ],
             "system_trade_code": "Fl Ni",
-            "system_uwp": "A9A9584-A"
+            "system_uwp": "A9A9584-A",
+            "system_zone": ""
         },
         {
             "system_name": "Dinloc",
@@ -978,7 +1078,8 @@
                 7
             ],
             "system_trade_code": "Ph",
-            "system_uwp": "B437875-C"
+            "system_uwp": "B437875-C",
+            "system_zone": ""
         },
         {
             "system_name": "Gormsby",
@@ -987,7 +1088,8 @@
                 8
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "E435275-6"
+            "system_uwp": "E435275-6",
+            "system_zone": ""
         },
         {
             "system_name": "Edgel",
@@ -996,7 +1098,8 @@
                 1
             ],
             "system_trade_code": "Ni",
-            "system_uwp": "E859588-7"
+            "system_uwp": "E859588-7",
+            "system_zone": ""
         },
         {
             "system_name": "Malifant",
@@ -1005,7 +1108,8 @@
                 4
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "C776100-6"
+            "system_uwp": "C776100-6",
+            "system_zone": ""
         },
         {
             "system_name": "Nithus",
@@ -1014,7 +1118,8 @@
                 7
             ],
             "system_trade_code": "He Ni Po (Captutians)",
-            "system_uwp": "A541543-D"
+            "system_uwp": "A541543-D",
+            "system_zone": ""
         },
         {
             "system_name": "Vrongh",
@@ -1023,7 +1128,8 @@
                 9
             ],
             "system_trade_code": "Lo Va",
-            "system_uwp": "B300320-C"
+            "system_uwp": "B300320-C",
+            "system_zone": ""
         },
         {
             "system_name": "Lerrish",
@@ -1032,7 +1138,8 @@
                 1
             ],
             "system_trade_code": "Hi Pz",
-            "system_uwp": "E8599DC-2"
+            "system_uwp": "E8599DC-2",
+            "system_zone": "A"
         },
         {
             "system_name": "Jeilif",
@@ -1041,7 +1148,8 @@
                 3
             ],
             "system_trade_code": "Pa Ph O:",
-            "system_uwp": "A554869-C"
+            "system_uwp": "A554869-C",
+            "system_zone": ""
         },
         {
             "system_name": "Erwind",
@@ -1050,7 +1158,8 @@
                 5
             ],
             "system_trade_code": "Lo Da",
-            "system_uwp": "E648354-5"
+            "system_uwp": "E648354-5",
+            "system_zone": "A"
         },
         {
             "system_name": "Naksel",
@@ -1059,7 +1168,8 @@
                 10
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "EAD9101-6"
+            "system_uwp": "EAD9101-6",
+            "system_zone": ""
         },
         {
             "system_name": "Gaxfield",
@@ -1068,7 +1178,8 @@
                 11
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "C438279-7"
+            "system_uwp": "C438279-7",
+            "system_zone": ""
         },
         {
             "system_name": "Melham",
@@ -1077,7 +1188,8 @@
                 12
             ],
             "system_trade_code": "Fl Ni",
-            "system_uwp": "E9A5588-8"
+            "system_uwp": "E9A5588-8",
+            "system_zone": ""
         },
         {
             "system_name": "Ronix",
@@ -1086,7 +1198,8 @@
                 13
             ],
             "system_trade_code": "Ni O:",
-            "system_uwp": "B579565-7"
+            "system_uwp": "B579565-7",
+            "system_zone": ""
         },
         {
             "system_name": "Jabaran",
@@ -1095,7 +1208,8 @@
                 19
             ],
             "system_trade_code": "De Lo",
-            "system_uwp": "C560332-8"
+            "system_uwp": "C560332-8",
+            "system_zone": ""
         },
         {
             "system_name": "Wathian",
@@ -1104,7 +1218,8 @@
                 20
             ],
             "system_trade_code": "Ni Ga Pa",
-            "system_uwp": "A757477-8"
+            "system_uwp": "A757477-8",
+            "system_zone": ""
         },
         {
             "system_name": "Lytock",
@@ -1113,7 +1228,8 @@
                 14
             ],
             "system_trade_code": "Ni",
-            "system_uwp": "C573678-7"
+            "system_uwp": "C573678-7",
+            "system_zone": ""
         },
         {
             "system_name": "Corbad",
@@ -1122,7 +1238,8 @@
                 11
             ],
             "system_trade_code": "Fl He Ni",
-            "system_uwp": "E8B2430-8"
+            "system_uwp": "E8B2430-8",
+            "system_zone": ""
         },
         {
             "system_name": "Radson",
@@ -1131,7 +1248,8 @@
                 12
             ],
             "system_trade_code": "Ag Ri",
-            "system_uwp": "D566788-6"
+            "system_uwp": "D566788-6",
+            "system_zone": ""
         },
         {
             "system_name": "Petask",
@@ -1140,7 +1258,8 @@
                 17
             ],
             "system_trade_code": "Ni",
-            "system_uwp": "C526498-7"
+            "system_uwp": "C526498-7",
+            "system_zone": ""
         },
         {
             "system_name": "Ilnoyor",
@@ -1149,7 +1268,8 @@
                 19
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "A898277-9"
+            "system_uwp": "A898277-9",
+            "system_zone": ""
         },
         {
             "system_name": "Tafeld",
@@ -1158,7 +1278,8 @@
                 20
             ],
             "system_trade_code": "Na Ni",
-            "system_uwp": "B310677-C"
+            "system_uwp": "B310677-C",
+            "system_zone": ""
         },
         {
             "system_name": "Bilsham",
@@ -1167,7 +1288,8 @@
                 11
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "B436200-D"
+            "system_uwp": "B436200-D",
+            "system_zone": ""
         },
         {
             "system_name": "Kantrim",
@@ -1176,7 +1298,8 @@
                 14
             ],
             "system_trade_code": "De He Ni Po",
-            "system_uwp": "A420586-C"
+            "system_uwp": "A420586-C",
+            "system_zone": ""
         },
         {
             "system_name": "Nalmer",
@@ -1185,7 +1308,8 @@
                 15
             ],
             "system_trade_code": "De He Na Po Pi",
-            "system_uwp": "C420721-A"
+            "system_uwp": "C420721-A",
+            "system_zone": ""
         },
         {
             "system_name": "Tully",
@@ -1194,7 +1318,8 @@
                 17
             ],
             "system_trade_code": "Ag Ni O:",
-            "system_uwp": "C744566-7"
+            "system_uwp": "C744566-7",
+            "system_zone": ""
         },
         {
             "system_name": "Feleg",
@@ -1203,7 +1328,8 @@
                 19
             ],
             "system_trade_code": "Hi In Pz JaibW",
-            "system_uwp": "B5969EJ-A"
+            "system_uwp": "B5969EJ-A",
+            "system_zone": "A"
         },
         {
             "system_name": "Pewellyn",
@@ -1212,7 +1338,8 @@
                 20
             ],
             "system_trade_code": "Ag Ni",
-            "system_uwp": "C556559-A"
+            "system_uwp": "C556559-A",
+            "system_zone": ""
         },
         {
             "system_name": "Cabon",
@@ -1221,7 +1348,8 @@
                 12
             ],
             "system_trade_code": "Po Ph Pi",
-            "system_uwp": "A543889-8"
+            "system_uwp": "A543889-8",
+            "system_zone": ""
         },
         {
             "system_name": "Futrick",
@@ -1230,7 +1358,8 @@
                 14
             ],
             "system_trade_code": "Ri Ph O:",
-            "system_uwp": "C563864-4"
+            "system_uwp": "C563864-4",
+            "system_zone": ""
         },
         {
             "system_name": "Rysholm",
@@ -1239,7 +1368,8 @@
                 15
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "D310140-9"
+            "system_uwp": "D310140-9",
+            "system_zone": ""
         },
         {
             "system_name": "Lonach",
@@ -1248,7 +1378,8 @@
                 17
             ],
             "system_trade_code": "Wa Pi",
-            "system_uwp": "E77A773-5"
+            "system_uwp": "E77A773-5",
+            "system_zone": ""
         },
         {
             "system_name": "Hupland",
@@ -1257,7 +1388,8 @@
                 13
             ],
             "system_trade_code": "Ag Pi",
-            "system_uwp": "D646789-5"
+            "system_uwp": "D646789-5",
+            "system_zone": ""
         },
         {
             "system_name": "Rodoto",
@@ -1266,7 +1398,8 @@
                 19
             ],
             "system_trade_code": "Ri Wa Ph Pz",
-            "system_uwp": "A88A8BA-D"
+            "system_uwp": "A88A8BA-D",
+            "system_zone": "A"
         },
         {
             "system_name": "Nexur",
@@ -1275,7 +1408,8 @@
                 20
             ],
             "system_trade_code": "Ag Ni Da",
-            "system_uwp": "C5956AA-7"
+            "system_uwp": "C5956AA-7",
+            "system_zone": "A"
         },
         {
             "system_name": "Uriaholm",
@@ -1284,7 +1418,8 @@
                 11
             ],
             "system_trade_code": "Ba",
-            "system_uwp": "E554000-0"
+            "system_uwp": "E554000-0",
+            "system_zone": ""
         },
         {
             "system_name": "Bytholm",
@@ -1293,7 +1428,8 @@
                 12
             ],
             "system_trade_code": "Ba Ga",
-            "system_uwp": "E665000-0"
+            "system_uwp": "E665000-0",
+            "system_zone": ""
         },
         {
             "system_name": "Corelia",
@@ -1302,7 +1438,8 @@
                 16
             ],
             "system_trade_code": "Ag Ni Pr",
-            "system_uwp": "A566553-C"
+            "system_uwp": "A566553-C",
+            "system_zone": ""
         },
         {
             "system_name": "Fonway",
@@ -1311,7 +1448,8 @@
                 20
             ],
             "system_trade_code": "He Ni Po Da",
-            "system_uwp": "A7426BD-8"
+            "system_uwp": "A7426BD-8",
+            "system_zone": "A"
         },
         {
             "system_name": "Jirk",
@@ -1320,7 +1458,8 @@
                 16
             ],
             "system_trade_code": "Ni",
-            "system_uwp": "E310578-8"
+            "system_uwp": "E310578-8",
+            "system_zone": ""
         },
         {
             "system_name": "Naleput",
@@ -1329,7 +1468,8 @@
                 17
             ],
             "system_trade_code": "Po Ph",
-            "system_uwp": "C5528B8-8"
+            "system_uwp": "C5528B8-8",
+            "system_zone": ""
         },
         {
             "system_name": "Zephor",
@@ -1338,7 +1478,8 @@
                 11
             ],
             "system_trade_code": "He Lo (Tshini) Di(Zephora)",
-            "system_uwp": "E772383-5"
+            "system_uwp": "E772383-5",
+            "system_zone": ""
         },
         {
             "system_name": "Bartillion",
@@ -1347,7 +1488,8 @@
                 13
             ],
             "system_trade_code": "Ni Ri",
-            "system_uwp": "D563687-6"
+            "system_uwp": "D563687-6",
+            "system_zone": ""
         },
         {
             "system_name": "Apraksin",
@@ -1356,7 +1498,8 @@
                 15
             ],
             "system_trade_code": "Ni",
-            "system_uwp": "D524400-8"
+            "system_uwp": "D524400-8",
+            "system_zone": ""
         },
         {
             "system_name": "Canbridel",
@@ -1365,7 +1508,8 @@
                 18
             ],
             "system_trade_code": "As Lo Va",
-            "system_uwp": "C000273-9"
+            "system_uwp": "C000273-9",
+            "system_zone": ""
         },
         {
             "system_name": "Langley",
@@ -1374,7 +1518,8 @@
                 16
             ],
             "system_trade_code": "Ag Ni",
-            "system_uwp": "C594540-8"
+            "system_uwp": "C594540-8",
+            "system_zone": ""
         },
         {
             "system_name": "Nervay",
@@ -1383,7 +1528,8 @@
                 20
             ],
             "system_trade_code": "Ni Ga Pa",
-            "system_uwp": "D656437-2"
+            "system_uwp": "D656437-2",
+            "system_zone": ""
         },
         {
             "system_name": "Colophon",
@@ -1392,7 +1538,8 @@
                 17
             ],
             "system_trade_code": "De He Ni Po",
-            "system_uwp": "B420442-A"
+            "system_uwp": "B420442-A",
+            "system_zone": ""
         },
         {
             "system_name": "Honiara",
@@ -1401,7 +1548,8 @@
                 20
             ],
             "system_trade_code": "As Na Va Pi O:",
-            "system_uwp": "E000765-9"
+            "system_uwp": "E000765-9",
+            "system_zone": ""
         },
         {
             "system_name": "Ijesmul",
@@ -1410,7 +1558,8 @@
                 14
             ],
             "system_trade_code": "Ag Ni Pr",
-            "system_uwp": "E567510-3"
+            "system_uwp": "E567510-3",
+            "system_zone": ""
         },
         {
             "system_name": "Oceania",
@@ -1419,7 +1568,8 @@
                 15
             ],
             "system_trade_code": "Ag Ni",
-            "system_uwp": "C74567B-8"
+            "system_uwp": "C74567B-8",
+            "system_zone": ""
         },
         {
             "system_name": "Nouwak",
@@ -1428,7 +1578,8 @@
                 20
             ],
             "system_trade_code": "Ni",
-            "system_uwp": "A737542-B"
+            "system_uwp": "A737542-B",
+            "system_zone": ""
         },
         {
             "system_name": "Portine",
@@ -1437,7 +1588,8 @@
                 11
             ],
             "system_trade_code": "Fl Hi In Pz",
-            "system_uwp": "C7A8AAC-8"
+            "system_uwp": "C7A8AAC-8",
+            "system_zone": "A"
         },
         {
             "system_name": "Zimcandon",
@@ -1446,7 +1598,8 @@
                 13
             ],
             "system_trade_code": "Na Ph Pi",
-            "system_uwp": "B310883-C"
+            "system_uwp": "B310883-C",
+            "system_zone": ""
         },
         {
             "system_name": "Honflair",
@@ -1455,7 +1608,8 @@
                 14
             ],
             "system_trade_code": "Fl Ni",
-            "system_uwp": "C9C857A-9"
+            "system_uwp": "C9C857A-9",
+            "system_zone": ""
         },
         {
             "system_name": "Apsheron",
@@ -1464,7 +1618,8 @@
                 18
             ],
             "system_trade_code": "De He Ni Po",
-            "system_uwp": "D420433-7"
+            "system_uwp": "D420433-7",
+            "system_zone": ""
         },
         {
             "system_name": "Hounslow",
@@ -1473,7 +1628,8 @@
                 14
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "B565210-9"
+            "system_uwp": "B565210-9",
+            "system_zone": ""
         },
         {
             "system_name": "Transear",
@@ -1482,7 +1638,8 @@
                 15
             ],
             "system_trade_code": "Pi O:",
-            "system_uwp": "C949767-7"
+            "system_uwp": "C949767-7",
+            "system_zone": ""
         },
         {
             "system_name": "Vilacon",
@@ -1491,7 +1648,8 @@
                 11
             ],
             "system_trade_code": "Ni Va",
-            "system_uwp": "A200433-A"
+            "system_uwp": "A200433-A",
+            "system_zone": ""
         },
         {
             "system_name": "Amnok",
@@ -1500,7 +1658,8 @@
                 12
             ],
             "system_trade_code": "Na Ni",
-            "system_uwp": "A310644-C"
+            "system_uwp": "A310644-C",
+            "system_zone": ""
         },
         {
             "system_name": "Dunedin",
@@ -1509,7 +1668,8 @@
                 16
             ],
             "system_trade_code": "He Na Po Ph Pi Pz",
-            "system_uwp": "B4218BC-7"
+            "system_uwp": "B4218BC-7",
+            "system_zone": "A"
         },
         {
             "system_name": "Geptorem",
@@ -1518,7 +1678,8 @@
                 17
             ],
             "system_trade_code": "He Ph Pi (Attorn)",
-            "system_uwp": "A5718A5-A"
+            "system_uwp": "A5718A5-A",
+            "system_zone": ""
         },
         {
             "system_name": "Gutzkow",
@@ -1527,7 +1688,8 @@
                 19
             ],
             "system_trade_code": "De He Lo Po",
-            "system_uwp": "A420231-D"
+            "system_uwp": "A420231-D",
+            "system_zone": ""
         },
         {
             "system_name": "Lothain",
@@ -1536,7 +1698,8 @@
                 12
             ],
             "system_trade_code": "Ni Ri",
-            "system_uwp": "C883655-9"
+            "system_uwp": "C883655-9",
+            "system_zone": ""
         },
         {
             "system_name": "Rouault",
@@ -1545,7 +1708,8 @@
                 15
             ],
             "system_trade_code": "Lo O:",
-            "system_uwp": "C663362-8"
+            "system_uwp": "C663362-8",
+            "system_zone": ""
         },
         {
             "system_name": "Tulsi Das",
@@ -1554,7 +1718,8 @@
                 17
             ],
             "system_trade_code": "Ag Ni Ga Pr",
-            "system_uwp": "C786552-9"
+            "system_uwp": "C786552-9",
+            "system_zone": ""
         },
         {
             "system_name": "Xantype",
@@ -1563,7 +1728,8 @@
                 20
             ],
             "system_trade_code": "He Hi In Na Po Pz",
-            "system_uwp": "C4229BB-9"
+            "system_uwp": "C4229BB-9",
+            "system_zone": "A"
         },
         {
             "system_name": "Nezal",
@@ -1572,7 +1738,8 @@
                 13
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "B779200-B"
+            "system_uwp": "B779200-B",
+            "system_zone": ""
         },
         {
             "system_name": "Hesten",
@@ -1581,7 +1748,8 @@
                 14
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "E778100-7"
+            "system_uwp": "E778100-7",
+            "system_zone": ""
         },
         {
             "system_name": "Farbel",
@@ -1590,7 +1758,8 @@
                 15
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "B535210-A"
+            "system_uwp": "B535210-A",
+            "system_zone": ""
         },
         {
             "system_name": "Broats",
@@ -1599,7 +1768,8 @@
                 18
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "C573100-7"
+            "system_uwp": "C573100-7",
+            "system_zone": ""
         },
         {
             "system_name": "Lywyn",
@@ -1608,7 +1778,8 @@
                 19
             ],
             "system_trade_code": "Ni Ga Pa",
-            "system_uwp": "B857449-8"
+            "system_uwp": "B857449-8",
+            "system_zone": ""
         },
         {
             "system_name": "Conacus",
@@ -1617,7 +1788,8 @@
                 20
             ],
             "system_trade_code": "Ni Po",
-            "system_uwp": "A433547-D"
+            "system_uwp": "A433547-D",
+            "system_zone": ""
         },
         {
             "system_name": "Dalzer",
@@ -1626,7 +1798,8 @@
                 20
             ],
             "system_trade_code": "Pi O:",
-            "system_uwp": "E693765-5"
+            "system_uwp": "E693765-5",
+            "system_zone": ""
         },
         {
             "system_name": "Apratib",
@@ -1635,7 +1808,8 @@
                 11
             ],
             "system_trade_code": "Pa Ph Pi",
-            "system_uwp": "C545853-7"
+            "system_uwp": "C545853-7",
+            "system_zone": ""
         },
         {
             "system_name": "Farkon",
@@ -1644,7 +1818,8 @@
                 20
             ],
             "system_trade_code": "Ph",
-            "system_uwp": "C639896-6"
+            "system_uwp": "C639896-6",
+            "system_zone": ""
         },
         {
             "system_name": "Tepas",
@@ -1653,7 +1828,8 @@
                 14
             ],
             "system_trade_code": "Fl Hi In Pz",
-            "system_uwp": "AAA79AC-A"
+            "system_uwp": "AAA79AC-A",
+            "system_zone": "A"
         },
         {
             "system_name": "Stylap",
@@ -1662,7 +1838,8 @@
                 16
             ],
             "system_trade_code": "Lo Ga O:",
-            "system_uwp": "C657268-9"
+            "system_uwp": "C657268-9",
+            "system_zone": ""
         },
         {
             "system_name": "Samos",
@@ -1671,7 +1848,8 @@
                 17
             ],
             "system_trade_code": "Ni Oc Ri",
-            "system_uwp": "BA8A620-9"
+            "system_uwp": "BA8A620-9",
+            "system_zone": ""
         },
         {
             "system_name": "Gothaburg",
@@ -1680,7 +1858,8 @@
                 19
             ],
             "system_trade_code": "De He Na Po Ph Pi",
-            "system_uwp": "C420879-A"
+            "system_uwp": "C420879-A",
+            "system_zone": ""
         },
         {
             "system_name": "Lycrew",
@@ -1689,7 +1868,8 @@
                 20
             ],
             "system_trade_code": "Lo Po",
-            "system_uwp": "C551200-8"
+            "system_uwp": "C551200-8",
+            "system_zone": ""
         },
         {
             "system_name": "Bur'vr'di'klr",
@@ -1698,7 +1878,8 @@
                 12
             ],
             "system_trade_code": "Hi In",
-            "system_uwp": "A675999-C"
+            "system_uwp": "A675999-C",
+            "system_zone": ""
         },
         {
             "system_name": "Taspar",
@@ -1707,7 +1888,8 @@
                 15
             ],
             "system_trade_code": "Lo O:",
-            "system_uwp": "C884362-7"
+            "system_uwp": "C884362-7",
+            "system_zone": ""
         },
         {
             "system_name": "Bilow",
@@ -1716,7 +1898,8 @@
                 16
             ],
             "system_trade_code": "Lo Wa",
-            "system_uwp": "A84A212-B"
+            "system_uwp": "A84A212-B",
+            "system_zone": ""
         },
         {
             "system_name": "Hufkin",
@@ -1725,7 +1908,8 @@
                 18
             ],
             "system_trade_code": "Ni",
-            "system_uwp": "B427455-C"
+            "system_uwp": "B427455-C",
+            "system_zone": ""
         },
         {
             "system_name": "Anoreg",
@@ -1734,7 +1918,8 @@
                 15
             ],
             "system_trade_code": "De He Na Po Pi Pz",
-            "system_uwp": "C4207BE-9"
+            "system_uwp": "C4207BE-9",
+            "system_zone": "A"
         },
         {
             "system_name": "Zonark",
@@ -1743,7 +1928,8 @@
                 16
             ],
             "system_trade_code": "Ni Po",
-            "system_uwp": "C552500-8"
+            "system_uwp": "C552500-8",
+            "system_zone": ""
         },
         {
             "system_name": "Pen-Latol's",
@@ -1752,7 +1938,8 @@
                 18
             ],
             "system_trade_code": "Ag Ni (Cleashitar)",
-            "system_uwp": "E674550-5"
+            "system_uwp": "E674550-5",
+            "system_zone": ""
         },
         {
             "system_name": "Mandau",
@@ -1761,7 +1948,8 @@
                 20
             ],
             "system_trade_code": "As Ni Va",
-            "system_uwp": "A000576-B"
+            "system_uwp": "A000576-B",
+            "system_zone": ""
         },
         {
             "system_name": "Kersian",
@@ -1770,7 +1958,8 @@
                 19
             ],
             "system_trade_code": "Ag Ni",
-            "system_uwp": "A695556-D"
+            "system_uwp": "A695556-D",
+            "system_zone": ""
         },
         {
             "system_name": "Epsilon VIII",
@@ -1779,7 +1968,8 @@
                 20
             ],
             "system_trade_code": "Fl",
-            "system_uwp": "C8C57B6-9"
+            "system_uwp": "C8C57B6-9",
+            "system_zone": ""
         },
         {
             "system_name": "Dutan",
@@ -1788,7 +1978,8 @@
                 17
             ],
             "system_trade_code": "Pa Ph Pi Pz",
-            "system_uwp": "B5788AB-A"
+            "system_uwp": "B5788AB-A",
+            "system_zone": "A"
         },
         {
             "system_name": "Accasion",
@@ -1797,7 +1988,8 @@
                 19
             ],
             "system_trade_code": "Ni Wa O:",
-            "system_uwp": "C77A466-6"
+            "system_uwp": "C77A466-6",
+            "system_zone": ""
         },
         {
             "system_name": "Thacuri",
@@ -1806,7 +1998,8 @@
                 20
             ],
             "system_trade_code": "Pa Ph",
-            "system_uwp": "B557888-A"
+            "system_uwp": "B557888-A",
+            "system_zone": ""
         },
         {
             "system_name": "Barenta",
@@ -1815,7 +2008,8 @@
                 17
             ],
             "system_trade_code": "Fl Lo",
-            "system_uwp": "A8B8372-B"
+            "system_uwp": "A8B8372-B",
+            "system_zone": ""
         },
         {
             "system_name": "Hertansi",
@@ -1824,7 +2018,8 @@
                 18
             ],
             "system_trade_code": "Ri Wa",
-            "system_uwp": "B76A757-9"
+            "system_uwp": "B76A757-9",
+            "system_zone": ""
         },
         {
             "system_name": "Freyvaud",
@@ -1833,7 +2028,8 @@
                 20
             ],
             "system_trade_code": "Lo Po",
-            "system_uwp": "E432100-A"
+            "system_uwp": "E432100-A",
+            "system_zone": ""
         },
         {
             "system_name": "Luxandra",
@@ -1842,7 +2038,8 @@
                 19
             ],
             "system_trade_code": "Ag Ni",
-            "system_uwp": "EA78525-5"
+            "system_uwp": "EA78525-5",
+            "system_zone": ""
         },
         {
             "system_name": "Zelden",
@@ -1851,7 +2048,8 @@
                 19
             ],
             "system_trade_code": "He Na Po Ph Pi",
-            "system_uwp": "B422845-8"
+            "system_uwp": "B422845-8",
+            "system_zone": ""
         },
         {
             "system_name": "Hickos",
@@ -1860,7 +2058,8 @@
                 20
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "A644123-9"
+            "system_uwp": "A644123-9",
+            "system_zone": ""
         },
         {
             "system_name": "Cabbot",
@@ -1869,7 +2068,8 @@
                 21
             ],
             "system_trade_code": "Ni Pr",
-            "system_uwp": "E763534-5"
+            "system_uwp": "E763534-5",
+            "system_zone": ""
         },
         {
             "system_name": "Ostello",
@@ -1878,7 +2078,8 @@
                 27
             ],
             "system_trade_code": "Hi Pz Jaib3",
-            "system_uwp": "C758A8C-7"
+            "system_uwp": "C758A8C-7",
+            "system_zone": "A"
         },
         {
             "system_name": "Mytelon",
@@ -1887,7 +2088,8 @@
                 28
             ],
             "system_trade_code": "Lo Ga",
-            "system_uwp": "B866200-B"
+            "system_uwp": "B866200-B",
+            "system_zone": ""
         },
         {
             "system_name": "Regal IV",
@@ -1896,7 +2098,8 @@
                 21
             ],
             "system_trade_code": "Fl Ni",
-            "system_uwp": "EAA3631-8"
+            "system_uwp": "EAA3631-8",
+            "system_zone": ""
         },
         {
             "system_name": "Stockhelm",
@@ -1905,7 +2108,8 @@
                 22
             ],
             "system_trade_code": "Ni Po",
-            "system_uwp": "E431486-6"
+            "system_uwp": "E431486-6",
+            "system_zone": ""
         },
         {
             "system_name": "Pursuin",
@@ -1914,7 +2118,8 @@
                 25
             ],
             "system_trade_code": "Lo Fo",
-            "system_uwp": "X897200-5"
+            "system_uwp": "X897200-5",
+            "system_zone": "R"
         },
         {
             "system_name": "Grand Harbour",
@@ -1923,7 +2128,8 @@
                 27
             ],
             "system_trade_code": "Ag Ni O:",
-            "system_uwp": "C554665-4"
+            "system_uwp": "C554665-4",
+            "system_zone": ""
         },
         {
             "system_name": "Amberlite",
@@ -1932,7 +2138,8 @@
                 30
             ],
             "system_trade_code": "Hi Wa Pz",
-            "system_uwp": "E78AA9B-7"
+            "system_uwp": "E78AA9B-7",
+            "system_zone": "A"
         },
         {
             "system_name": "Coalsand",
@@ -1941,7 +2148,8 @@
                 21
             ],
             "system_trade_code": "Na Ni Va",
-            "system_uwp": "E100677-7"
+            "system_uwp": "E100677-7",
+            "system_zone": ""
         },
         {
             "system_name": "Pakwolf",
@@ -1950,7 +2158,8 @@
                 22
             ],
             "system_trade_code": "Ic Ni",
-            "system_uwp": "A411588-B"
+            "system_uwp": "A411588-B",
+            "system_zone": ""
         },
         {
             "system_name": "Grunden",
@@ -1959,7 +2168,8 @@
                 26
             ],
             "system_trade_code": "Ni",
-            "system_uwp": "C52557B-7"
+            "system_uwp": "C52557B-7",
+            "system_zone": ""
         },
         {
             "system_name": "Imetcon",
@@ -1968,7 +2178,8 @@
                 27
             ],
             "system_trade_code": "Ag",
-            "system_uwp": "C554798-6"
+            "system_uwp": "C554798-6",
+            "system_zone": ""
         },
         {
             "system_name": "Marjanet",
@@ -1977,7 +2188,8 @@
                 28
             ],
             "system_trade_code": "Ni Va",
-            "system_uwp": "A200402-B"
+            "system_uwp": "A200402-B",
+            "system_zone": ""
         },
         {
             "system_name": "Deitance",
@@ -1986,7 +2198,8 @@
                 29
             ],
             "system_trade_code": "Na Po Ph Pz",
-            "system_uwp": "C4338C9-9"
+            "system_uwp": "C4338C9-9",
+            "system_zone": "A"
         },
         {
             "system_name": "Floodgate",
@@ -1995,7 +2208,8 @@
                 25
             ],
             "system_trade_code": "As Na Va Ph Pi Pz",
-            "system_uwp": "E0008CD-7"
+            "system_uwp": "E0008CD-7",
+            "system_zone": "A"
         },
         {
             "system_name": "Erikson",
@@ -2004,7 +2218,8 @@
                 29
             ],
             "system_trade_code": "Na Ni Va",
-            "system_uwp": "D300642-7"
+            "system_uwp": "D300642-7",
+            "system_zone": ""
         },
         {
             "system_name": "Santayana",
@@ -2013,7 +2228,8 @@
                 30
             ],
             "system_trade_code": "Ni Ga Pa",
-            "system_uwp": "C787431-4"
+            "system_uwp": "C787431-4",
+            "system_zone": ""
         },
         {
             "system_name": "Zurbaran",
@@ -2022,7 +2238,8 @@
                 21
             ],
             "system_trade_code": "Ni Po Fo",
-            "system_uwp": "X551410-3"
+            "system_uwp": "X551410-3",
+            "system_zone": "R"
         },
         {
             "system_name": "Acheson",
@@ -2031,7 +2248,8 @@
                 22
             ],
             "system_trade_code": "Pa Ph Pi Pz",
-            "system_uwp": "E5948DC-5"
+            "system_uwp": "E5948DC-5",
+            "system_zone": "A"
         },
         {
             "system_name": "Devalera",
@@ -2040,7 +2258,8 @@
                 25
             ],
             "system_trade_code": "Hi",
-            "system_uwp": "D582A84-5"
+            "system_uwp": "D582A84-5",
+            "system_zone": ""
         },
         {
             "system_name": "Marconi",
@@ -2049,7 +2268,8 @@
                 23
             ],
             "system_trade_code": "Hi Ga JaibW",
-            "system_uwp": "B756A74-9"
+            "system_uwp": "B756A74-9",
+            "system_zone": ""
         },
         {
             "system_name": "Shimerdon",
@@ -2058,7 +2278,8 @@
                 24
             ],
             "system_trade_code": "Wa Ph Cp Pi JaibW",
-            "system_uwp": "A64A878-D"
+            "system_uwp": "A64A878-D",
+            "system_zone": ""
         },
         {
             "system_name": "Quantestal",
@@ -2067,7 +2288,8 @@
                 25
             ],
             "system_trade_code": "Na Po Ph",
-            "system_uwp": "B433898-7"
+            "system_uwp": "B433898-7",
+            "system_zone": ""
         },
         {
             "system_name": "Mapendal",
@@ -2076,7 +2298,8 @@
                 30
             ],
             "system_trade_code": "Ni",
-            "system_uwp": "A425536-D"
+            "system_uwp": "A425536-D",
+            "system_zone": ""
         },
         {
             "system_name": "Rhintril",
@@ -2085,7 +2308,8 @@
                 24
             ],
             "system_trade_code": "Ag Ni Pr",
-            "system_uwp": "A768572-D"
+            "system_uwp": "A768572-D",
+            "system_zone": ""
         },
         {
             "system_name": "Merotpeg",
@@ -2094,7 +2318,8 @@
                 26
             ],
             "system_trade_code": "Ni",
-            "system_uwp": "E873400-5"
+            "system_uwp": "E873400-5",
+            "system_zone": ""
         },
         {
             "system_name": "Sonica",
@@ -2103,7 +2328,8 @@
                 29
             ],
             "system_trade_code": "Ni Oc",
-            "system_uwp": "CA6A434-6"
+            "system_uwp": "CA6A434-6",
+            "system_zone": ""
         },
         {
             "system_name": "Carlondo",
@@ -2112,7 +2338,8 @@
                 23
             ],
             "system_trade_code": "As Na Ni Va",
-            "system_uwp": "B000656-A"
+            "system_uwp": "B000656-A",
+            "system_zone": ""
         },
         {
             "system_name": "DeHan V",
@@ -2121,7 +2348,8 @@
                 25
             ],
             "system_trade_code": "Ni Pa",
-            "system_uwp": "CA97475-5"
+            "system_uwp": "CA97475-5",
+            "system_zone": ""
         },
         {
             "system_name": "Alcadeen",
@@ -2130,7 +2358,8 @@
                 23
             ],
             "system_trade_code": "Ag Ni Mr",
-            "system_uwp": "B554561-B"
+            "system_uwp": "B554561-B",
+            "system_zone": ""
         },
         {
             "system_name": "Darwald",
@@ -2139,7 +2368,8 @@
                 28
             ],
             "system_trade_code": "Ni",
-            "system_uwp": "A593685-C"
+            "system_uwp": "A593685-C",
+            "system_zone": ""
         },
         {
             "system_name": "Jalafum",
@@ -2148,7 +2378,8 @@
                 29
             ],
             "system_trade_code": "Hi",
-            "system_uwp": "C758986-6"
+            "system_uwp": "C758986-6",
+            "system_zone": ""
         },
         {
             "system_name": "Fesnay",
@@ -2157,7 +2388,8 @@
                 21
             ],
             "system_trade_code": "Ni Wa Pr",
-            "system_uwp": "C66A557-B"
+            "system_uwp": "C66A557-B",
+            "system_zone": ""
         },
         {
             "system_name": "Wolfen",
@@ -2166,7 +2398,8 @@
                 22
             ],
             "system_trade_code": "De Ni Po O:",
-            "system_uwp": "A550566-B"
+            "system_uwp": "A550566-B",
+            "system_zone": ""
         },
         {
             "system_name": "Ugnes",
@@ -2175,7 +2408,8 @@
                 23
             ],
             "system_trade_code": "Na Ni Va",
-            "system_uwp": "C100655-7"
+            "system_uwp": "C100655-7",
+            "system_zone": ""
         },
         {
             "system_name": "Magnar",
@@ -2184,7 +2418,8 @@
                 24
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "B585103-7"
+            "system_uwp": "B585103-7",
+            "system_zone": ""
         },
         {
             "system_name": "Dedas",
@@ -2193,7 +2428,8 @@
                 25
             ],
             "system_trade_code": "",
-            "system_uwp": "C535798-7"
+            "system_uwp": "C535798-7",
+            "system_zone": ""
         },
         {
             "system_name": "Qutan",
@@ -2202,7 +2438,8 @@
                 28
             ],
             "system_trade_code": "Fl Lo",
-            "system_uwp": "B8A4110-8"
+            "system_uwp": "B8A4110-8",
+            "system_zone": ""
         },
         {
             "system_name": "Eggart",
@@ -2211,7 +2448,8 @@
                 30
             ],
             "system_trade_code": "Lo Va",
-            "system_uwp": "E300110-7"
+            "system_uwp": "E300110-7",
+            "system_zone": ""
         },
         {
             "system_name": "Caloran",
@@ -2220,7 +2458,8 @@
                 22
             ],
             "system_trade_code": "Ni Wa Pr",
-            "system_uwp": "A86A577-B"
+            "system_uwp": "A86A577-B",
+            "system_zone": ""
         },
         {
             "system_name": "Binikin",
@@ -2229,7 +2468,8 @@
                 26
             ],
             "system_trade_code": "Wa Ph Pi",
-            "system_uwp": "C67A8A5-9"
+            "system_uwp": "C67A8A5-9",
+            "system_zone": ""
         },
         {
             "system_name": "Sopich",
@@ -2238,7 +2478,8 @@
                 28
             ],
             "system_trade_code": "He O:",
-            "system_uwp": "B5A0761-A"
+            "system_uwp": "B5A0761-A",
+            "system_zone": ""
         },
         {
             "system_name": "LesParda",
@@ -2247,7 +2488,8 @@
                 22
             ],
             "system_trade_code": "Ni O:",
-            "system_uwp": "A310464-B"
+            "system_uwp": "A310464-B",
+            "system_zone": ""
         },
         {
             "system_name": "Jelmirt",
@@ -2256,7 +2498,8 @@
                 23
             ],
             "system_trade_code": "Fl Hi In Cp Pz Jaib4",
-            "system_uwp": "AAA6A8D-C"
+            "system_uwp": "AAA6A8D-C",
+            "system_zone": "A"
         },
         {
             "system_name": "Oriniab",
@@ -2265,7 +2508,8 @@
                 28
             ],
             "system_trade_code": "Ni Va",
-            "system_uwp": "B300533-8"
+            "system_uwp": "B300533-8",
+            "system_zone": ""
         },
         {
             "system_name": "Kerpan",
@@ -2274,7 +2518,8 @@
                 23
             ],
             "system_trade_code": "Ag Pi O:",
-            "system_uwp": "B895762-5"
+            "system_uwp": "B895762-5",
+            "system_zone": ""
         },
         {
             "system_name": "Gadil",
@@ -2283,7 +2528,8 @@
                 27
             ],
             "system_trade_code": "Lo Ga Da",
-            "system_uwp": "E785311-2"
+            "system_uwp": "E785311-2",
+            "system_zone": "A"
         },
         {
             "system_name": "Vormuch",
@@ -2292,7 +2538,8 @@
                 29
             ],
             "system_trade_code": "Ba",
-            "system_uwp": "E548000-0"
+            "system_uwp": "E548000-0",
+            "system_zone": ""
         },
         {
             "system_name": "Jebol",
@@ -2301,7 +2548,8 @@
                 30
             ],
             "system_trade_code": "Ag Pi Pz",
-            "system_uwp": "C79578D-5"
+            "system_uwp": "C79578D-5",
+            "system_zone": "A"
         },
         {
             "system_name": "Carnoff",
@@ -2310,7 +2558,8 @@
                 22
             ],
             "system_trade_code": "Fl He Lo Da",
-            "system_uwp": "E6A2148-8"
+            "system_uwp": "E6A2148-8",
+            "system_zone": "A"
         },
         {
             "system_name": "Seital",
@@ -2319,7 +2568,8 @@
                 28
             ],
             "system_trade_code": "He Po Pi",
-            "system_uwp": "E542795-5"
+            "system_uwp": "E542795-5",
+            "system_zone": ""
         },
         {
             "system_name": "Ninumbra",
@@ -2328,7 +2578,8 @@
                 29
             ],
             "system_trade_code": "Wa Pi Pz",
-            "system_uwp": "D94A79C-5"
+            "system_uwp": "D94A79C-5",
+            "system_zone": "A"
         },
         {
             "system_name": "Kolenat",
@@ -2337,7 +2588,8 @@
                 30
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "D566320-7"
+            "system_uwp": "D566320-7",
+            "system_zone": ""
         },
         {
             "system_name": "Rematon",
@@ -2346,7 +2598,8 @@
                 23
             ],
             "system_trade_code": "Ni Pa",
-            "system_uwp": "D55547A-7"
+            "system_uwp": "D55547A-7",
+            "system_zone": ""
         },
         {
             "system_name": "Taunce",
@@ -2355,7 +2608,8 @@
                 25
             ],
             "system_trade_code": "Ag Ni Ri",
-            "system_uwp": "B788642-A"
+            "system_uwp": "B788642-A",
+            "system_zone": ""
         },
         {
             "system_name": "Zilac",
@@ -2364,7 +2618,8 @@
                 27
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "B888203-7"
+            "system_uwp": "B888203-7",
+            "system_zone": ""
         },
         {
             "system_name": "Pebebock",
@@ -2373,7 +2628,8 @@
                 30
             ],
             "system_trade_code": "Lo O:",
-            "system_uwp": "C435363-6"
+            "system_uwp": "C435363-6",
+            "system_zone": ""
         },
         {
             "system_name": "Inbarin",
@@ -2382,7 +2638,8 @@
                 22
             ],
             "system_trade_code": "Ag Ni Ri O:",
-            "system_uwp": "E564663-1"
+            "system_uwp": "E564663-1",
+            "system_zone": ""
         },
         {
             "system_name": "Touxilay",
@@ -2391,7 +2648,8 @@
                 23
             ],
             "system_trade_code": "Lo Wa",
-            "system_uwp": "C86A375-8"
+            "system_uwp": "C86A375-8",
+            "system_zone": ""
         },
         {
             "system_name": "Obysan",
@@ -2400,7 +2658,8 @@
                 24
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "A435156-C"
+            "system_uwp": "A435156-C",
+            "system_zone": ""
         },
         {
             "system_name": "Muravia",
@@ -2409,7 +2668,8 @@
                 28
             ],
             "system_trade_code": "Ni Ri",
-            "system_uwp": "A681673-C"
+            "system_uwp": "A681673-C",
+            "system_zone": ""
         },
         {
             "system_name": "Isabit",
@@ -2418,7 +2678,8 @@
                 29
             ],
             "system_trade_code": "Fl Ni O:",
-            "system_uwp": "A9B7565-C"
+            "system_uwp": "A9B7565-C",
+            "system_zone": ""
         },
         {
             "system_name": "Gurn",
@@ -2427,7 +2688,8 @@
                 30
             ],
             "system_trade_code": "Hi Ic In Na",
-            "system_uwp": "D511988-7"
+            "system_uwp": "D511988-7",
+            "system_zone": ""
         },
         {
             "system_name": "Waldorf",
@@ -2436,7 +2698,8 @@
                 21
             ],
             "system_trade_code": "Fl Lo",
-            "system_uwp": "C7A837A-8"
+            "system_uwp": "C7A837A-8",
+            "system_zone": ""
         },
         {
             "system_name": "Fesnay",
@@ -2445,7 +2708,8 @@
                 22
             ],
             "system_trade_code": "He Po Pi O:",
-            "system_uwp": "D542766-5"
+            "system_uwp": "D542766-5",
+            "system_zone": ""
         },
         {
             "system_name": "Jaches",
@@ -2454,7 +2718,8 @@
                 29
             ],
             "system_trade_code": "Hi In Na Va Pz",
-            "system_uwp": "E4009AA-7"
+            "system_uwp": "E4009AA-7",
+            "system_zone": "A"
         },
         {
             "system_name": "Perjant",
@@ -2463,7 +2728,8 @@
                 21
             ],
             "system_trade_code": "Ag Ni",
-            "system_uwp": "D67667A-5"
+            "system_uwp": "D67667A-5",
+            "system_zone": ""
         },
         {
             "system_name": "Yberam",
@@ -2472,7 +2738,8 @@
                 23
             ],
             "system_trade_code": "Hi Ga Pr",
-            "system_uwp": "D6869A9-6"
+            "system_uwp": "D6869A9-6",
+            "system_zone": ""
         },
         {
             "system_name": "Nystalux",
@@ -2481,7 +2748,8 @@
                 22
             ],
             "system_trade_code": "Ag Ga Ri (Sedas)",
-            "system_uwp": "E686735-6"
+            "system_uwp": "E686735-6",
+            "system_zone": ""
         },
         {
             "system_name": "Kanuel",
@@ -2490,7 +2758,8 @@
                 29
             ],
             "system_trade_code": "Ag",
-            "system_uwp": "B554794-A"
+            "system_uwp": "B554794-A",
+            "system_zone": ""
         },
         {
             "system_name": "Gibroat",
@@ -2499,7 +2768,8 @@
                 23
             ],
             "system_trade_code": "Ni Pa",
-            "system_uwp": "C798410-7"
+            "system_uwp": "C798410-7",
+            "system_zone": ""
         },
         {
             "system_name": "Carug",
@@ -2508,7 +2778,8 @@
                 24
             ],
             "system_trade_code": "Ph Pi",
-            "system_uwp": "B725888-8"
+            "system_uwp": "B725888-8",
+            "system_zone": ""
         },
         {
             "system_name": "Nasany",
@@ -2517,7 +2788,8 @@
                 25
             ],
             "system_trade_code": "Lo Va",
-            "system_uwp": "E100325-7"
+            "system_uwp": "E100325-7",
+            "system_zone": ""
         },
         {
             "system_name": "Delburt",
@@ -2526,7 +2798,8 @@
                 26
             ],
             "system_trade_code": "De Lo",
-            "system_uwp": "C560104-A"
+            "system_uwp": "C560104-A",
+            "system_zone": ""
         },
         {
             "system_name": "Idbar",
@@ -2535,7 +2808,8 @@
                 27
             ],
             "system_trade_code": "Ni Po",
-            "system_uwp": "A552520-C"
+            "system_uwp": "A552520-C",
+            "system_zone": ""
         },
         {
             "system_name": "Wedton",
@@ -2544,7 +2818,8 @@
                 28
             ],
             "system_trade_code": "Ag Ni",
-            "system_uwp": "C775535-7"
+            "system_uwp": "C775535-7",
+            "system_zone": ""
         },
         {
             "system_name": "Lagel",
@@ -2553,7 +2828,8 @@
                 29
             ],
             "system_trade_code": "Ri Ph",
-            "system_uwp": "D662854-2"
+            "system_uwp": "D662854-2",
+            "system_zone": ""
         },
         {
             "system_name": "Futburg",
@@ -2562,7 +2838,8 @@
                 23
             ],
             "system_trade_code": "Hi Pr O:",
-            "system_uwp": "C86896A-8"
+            "system_uwp": "C86896A-8",
+            "system_zone": ""
         },
         {
             "system_name": "Bortesi",
@@ -2571,7 +2848,8 @@
                 26
             ],
             "system_trade_code": "Fl Ph Pz",
-            "system_uwp": "A7A489C-C"
+            "system_uwp": "A7A489C-C",
+            "system_zone": "A"
         },
         {
             "system_name": "Yagnuir",
@@ -2580,7 +2858,8 @@
                 21
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "D569141-8"
+            "system_uwp": "D569141-8",
+            "system_zone": ""
         },
         {
             "system_name": "Valpor",
@@ -2589,7 +2868,8 @@
                 22
             ],
             "system_trade_code": "Ag Pi",
-            "system_uwp": "BA78783-A"
+            "system_uwp": "BA78783-A",
+            "system_zone": ""
         },
         {
             "system_name": "Kormap",
@@ -2598,7 +2878,8 @@
                 25
             ],
             "system_trade_code": "Ag Ni Pr",
-            "system_uwp": "E585588-2"
+            "system_uwp": "E585588-2",
+            "system_zone": ""
         },
         {
             "system_name": "Niparoo",
@@ -2607,7 +2888,8 @@
                 26
             ],
             "system_trade_code": "Fl Hi In",
-            "system_uwp": "A8A49B8-C"
+            "system_uwp": "A8A49B8-C",
+            "system_zone": ""
         },
         {
             "system_name": "Keros",
@@ -2616,7 +2898,8 @@
                 30
             ],
             "system_trade_code": "He Ni",
-            "system_uwp": "D6B0699-8"
+            "system_uwp": "D6B0699-8",
+            "system_zone": ""
         },
         {
             "system_name": "Pelmafore",
@@ -2625,7 +2908,8 @@
                 23
             ],
             "system_trade_code": "Ag Ni O:",
-            "system_uwp": "C854569-4"
+            "system_uwp": "C854569-4",
+            "system_zone": ""
         },
         {
             "system_name": "Hetage",
@@ -2634,7 +2918,8 @@
                 25
             ],
             "system_trade_code": "De He Lo Po",
-            "system_uwp": "B540104-A"
+            "system_uwp": "B540104-A",
+            "system_zone": ""
         },
         {
             "system_name": "Runelma",
@@ -2643,7 +2928,8 @@
                 26
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "B310212-B"
+            "system_uwp": "B310212-B",
+            "system_zone": ""
         },
         {
             "system_name": "Port Xanatath",
@@ -2652,7 +2938,8 @@
                 21
             ],
             "system_trade_code": "De Lo Po",
-            "system_uwp": "B550330-B"
+            "system_uwp": "B550330-B",
+            "system_zone": ""
         },
         {
             "system_name": "Cayme",
@@ -2661,7 +2948,8 @@
                 26
             ],
             "system_trade_code": "Ag Ri",
-            "system_uwp": "E565754-7"
+            "system_uwp": "E565754-7",
+            "system_zone": ""
         },
         {
             "system_name": "Lone Star",
@@ -2670,7 +2958,8 @@
                 28
             ],
             "system_trade_code": "Fl Ni",
-            "system_uwp": "A5AA57A-C"
+            "system_uwp": "A5AA57A-C",
+            "system_zone": ""
         },
         {
             "system_name": "Crows Nest",
@@ -2679,7 +2968,8 @@
                 26
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "C545252-6"
+            "system_uwp": "C545252-6",
+            "system_zone": ""
         },
         {
             "system_name": "St. Thomas",
@@ -2688,7 +2978,8 @@
                 27
             ],
             "system_trade_code": "Ag Pi",
-            "system_uwp": "B646753-9"
+            "system_uwp": "B646753-9",
+            "system_zone": ""
         },
         {
             "system_name": "Gauntlet Run",
@@ -2697,7 +2988,8 @@
                 23
             ],
             "system_trade_code": "Fl Lo",
-            "system_uwp": "A8C5130-B"
+            "system_uwp": "A8C5130-B",
+            "system_zone": ""
         },
         {
             "system_name": "Long Chase",
@@ -2706,7 +2998,8 @@
                 24
             ],
             "system_trade_code": "Pi",
-            "system_uwp": "D573776-5"
+            "system_uwp": "D573776-5",
+            "system_zone": ""
         },
         {
             "system_name": "Storm Rider",
@@ -2715,7 +3008,8 @@
                 25
             ],
             "system_trade_code": "Ni",
-            "system_uwp": "A573520-D"
+            "system_uwp": "A573520-D",
+            "system_zone": ""
         },
         {
             "system_name": "Pepperland",
@@ -2724,7 +3018,8 @@
                 29
             ],
             "system_trade_code": "Lo Va O:",
-            "system_uwp": "C200167-8"
+            "system_uwp": "C200167-8",
+            "system_zone": ""
         },
         {
             "system_name": "New Caladonia",
@@ -2733,7 +3028,8 @@
                 24
             ],
             "system_trade_code": "Ag Ga Ri",
-            "system_uwp": "A6857A9-9"
+            "system_uwp": "A6857A9-9",
+            "system_zone": ""
         },
         {
             "system_name": "Zoolan",
@@ -2742,7 +3038,8 @@
                 26
             ],
             "system_trade_code": "Ph",
-            "system_uwp": "C838858-9"
+            "system_uwp": "C838858-9",
+            "system_zone": ""
         },
         {
             "system_name": "Westmach",
@@ -2751,7 +3048,8 @@
                 27
             ],
             "system_trade_code": "Ag Ni O:",
-            "system_uwp": "E547664-6"
+            "system_uwp": "E547664-6",
+            "system_zone": ""
         },
         {
             "system_name": "Verstand",
@@ -2760,7 +3058,8 @@
                 29
             ],
             "system_trade_code": "As Hi In Na Va",
-            "system_uwp": "B000977-A"
+            "system_uwp": "B000977-A",
+            "system_zone": ""
         },
         {
             "system_name": "Jamison II",
@@ -2769,7 +3068,8 @@
                 30
             ],
             "system_trade_code": "Ni",
-            "system_uwp": "E673679-6"
+            "system_uwp": "E673679-6",
+            "system_zone": ""
         },
         {
             "system_name": "Ratan",
@@ -2778,7 +3078,8 @@
                 22
             ],
             "system_trade_code": "Hi",
-            "system_uwp": "B737A96-A"
+            "system_uwp": "B737A96-A",
+            "system_zone": ""
         },
         {
             "system_name": "Cobra III",
@@ -2787,7 +3088,8 @@
                 23
             ],
             "system_trade_code": "Ni",
-            "system_uwp": "C539635-6"
+            "system_uwp": "C539635-6",
+            "system_zone": ""
         },
         {
             "system_name": "Zordan",
@@ -2796,7 +3098,8 @@
                 24
             ],
             "system_trade_code": "Ba Po",
-            "system_uwp": "E431000-0"
+            "system_uwp": "E431000-0",
+            "system_zone": ""
         },
         {
             "system_name": "Hhurster",
@@ -2805,7 +3108,8 @@
                 29
             ],
             "system_trade_code": "Ag Ni O:",
-            "system_uwp": "C545565-8"
+            "system_uwp": "C545565-8",
+            "system_zone": ""
         },
         {
             "system_name": "Demest",
@@ -2814,7 +3118,8 @@
                 30
             ],
             "system_trade_code": "Ni O:",
-            "system_uwp": "C679465-8"
+            "system_uwp": "C679465-8",
+            "system_zone": ""
         },
         {
             "system_name": "Candankst",
@@ -2823,7 +3128,8 @@
                 24
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "B544222-9"
+            "system_uwp": "B544222-9",
+            "system_zone": ""
         },
         {
             "system_name": "Paradise",
@@ -2832,7 +3138,8 @@
                 25
             ],
             "system_trade_code": "Ag Pi",
-            "system_uwp": "C997777-7"
+            "system_uwp": "C997777-7",
+            "system_zone": ""
         },
         {
             "system_name": "Logos Belt",
@@ -2841,7 +3148,8 @@
                 27
             ],
             "system_trade_code": "As Lo Va O:",
-            "system_uwp": "E000361-A"
+            "system_uwp": "E000361-A",
+            "system_zone": ""
         },
         {
             "system_name": "Sumoon",
@@ -2850,7 +3158,8 @@
                 28
             ],
             "system_trade_code": "Na Va Pi Pz",
-            "system_uwp": "C1007BF-7"
+            "system_uwp": "C1007BF-7",
+            "system_zone": "A"
         },
         {
             "system_name": "Teloth",
@@ -2859,7 +3168,8 @@
                 21
             ],
             "system_trade_code": "Ag Pi",
-            "system_uwp": "C677775-5"
+            "system_uwp": "C677775-5",
+            "system_zone": ""
         },
         {
             "system_name": "Port Lanta",
@@ -2868,7 +3178,8 @@
                 22
             ],
             "system_trade_code": "Fl He Lo",
-            "system_uwp": "A7A2344-B"
+            "system_uwp": "A7A2344-B",
+            "system_zone": ""
         },
         {
             "system_name": "Satyr",
@@ -2877,7 +3188,8 @@
                 23
             ],
             "system_trade_code": "De Lo",
-            "system_uwp": "C560335-9"
+            "system_uwp": "C560335-9",
+            "system_zone": ""
         },
         {
             "system_name": "Artemis",
@@ -2886,7 +3198,8 @@
                 26
             ],
             "system_trade_code": "Ni",
-            "system_uwp": "A434400-B"
+            "system_uwp": "A434400-B",
+            "system_zone": ""
         },
         {
             "system_name": "Phonecia",
@@ -2895,7 +3208,8 @@
                 28
             ],
             "system_trade_code": "",
-            "system_uwp": "B434788-8"
+            "system_uwp": "B434788-8",
+            "system_zone": ""
         },
         {
             "system_name": "Trimeter",
@@ -2904,7 +3218,8 @@
                 29
             ],
             "system_trade_code": "Ag Ni Ri",
-            "system_uwp": "C6686A9-7"
+            "system_uwp": "C6686A9-7",
+            "system_zone": ""
         },
         {
             "system_name": "Dennson",
@@ -2913,7 +3228,8 @@
                 22
             ],
             "system_trade_code": "He Hi In",
-            "system_uwp": "A672A78-C"
+            "system_uwp": "A672A78-C",
+            "system_zone": ""
         },
         {
             "system_name": "Partricia",
@@ -2922,7 +3238,8 @@
                 25
             ],
             "system_trade_code": "Ag Ni O:",
-            "system_uwp": "C758662-3"
+            "system_uwp": "C758662-3",
+            "system_zone": ""
         },
         {
             "system_name": "Landfair",
@@ -2931,7 +3248,8 @@
                 29
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "C669200-8"
+            "system_uwp": "C669200-8",
+            "system_zone": ""
         },
         {
             "system_name": "Ames",
@@ -2940,7 +3258,8 @@
                 24
             ],
             "system_trade_code": "Ni Pa",
-            "system_uwp": "E546499-7"
+            "system_uwp": "E546499-7",
+            "system_zone": ""
         },
         {
             "system_name": "Amethyst",
@@ -2949,7 +3268,8 @@
                 29
             ],
             "system_trade_code": "Fl Lo",
-            "system_uwp": "C6A3210-8"
+            "system_uwp": "C6A3210-8",
+            "system_zone": ""
         },
         {
             "system_name": "Vepar",
@@ -2958,7 +3278,8 @@
                 32
             ],
             "system_trade_code": "He Ni",
-            "system_uwp": "C572455-9"
+            "system_uwp": "C572455-9",
+            "system_zone": ""
         },
         {
             "system_name": "Olack",
@@ -2967,7 +3288,8 @@
                 33
             ],
             "system_trade_code": "Ni Ga Pa",
-            "system_uwp": "B665458-C"
+            "system_uwp": "B665458-C",
+            "system_zone": ""
         },
         {
             "system_name": "Abemire",
@@ -2976,7 +3298,8 @@
                 32
             ],
             "system_trade_code": "De He Ni O:",
-            "system_uwp": "A570665-8"
+            "system_uwp": "A570665-8",
+            "system_zone": ""
         },
         {
             "system_name": "Gontip",
@@ -2985,7 +3308,8 @@
                 33
             ],
             "system_trade_code": "Hi Pr",
-            "system_uwp": "C583999-5"
+            "system_uwp": "C583999-5",
+            "system_zone": ""
         },
         {
             "system_name": "Eylyre",
@@ -2994,7 +3318,8 @@
                 36
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "A868201-B"
+            "system_uwp": "A868201-B",
+            "system_zone": ""
         },
         {
             "system_name": "Tudwick",
@@ -3003,7 +3328,8 @@
                 31
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "B673201-B"
+            "system_uwp": "B673201-B",
+            "system_zone": ""
         },
         {
             "system_name": "Pubora",
@@ -3012,7 +3338,8 @@
                 32
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "A957311-8"
+            "system_uwp": "A957311-8",
+            "system_zone": ""
         },
         {
             "system_name": "Kline",
@@ -3021,7 +3348,8 @@
                 33
             ],
             "system_trade_code": "De He Lo Po",
-            "system_uwp": "C420100-8"
+            "system_uwp": "C420100-8",
+            "system_zone": ""
         },
         {
             "system_name": "Obaroth",
@@ -3030,7 +3358,8 @@
                 34
             ],
             "system_trade_code": "Hi Ic In Va Pz",
-            "system_uwp": "C304AFD-9"
+            "system_uwp": "C304AFD-9",
+            "system_zone": "A"
         },
         {
             "system_name": "Shief",
@@ -3039,7 +3368,8 @@
                 35
             ],
             "system_trade_code": "Ag Ni",
-            "system_uwp": "A558652-D"
+            "system_uwp": "A558652-D",
+            "system_zone": ""
         },
         {
             "system_name": "Higram",
@@ -3048,7 +3378,8 @@
                 33
             ],
             "system_trade_code": "Hi Ga Pz",
-            "system_uwp": "A8569CE-C"
+            "system_uwp": "A8569CE-C",
+            "system_zone": "A"
         },
         {
             "system_name": "Chanshonie",
@@ -3057,7 +3388,8 @@
                 35
             ],
             "system_trade_code": "De Hi Po",
-            "system_uwp": "C550995-7"
+            "system_uwp": "C550995-7",
+            "system_zone": ""
         },
         {
             "system_name": "Motobab",
@@ -3066,7 +3398,8 @@
                 36
             ],
             "system_trade_code": "Na Va Pi Pz",
-            "system_uwp": "C1007BC-B"
+            "system_uwp": "C1007BC-B",
+            "system_zone": "A"
         },
         {
             "system_name": "Quper",
@@ -3075,7 +3408,8 @@
                 37
             ],
             "system_trade_code": "De He Hi In Po O:",
-            "system_uwp": "B540A66-C"
+            "system_uwp": "B540A66-C",
+            "system_zone": ""
         },
         {
             "system_name": "Aster",
@@ -3084,7 +3418,8 @@
                 38
             ],
             "system_trade_code": "Ni Wa O:",
-            "system_uwp": "A97A675-D"
+            "system_uwp": "A97A675-D",
+            "system_zone": ""
         },
         {
             "system_name": "Lamburel",
@@ -3093,7 +3428,8 @@
                 34
             ],
             "system_trade_code": "Pi",
-            "system_uwp": "E629720-7"
+            "system_uwp": "E629720-7",
+            "system_zone": ""
         },
         {
             "system_name": "Usatuc",
@@ -3102,7 +3438,8 @@
                 36
             ],
             "system_trade_code": "Ni Po",
-            "system_uwp": "C433597-9"
+            "system_uwp": "C433597-9",
+            "system_zone": ""
         },
         {
             "system_name": "Hacany",
@@ -3111,7 +3448,8 @@
                 33
             ],
             "system_trade_code": "Fl Ni",
-            "system_uwp": "C8B9574-B"
+            "system_uwp": "C8B9574-B",
+            "system_zone": ""
         },
         {
             "system_name": "Pamuse",
@@ -3120,7 +3458,8 @@
                 33
             ],
             "system_trade_code": "Ri O:",
-            "system_uwp": "B562768-A"
+            "system_uwp": "B562768-A",
+            "system_zone": ""
         },
         {
             "system_name": "Dilvart",
@@ -3129,7 +3468,8 @@
                 34
             ],
             "system_trade_code": "Ic Lo O:",
-            "system_uwp": "D312368-7"
+            "system_uwp": "D312368-7",
+            "system_zone": ""
         },
         {
             "system_name": "Pismo",
@@ -3138,7 +3478,8 @@
                 34
             ],
             "system_trade_code": "Ri Wa Pz",
-            "system_uwp": "B96A7AE-9"
+            "system_uwp": "B96A7AE-9",
+            "system_zone": "A"
         },
         {
             "system_name": "Snowdon",
@@ -3147,7 +3488,8 @@
                 31
             ],
             "system_trade_code": "Hi Ga Pz",
-            "system_uwp": "C666ABF-7"
+            "system_uwp": "C666ABF-7",
+            "system_zone": "A"
         },
         {
             "system_name": "Westmount",
@@ -3156,7 +3498,8 @@
                 36
             ],
             "system_trade_code": "Lo Po",
-            "system_uwp": "C553220-6"
+            "system_uwp": "C553220-6",
+            "system_zone": ""
         },
         {
             "system_name": "Poserdon",
@@ -3165,7 +3508,8 @@
                 37
             ],
             "system_trade_code": "Lo Ga",
-            "system_uwp": "B656253-B"
+            "system_uwp": "B656253-B",
+            "system_zone": ""
         },
         {
             "system_name": "Chao Kwan",
@@ -3174,7 +3518,8 @@
                 31
             ],
             "system_trade_code": "He Lo Po",
-            "system_uwp": "B542230-A"
+            "system_uwp": "B542230-A",
+            "system_zone": ""
         },
         {
             "system_name": "Constantine",
@@ -3183,7 +3528,8 @@
                 32
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "C988120-4"
+            "system_uwp": "C988120-4",
+            "system_zone": ""
         },
         {
             "system_name": "Port Eoyel",
@@ -3192,7 +3538,8 @@
                 37
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "C65935A-9"
+            "system_uwp": "C65935A-9",
+            "system_zone": ""
         },
         {
             "system_name": "Manlowe",
@@ -3201,7 +3548,8 @@
                 31
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "E562202-7"
+            "system_uwp": "E562202-7",
+            "system_zone": ""
         },
         {
             "system_name": "Andizan",
@@ -3210,7 +3558,8 @@
                 38
             ],
             "system_trade_code": "Ni Pa",
-            "system_uwp": "B594445-7"
+            "system_uwp": "B594445-7",
+            "system_zone": ""
         },
         {
             "system_name": "Catania",
@@ -3219,7 +3568,8 @@
                 31
             ],
             "system_trade_code": "Hi Na Po",
-            "system_uwp": "B531989-8"
+            "system_uwp": "B531989-8",
+            "system_zone": ""
         },
         {
             "system_name": "Hydraotes",
@@ -3228,7 +3578,8 @@
                 36
             ],
             "system_trade_code": "Ni O:",
-            "system_uwp": "C627466-9"
+            "system_uwp": "C627466-9",
+            "system_zone": ""
         },
         {
             "system_name": "Katzebue",
@@ -3237,7 +3588,8 @@
                 37
             ],
             "system_trade_code": "Ag Pz",
-            "system_uwp": "A5557AB-C"
+            "system_uwp": "A5557AB-C",
+            "system_zone": "A"
         },
         {
             "system_name": "Chinampo",
@@ -3246,7 +3598,8 @@
                 39
             ],
             "system_trade_code": "Ag Ni Pr",
-            "system_uwp": "D566521-4"
+            "system_uwp": "D566521-4",
+            "system_zone": ""
         },
         {
             "system_name": "Sunda",
@@ -3255,7 +3608,8 @@
                 31
             ],
             "system_trade_code": "Fl Ni O:",
-            "system_uwp": "DAA5664-8"
+            "system_uwp": "DAA5664-8",
+            "system_zone": ""
         },
         {
             "system_name": "Victoria",
@@ -3264,7 +3618,8 @@
                 33
             ],
             "system_trade_code": "As Lo Va",
-            "system_uwp": "B000252-C"
+            "system_uwp": "B000252-C",
+            "system_zone": ""
         },
         {
             "system_name": "Marinagua",
@@ -3273,7 +3628,8 @@
                 34
             ],
             "system_trade_code": "Fl Ni (Alejia)",
-            "system_uwp": "A6B5530-9"
+            "system_uwp": "A6B5530-9",
+            "system_zone": ""
         },
         {
             "system_name": "Jasmire",
@@ -3282,7 +3638,8 @@
                 36
             ],
             "system_trade_code": "Ni Po",
-            "system_uwp": "A423587-B"
+            "system_uwp": "A423587-B",
+            "system_zone": ""
         },
         {
             "system_name": "Kuclaron",
@@ -3291,7 +3648,8 @@
                 32
             ],
             "system_trade_code": "Ni",
-            "system_uwp": "B410513-8"
+            "system_uwp": "B410513-8",
+            "system_zone": ""
         },
         {
             "system_name": "Hartman",
@@ -3300,7 +3658,8 @@
                 38
             ],
             "system_trade_code": "He Lo Da",
-            "system_uwp": "E5A0359-8"
+            "system_uwp": "E5A0359-8",
+            "system_zone": "A"
         },
         {
             "system_name": "Marnio",
@@ -3309,7 +3668,8 @@
                 40
             ],
             "system_trade_code": "Ni O:",
-            "system_uwp": "A834563-9"
+            "system_uwp": "A834563-9",
+            "system_zone": ""
         },
         {
             "system_name": "Winslow",
@@ -3318,7 +3678,8 @@
                 35
             ],
             "system_trade_code": "Ni Pa",
-            "system_uwp": "C996440-5"
+            "system_uwp": "C996440-5",
+            "system_zone": ""
         },
         {
             "system_name": "Bernode",
@@ -3327,7 +3688,8 @@
                 37
             ],
             "system_trade_code": "Lo Ga Da",
-            "system_uwp": "E767305-3"
+            "system_uwp": "E767305-3",
+            "system_zone": "A"
         },
         {
             "system_name": "Borlinden",
@@ -3336,7 +3698,8 @@
                 38
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "D562333-3"
+            "system_uwp": "D562333-3",
+            "system_zone": ""
         },
         {
             "system_name": "Murtaskin",
@@ -3345,7 +3708,8 @@
                 39
             ],
             "system_trade_code": "Ag Ni",
-            "system_uwp": "B546523-A"
+            "system_uwp": "B546523-A",
+            "system_zone": ""
         },
         {
             "system_name": "Plustron",
@@ -3354,7 +3718,8 @@
                 32
             ],
             "system_trade_code": "Hi In Pz",
-            "system_uwp": "B546ADD-7"
+            "system_uwp": "B546ADD-7",
+            "system_zone": "A"
         },
         {
             "system_name": "Gurgan",
@@ -3363,7 +3728,8 @@
                 37
             ],
             "system_trade_code": "De Ri Ph",
-            "system_uwp": "D580877-6"
+            "system_uwp": "D580877-6",
+            "system_zone": ""
         },
         {
             "system_name": "Moliska",
@@ -3372,7 +3738,8 @@
                 36
             ],
             "system_trade_code": "Ag Ni O:",
-            "system_uwp": "E695669-5"
+            "system_uwp": "E695669-5",
+            "system_zone": ""
         },
         {
             "system_name": "Shelando",
@@ -3381,7 +3748,8 @@
                 39
             ],
             "system_trade_code": "He Ni Po",
-            "system_uwp": "D542553-7"
+            "system_uwp": "D542553-7",
+            "system_zone": ""
         },
         {
             "system_name": "Willemstad",
@@ -3390,7 +3758,8 @@
                 32
             ],
             "system_trade_code": "Lo Oc",
-            "system_uwp": "AA9A335-B"
+            "system_uwp": "AA9A335-B",
+            "system_zone": ""
         },
         {
             "system_name": "Zwickau",
@@ -3399,7 +3768,8 @@
                 34
             ],
             "system_trade_code": "Ag Ri",
-            "system_uwp": "D587783-6"
+            "system_uwp": "D587783-6",
+            "system_zone": ""
         },
         {
             "system_name": "Crompton",
@@ -3408,7 +3778,8 @@
                 35
             ],
             "system_trade_code": "As Ni Va",
-            "system_uwp": "C000479-9"
+            "system_uwp": "C000479-9",
+            "system_zone": ""
         },
         {
             "system_name": "Iskender",
@@ -3417,7 +3788,8 @@
                 31
             ],
             "system_trade_code": "Ag Ni",
-            "system_uwp": "D575553-8"
+            "system_uwp": "D575553-8",
+            "system_zone": ""
         },
         {
             "system_name": "McLuhan",
@@ -3426,7 +3798,8 @@
                 32
             ],
             "system_trade_code": "As Na Ni Va",
-            "system_uwp": "A000659-B"
+            "system_uwp": "A000659-B",
+            "system_zone": ""
         },
         {
             "system_name": "Saint-Beune",
@@ -3435,7 +3808,8 @@
                 33
             ],
             "system_trade_code": "Fl He Hi In",
-            "system_uwp": "B9A1AC7-A"
+            "system_uwp": "B9A1AC7-A",
+            "system_zone": ""
         },
         {
             "system_name": "Eldorado",
@@ -3444,7 +3818,8 @@
                 31
             ],
             "system_trade_code": "Ag Ni",
-            "system_uwp": "A55758A-9"
+            "system_uwp": "A55758A-9",
+            "system_zone": ""
         },
         {
             "system_name": "Cimmeron",
@@ -3453,7 +3828,8 @@
                 33
             ],
             "system_trade_code": "Ni Va",
-            "system_uwp": "B200552-9"
+            "system_uwp": "B200552-9",
+            "system_zone": ""
         },
         {
             "system_name": "Barbusse",
@@ -3462,7 +3838,8 @@
                 35
             ],
             "system_trade_code": "Pa Ph Pi",
-            "system_uwp": "B576878-5"
+            "system_uwp": "B576878-5",
+            "system_zone": ""
         },
         {
             "system_name": "Tiselius",
@@ -3471,7 +3848,8 @@
                 38
             ],
             "system_trade_code": "Lo O:",
-            "system_uwp": "B795268-9"
+            "system_uwp": "B795268-9",
+            "system_zone": ""
         },
         {
             "system_name": "Laurens",
@@ -3480,7 +3858,8 @@
                 33
             ],
             "system_trade_code": "Hi Oc",
-            "system_uwp": "BADAAB8-D"
+            "system_uwp": "BADAAB8-D",
+            "system_zone": ""
         },
         {
             "system_name": "Easton",
@@ -3489,7 +3868,8 @@
                 37
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "B437158-C"
+            "system_uwp": "B437158-C",
+            "system_zone": ""
         },
         {
             "system_name": "Alanbrooke",
@@ -3498,7 +3878,8 @@
                 33
             ],
             "system_trade_code": "Hi",
-            "system_uwp": "C637977-6"
+            "system_uwp": "C637977-6",
+            "system_zone": ""
         },
         {
             "system_name": "Farragut",
@@ -3507,7 +3888,8 @@
                 36
             ],
             "system_trade_code": "Ag Ni",
-            "system_uwp": "C676676-5"
+            "system_uwp": "C676676-5",
+            "system_zone": ""
         },
         {
             "system_name": "Toubkal",
@@ -3516,7 +3898,8 @@
                 32
             ],
             "system_trade_code": "Po Ph Pz",
-            "system_uwp": "C5528AA-7"
+            "system_uwp": "C5528AA-7",
+            "system_zone": "A"
         },
         {
             "system_name": "Itenez",
@@ -3525,7 +3908,8 @@
                 33
             ],
             "system_trade_code": "Hi Ic In Va",
-            "system_uwp": "D505998-7"
+            "system_uwp": "D505998-7",
+            "system_zone": ""
         },
         {
             "system_name": "Kolhapur",
@@ -3534,7 +3918,8 @@
                 40
             ],
             "system_trade_code": "Lo",
-            "system_uwp": "C567279-5"
+            "system_uwp": "C567279-5",
+            "system_zone": ""
         },
         {
             "system_name": "Makatea",
@@ -3543,7 +3928,8 @@
                 31
             ],
             "system_trade_code": "Ag Ni Pr",
-            "system_uwp": "B764579-7"
+            "system_uwp": "B764579-7",
+            "system_zone": ""
         },
         {
             "system_name": "Nunivak",
@@ -3552,7 +3938,8 @@
                 32
             ],
             "system_trade_code": "Ni Ri Wa",
-            "system_uwp": "D68A679-7"
+            "system_uwp": "D68A679-7",
+            "system_zone": ""
         },
         {
             "system_name": "Petitot",
@@ -3561,7 +3948,8 @@
                 33
             ],
             "system_trade_code": "De Ni",
-            "system_uwp": "C560431-6"
+            "system_uwp": "C560431-6",
+            "system_zone": ""
         },
         {
             "system_name": "Sukarno",
@@ -3570,7 +3958,8 @@
                 38
             ],
             "system_trade_code": "Ag Ni",
-            "system_uwp": "A57567A-7"
+            "system_uwp": "A57567A-7",
+            "system_zone": ""
         },
         {
             "system_name": "Zaharoff",
@@ -3579,7 +3968,8 @@
                 39
             ],
             "system_trade_code": "Ag Pi",
-            "system_uwp": "B575777-A"
+            "system_uwp": "B575777-A",
+            "system_zone": ""
         },
         {
             "system_name": "Widcliff",
@@ -3588,7 +3978,8 @@
                 33
             ],
             "system_trade_code": "De Hi Po",
-            "system_uwp": "D550998-3"
+            "system_uwp": "D550998-3",
+            "system_zone": ""
         },
         {
             "system_name": "Rolland",
@@ -3597,7 +3988,8 @@
                 39
             ],
             "system_trade_code": "Ag Ni",
-            "system_uwp": "D545655-7"
+            "system_uwp": "D545655-7",
+            "system_zone": ""
         },
         {
             "system_name": "Kirwan",
@@ -3606,7 +3998,8 @@
                 40
             ],
             "system_trade_code": "Ag",
-            "system_uwp": "B556754-B"
+            "system_uwp": "B556754-B",
+            "system_zone": ""
         },
         {
             "system_name": "Jugartha",
@@ -3615,7 +4008,8 @@
                 31
             ],
             "system_trade_code": "As Hi In Na Va",
-            "system_uwp": "A000958-D"
+            "system_uwp": "A000958-D",
+            "system_zone": ""
         },
         {
             "system_name": "Gangarova",
@@ -3624,7 +4018,8 @@
                 34
             ],
             "system_trade_code": "Ag Pi",
-            "system_uwp": "E77779A-5"
+            "system_uwp": "E77779A-5",
+            "system_zone": ""
         },
         {
             "system_name": "Des Prez",
@@ -3633,7 +4028,8 @@
                 35
             ],
             "system_trade_code": "He Hi In Po Pz",
-            "system_uwp": "C542AAB-7"
+            "system_uwp": "C542AAB-7",
+            "system_zone": "A"
         },
         {
             "system_name": "Corcoran",
@@ -3642,7 +4038,8 @@
                 37
             ],
             "system_trade_code": "As Lo Va",
-            "system_uwp": "B000252-D"
+            "system_uwp": "B000252-D",
+            "system_zone": ""
         },
         {
             "system_name": "Betuatan",
@@ -3651,7 +4048,8 @@
                 38
             ],
             "system_trade_code": "He Na Po Ph Pi Pz",
-            "system_uwp": "D42189D-7"
+            "system_uwp": "D42189D-7",
+            "system_zone": "A"
         },
         {
             "system_name": "Ganados",
@@ -3660,7 +4058,8 @@
                 32
             ],
             "system_trade_code": "Ni Va O:",
-            "system_uwp": "A400466-B"
+            "system_uwp": "A400466-B",
+            "system_zone": ""
         },
         {
             "system_name": "Brasov",
@@ -3669,7 +4068,8 @@
                 38
             ],
             "system_trade_code": "Na Va Pi",
-            "system_uwp": "C100752-7"
+            "system_uwp": "C100752-7",
+            "system_zone": ""
         },
         {
             "system_name": "Illimani",
@@ -3678,7 +4078,8 @@
                 32
             ],
             "system_trade_code": "Ni",
-            "system_uwp": "B310579-A"
+            "system_uwp": "B310579-A",
+            "system_zone": ""
         },
         {
             "system_name": "Montserat",
@@ -3687,7 +4088,8 @@
                 33
             ],
             "system_trade_code": "Wa Ph Pi Pz",
-            "system_uwp": "B97A8AD-A"
+            "system_uwp": "B97A8AD-A",
+            "system_zone": "A"
         },
         {
             "system_name": "Rorschach",
@@ -3696,7 +4098,8 @@
                 35
             ],
             "system_trade_code": "He Hi In Pz",
-            "system_uwp": "B5729AA-B"
+            "system_uwp": "B5729AA-B",
+            "system_zone": "A"
         },
         {
             "system_name": "Yukva",
@@ -3705,7 +4108,8 @@
                 36
             ],
             "system_trade_code": "Lo Po",
-            "system_uwp": "B432300-D"
+            "system_uwp": "B432300-D",
+            "system_zone": ""
         },
         {
             "system_name": "Wimstudei",
@@ -3714,7 +4118,8 @@
                 32
             ],
             "system_trade_code": "Ph Pz",
-            "system_uwp": "C7378DC-6"
+            "system_uwp": "C7378DC-6",
+            "system_zone": "A"
         },
         {
             "system_name": "Zaragoza",
@@ -3723,7 +4128,8 @@
                 34
             ],
             "system_trade_code": "Lo Da",
-            "system_uwp": "E889100-4"
+            "system_uwp": "E889100-4",
+            "system_zone": "A"
         },
         {
             "system_name": "Stowkau",
@@ -3732,7 +4138,8 @@
                 40
             ],
             "system_trade_code": "Wa Ph Pi O:",
-            "system_uwp": "A87A864-C"
+            "system_uwp": "A87A864-C",
+            "system_zone": ""
         }
     ]
 }

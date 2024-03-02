@@ -1,6 +1,4 @@
 #include <QApplication>
-#include "Launcher.h"
-#include "Window_SystemViewer.h"
 #include "ApplicationManager.h"
 
 #include <QLocale>

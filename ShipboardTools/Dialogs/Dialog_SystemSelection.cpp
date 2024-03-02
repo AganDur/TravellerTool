@@ -60,7 +60,7 @@ void Dialog_SystemSelection::on_selectorBox_currentIndexChanged(int index){
 
 void Dialog_SystemSelection::on_acceptButton_clicked(){
     std::string selectedSystem = ui->selectorBox->currentText().toStdString();
-    app->updateSelectedSystem(selectedSystem);
+    //app->updateSelectedSystem(selectedSystem);
     this->close();
 }
 

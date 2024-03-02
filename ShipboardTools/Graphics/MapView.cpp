@@ -63,8 +63,6 @@ void MapView::wheelEvent(QWheelEvent *event){
         this->scale(1/this->zoomStep, 1/this->zoomStep);
     }
 
-    this->window->setZoomLog(zoomFactor);
-
     /*-----------------------------------------------*
      *   UPDATE DETAILS SHOWN BASED ON ZOOM FACTOR   *
      *-----------------------------------------------*/
@@ -105,6 +103,9 @@ void MapView::wheelEvent(QWheelEvent *event){
                     // Hide Sector text
                     if(dynamic_cast<SectorRectangle*>(it)!=nullptr && !(dynamic_cast<SectorRectangle*>(it))->isSubsector()){
                         (dynamic_cast<SectorRectangle*>(it))->hideText();
+                        QPen pen = (dynamic_cast<SectorRectangle*>(it))->pen();
+                        pen.setWidth(pen.width()/4);
+                        (dynamic_cast<SectorRectangle*>(it))->setPen(pen);
                     }
                 }
             }
@@ -142,6 +143,9 @@ void MapView::wheelEvent(QWheelEvent *event){
                     // Show Sector text
                     if(dynamic_cast<SectorRectangle*>(it)!=nullptr && !(dynamic_cast<SectorRectangle*>(it))->isSubsector()){
                         (dynamic_cast<SectorRectangle*>(it))->showText();
+                        QPen pen = (dynamic_cast<SectorRectangle*>(it))->pen();
+                        pen.setWidth(pen.width()*4);
+                        (dynamic_cast<SectorRectangle*>(it))->setPen(pen);
                     }
                 }
             }

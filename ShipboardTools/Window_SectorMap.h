@@ -22,7 +22,6 @@ public:
     void setApplication(ApplicationManager *a);
 
     void setDetails(Hexagon *hexagon);
-    void setZoomLog(float zoomLevel);
 
     void setSystemMapButtonDisabled(bool disable);
 
@@ -36,26 +35,25 @@ public:
 
     void showSystemDetails(QPointF topLeft, QPointF bottomRight);
     void hideSystemDetails(QPointF topLeft, QPointF bottomRight);
-    void showLimitedSystems(QPointF topLeft, QPointF bottomRight);
-    void hideSystems(QPointF topLeft, QPointF bottomRight);
-    void showSubsectors(QPointF topLeft, QPointF bottomRight);
-    void hideSubsectors(QPointF topLeft, QPointF bottomRight);
-    void showSectors(QPointF topLeft, QPointF bottomRight);
-    void hideSectors(QPointF topLeft, QPointF bottomRight);
+
+    void saveData();
+    void backToLauncher();
 
 private slots:
     void on_systemMapButton_clicked();
 
+    void on_saveSystemButton_clicked();
+
 private:
-    ApplicationManager *app;
+    ApplicationManager *app = nullptr;
 
     std::vector<Sector*> sectors;
 
     std::string selectedSystem;
 
-    Ui::Window_SectorMap *ui;
+    Ui::Window_SectorMap *ui = nullptr;
 
-    QGraphicsScene *scene;
+    QGraphicsScene *scene = nullptr;
 };
 
 #endif // WINDOW_SECTORMAP_H

@@ -9,8 +9,7 @@ QT_END_NAMESPACE
 
 class ApplicationManager;
 
-class Launcher : public QMainWindow
-{
+class Launcher : public QMainWindow {
     Q_OBJECT
 
 public:
@@ -19,11 +18,7 @@ public:
 
     void setApplicationManager(ApplicationManager *a);
 
-    void updateTargetSystem(std::string target);
-    void updateCurrentSystem(std::string current);
-
 private slots:
-    void on_LocationButton_clicked();
     void on_SectorMapButton_clicked();
 
 private:

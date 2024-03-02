@@ -27,7 +27,6 @@ public:
 
     void openDialog_SystemSelection();
 
-    void updateSelectedSystem(std::string newSystem);
     void changeSystem(std::string newSystem);
 
 };

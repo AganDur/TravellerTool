@@ -22,6 +22,7 @@ float hexRadius = 100;
 
 Window_SectorMap::Window_SectorMap(QWidget *parent) : QMainWindow(parent), ui(new Ui::Window_SectorMap) {
     ui->setupUi(this);
+    this->setWindowTitle("Shipboard Tools - Galaxy Map");
 
     ui->mapView->setWindow(this);
 
@@ -29,18 +30,31 @@ Window_SectorMap::Window_SectorMap(QWidget *parent) : QMainWindow(parent), ui(ne
     ui->mapView->setScene(scene);
 
     ui->groupBox->setVisible(false);
-    ui->hexEdit->setDisabled(true);
+    ui->saveSystemButton->setDisabled(true);
 
     std::vector<std::string> sectorFileNames = global::getAllJSONFiles(global::path()+"Sectors/");
     for(std::string sector: sectorFileNames){
         this->loadSector(sector);
     }
 
-    setZoomLog(0.4);
+    QMenu *launcherMenu = new QMenu("Launcher");
+    QAction *launcherAction = new QAction("Back to Launcher");
+    launcherMenu->addAction(launcherAction);
+
+    QMenu *dataMenu = new QMenu("Data");
+    QAction *dataAction = new QAction("Export Data");
+    dataMenu->addAction(dataAction);
+
+    ui->menuBar->addMenu(launcherMenu);
+    ui->menuBar->addMenu(dataMenu);
+
+    connect(dataAction, &QAction::triggered, this, &Window_SectorMap::saveData);
+    connect(launcherAction, &QAction::triggered, this, &Window_SectorMap::backToLauncher);
 }
 
 Window_SectorMap::~Window_SectorMap(){
-    delete ui;
+    // Cleanup scene
+    ui->mapView->scene()->clear();
 }
 
 void Window_SectorMap::setApplication(ApplicationManager *a){
@@ -53,6 +67,7 @@ void Window_SectorMap::setDetails(Hexagon *hexagon){
     ui->nameEdit->setText(QString::fromStdString(hexagon->getName()));
     ui->uwpEdit->setText(QString::fromStdString(hexagon->getUWP()));
     ui->sectorEdit->setText(QString::fromStdString(hexagon->getSectorName()));
+    ui->tradeEdit->setText(QString::fromStdString(hexagon->getTradeCode()));
     this->selectedSystem = hexagon->getName();
 
     // Check if system exists
@@ -65,10 +80,6 @@ void Window_SectorMap::setDetails(Hexagon *hexagon){
         }
     }
     ui->systemMapButton->setEnabled(foundSystem);
-}
-
-void Window_SectorMap::setZoomLog(float zoomLevel){
-    ui->zoomLogger->display(zoomLevel*10);
 }
 
 void Window_SectorMap::setSystemMapButtonDisabled(bool disable){
@@ -270,37 +281,27 @@ void Window_SectorMap::showSystemDetails(QPointF topLeft, QPointF bottomRight){
     }
 }
 
-void Window_SectorMap::hideSystemDetails(QPointF topLeft, QPointF bottomRight){
-
+void Window_SectorMap::saveData(){
+    // TODO
 }
 
-void Window_SectorMap::showLimitedSystems(QPointF topLeft, QPointF bottomRight){
+void Window_SectorMap::backToLauncher(){
+    this->app->showLauncher();
 
-}
+    // Clean up data from this window
 
-void Window_SectorMap::hideSystems(QPointF topLeft, QPointF bottomRight){
 
-}
-
-void Window_SectorMap::showSubsectors(QPointF topLeft, QPointF bottomRight){
-
-}
-
-void Window_SectorMap::hideSubsectors(QPointF topLeft, QPointF bottomRight){
-
-}
-
-void Window_SectorMap::showSectors(QPointF topLeft, QPointF bottomRight){
-
-}
-
-void Window_SectorMap::hideSectors(QPointF topLeft, QPointF bottomRight){
-
+    this->close();
 }
 
 
 void Window_SectorMap::on_systemMapButton_clicked(){
     this->app->changeSystem(this->selectedSystem);
     this->app->showSystemViewer();
+}
+
+
+void Window_SectorMap::on_saveSystemButton_clicked(){
+
 }
 

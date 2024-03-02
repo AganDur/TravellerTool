@@ -25,11 +25,11 @@ private:
     Window_SectorMap *window;
 
     float zoomFactor = 0.4;
+    int zoomLevel = 1;
+
     float minimumZoom = 0.012;
     float maximumZoom = 1;
     float zoomStep = 1.5;
-
-    int zoomLevel;
 
     bool hideHexes = false;
 

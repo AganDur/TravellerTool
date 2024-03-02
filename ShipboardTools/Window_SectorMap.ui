@@ -19,66 +19,138 @@
      <widget class="MapView" name="mapView"/>
     </item>
     <item>
-     <widget class="QLCDNumber" name="zoomLogger"/>
-    </item>
-    <item>
      <widget class="QGroupBox" name="groupBox">
       <property name="title">
        <string>Details</string>
       </property>
       <layout class="QGridLayout" name="gridLayout">
-       <item row="0" column="1">
-        <widget class="QLabel" name="label">
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="text">
-          <string>System Name</string>
+          <string>System Hex</string>
          </property>
         </widget>
        </item>
-       <item row="4" column="1" colspan="2">
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="hexEdit">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLineEdit" name="tradeEdit"/>
+       </item>
+       <item row="8" column="0" colspan="2">
+        <widget class="QPushButton" name="saveSystemButton">
+         <property name="text">
+          <string>Save System Details</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="nameEdit"/>
+       </item>
+       <item row="7" column="0" colspan="2">
         <widget class="QPushButton" name="systemMapButton">
          <property name="text">
           <string>See System Map</string>
          </property>
         </widget>
        </item>
-       <item row="1" column="2">
-        <widget class="QLineEdit" name="hexEdit"/>
-       </item>
-       <item row="0" column="2">
-        <widget class="QLineEdit" name="nameEdit"/>
-       </item>
-       <item row="3" column="1">
+       <item row="5" column="0">
         <widget class="QLabel" name="label_3">
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="text">
           <string>System UWP</string>
          </property>
         </widget>
        </item>
-       <item row="3" column="2">
-        <widget class="QLineEdit" name="uwpEdit"/>
-       </item>
-       <item row="1" column="1">
-        <widget class="QLabel" name="label_2">
+       <item row="2" column="0">
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="text">
-          <string>System Hex</string>
+          <string>System Name</string>
          </property>
         </widget>
        </item>
-       <item row="2" column="1">
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="uwpEdit"/>
+       </item>
+       <item row="0" column="0">
         <widget class="QLabel" name="label_4">
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="text">
           <string>Sector</string>
          </property>
         </widget>
        </item>
-       <item row="2" column="2">
-        <widget class="QLineEdit" name="sectorEdit"/>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="sectorEdit">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="label_5">
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>System Trade Code</string>
+         </property>
+        </widget>
        </item>
       </layout>
      </widget>
     </item>
    </layout>
   </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <action name="actionBack_To_Launcher">
+   <property name="text">
+    <string>Back To Launcher</string>
+   </property>
+  </action>
+  <action name="actionExport_Data">
+   <property name="text">
+    <string>Export Data</string>
+   </property>
+  </action>
+  <action name="actionSwitch_Edit_Mode">
+   <property name="text">
+    <string>Switch Edit Mode</string>
+   </property>
+  </action>
  </widget>
  <customwidgets>
   <customwidget>
