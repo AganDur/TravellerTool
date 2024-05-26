@@ -5,6 +5,7 @@
 #include "GL_Star.h"
 #include "GL_Planet.h"
 #include "GL_Orbit.h"
+#include "GL_Unique.h"
 #include "../Globals.h"
 #include "../ApplicationManager.h"
 
@@ -145,10 +146,11 @@ void GL_SystemViewerWidget::updateData(std::string file){
          *     READ STAR DATA     *
          *------------------------*/
 
-        QJsonValue starEntry = rootObj.value("star");
-        if(!starEntry.isNull()){
+        QJsonArray starsEntry = rootObj.value("stars").toArray();
+        for(auto starEntry : starsEntry) {
             auto starObject = starEntry.toObject();
             std::string starClass = starObject.value("class").toString().toStdString();
+            std::string starName = starObject.value("name").toString().toStdString();
 
             // Setup star data
             auto colorObject = starObject.value("color").toObject();
@@ -166,8 +168,26 @@ void GL_SystemViewerWidget::updateData(std::string file){
 
             GL_Orbit starOrbit(QVector3D(0, 0, 0), semiMajor, semiMinor,0);
 
+
+            GL_Object *par = nullptr;
+            QJsonValue parentNameValue = starObject.value("parent");
+
+            if(!parentNameValue.isNull()){
+                std::string parentName = parentNameValue.toString().toStdString();
+                int i= 0;
+                while(i<models.size() && par==nullptr){
+                    GL_Unique *parent = dynamic_cast<GL_Unique*>(models.at(i));
+                    qDebug() << "Parent name = " << parentName << " ; current = " << parent->getName() << " ; Compare = " << parent->getName().compare(parentName);
+                    if(parent!=nullptr && parent->getName().compare(parentName)==0) par = parent;
+                    i++;
+                }
+            }
+            if (par == nullptr && models.size()>0) par = models.at(0);
+
+
             // Add star to models
-            GL_Star *star = new GL_Star(starVertices, sphereIndices, starClass, rad, 0.0, color, starOrbit);
+            GL_Star *star = new GL_Star(starVertices, sphereIndices, starClass, starName, rad, 0.0, color, starOrbit);
+            star->setParent(par);
             star->loadTexture("starTexture1.jpg");
             models.push_back(star);
         }
@@ -191,7 +211,13 @@ void GL_SystemViewerWidget::updateData(std::string file){
             }
             else {
                 SemiMajor = orbitObject.value("semi-major").toDouble();
-                SemiMinor = orbitObject.value("semi-minor").toDouble();
+                float eccentricity = orbitObject.value("eccentricity").toDouble();
+                if(!orbitObject.value("semi-minor").isNull()){
+                    SemiMinor = orbitObject.value("semi-minor").toDouble();
+                }
+                else {
+                    SemiMinor = SemiMajor * sqrt(1 - (eccentricity * eccentricity));
+                }
             }
             GL_Orbit* o = new GL_Orbit(QVector3D(0,0,0), SemiMajor, SemiMinor, 0);
             if(orbitObject.contains("color")){
@@ -218,12 +244,20 @@ void GL_SystemViewerWidget::updateData(std::string file){
             std::string textureName = world.value("texture").toString().toStdString();
             if(textureName.empty()) textureName="venus.jpg";
 
-
             GL_Object *par = nullptr;
-            int parentIndex = orbiting.toObject().value("parent").toInt(-1);
-            if (parentIndex>=0 && parentIndex<this->models.size()) par = models.at(parentIndex);
-            qDebug() << (parentIndex);
+            QJsonValue parentNameValue = orbiting.toObject().value("parent");
 
+            if(!parentNameValue.isNull()){
+                std::string parentName = parentNameValue.toString().toStdString();
+                int i= 0;
+                while(i<models.size() && par==nullptr){
+                    GL_Unique *parent = dynamic_cast<GL_Unique*>(models.at(i));
+                    qDebug() << "Parent name = " << parentName << " ; current = " << parent->getName() << " ; Compare = " << parent->getName().compare(parentName);
+                    if(parent!=nullptr && parent->getName().compare(parentName)==0) par = parent;
+                    i++;
+                }
+            }
+            if (par == nullptr) par = models.at(0);
 
             GL_Planet* p = new GL_Planet(planetVertices, sphereIndices, size, *o, name, uwp);
             p->loadTexture(textureName);

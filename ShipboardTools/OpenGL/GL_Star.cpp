@@ -6,7 +6,8 @@
  *   CONSTRUCTORS   *
  *------------------*/
 // Default Class Constructor
-GL_Star::GL_Star(std::vector<GLfloat> vertices, std::vector<unsigned int> indices, std::string stellarClass, float radius, float mass, QVector3D color, GL_Orbit orbit) : GL_Unique{vertices, indices, color}, stellarOrbit{orbit}{
+GL_Star::GL_Star(std::vector<GLfloat> vertices, std::vector<unsigned int> indices, std::string stellarClass, std::string name, float radius, float mass, QVector3D color, GL_Orbit orbit) :
+GL_Unique{vertices, indices, color, name}, stellarOrbit{orbit}{
     this->size = radius;
     this->mass = mass;
 
@@ -43,6 +44,22 @@ GL_Star::~GL_Star(){
 
 }
 
+QMatrix4x4 GL_Star::getModelMatrix(){
+    QMatrix4x4 model;
+
+    float positionX = stellarOrbit.getX_CurrentAngle();
+    float positionY = stellarOrbit.getY_CurrentAngle();
+
+    if(this->parent!=nullptr) model.translate(parent->getPosition());
+    model.translate(QVector3D(positionX, positionY, 0.0f));
+    model.scale(scale);
+
+    if(parent!=nullptr) this->position = parent->getPosition() + QVector3D(positionX, positionY, 0);
+    else this->position = QVector3D(positionX, positionY, 0);
+
+    return model;
+}
+
 /*------------------------*
  *   OPEN GL PARAMETERS   *
  *------------------------*/
@@ -67,12 +84,7 @@ void GL_Star::render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QV
 
     QOpenGLFunctions *f = QOpenGLContext::currentContext()->functions();
 
-    QMatrix4x4 model;
-    model.setToIdentity();
-    this->position = QVector3D(this->stellarOrbit.getX_CurrentAngle(), this->stellarOrbit.getY_CurrentAngle(), 0);
-    if(this->stellarOrbit.getSemiMajor()<=0) position = QVector3D(0,0,0);
-    model.translate(position);
-    model.scale(scale);
+    QMatrix4x4 model = this->getModelMatrix();
 
     VAO.bind();
 

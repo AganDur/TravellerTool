@@ -9,7 +9,7 @@
  *   CONSTRUCTORS   *
  *------------------*/
 // Default Class Constructor
-GL_Planet::GL_Planet(std::vector<GLfloat> vertices, std::vector<unsigned int> indices, float size, GL_Orbit orbit, std::string name, std::string uwp): GL_Unique{vertices, indices, QVector3D(1.0f, 1.0f, 1.0f)}, planetaryOrbit{orbit}{
+GL_Planet::GL_Planet(std::vector<GLfloat> vertices, std::vector<unsigned int> indices, float size, GL_Orbit orbit, std::string name, std::string uwp): GL_Unique{vertices, indices, QVector3D(1.0f, 1.0f, 1.0f), name}, planetaryOrbit{orbit}{
     this->name = name;
     this->size = size;
     this->UWP = uwp;

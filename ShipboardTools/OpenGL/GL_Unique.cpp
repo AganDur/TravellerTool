@@ -5,9 +5,10 @@
  *   CONSTRUCTORS   *
  *------------------*/
 // Constructor using mesh name
-GL_Unique::GL_Unique(std::string meshName, QVector3D color) : GL_Object{} {
+GL_Unique::GL_Unique(std::string meshName, QVector3D color, std::string name) : GL_Object{} {
     loadMesh(meshName);
     this->color = color;
+    this->name = name;
 
     //VAO.create();
     VAO.bind();
@@ -27,10 +28,11 @@ GL_Unique::GL_Unique(std::string meshName, QVector3D color) : GL_Object{} {
 }
 
 // Constructor using preloaded mesh data (vertices and indices)
-GL_Unique::GL_Unique(std::vector<GLfloat> vertices, std::vector<unsigned int> indices, QVector3D color): GL_Object{}, color{color}{
+GL_Unique::GL_Unique(std::vector<GLfloat> vertices, std::vector<unsigned int> indices, QVector3D color, std::string name): GL_Object{}, color{color}{
     this->vertices = vertices;
     this->indices = indices;
     this->color = color;
+    this->name = name;
 
     //VAO.create();
     VAO.bind();
@@ -63,5 +65,9 @@ void GL_Unique::compileShaders(std::string vertexShaderName, std::string fragmen
 
 QVector3D GL_Unique::getColor(){
     return color;
+}
+
+std::string GL_Unique::getName(){
+    return name;
 }
 

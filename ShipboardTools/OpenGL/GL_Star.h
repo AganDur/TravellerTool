@@ -13,7 +13,7 @@ class GL_Star: public GL_Unique {
  *   CONSTRUCTORS   *
  *------------------*/
 public:
-    GL_Star(std::vector<GLfloat> vertices, std::vector<unsigned int> indices, std::string stellarClass, float radius, float mass, QVector3D color, GL_Orbit orbit);
+    GL_Star(std::vector<GLfloat> vertices, std::vector<unsigned int> indices, std::string stellarClass, std::string name, float radius, float mass, QVector3D color, GL_Orbit orbit);
     ~GL_Star();
 
 /*------------------------*
@@ -23,6 +23,8 @@ private:
     GL_Orbit stellarOrbit;
     float size;
     float mass;
+
+    std::string name;
 
     QVector3D position;
 
