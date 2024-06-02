@@ -32,7 +32,7 @@ Window_SectorMap::Window_SectorMap(QWidget *parent) : QMainWindow(parent), ui(ne
     ui->groupBox->setVisible(false);
     ui->saveSystemButton->setDisabled(true);
 
-    std::vector<std::string> sectorFileNames = global::getAllJSONFiles(global::path()+"Sectors/");
+    std::vector<std::string> sectorFileNames = global::getAllJSONFiles(global::dataPath()+"Sectors/");
     for(std::string sector: sectorFileNames){
         this->loadSector(sector);
     }
@@ -71,7 +71,7 @@ void Window_SectorMap::setDetails(Hexagon *hexagon){
     this->selectedSystem = hexagon->getName();
 
     // Check if system exists
-    std::vector<std::string> systems = global::getAllJSONFiles(global::path()+"/Systems");
+    std::vector<std::string> systems = global::getAllJSONFiles(global::dataPath()+"/Systems");
     bool foundSystem = false;
     for(std::string sys : systems){
         if(sys.compare(this->selectedSystem) == 0){
@@ -87,7 +87,7 @@ void Window_SectorMap::setSystemMapButtonDisabled(bool disable){
 }
 
 void Window_SectorMap::loadSector(std::string filename){
-    QJsonObject root = global::openJSON(QString::fromStdString(global::path()+"Sectors/"+filename+".json"));
+    QJsonObject root = global::openJSON(QString::fromStdString(global::dataPath()+"Sectors/"+filename+".json"));
 
     QJsonValue sectorPos = root.value("sector_position");
     auto sectorX = sectorPos.toArray().at(0).toInt(0);
@@ -112,7 +112,7 @@ void Window_SectorMap::loadSector(std::string filename){
 void Window_SectorMap::fillSector(Sector *sector) {
     std::string sectorName = sector->getFileName();
 
-    QJsonObject root = global::openJSON(QString::fromStdString(global::path()+"/Sectors/"+sectorName+".json"));
+    QJsonObject root = global::openJSON(QString::fromStdString(global::dataPath()+"/Sectors/"+sectorName+".json"));
 
     std::map<std::array<int,2>, class System*> map;
     QJsonValue systemsRoot = root.value("systems");

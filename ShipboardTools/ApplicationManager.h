@@ -24,6 +24,7 @@ public:
     void showLauncher();
     void showSystemViewer();
     void showSectorMap();
+    void showOptions();
 
     void openDialog_SystemSelection();
 

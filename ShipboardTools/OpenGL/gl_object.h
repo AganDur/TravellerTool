@@ -24,7 +24,9 @@ public:
     GL_Object(GL_Object &object);
     virtual ~GL_Object();
 
-    void setParent(GL_Object *parent);
+    void setParents(std::vector<GL_Object*> parents);
+    void addParent(GL_Object *parent);
+    QVector3D getParentsCenter();
 
 /*------------------------*
  *   OPEN GL PARAMETERS   *
@@ -46,7 +48,7 @@ protected:
     std::vector<GLfloat> vertices;
     std::vector<unsigned int> indices;
 
-    GL_Object *parent = nullptr;
+    std::vector<GL_Object*> parents = std::vector<GL_Object*>();
 
     QOpenGLTexture *texture;
 

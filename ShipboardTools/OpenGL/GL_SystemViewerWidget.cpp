@@ -132,7 +132,7 @@ void GL_SystemViewerWidget::leaveEvent(QEvent *e){
 
 void GL_SystemViewerWidget::updateData(std::string file){
 
-    QJsonObject rootObj = global::openJSON(QString::fromStdString(global::path()+"Systems/"+file+".json"));
+    QJsonObject rootObj = global::openJSON(QString::fromStdString(global::dataPath()+"Systems/"+file+".json"));
 
     // If file is not present
     if(rootObj.isEmpty()){
@@ -168,26 +168,31 @@ void GL_SystemViewerWidget::updateData(std::string file){
 
             GL_Orbit starOrbit(QVector3D(0, 0, 0), semiMajor, semiMinor,0);
 
+            std::vector<GL_Object*> parents = std::vector<GL_Object*>();
 
-            GL_Object *par = nullptr;
-            QJsonValue parentNameValue = starObject.value("parent");
+            QJsonValue parentNamesValue = starObject.value("parents");
 
-            if(!parentNameValue.isNull()){
-                std::string parentName = parentNameValue.toString().toStdString();
-                int i= 0;
-                while(i<models.size() && par==nullptr){
-                    GL_Unique *parent = dynamic_cast<GL_Unique*>(models.at(i));
-                    qDebug() << "Parent name = " << parentName << " ; current = " << parent->getName() << " ; Compare = " << parent->getName().compare(parentName);
-                    if(parent!=nullptr && parent->getName().compare(parentName)==0) par = parent;
-                    i++;
+            if(!parentNamesValue.isNull()){
+                QJsonArray parentNames = parentNamesValue.toArray();
+                for(auto parentNameVal : parentNames){
+                    std::string parentName = parentNameVal.toString().toStdString();
+                    GL_Object *par = nullptr;
+                    int i= 0;
+                    while(i<models.size() && par==nullptr){
+                        GL_Unique *parent = dynamic_cast<GL_Unique*>(models.at(i));
+                        qDebug() << "Parent name = " << parentName << " ; current = " << parent->getName() << " ; Compare = " << parent->getName().compare(parentName);
+                        if(parent!=nullptr && parent->getName().compare(parentName)==0) par = parent;
+                        i++;
+                    }
+                    if(par!=nullptr) parents.push_back(par);
                 }
             }
-            if (par == nullptr && models.size()>0) par = models.at(0);
+            if (parents.empty() && models.size()>0) parents.push_back(models.at(0));
 
 
             // Add star to models
             GL_Star *star = new GL_Star(starVertices, sphereIndices, starClass, starName, rad, 0.0, color, starOrbit);
-            star->setParent(par);
+            star->setParents(parents);
             star->loadTexture("starTexture1.jpg");
             models.push_back(star);
         }
@@ -244,24 +249,29 @@ void GL_SystemViewerWidget::updateData(std::string file){
             std::string textureName = world.value("texture").toString().toStdString();
             if(textureName.empty()) textureName="venus.jpg";
 
-            GL_Object *par = nullptr;
-            QJsonValue parentNameValue = orbiting.toObject().value("parent");
+            std::vector<GL_Object*> parents = std::vector<GL_Object*>();
+            QJsonValue parentNamesValue = orbiting.toObject().value("parents");
 
-            if(!parentNameValue.isNull()){
-                std::string parentName = parentNameValue.toString().toStdString();
-                int i= 0;
-                while(i<models.size() && par==nullptr){
-                    GL_Unique *parent = dynamic_cast<GL_Unique*>(models.at(i));
-                    qDebug() << "Parent name = " << parentName << " ; current = " << parent->getName() << " ; Compare = " << parent->getName().compare(parentName);
-                    if(parent!=nullptr && parent->getName().compare(parentName)==0) par = parent;
-                    i++;
+            if(!parentNamesValue.isNull()){
+                QJsonArray parentNames = parentNamesValue.toArray();
+                for(auto parentNameVal : parentNames){
+                    std::string parentName = parentNameVal.toString().toStdString();
+                    GL_Object *par = nullptr;
+                    int i= 0;
+                    while(i<models.size() && par==nullptr){
+                        GL_Unique *parent = dynamic_cast<GL_Unique*>(models.at(i));
+                        qDebug() << "Parent name = " << parentName << " ; current = " << parent->getName() << " ; Compare = " << parent->getName().compare(parentName);
+                        if(parent!=nullptr && parent->getName().compare(parentName)==0) par = parent;
+                        i++;
+                    }
+                    if(par!=nullptr) parents.push_back(par);
                 }
             }
-            if (par == nullptr) par = models.at(0);
+            if (parents.empty() && models.size()>0) parents.push_back(models.at(0));
 
             GL_Planet* p = new GL_Planet(planetVertices, sphereIndices, size, *o, name, uwp);
             p->loadTexture(textureName);
-            p->setParent(par);
+            p->setParents(parents);
             models.push_back(p);
         }
 
@@ -338,7 +348,7 @@ void GL_SystemViewerWidget::initialize(){
 
 void GL_SystemViewerWidget::initSphere(){
     Assimp::Importer importer;
-    const aiScene* scene = importer.ReadFile(global::path() + "Assets/Meshes/star.obj", aiProcess_Triangulate | aiProcess_FlipUVs);
+    const aiScene* scene = importer.ReadFile(global::dataPath() + "Assets/Meshes/star.obj", aiProcess_Triangulate | aiProcess_FlipUVs);
 
     if(!scene || (scene->mFlags && AI_SCENE_FLAGS_INCOMPLETE) || !scene->mRootNode){
         qDebug() << "ERROR::ASSIMP::" << importer.GetErrorString();

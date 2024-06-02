@@ -50,12 +50,12 @@ QMatrix4x4 GL_Star::getModelMatrix(){
     float positionX = stellarOrbit.getX_CurrentAngle();
     float positionY = stellarOrbit.getY_CurrentAngle();
 
-    if(this->parent!=nullptr) model.translate(parent->getPosition());
+    QVector3D parentsCenter = this->getParentsCenter();
+    model.translate(parentsCenter);
     model.translate(QVector3D(positionX, positionY, 0.0f));
     model.scale(scale);
 
-    if(parent!=nullptr) this->position = parent->getPosition() + QVector3D(positionX, positionY, 0);
-    else this->position = QVector3D(positionX, positionY, 0);
+    this->position = parentsCenter + QVector3D(positionX, positionY, 0);
 
     return model;
 }
@@ -80,7 +80,7 @@ void GL_Star::compileShaders(std::string vertexShaderName, std::string fragmentS
 
 void GL_Star::render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QVector3D diffuseLight){
     QMatrix4x4 parentTransform;
-    if(this->parent!=nullptr) parentTransform.translate(parent->getPosition());
+    //if(this->parent!=nullptr) parentTransform.translate(parent->getPosition());
 
     QOpenGLFunctions *f = QOpenGLContext::currentContext()->functions();
 
@@ -104,7 +104,7 @@ void GL_Star::render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QV
 
     if(this->stellarOrbit.getSemiMajor()>0) {
         model.setToIdentity();
-        if(this->parent!=nullptr) model.translate(parent->getPosition());
+        model.translate(this->getParentsCenter());
         this->stellarOrbit.render(model, projectionViewMatrix);
     }
 }

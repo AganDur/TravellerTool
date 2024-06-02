@@ -40,18 +40,22 @@
             "distance": 2
         }
     ],
-    "star":{
-        "class": "M1V",
-        "color": {
-            "red":0.8,
-            "green":0.0,
-            "blue":0.0
-        },
-        "radius": 0.51,
-        "mass": 0.4574
-    },
+    "stars":[
+        {
+            "class": "M1V",
+            "name": "Drinax A",
+            "color": {
+                "red":0.8,
+                "green":0.0,
+                "blue":0.0
+            },
+            "radius": 0.51,
+            "mass": 0.4574
+        }
+    ],
     "orbiting":[
         {
+            "parents": ["Drinax A"],
             "orbit": {
                 "type": "circle",
                 "radius":10

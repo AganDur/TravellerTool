@@ -19,7 +19,7 @@ void Dialog_SystemSelection::setApplication(ApplicationManager *a){
 
 void Dialog_SystemSelection::loadSystems(){
     // Get all System names from files
-    std::string systemFilesPath = global::path() + "Systems";
+    std::string systemFilesPath = global::dataPath() + "Systems";
     std::vector<std::string> systemNames = global::getAllJSONFiles(systemFilesPath);
 
     // Clear the combo box
@@ -33,7 +33,7 @@ void Dialog_SystemSelection::loadSystems(){
 
 void Dialog_SystemSelection::on_selectorBox_currentIndexChanged(int index){
     std::string selectedSystem = ui->selectorBox->currentText().toStdString();
-    QString filePath =QString::fromStdString(global::path() + "Systems\\" + selectedSystem + ".json");
+    QString filePath =QString::fromStdString(global::dataPath() + "Systems\\" + selectedSystem + ".json");
 
     QJsonObject root = global::openJSON(filePath);
 

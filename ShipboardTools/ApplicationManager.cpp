@@ -2,6 +2,7 @@
 #include "Launcher.h"
 #include "Window_SystemViewer.h"
 #include "Window_SectorMap.h"
+#include "Window_Options.h"
 #include "Dialogs/Dialog_SystemSelection.h"
 
 ApplicationManager::ApplicationManager(int argc, char *argv[]): QApplication{argc, argv}, launcherWindow{Launcher()}{
@@ -33,6 +34,11 @@ void ApplicationManager::showSectorMap(){
     this->sectorMapWindow = new Window_SectorMap();
     this->sectorMapWindow->setApplication(this);
     this->sectorMapWindow->show();//Maximized();
+}
+
+void ApplicationManager::showOptions(){
+    Window_Options *options = new Window_Options();
+    options->show();
 }
 
 void ApplicationManager::openDialog_SystemSelection(){

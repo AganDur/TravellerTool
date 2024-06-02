@@ -32,6 +32,8 @@ SOURCES += \
     OpenGL/GL_Unique.cpp \
     OpenGL/Gl_Widget.cpp \
     OpenGL/GL_Object.cpp \
+    Options_FolderLine.cpp \
+    Window_Options.cpp \
     Window_SectorMap.cpp \
     Window_SystemViewer.cpp \
     main.cpp \
@@ -43,6 +45,7 @@ HEADERS += \
     Data/Subsector.h \
     Data/System.h \
     Dialogs/Dialog_SystemSelection.h \
+    GlobalData.h \
     Globals.h \
     Graphics/DeleteElementsWorker.h \
     Graphics/Hexagon.h \
@@ -59,12 +62,15 @@ HEADERS += \
     OpenGL/GL_Unique.h \
     OpenGL/Gl_Widget.h \
     OpenGL/GL_Object.h \
+    Options_FolderLine.h \
+    Window_Options.h \
     Window_SectorMap.h \
     Window_SystemViewer.h
 
 FORMS += \
     Dialogs/Dialog_SystemSelection.ui \
     Launcher.ui \
+    Window_Options.ui \
     Window_SectorMap.ui \
     Window_SystemViewer.ui
 

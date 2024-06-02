@@ -26,7 +26,7 @@ private:
 
     std::string name;
 
-    QVector3D position;
+    QVector3D position = QVector3D();
 
     GLint positionAttribute = -1, textureCoordinatesAttribute = -1;
     GLint projectionViewMatrixUniform = -1, modelMatrixUniform = -1, colorUniform=-1;

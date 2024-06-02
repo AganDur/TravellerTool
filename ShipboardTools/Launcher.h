@@ -21,6 +21,8 @@ public:
 private slots:
     void on_SectorMapButton_clicked();
 
+    void on_optionButton_clicked();
+
 private:
     Ui::Launcher *ui;
 

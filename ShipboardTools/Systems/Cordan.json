@@ -50,8 +50,9 @@
             "distance": 2
         }
     ],
-    "star":{
+    "stars":[{
         "class": "F4V",
+        "name": "Cordan A",
         "color":{
             "red":0.8,
             "green":0.8,
@@ -59,7 +60,7 @@
         },
         "radius": 1,
         "mass": 1.38
-    },
+    }],
     "orbiting":[
         {
             "orbit": {

@@ -72,8 +72,22 @@ GL_Object::GL_Object(GL_Object &object){
 GL_Object::~GL_Object() {
 }
 
-void GL_Object::setParent(GL_Object *parent){
-    this->parent = parent;
+void GL_Object::setParents(std::vector<GL_Object *> parents){
+    this->parents = parents;
+}
+
+void GL_Object::addParent(GL_Object *parent){
+    this->parents.push_back(parent);
+}
+
+QVector3D GL_Object::getParentsCenter(){
+    if(parents.size() == 0 )return QVector3D(0,0,0);
+
+    QVector3D center = QVector3D();
+    for(auto parent: parents){
+        center += parent->getPosition();
+    }
+    return center/parents.size();
 }
 
 
@@ -101,13 +115,13 @@ void GL_Object::compileShaders(std::string vertexShaderName, std::string fragmen
     // Load Vertex Shader
     QOpenGLShader vert(QOpenGLShader::Vertex);
     vert.compileSourceFile(QString::fromStdString(
-       global::path() + "Assets/Shaders/"  + vertexShaderName + ".vert"
+       global::dataPath() + "Assets/Shaders/"  + vertexShaderName + ".vert"
     ));
 
     // Load Fragment Shader
     QOpenGLShader frag(QOpenGLShader::Fragment);
     frag.compileSourceFile(QString::fromStdString(
-       global::path() + "Assets/Shaders/"  + fragmentShaderName + ".frag"
+       global::dataPath() + "Assets/Shaders/"  + fragmentShaderName + ".frag"
     ));
 
     // Link Shaders
@@ -146,7 +160,7 @@ void GL_Object::loadMesh(std::string meshName) {
 
         // Open the mesh file
         const aiScene* scene = importer.ReadFile(
-            global::path() + "Assets/Meshes/" + meshName, aiProcess_Triangulate | aiProcess_FlipUVs
+            global::dataPath() + "Assets/Meshes/" + meshName, aiProcess_Triangulate | aiProcess_FlipUVs
         );
 
         // Throw an error and return if the file was not successfully open
@@ -221,7 +235,7 @@ void GL_Object::loadTexture(std::string textureName) {
     else {
         QImage textureImage;
         // Try to load the texture from file and add it to loaded textures
-        if(textureImage.load(QString::fromStdString(global::path() + "Assets/Textures/" + textureName))) {
+        if(textureImage.load(QString::fromStdString(global::dataPath() + "Assets/Textures/" + textureName))) {
             texturesLoaded.push_back(textureImage);
             texturesLoaded_Names.push_back(textureName);
             this->texture = new QOpenGLTexture(textureImage);

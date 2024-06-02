@@ -1,5 +1,6 @@
 #include <QApplication>
 #include "ApplicationManager.h"
+#include "Globals.h"
 
 #include <QLocale>
 #include <QTranslator>
@@ -24,6 +25,8 @@ int main(int argc, char *argv[])
     format.setDepthBufferSize(24);
     format.setSamples(8);
     QSurfaceFormat::setDefaultFormat(format);
+
+    global::readSettings();
 
     app.showLauncher();
 

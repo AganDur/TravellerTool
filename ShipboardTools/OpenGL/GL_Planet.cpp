@@ -60,13 +60,13 @@ QMatrix4x4 GL_Planet::getModelMatrix(){
     float positionX = planetaryOrbit.getX_CurrentAngle();
     float positionY = planetaryOrbit.getY_CurrentAngle();
 
-    if(this->parent!=nullptr) model.translate(parent->getPosition());
+    QVector3D parentsCenter = this->getParentsCenter();
+    model.translate(parentsCenter);
     model.translate(QVector3D(positionX, positionY, 0.0f));
     model.rotate(pitchAngle, QVector3D(0.0f, 1.0f, 0.0f));
     model.scale(scale);
 
-    if(parent!=nullptr) this->position = parent->getPosition() + QVector3D(positionX, positionY, 0);
-    else this->position = QVector3D(positionX, positionY, 0);
+    this->position = parentsCenter + QVector3D(positionX, positionY, 0);
 
     return model;
 }
@@ -128,7 +128,7 @@ void GL_Planet::render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, 
 
     // CALL ORBIT RENDER TOO
     model.setToIdentity();
-    if(this->parent!=nullptr) model.translate(parent->getPosition());
+    model.translate(this->getParentsCenter());
     this->planetaryOrbit.render(model, projectionViewMatrix);
 }
 

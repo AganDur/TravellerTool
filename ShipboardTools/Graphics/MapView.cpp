@@ -186,7 +186,7 @@ void MapView::initialize(){
 }
 
 bool MapView::findSystem(std::string name){
-    std::vector<std::string> systemNames = global::getAllJSONFiles(global::path() + "Systems");
+    std::vector<std::string> systemNames = global::getAllJSONFiles(global::dataPath() + "Systems");
 
     for(std::string s: systemNames){
         if(s.compare(name)==0) return true;

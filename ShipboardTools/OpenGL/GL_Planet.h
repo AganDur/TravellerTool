@@ -38,7 +38,7 @@ private:
 
     int nb_frames;
 
-    QVector3D position;
+    QVector3D position = QVector3D();
 
 /*----------------------*
  *   GETTER FUNCTIONS   *

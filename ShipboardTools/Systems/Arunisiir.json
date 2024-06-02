@@ -46,8 +46,9 @@
             "distance": 2
         }
     ],
-    "star":{
+    "stars":[{
         "class": "F8V Dwarf",
+        "name": "Arunisiir A",
         "color":{
             "red":0.9,
             "green":0.9,
@@ -55,10 +56,10 @@
         },
         "radius": 1,
         "mass": 1.14
-    },
+    }],
     "orbiting":[
         {
-            "parent": 0,
+            "parents":["Arunisiir A"],
             "orbit": {
                 "type": "circle",
                 "radius":5.6
@@ -70,7 +71,7 @@
             }
         },
         {
-            "parent": 0,
+            "parents":["Arunisiir A"],
             "orbit": {
                 "type": "circle",
 
@@ -83,7 +84,7 @@
             }
         },   
         {
-            "parent": 0,
+            "parents":["Arunisiir A"],
             "orbit": {
                 "type": "circle",
                 "radius": 11.5                
@@ -95,7 +96,7 @@
             }
         },    
         {
-            "parent": 0,
+            "parents":["Arunisiir A"],
             "orbit": {
                 "type": "circle",
                 "radius": 15.1                
@@ -107,7 +108,7 @@
             }
         },
         {
-            "parent": 0,
+            "parents":["Arunisiir A"],
             "orbit": {
                 "type": "circle",
                 "radius": 19.2                
@@ -119,7 +120,7 @@
             }
         },
         {
-            "parent": 0,
+            "parents":["Arunisiir A"],
             "orbit": {
                 "type": "circle",
                 "radius": 25.7                
@@ -131,7 +132,7 @@
             }
         },
         {
-            "parent": 0,
+            "parents":["Arunisiir A"],
             "orbit": {
                 "type": "circle",
                 "radius": 34.9                
@@ -143,7 +144,7 @@
             }
         },
         {
-            "parent": 0,
+            "parents":["Arunisiir A"],
             "orbit": {
                 "type": "circle",
                 "radius": 46                

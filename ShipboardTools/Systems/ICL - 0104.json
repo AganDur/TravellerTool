@@ -1,228 +1,210 @@
 {
-    "system": "Blue",
-    "sector": "Trojan Reach",
-    "subsector": "Tlaiowaha",
-    "hex": "2421",
-    "sizeRatio": 10,
+    "system": "ICL - 0104",
+    "sector": "Incognita Citerior",
+    "subsector": "L",
+    "hex": "2524",
     "close": [
+    ],
+    "stars":[
         {
-            "name": "Blue",
-            "hex": "2421",
-            "distance": 0
-        },
-        {
-            "name": "Clarke",
-            "hex": "2322",
-            "distance": 1
-        },
-        {
-            "name": "Arunisiir",
-            "hex": "2621",
-            "distance": 2
-        },
-        {
-            "name": "Exocet",
-            "hex": "2520",
-            "distance": 2
-        },
-        {
-            "name": "Torpol",
-            "hex": "2221",
-            "distance": 2
+            "class": "M0V",
+            "name": "ICL-0104 A",
+            "color":{
+                "red":1,
+                "green":1,
+                "blue":1
+            },
+            "radius": 1,
+            "mass": 0
         }
     ],
-    "stars":[{
-        "class": "F9V Dwarf",
-        "name": "Blue A",
-        "color":{
-            "red":1,
-            "green":1,
-            "blue":0.6
-        },
-        "radius": 1,
-        "mass": 1.092
-    }],
     "orbiting":[
         {
-            "parents":[ "Blue A" ],
             "orbit": {
                 "type": "circle",
-                "radius":5.2
+                "radius": 0.352
             },
             "world":{
-                "name": "BLUE-0",
+                "name": "Tinpot",
                 "uwp": "",
                 "size": 0.1
             }
         },
         {
-            "parents":[ "Blue A" ],
             "orbit": {
                 "type": "circle",
-                "radius":7.4
+                "radius": 0.76
             },
             "world":{
-                "name": "BLUE-1",
+                "name": "Tinpot Moon",
                 "uwp": "",
                 "size": 0.1
             }
         },
         {
-        "parents":[ "Blue A" ],
-            "orbit": {
-                "type": "ellipsis",
-                "semi-major": 11.5,
-                "semi-minor": 10.5                
-            },
-            "world":{
-                "name": "Blue",
-                "uwp": "B543487-B Ni Po",
-                "size": 0.2
-            }
-        },
-        {
-        "parents":[ "Blue A" ],
             "orbit": {
                 "type": "circle",
-                "radius":14.2
+                "radius": 1.236               
             },
             "world":{
-                "name": "BLUE-2",
+                "name": "Apsho Two",
                 "uwp": "",
-                "size": 0.1
+                "size": 0.3
             }
         },
         {
-        "parents":[ "Blue A" ],
             "orbit": {
                 "type": "circle",
-                "radius": 17.5                
+                "radius": 1.576              
             },
             "world":{
-                "name": "BLUE-3",
+                "name": "Arunisiir",
                 "uwp": "",
                 "size": 0.2
             }
         },
         {
-        "parents":[ "Blue A" ],
             "orbit": {
                 "type": "circle",
-                "radius": 26.7                
+                "radius": 2.018               
             },
             "world":{
-                "name": "BLUE-4",
+                "name": "George",
+                "uwp": "",
+                "size": 0.3
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 2.426
+            },
+            "world":{
+                "name": "Errat",
                 "uwp": "",
                 "size": 0.2
             }
         },
         {
-        "parents":[ "Blue A" ],
             "orbit": {
                 "type": "circle",
-                "radius": 33.2                
+                "radius": 2.448            
             },
             "world":{
-                "name": "BLUE-5",
+                "name": "Cartier's Giant",
                 "uwp": "",
                 "size": 0.2
             }
         },
         {
-        "parents":[ "Blue A" ],
             "orbit": {
                 "type": "circle",
-                "radius": 37.8                
+                "radius": 2.868              
             },
             "world":{
-                "name": "BLUE-6",
+                "name": "Claimstake",
                 "uwp": "",
                 "size": 0.2
             }
         },
         {
-        "parents":[ "Blue A" ],
             "orbit": {
                 "type": "circle",
-                "radius": 48.3                
+                "radius": 3.208             
             },
             "world":{
-                "name": "BLUE-7",
+                "name": "Claimstake",
                 "uwp": "",
                 "size": 0.2
             }
         },
         {
-        "parents":[ "Blue A" ],
             "orbit": {
                 "type": "circle",
-                "radius": 59.1                
+                "radius": 3.582              
             },
             "world":{
-                "name": "BLUE-8",
+                "name": "Claimstake",
                 "uwp": "",
                 "size": 0.2
             }
         },
         {
-        "parents":[ "Blue A" ],
             "orbit": {
                 "type": "circle",
-                "radius": 65.7                
+                "radius": 4.018              
             },
             "world":{
-                "name": "BLUE-9",
+                "name": "Claimstake",
                 "uwp": "",
                 "size": 0.2
             }
         },
         {
-        "parents":[ "Blue A" ],
             "orbit": {
                 "type": "circle",
-                "radius": 72.2                
+                "radius": 4.324              
             },
             "world":{
-                "name": "BLUE-10",
+                "name": "Claimstake",
                 "uwp": "",
                 "size": 0.2
             }
         },
         {
-        "parents":[ "Blue A" ],
             "orbit": {
                 "type": "circle",
-                "radius": 88.1                
+                "radius": 4.63              
             },
             "world":{
-                "name": "BLUE-11",
+                "name": "Claimstake",
                 "uwp": "",
                 "size": 0.2
             }
         },
         {
-        "parents":[ "Blue A" ],
             "orbit": {
                 "type": "circle",
-                "radius": 98.75                
+                "radius": 4.8595              
             },
             "world":{
-                "name": "BLUE-G0",
+                "name": "Claimstake",
                 "uwp": "",
                 "size": 0.2
             }
         },
         {
-        "parents":[ "Blue A" ],
             "orbit": {
                 "type": "circle",
-                "radius": 132.7                
+                "radius": 5.1655              
             },
             "world":{
-                "name": "Bulhai",
+                "name": "Claimstake",
                 "uwp": "",
                 "size": 0.2
             }
-        }        
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 5.395              
+            },
+            "world":{
+                "name": "Claimstake",
+                "uwp": "",
+                "size": 0.2
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 5.7265              
+            },
+            "world":{
+                "name": "Claimstake",
+                "uwp": "",
+                "size": 0.2
+            }
+        }
     ]
 }

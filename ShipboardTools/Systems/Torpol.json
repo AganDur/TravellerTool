@@ -40,8 +40,9 @@
             "distance": 2
         }
     ],
-    "star":{
+    "stars":[{
         "class": "FV",
+        "name": "Torpol A",
         "radius": 0.5,
         "color":{
             "red":1,
@@ -49,7 +50,7 @@
             "blue":1
         },
         "mass": 0
-    },
+    }],
     "orbiting":[
         {
             "orbit": {

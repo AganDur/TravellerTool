@@ -21,3 +21,8 @@ void Launcher::on_SectorMapButton_clicked(){
 }
 
 
+
+void Launcher::on_optionButton_clicked(){
+    this->app->showOptions();
+}
+
