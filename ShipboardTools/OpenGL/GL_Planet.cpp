@@ -57,17 +57,24 @@ GL_Planet::~GL_Planet(){
 QMatrix4x4 GL_Planet::getModelMatrix(){
     QMatrix4x4 model;
 
+    // Handle orbit rotations
+    model.rotate(planetaryOrbit.getArgumentOfPeriapsis(), QVector3D(0,0,1));
+    model.rotate(planetaryOrbit.getInclination(), QVector3D(0,1,0));
+    if(planetaryOrbit.getEccentricity()!=0) model.rotate(planetaryOrbit.getLongitudeOfAscendingNode(), QVector3D(0,0,1));
+
+    // Find model place on orbit
     float positionX = planetaryOrbit.getX_CurrentAngle();
     float positionY = planetaryOrbit.getY_CurrentAngle();
+    model.translate(QVector3D(positionX, positionY, 0.0f));
 
+    // Place model depending on parents
     QVector3D parentsCenter = this->getParentsCenter();
     model.translate(parentsCenter);
-    model.translate(QVector3D(positionX, positionY, 0.0f));
-    model.rotate(pitchAngle, QVector3D(0.0f, 1.0f, 0.0f));
+
+    // Scale model
     model.scale(scale);
 
     this->position = parentsCenter + QVector3D(positionX, positionY, 0);
-
     return model;
 }
 
@@ -98,7 +105,7 @@ void GL_Planet::compileShaders(std::string vertexShaderName, std::string fragmen
     }
 }
 
-void GL_Planet::render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QVector3D diffuseLight){
+void GL_Planet::render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QVector3D diffuseLight, QVector3D lightPosition, QVector3D cameraPosition){
 
     QOpenGLFunctions *f = QOpenGLContext::currentContext()->functions();
 

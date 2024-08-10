@@ -81,7 +81,7 @@ void GL_Object::addParent(GL_Object *parent){
 }
 
 QVector3D GL_Object::getParentsCenter(){
-    if(parents.size() == 0 )return QVector3D(0,0,0);
+    if(parents.size() == 0 ) return QVector3D(0,0,0);
 
     QVector3D center = QVector3D();
     for(auto parent: parents){
@@ -180,6 +180,11 @@ void GL_Object::loadMesh(std::string meshName) {
             vertices.push_back(meshData->mVertices[i].y);
             vertices.push_back(meshData->mVertices[i].z);
 
+            // Load the Normal data
+            vertices.push_back(meshData->mNormals[i].x);
+            vertices.push_back(meshData->mNormals[i].y);
+            vertices.push_back(meshData->mNormals[i].z);
+
             // Load the Vertex UV data
             vertices.push_back(meshData->mTextureCoords[0][i].x);
             vertices.push_back(meshData->mTextureCoords[0][i].y);
@@ -196,12 +201,14 @@ void GL_Object::loadMesh(std::string meshName) {
     }
 
     // Prepare the buffers for rendering with the newly-loaded data
+    /*
     VAO.bind();
     VBO->bind();
     EBO->bind();
     VBO->allocate(vertices.data(), vertices.size()*sizeof(GLfloat));
     EBO->allocate(indices.data(), indices.size()*sizeof(unsigned int));
     VAO.release();
+    */
 }
 
 /**
@@ -212,6 +219,7 @@ void GL_Object::loadMesh(std::string meshName) {
  *  - If the texture has already been loaded once, the already-loaded data can be reused.
  */
 void GL_Object::loadTexture(std::string textureName) {
+    std::cout << textureName << std::endl;
     bool loaded = false;
     int textureIndex;
     int i=0;
@@ -235,13 +243,14 @@ void GL_Object::loadTexture(std::string textureName) {
     else {
         QImage textureImage;
         // Try to load the texture from file and add it to loaded textures
-        if(textureImage.load(QString::fromStdString(global::dataPath() + "Assets/Textures/" + textureName))) {
+        if(textureImage.load(QString::fromStdString(global::dataPath() + textureName))) {
             texturesLoaded.push_back(textureImage);
             texturesLoaded_Names.push_back(textureName);
             this->texture = new QOpenGLTexture(textureImage);
         }
         else {
             qDebug() << "Error Loading the selected texture.";
+            return;
         }
     }
     texture->bind();
@@ -250,7 +259,7 @@ void GL_Object::loadTexture(std::string textureName) {
 /*
  * Virtual functions to be defined in child classes
  */
-void GL_Object::render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QVector3D diffuseLight){
+void GL_Object::render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QVector3D diffuseLight, QVector3D lightPosition, QVector3D cameraPosition){
     qDebug() << "VIRTUAL RENDER IN GL_Object SHOULD BE REDEFINED IN CHILD CLASS;";
 }
 void GL_Object::updateTime(double timeRatio){

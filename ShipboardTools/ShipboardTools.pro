@@ -16,6 +16,7 @@ SOURCES += \
     Data/Sector.cpp \
     Data/Subsector.cpp \
     Data/System.cpp \
+    Dialogs/Dialog_ShipSelection.cpp \
     Dialogs/Dialog_SystemSelection.cpp \
     Globals.cpp \
     Graphics/DeleteElementsWorker.cpp \
@@ -27,6 +28,8 @@ SOURCES += \
     OpenGL/GL_Mesh.cpp \
     OpenGL/GL_Orbit.cpp \
     OpenGL/GL_Planet.cpp \
+    OpenGL/GL_Ship.cpp \
+    OpenGL/GL_ShipViewerWidget.cpp \
     OpenGL/GL_Star.cpp \
     OpenGL/GL_SystemViewerWidget.cpp \
     OpenGL/GL_Unique.cpp \
@@ -35,6 +38,7 @@ SOURCES += \
     Options_FolderLine.cpp \
     Window_Options.cpp \
     Window_SectorMap.cpp \
+    Window_ShipViewer.cpp \
     Window_SystemViewer.cpp \
     main.cpp \
     Launcher.cpp
@@ -44,6 +48,7 @@ HEADERS += \
     Data/Sector.h \
     Data/Subsector.h \
     Data/System.h \
+    Dialogs/Dialog_ShipSelection.h \
     Dialogs/Dialog_SystemSelection.h \
     GlobalData.h \
     Globals.h \
@@ -57,6 +62,8 @@ HEADERS += \
     OpenGL/GL_Mesh.h \
     OpenGL/GL_Orbit.h \
     OpenGL/GL_Planet.h \
+    OpenGL/GL_Ship.h \
+    OpenGL/GL_ShipViewerWidget.h \
     OpenGL/GL_Star.h \
     OpenGL/GL_SystemViewerWidget.h \
     OpenGL/GL_Unique.h \
@@ -65,19 +72,22 @@ HEADERS += \
     Options_FolderLine.h \
     Window_Options.h \
     Window_SectorMap.h \
+    Window_ShipViewer.h \
     Window_SystemViewer.h
 
 FORMS += \
+    Dialogs/Dialog_ShipSelection.ui \
     Dialogs/Dialog_SystemSelection.ui \
     Launcher.ui \
     Window_Options.ui \
     Window_SectorMap.ui \
+    Window_ShipViewer.ui \
     Window_SystemViewer.ui
 
 LIBS += -lOpenGL32
+LIBS += User32.lib
 LIBS += -lglu32
 LIBS += $$PWD\Libs\Libs\assimp-vc143-mt.lib
-LIBS += User32.lib
 
 TRANSLATIONS += \
     ShipboardTools_en_GB.ts

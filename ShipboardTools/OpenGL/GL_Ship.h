@@ -1,32 +1,17 @@
-#ifndef GL_PLANET_H
-#define GL_PLANET_H
+#ifndef GL_SHIP_H
+#define GL_SHIP_H
 
 #include "GL_Unique.h"
-#include "GL_Orbit.h"
 
-#include <string>
-#include <vector>
+class GL_Ship : public GL_Unique {
 
-class GL_Planet: public GL_Unique {
-/*------------------*
- *   CONSTRUCTORS   *
- *------------------*/
 public:
-    GL_Planet(std::vector<GLfloat> vertices, std::vector<unsigned int> indices, float size, GL_Orbit orbit, std::string name, std::string uwp);
-    ~GL_Planet();
+    GL_Ship(std::string file, std::string name, std::string texture, QVector3D position);
 
-
-/*-----------------------*
- *   PLANET PARAMETERS   *
- *-----------------------*/
 private:
-    GL_Orbit planetaryOrbit;
-    float distanceFromSun;
-    float pitchAngle=0;
-
-    float size;
     std::string name;
-    std::string UWP;
+
+    bool active = false;
 
 /*-----------------------*
  *   OPENGL PARAMETERS   *
@@ -34,9 +19,7 @@ private:
 private:
     GLint positionAttribute = -1, normalAttribute = -1 , textureCoordinatesAttribute = -1;
     GLint projectionViewMatrixUniform = -1, modelMatrixUniform = -1, ambientLightUniform = -1, diffuseLightUniform=-1, colorUniform=-1, lightPositionUniform=-1;
-    GLint normalMatrixUniform = -1;
-
-    int nb_frames;
+    GLint normalMatrixUniform = -1, cameraPositionUniform = -1;
 
     QVector3D position = QVector3D();
 
@@ -45,7 +28,6 @@ private:
  *----------------------*/
 private:
     QMatrix4x4 getModelMatrix();
-    QVector3D getPosition() override;
 
 /*----------------------*
  *   OPENGL FUNCTIONS   *
@@ -56,7 +38,7 @@ public:
     void render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QVector3D diffuseLight,
                 QVector3D lightPosition=QVector3D(0,0,0), QVector3D cameraPosition=QVector3D(0,0,0)) override;
 
-    void updateTime(double timeRatio) override;
+    void setActivate(bool active);
 };
 
-#endif // GL_PLANET_H
+#endif // GL_SHIP_H

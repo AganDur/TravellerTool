@@ -75,7 +75,6 @@ void Window_Options::deleteFolder(Options_FolderLine *folder) {
 
     // Check if removed location was selected, then set current location to default
     if(removedFolder.compare(global::dataPath())==0) {
-        auto test = ui->dataLocationBox->itemAt(0);
         Options_FolderLine *newFolder = dynamic_cast<Options_FolderLine*>(ui->dataLocationBox->itemAt(0)->widget());
         newFolder->setChecked(true);
         global::setPath(global::path());

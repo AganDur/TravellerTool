@@ -53,9 +53,11 @@ QMatrix4x4 GL_Camera::getView(){
  *----------------------*/
 void GL_Camera::setPosition(QVector3D pos) {
     position = pos;
+    if(!init) originalPosition = pos;
 }
 void GL_Camera::setDirection(QVector3D dir){
     direction = dir;
+    if(!init) originalDirection = dir;
     calculateVectors();
 }
 void GL_Camera::setPitch(float p){
@@ -72,6 +74,10 @@ void GL_Camera::setZoom(float z){
     zoom = z;
     if(zoom < 1) zoom = 1;
     if(zoom > 45) zoom = 45;
+}
+
+void GL_Camera::setInit(bool init){
+    this->init = init;
 }
 
 /*-----------------------*
@@ -108,8 +114,8 @@ void GL_Camera::moveUp(float speed){
  * incluuding position, direction, zoom, pitch and yaw.
  */
 void GL_Camera::reset(){
-    setPosition(QVector3D(0.0f, 0.0f, 50.0f));
-    setDirection(QVector3D(0.0f, 0.0f, -1.0f));
+    setPosition(originalPosition);
+    setDirection(originalDirection);
     zoom = 45.0f;
     pitch = 0.0f;
     yaw=-90.0f;

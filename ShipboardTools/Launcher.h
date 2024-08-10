@@ -23,6 +23,8 @@ private slots:
 
     void on_optionButton_clicked();
 
+    void on_shipMapButton_clicked();
+
 private:
     Ui::Launcher *ui;
 

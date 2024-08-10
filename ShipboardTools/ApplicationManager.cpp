@@ -1,9 +1,13 @@
 #include "ApplicationManager.h"
 #include "Launcher.h"
 #include "Window_SystemViewer.h"
+#include "Window_ShipViewer.h"
 #include "Window_SectorMap.h"
 #include "Window_Options.h"
 #include "Dialogs/Dialog_SystemSelection.h"
+#include "Dialogs/Dialog_ShipSelection.h"
+
+#include <iostream>
 
 ApplicationManager::ApplicationManager(int argc, char *argv[]): QApplication{argc, argv}, launcherWindow{Launcher()}{
     launcherWindow.setApplicationManager(this);
@@ -20,9 +24,7 @@ void ApplicationManager::showLauncher(){
 }
 
 void ApplicationManager::showSystemViewer(){
-
     this->systemViewerWindow = new Window_SystemViewer(this->currentSystem);
-
     this->systemViewerWindow->showMaximized();
 }
 
@@ -33,12 +35,25 @@ void ApplicationManager::showSectorMap(){
 
     this->sectorMapWindow = new Window_SectorMap();
     this->sectorMapWindow->setApplication(this);
-    this->sectorMapWindow->show();//Maximized();
+    this->sectorMapWindow->show();
 }
 
 void ApplicationManager::showOptions(){
     Window_Options *options = new Window_Options();
     options->show();
+}
+
+void ApplicationManager::showShipViewer(std::string ship){
+    this->launcherWindow.close();
+    this->shipViewerWindow = new Window_ShipViewer(ship);
+    this->shipViewerWindow->showMaximized();
+}
+
+void ApplicationManager::openDialog_ShipSelection(){
+    Dialog_ShipSelection *dialog = new Dialog_ShipSelection();
+    dialog->setApplication(this);
+    dialog->setModal(true);
+    dialog->show();
 }
 
 void ApplicationManager::openDialog_SystemSelection(){

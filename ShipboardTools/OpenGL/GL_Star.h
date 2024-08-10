@@ -39,7 +39,8 @@ private:
 public:
     void compileShaders(std::string vertexShaderName, std::string fragmentShaderName) override;
 
-    void render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QVector3D diffuseLight) override;
+    void render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QVector3D diffuseLight,
+                QVector3D lightPosition=QVector3D(0,0,0), QVector3D cameraPosition=QVector3D(0,0,0)) override;
 
     void updateTime(double timeRatio) override;
 

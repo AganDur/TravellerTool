@@ -166,7 +166,11 @@ void GL_SystemViewerWidget::updateData(std::string file){
             float eccentricity = starObject.value("eccentricity").toDouble(0);
             float semiMinor = semiMajor * sqrt(1 - (eccentricity*eccentricity));
 
-            GL_Orbit starOrbit(QVector3D(0, 0, 0), semiMajor, semiMinor,0);
+            float inclination = starObject.value("inclination").toDouble(0);
+            float argument = starObject.value("argument").toDouble(0);
+            float longitude = starObject.value("longitude").toDouble(0);
+
+            GL_Orbit starOrbit(QVector3D(0, 0, 0), semiMajor, semiMinor,0, inclination, argument, longitude);
 
             std::vector<GL_Object*> parents = std::vector<GL_Object*>();
 
@@ -180,20 +184,18 @@ void GL_SystemViewerWidget::updateData(std::string file){
                     int i= 0;
                     while(i<models.size() && par==nullptr){
                         GL_Unique *parent = dynamic_cast<GL_Unique*>(models.at(i));
-                        qDebug() << "Parent name = " << parentName << " ; current = " << parent->getName() << " ; Compare = " << parent->getName().compare(parentName);
                         if(parent!=nullptr && parent->getName().compare(parentName)==0) par = parent;
                         i++;
                     }
                     if(par!=nullptr) parents.push_back(par);
                 }
             }
-            if (parents.empty() && models.size()>0) parents.push_back(models.at(0));
 
 
             // Add star to models
             GL_Star *star = new GL_Star(starVertices, sphereIndices, starClass, starName, rad, 0.0, color, starOrbit);
             star->setParents(parents);
-            star->loadTexture("starTexture1.jpg");
+            star->loadTexture("Assets/Textures/starTexture1.jpg");
             models.push_back(star);
         }
 
@@ -224,7 +226,13 @@ void GL_SystemViewerWidget::updateData(std::string file){
                     SemiMinor = SemiMajor * sqrt(1 - (eccentricity * eccentricity));
                 }
             }
-            GL_Orbit* o = new GL_Orbit(QVector3D(0,0,0), SemiMajor, SemiMinor, 0);
+
+            float inclination = orbitObject.value("inclination").toDouble(0);
+            qDebug() << "Inclination = " << inclination;
+            float argument = orbitObject.value("argument").toDouble(0);
+            float longitude = orbitObject.value("longitude").toDouble(0);
+
+            GL_Orbit* o = new GL_Orbit(QVector3D(0,0,0), SemiMajor, SemiMinor, 0, inclination, argument, longitude);
             if(orbitObject.contains("color")){
                 QJsonObject colorObject = orbitObject.value("color").toObject();
                 qDebug() << "Found color orbit" ;
@@ -260,17 +268,15 @@ void GL_SystemViewerWidget::updateData(std::string file){
                     int i= 0;
                     while(i<models.size() && par==nullptr){
                         GL_Unique *parent = dynamic_cast<GL_Unique*>(models.at(i));
-                        qDebug() << "Parent name = " << parentName << " ; current = " << parent->getName() << " ; Compare = " << parent->getName().compare(parentName);
                         if(parent!=nullptr && parent->getName().compare(parentName)==0) par = parent;
                         i++;
                     }
                     if(par!=nullptr) parents.push_back(par);
                 }
             }
-            if (parents.empty() && models.size()>0) parents.push_back(models.at(0));
 
             GL_Planet* p = new GL_Planet(planetVertices, sphereIndices, size, *o, name, uwp);
-            p->loadTexture(textureName);
+            p->loadTexture("Assets/Textures/"+textureName);
             p->setParents(parents);
             models.push_back(p);
         }

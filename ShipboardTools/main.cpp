@@ -5,9 +5,12 @@
 #include <QLocale>
 #include <QTranslator>
 #include <QSurfaceFormat>
+#include <QImageReader>
 
 int main(int argc, char *argv[])
 {
+    QImageReader::setAllocationLimit(0);
+
     //QApplication a(argc, argv);
     ApplicationManager app(argc, argv);
 

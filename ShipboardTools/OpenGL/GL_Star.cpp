@@ -57,7 +57,12 @@ QMatrix4x4 GL_Star::getModelMatrix(){
 
     this->position = parentsCenter + QVector3D(positionX, positionY, 0);
 
-    return model;
+    QMatrix4x4 finalTransform = model;
+    finalTransform.rotate(stellarOrbit.getArgumentOfPeriapsis(), QVector3D(0,0,1));
+    finalTransform.rotate(stellarOrbit.getInclination(), QVector3D(0,1,0));
+    if(stellarOrbit.getEccentricity()!=0) finalTransform.rotate(stellarOrbit.getLongitudeOfAscendingNode(), QVector3D(0,0,1));
+
+    return finalTransform;
 }
 
 /*------------------------*
@@ -78,7 +83,7 @@ void GL_Star::compileShaders(std::string vertexShaderName, std::string fragmentS
     }
 }
 
-void GL_Star::render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QVector3D diffuseLight){
+void GL_Star::render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QVector3D diffuseLight, QVector3D lightPosition, QVector3D cameraPosition){
     QMatrix4x4 parentTransform;
     //if(this->parent!=nullptr) parentTransform.translate(parent->getPosition());
 

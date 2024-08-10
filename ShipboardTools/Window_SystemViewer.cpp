@@ -9,7 +9,6 @@
 #include <QSurfaceFormat>
 
 Window_SystemViewer::Window_SystemViewer(std::string system, QWidget *parent): QMainWindow(parent), ui(new Ui::Window_SystemViewer) {
-
     QSurfaceFormat format;
     format.setDepthBufferSize(24);
     format.setSamples(8);

@@ -7,6 +7,7 @@
 #include <QApplication>
 
 class Window_SectorMap;
+class Window_ShipViewer;
 
 class ApplicationManager: public QApplication {
 public:
@@ -16,6 +17,7 @@ private:
     Launcher launcherWindow;
     Window_SystemViewer *systemViewerWindow;
     Window_SectorMap *sectorMapWindow;
+    Window_ShipViewer *shipViewerWindow;
 
     std::string currentSystem;
     std::string currentSelectedSystem;
@@ -25,7 +27,9 @@ public:
     void showSystemViewer();
     void showSectorMap();
     void showOptions();
+    void showShipViewer(std::string ship);
 
+    void openDialog_ShipSelection();
     void openDialog_SystemSelection();
 
     void changeSystem(std::string newSystem);

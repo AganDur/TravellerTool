@@ -24,11 +24,16 @@ const char* fragmentSource =
  *   CONSTRUCTORS   *
  *------------------*/
 // Default Class Constructor
-GL_Orbit::GL_Orbit(QVector3D center, float semiMajor, float semiMinor, int rotation){
+GL_Orbit::GL_Orbit(QVector3D center, float semiMajor, float semiMinor, int rotation, float inclination, float argument, float longitude){
     this->center=center;
     this->semiMajor = semiMajor;
     this->semiMinor = semiMinor;
     this->rotation = rotation;
+
+    this->inclination = inclination;
+    qDebug() << "New Inclination : " << this->inclination;
+    this->argumentOfPeriapsis = argument;
+    this->longitudeOfAscendingNode = longitude;
 
     // When the orbit is a true circle
     if(semiMinor==semiMajor){
@@ -100,6 +105,9 @@ GL_Orbit::GL_Orbit(GL_Orbit &o){
     this->eccentricity = o.eccentricity;
     this->distanceToFocus = o.distanceToFocus;
     this->rotation = o.rotation;
+    this->inclination = o.inclination;
+    this->argumentOfPeriapsis = o.argumentOfPeriapsis;
+    this->longitudeOfAscendingNode = o.longitudeOfAscendingNode;
 
     this->vertices = o.vertices;
 
@@ -153,34 +161,37 @@ float GL_Orbit::getX_NoAngle(){
 }
 float GL_Orbit::getX_Angle(float angle){
     float xO = semiMajor * cos(angle*3.14/180);
-    float yO = semiMinor * sin(angle*3.14/180);
-    float X = xO + distanceToFocus;
-    return X;
+    return xO + distanceToFocus;
 }
 float GL_Orbit::getX_CurrentAngle(){
-    //float xO = semiMajor * cos(lastAngle*3.14/180);
-    //float yO = semiMinor * sin(lastAngle*3.14/180);
-    //float X = xO + distanceToFocus;
     return pos.x();
 }
 
 float GL_Orbit::getY_NoAngle(){
-    float xO = semiMajor;
-    float yO = 0;
-    float Y = 0;//y0*cos(rotation*3.14/180) + xO*sin(rotation*3.14/180);
-    return Y;
+    return 0;
 }
 float GL_Orbit::getY_Angle(float angle){
-    float xO = semiMajor * cos(angle*3.14/180);
     float yO = semiMinor * sin(angle*3.14/180);
-    float Y = yO;//yO*cos(rotation*3.14/180) + xO*sin(rotation*3.14/180);
-    return Y;
+    return yO;
 }
 float GL_Orbit::getY_CurrentAngle(){
-    //float xO = semiMajor * cos(lastAngle*3.14/180);
-    //float yO = semiMinor * sin(lastAngle*3.14/180);
-    //float Y = yO;//*cos(rotation*3.14/180) + xO*sin(rotation*3.14/180);
     return pos.y();
+}
+
+float GL_Orbit::getEccentricity(){
+    return this->eccentricity;
+}
+
+float GL_Orbit::getInclination(){
+    return this->inclination;
+}
+
+float GL_Orbit::getArgumentOfPeriapsis(){
+    return this->argumentOfPeriapsis;
+}
+
+float GL_Orbit::getLongitudeOfAscendingNode(){
+    return this->longitudeOfAscendingNode;
 }
 
 
@@ -226,9 +237,10 @@ void GL_Orbit::increaseAngle(double timeRatio){
 
 void GL_Orbit::calculateOrbit(double timeStep){
     double step = fmin(0.001, timeStep);
+    int nbSteps = timeStep / step;
 
     if(this->semiMajor > 0 ){
-        for(double i=0 ; i<timeStep ; i+=step){
+        for(int i=0 ; i<nbSteps ; i++){
             // Get normalize Position vector (R)
             QVector3D normPos = pos;
             normPos.normalize();
@@ -266,7 +278,12 @@ void GL_Orbit::render(QMatrix4x4 modelMatrix, QMatrix4x4 projectionViewMatrix){
     f->glEnableVertexAttribArray(0);
     f->glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3*sizeof(GLfloat), (void*)0);
 
-    shaderProgram->setUniformValue(m_modelMatrixUniform, modelMatrix);
+    QMatrix4x4 finalTransform = modelMatrix;
+    finalTransform.rotate(this->argumentOfPeriapsis, QVector3D(0,0,1));
+    finalTransform.rotate(this->inclination, QVector3D(0,1,0));
+    if(this->eccentricity!=0) finalTransform.rotate(this->longitudeOfAscendingNode, QVector3D(0,0,1));
+
+    shaderProgram->setUniformValue(m_modelMatrixUniform, finalTransform);
     shaderProgram->setUniformValue(m_projectionMatrixUniform, projectionViewMatrix);
     shaderProgram->setUniformValue(m_colorUniform, QVector3D(1,1,1));
 

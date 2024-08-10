@@ -71,7 +71,8 @@ public:
     void loadMesh(std::string meshName);
     void loadTexture(std::string textureName);
 
-    virtual void render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QVector3D diffuseLight);
+    virtual void render(QMatrix4x4 projectionViewMatrix, QVector3D ambientLight, QVector3D diffuseLight,
+                        QVector3D lightPosition=QVector3D(0,0,0), QVector3D cameraPosition=QVector3D(0,0,0));
     virtual void updateTime(double timeRatio);
 
     virtual QVector3D getColor();

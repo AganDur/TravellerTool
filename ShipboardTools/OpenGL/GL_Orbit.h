@@ -9,7 +9,7 @@ class GL_Orbit{
  *   CONSTRUCTORS   *
  *------------------*/
 public:
-    GL_Orbit(QVector3D center, float semiMajor, float semiMinor, int rotation);
+    GL_Orbit(QVector3D center, float semiMajor, float semiMinor, int rotation, float inclination, float argument, float longitude);
     GL_Orbit(GL_Orbit &o);
 
 
@@ -23,6 +23,10 @@ private:
     float eccentricity;
     float distanceToFocus;
     float rotation;
+
+    float inclination=0;
+    float argumentOfPeriapsis=0;
+    float longitudeOfAscendingNode=0;
 
     float completeSurface;
     float lastAngle = 0;
@@ -59,6 +63,11 @@ public:
     float getY_NoAngle();
     float getY_Angle(float angle);
     float getY_CurrentAngle();
+
+    float getEccentricity();
+    float getInclination();
+    float getArgumentOfPeriapsis();
+    float getLongitudeOfAscendingNode();
 
 
 /*----------------------*

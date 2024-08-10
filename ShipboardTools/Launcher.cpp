@@ -20,9 +20,12 @@ void Launcher::on_SectorMapButton_clicked(){
     this->close();
 }
 
-
-
 void Launcher::on_optionButton_clicked(){
     this->app->showOptions();
+}
+
+
+void Launcher::on_shipMapButton_clicked(){
+    this->app->openDialog_ShipSelection();
 }
 

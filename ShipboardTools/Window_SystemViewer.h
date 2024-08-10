@@ -9,8 +9,7 @@ class Window_SystemViewer;
 
 class GL_SystemViewerWidget;
 
-class Window_SystemViewer : public QMainWindow
-{
+class Window_SystemViewer : public QMainWindow {
     Q_OBJECT
 
 public:

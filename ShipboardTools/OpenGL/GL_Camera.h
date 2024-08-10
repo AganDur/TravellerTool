@@ -19,6 +19,10 @@ public:
  *   VARIABLES   *
  *---------------*/
 private:
+    QVector3D originalPosition;
+    QVector3D originalDirection;
+    bool init = false;
+
     QVector3D position;
     QVector3D direction;
     constexpr static QVector3D worldUp{0.0f, 1.0f, 0.0f};
@@ -47,6 +51,7 @@ public:
     void setPitch(float p);
     void setYaw(float y);
     void setZoom(float z);
+    void setInit(bool init);
 
 /*-----------------------*
  *   CONTROL FUNCTIONS   *

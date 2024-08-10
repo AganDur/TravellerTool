@@ -1,5 +1,5 @@
-#ifndef GL_SYSTEMVIEWERWIDGET_H
-#define GL_SYSTEMVIEWERWIDGET_H
+#ifndef GL_SHIPVIEWERWIDGET_H
+#define GL_SHIPVIEWERWIDGET_H
 
 #include <Windows.h>
 #include <WinUser.h>
@@ -13,18 +13,13 @@
 
 class ApplicationManager;
 class GL_Camera;
-class GL_Object;
+class GL_Ship;
+class Window_ShipViewer;
 
-class GL_SystemViewerWidget : public GL_Widget, protected QOpenGLFunctions {
-/*------------------*
- *   CONSTRUCTORS   *
- *------------------*/
+class GL_ShipViewerWidget : public GL_Widget, protected QOpenGLFunctions {
 public:
-    GL_SystemViewerWidget(QWidget *parent, std::string systemName);
+    GL_ShipViewerWidget(QWidget *parent, std::string shipName);
 
-/*----------------------*
- *   WIDGET VARIABLES   *
- *----------------------*/
 private:
     ApplicationManager *application;
 
@@ -35,54 +30,42 @@ private:
     QPointF lastMousePosition;
     bool firstMouse = true;
 
-    std::string system;
+    std::string shipFile, shipName;
 
-
-/*----------------------*
- *   OPENGL VARIABLES   *
- *----------------------*/
 private:
-    const float speedValues[12] = {0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1};
-
     bool isInitialized = false;
 
-    int m_frame = 0;
-
-    QMatrix4x4 view;
-    QMatrix4x4 projection;
+    QMatrix4x4 view, projection;
     GL_Camera *camera;
 
-    int orbitingSpeedIndex = 0;
-    float orbitingSpeed = 0.01;
-
-    std::vector<GL_Object*> models;
+    std::vector<GL_Ship*> models;
 
     QVector3D ambientLight = QVector3D(1.0f, 1.0f, 1.0f);
-    float ambientIntensity = 0.3f;
-
-    std::vector<GLfloat> planetVertices;
-    std::vector<GLfloat> starVertices;
-    std::vector<unsigned int> sphereIndices;
+    float ambientIntensity = 0.2f;
+    QVector3D diffuseLight = QVector3D(.7f, .7f, .7f);
+    QVector3D lightPosition = QVector3D(500, 0, 500);
 
     qint64 currentFrame = 0;
     qint64 lastFrame = 0;
     QElapsedTimer elapsedTimer;
-    QTimer timer, timer2;
+    QTimer timer;
 
-/*-----------------------*
- *   CONTROL FUNCTIONS   *
- *-----------------------*/
+    Window_ShipViewer *window;
+
 public:
+    void setWindow(Window_ShipViewer *w);
+
     void keyPress();
-    void timeKeyPress();
     void mouseMoveEvent(QMouseEvent *e) override;
     void mousePressEvent(QMouseEvent *e) override;
     void leaveEvent(QEvent *e) override;
 
-    void updateData(std::string file);
+    std::vector<std::string> updateData(std::string file);
     void changeMousePosition() override ;
 
     bool isAttachMouse() override;
+
+    void changeComponentActivation(std::string, bool selected);
 
 /*----------------------*
  *   OPENGL FUNCTIONS   *
@@ -95,10 +78,11 @@ public:
 
     // OWN FUNCTIONS
     void setApp(ApplicationManager *a);
-    void initialize(); //
-    void initSphere(); //
-
+    void initialize();
     void render();
+
+    std::string getShipName() { return this->shipName; }
+
 };
 
-#endif // GL_SYSTEMVIEWERWIDGET_H
+#endif // GL_SHIPVIEWERWIDGET_H
