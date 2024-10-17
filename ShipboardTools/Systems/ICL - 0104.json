@@ -1,0 +1,210 @@
+{
+    "system": "ICL - 0104",
+    "sector": "Incognita Citerior",
+    "subsector": "L",
+    "hex": "2524",
+    "close": [
+    ],
+    "stars":[
+        {
+            "class": "M0V",
+            "name": "ICL-0104 A",
+            "color":{
+                "red":1,
+                "green":1,
+                "blue":1
+            },
+            "radius": 1,
+            "mass": 0
+        }
+    ],
+    "orbiting":[
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 0.352
+            },
+            "world":{
+                "name": "Tinpot",
+                "uwp": "",
+                "size": 0.1
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 0.76
+            },
+            "world":{
+                "name": "Tinpot Moon",
+                "uwp": "",
+                "size": 0.1
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 1.236               
+            },
+            "world":{
+                "name": "Apsho Two",
+                "uwp": "",
+                "size": 0.3
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 1.576              
+            },
+            "world":{
+                "name": "Arunisiir",
+                "uwp": "",
+                "size": 0.2
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 2.018               
+            },
+            "world":{
+                "name": "George",
+                "uwp": "",
+                "size": 0.3
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 2.426
+            },
+            "world":{
+                "name": "Errat",
+                "uwp": "",
+                "size": 0.2
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 2.448            
+            },
+            "world":{
+                "name": "Cartier's Giant",
+                "uwp": "",
+                "size": 0.2
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 2.868              
+            },
+            "world":{
+                "name": "Claimstake",
+                "uwp": "",
+                "size": 0.2
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 3.208             
+            },
+            "world":{
+                "name": "Claimstake",
+                "uwp": "",
+                "size": 0.2
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 3.582              
+            },
+            "world":{
+                "name": "Claimstake",
+                "uwp": "",
+                "size": 0.2
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 4.018              
+            },
+            "world":{
+                "name": "Claimstake",
+                "uwp": "",
+                "size": 0.2
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 4.324              
+            },
+            "world":{
+                "name": "Claimstake",
+                "uwp": "",
+                "size": 0.2
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 4.63              
+            },
+            "world":{
+                "name": "Claimstake",
+                "uwp": "",
+                "size": 0.2
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 4.8595              
+            },
+            "world":{
+                "name": "Claimstake",
+                "uwp": "",
+                "size": 0.2
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 5.1655              
+            },
+            "world":{
+                "name": "Claimstake",
+                "uwp": "",
+                "size": 0.2
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 5.395              
+            },
+            "world":{
+                "name": "Claimstake",
+                "uwp": "",
+                "size": 0.2
+            }
+        },
+        {
+            "orbit": {
+                "type": "circle",
+                "radius": 5.7265              
+            },
+            "world":{
+                "name": "Claimstake",
+                "uwp": "",
+                "size": 0.2
+            }
+        }
+    ]
+}

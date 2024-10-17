@@ -1,0 +1,2825 @@
+{
+    "sector_name": "Corridor",
+    "sector_position": [
+        -2,
+        -1
+    ],
+    "subsectors": [
+        {
+            "subsector_index": 1,
+            "subsector_name": "Khouth"
+        },
+        {
+            "subsector_index": 2,
+            "subsector_name": "Khukish"
+        },
+        {
+            "subsector_index": 3,
+            "subsector_name": "Lemish"
+        },
+        {
+            "subsector_index": 4,
+            "subsector_name": "The Narrows"
+        },
+        {
+            "subsector_index": 5,
+            "subsector_name": "Ian"
+        },
+        {
+            "subsector_index": 6,
+            "subsector_name": "Strand"
+        },
+        {
+            "subsector_index": 7,
+            "subsector_name": "Naadi"
+        },
+        {
+            "subsector_index": 8,
+            "subsector_name": "Uantil"
+        },
+        {
+            "subsector_index": 9,
+            "subsector_name": "Shush"
+        },
+        {
+            "subsector_index": 10,
+            "subsector_name": "The Empty Void"
+        },
+        {
+            "subsector_index": 11,
+            "subsector_name": "Atu'l"
+        },
+        {
+            "subsector_index": 12,
+            "subsector_name": "Kivu"
+        },
+        {
+            "subsector_index": 13,
+            "subsector_name": "Two Worlds"
+        },
+        {
+            "subsector_index": 14,
+            "subsector_name": "Ashishinipar"
+        },
+        {
+            "subsector_index": 15,
+            "subsector_name": "Sinta"
+        },
+        {
+            "subsector_index": 16,
+            "subsector_name": "Sashrakusha"
+        }
+    ],
+    "systems": [
+        {
+            "system_name": "Tersta",
+            "system_position": [
+                1,
+                2
+            ],
+            "system_trade_code": "Ag Ni An",
+            "system_uwp": "C574522-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Khouth",
+            "system_position": [
+                1,
+                4
+            ],
+            "system_trade_code": "Fl Hi In Cp",
+            "system_uwp": "A8C3999-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ankirst",
+            "system_position": [
+                1,
+                5
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "C556112-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ofo-Nebus",
+            "system_position": [
+                1,
+                6
+            ],
+            "system_trade_code": "He Ni Po Varg1",
+            "system_uwp": "B541488-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Synez",
+            "system_position": [
+                1,
+                9
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "E864256-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Koergfoes",
+            "system_position": [
+                2,
+                5
+            ],
+            "system_trade_code": "Ni Po VargW RsE",
+            "system_uwp": "B54359A-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Mikesh",
+            "system_position": [
+                2,
+                6
+            ],
+            "system_trade_code": "Fl Hi In Pz",
+            "system_uwp": "C8B7ACB-D",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Pergzitt",
+            "system_position": [
+                2,
+                9
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "B625354-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dry",
+            "system_position": [
+                2,
+                10
+            ],
+            "system_trade_code": "Na Ph Pi",
+            "system_uwp": "C310877-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Overlook",
+            "system_position": [
+                3,
+                1
+            ],
+            "system_trade_code": "Pa Ph Pi",
+            "system_uwp": "E5758B7-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Serk",
+            "system_position": [
+                3,
+                4
+            ],
+            "system_trade_code": "Wa Ph Pi Mr",
+            "system_uwp": "B89A866-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Hesarus",
+            "system_position": [
+                3,
+                6
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "B553556-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Caulins Belt",
+            "system_position": [
+                3,
+                7
+            ],
+            "system_trade_code": "As Lo Va Mr",
+            "system_uwp": "A000268-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Faraway",
+            "system_position": [
+                3,
+                8
+            ],
+            "system_trade_code": "Ni Pr",
+            "system_uwp": "D682546-4",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Auritaurus",
+            "system_position": [
+                4,
+                1
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "C859344-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Rrev Rigr",
+            "system_position": [
+                4,
+                2
+            ],
+            "system_trade_code": "Na Ni Va Varg6",
+            "system_uwp": "B100657-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Sigma 7",
+            "system_position": [
+                4,
+                7
+            ],
+            "system_trade_code": "As Na Va Pi",
+            "system_uwp": "C000795-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Koppel",
+            "system_position": [
+                5,
+                2
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "E563305-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Naxx-Iygo",
+            "system_position": [
+                5,
+                9
+            ],
+            "system_trade_code": "Fl Ni O:0910",
+            "system_uwp": "C7B5464-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Pamock",
+            "system_position": [
+                5,
+                10
+            ],
+            "system_trade_code": "Ni Pr",
+            "system_uwp": "C561542-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Greenrok",
+            "system_position": [
+                6,
+                1
+            ],
+            "system_trade_code": "De Lo",
+            "system_uwp": "A560236-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Taratun",
+            "system_position": [
+                6,
+                3
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "D893443-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Aka Gee",
+            "system_position": [
+                6,
+                5
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "B432579-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Degarla",
+            "system_position": [
+                6,
+                6
+            ],
+            "system_trade_code": "Ic Na Ni",
+            "system_uwp": "A611644-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Desolate",
+            "system_position": [
+                6,
+                8
+            ],
+            "system_trade_code": "Fl Ni",
+            "system_uwp": "B9B4502-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Semiplast",
+            "system_position": [
+                6,
+                9
+            ],
+            "system_trade_code": "Ni Ri O:0910",
+            "system_uwp": "C561662-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Gzorraeth",
+            "system_position": [
+                7,
+                1
+            ],
+            "system_trade_code": "De He Ni",
+            "system_uwp": "A590410-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Mowanda",
+            "system_position": [
+                7,
+                9
+            ],
+            "system_trade_code": "Ni Va",
+            "system_uwp": "B200534-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tsetsurri",
+            "system_position": [
+                8,
+                4
+            ],
+            "system_trade_code": "",
+            "system_uwp": "D435775-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Bersha",
+            "system_position": [
+                8,
+                7
+            ],
+            "system_trade_code": "Lo Po",
+            "system_uwp": "E552302-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ruedzu Vounga",
+            "system_position": [
+                9,
+                1
+            ],
+            "system_trade_code": "He Ni Po",
+            "system_uwp": "B541400-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Yopogirp",
+            "system_position": [
+                9,
+                6
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "A548320-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Drayne",
+            "system_position": [
+                9,
+                10
+            ],
+            "system_trade_code": "Hi In Pz RsB",
+            "system_uwp": "B6749C9-C",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Tylupa",
+            "system_position": [
+                10,
+                3
+            ],
+            "system_trade_code": "As Lo Va",
+            "system_uwp": "B000205-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Mount",
+            "system_position": [
+                10,
+                5
+            ],
+            "system_trade_code": "Pa Ph Pi",
+            "system_uwp": "A675887-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Wieresh",
+            "system_position": [
+                10,
+                6
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "B559430-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Byla Hoso",
+            "system_position": [
+                10,
+                10
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "D554534-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Senizue",
+            "system_position": [
+                11,
+                3
+            ],
+            "system_trade_code": "He Ni",
+            "system_uwp": "B591574-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Goseghi",
+            "system_position": [
+                11,
+                4
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "E557543-3",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Formation",
+            "system_position": [
+                11,
+                7
+            ],
+            "system_trade_code": "Ic Lo",
+            "system_uwp": "B511358-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Shushaka",
+            "system_position": [
+                11,
+                9
+            ],
+            "system_trade_code": "He Hi In",
+            "system_uwp": "A772988-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "New Vland",
+            "system_position": [
+                12,
+                1
+            ],
+            "system_trade_code": "Pa Ph Pi Varg2",
+            "system_uwp": "A79785A-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Voorghish",
+            "system_position": [
+                12,
+                3
+            ],
+            "system_trade_code": "Ni Pa",
+            "system_uwp": "D556459-4",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tetraggoe",
+            "system_position": [
+                12,
+                4
+            ],
+            "system_trade_code": "He Lo",
+            "system_uwp": "B692300-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Durima",
+            "system_position": [
+                12,
+                5
+            ],
+            "system_trade_code": "De He Hi In Na Po Pz",
+            "system_uwp": "B420ADE-E",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Courage",
+            "system_position": [
+                12,
+                7
+            ],
+            "system_trade_code": "Na Va Ph Pi Pz",
+            "system_uwp": "E40088C-7",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Kaasu",
+            "system_position": [
+                12,
+                9
+            ],
+            "system_trade_code": "Hi In Oc Cs Pz",
+            "system_uwp": "AA7A9CD-F",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Latu",
+            "system_position": [
+                12,
+                10
+            ],
+            "system_trade_code": "Ni Wa O:1209",
+            "system_uwp": "B87A46B-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Nakeremma",
+            "system_position": [
+                13,
+                1
+            ],
+            "system_trade_code": "Lo Po",
+            "system_uwp": "D523110-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Iceball",
+            "system_position": [
+                13,
+                4
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "C635400-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Sebastion",
+            "system_position": [
+                13,
+                7
+            ],
+            "system_trade_code": "Ni Pa",
+            "system_uwp": "C568447-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Naasakiira",
+            "system_position": [
+                13,
+                9
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "C556687-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Oegongrek",
+            "system_position": [
+                14,
+                1
+            ],
+            "system_trade_code": "As Lo Va",
+            "system_uwp": "B000200-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zontra'Lee",
+            "system_position": [
+                14,
+                2
+            ],
+            "system_trade_code": "Ri Pa Ph",
+            "system_uwp": "E788885-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vwogeck",
+            "system_position": [
+                14,
+                4
+            ],
+            "system_trade_code": "Lo Varg3",
+            "system_uwp": "E573320-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Sluru",
+            "system_position": [
+                14,
+                5
+            ],
+            "system_trade_code": "Ri Wa",
+            "system_uwp": "C76A752-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Xinox",
+            "system_position": [
+                14,
+                8
+            ],
+            "system_trade_code": "Ni Wa",
+            "system_uwp": "D87A653-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Draack Elka",
+            "system_position": [
+                14,
+                9
+            ],
+            "system_trade_code": "He Ni",
+            "system_uwp": "C572586-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Gvan",
+            "system_position": [
+                15,
+                1
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "A543578-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Buianah",
+            "system_position": [
+                15,
+                4
+            ],
+            "system_trade_code": "Ag Ni Varg6",
+            "system_uwp": "A797534-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Errd Lomon",
+            "system_position": [
+                15,
+                6
+            ],
+            "system_trade_code": "Ni O:1606",
+            "system_uwp": "C410462-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Koorfagh",
+            "system_position": [
+                16,
+                2
+            ],
+            "system_trade_code": "Pi",
+            "system_uwp": "E67377B-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Gagh Veth",
+            "system_position": [
+                16,
+                3
+            ],
+            "system_trade_code": "Ni Pa Fo",
+            "system_uwp": "X556423-2",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Silibast Ti",
+            "system_position": [
+                16,
+                5
+            ],
+            "system_trade_code": "De Ni Po",
+            "system_uwp": "E550553-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Khukish",
+            "system_position": [
+                16,
+                6
+            ],
+            "system_trade_code": "Hi In Wa Cp",
+            "system_uwp": "A77A989-F",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Shishkala",
+            "system_position": [
+                16,
+                7
+            ],
+            "system_trade_code": "Ag Ni Ga Ri Ursa2",
+            "system_uwp": "B686654-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Veu Belle",
+            "system_position": [
+                16,
+                9
+            ],
+            "system_trade_code": "He Ni Po",
+            "system_uwp": "D42158A-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tyee",
+            "system_position": [
+                17,
+                3
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "C436685-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ngeroull",
+            "system_position": [
+                17,
+                4
+            ],
+            "system_trade_code": "Ag Ni Ga Ri",
+            "system_uwp": "B766684-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Llaefong",
+            "system_position": [
+                18,
+                3
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "B42357B-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Lemish",
+            "system_position": [
+                18,
+                8
+            ],
+            "system_trade_code": "Ag Ni Cp Da",
+            "system_uwp": "A79568C-C",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Munhofen",
+            "system_position": [
+                18,
+                10
+            ],
+            "system_trade_code": "Lo Po",
+            "system_uwp": "C543203-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ighoth",
+            "system_position": [
+                19,
+                4
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "A433477-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dazeys World",
+            "system_position": [
+                19,
+                5
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "C438220-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Sutton",
+            "system_position": [
+                19,
+                6
+            ],
+            "system_trade_code": "De He Ni Po",
+            "system_uwp": "B420575-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Weyland",
+            "system_position": [
+                19,
+                8
+            ],
+            "system_trade_code": "Lo O:1808",
+            "system_uwp": "B435267-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kfotsaen",
+            "system_position": [
+                20,
+                3
+            ],
+            "system_trade_code": "Ni Va",
+            "system_uwp": "C100403-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Eghani Nivek",
+            "system_position": [
+                20,
+                4
+            ],
+            "system_trade_code": "Ni Pa",
+            "system_uwp": "D654479-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tamilaa",
+            "system_position": [
+                20,
+                6
+            ],
+            "system_trade_code": "Ag Ri Ursa0",
+            "system_uwp": "B788747-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Specti",
+            "system_position": [
+                20,
+                9
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "E773100-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dianah",
+            "system_position": [
+                20,
+                10
+            ],
+            "system_trade_code": "Ag Ni Pr",
+            "system_uwp": "C564500-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vikenngis",
+            "system_position": [
+                21,
+                1
+            ],
+            "system_trade_code": "As Na Va Ph Pi",
+            "system_uwp": "B000889-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Foengos",
+            "system_position": [
+                21,
+                2
+            ],
+            "system_trade_code": "Ni Pr",
+            "system_uwp": "C662574-4",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Angi",
+            "system_position": [
+                21,
+                6
+            ],
+            "system_trade_code": "He Ni Po",
+            "system_uwp": "D541632-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ginning",
+            "system_position": [
+                21,
+                8
+            ],
+            "system_trade_code": "Ni Po Da",
+            "system_uwp": "A6315AF-B",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Amwaz",
+            "system_position": [
+                21,
+                9
+            ],
+            "system_trade_code": "He Lo Da",
+            "system_uwp": "B592333-B",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Dhouthits",
+            "system_position": [
+                22,
+                1
+            ],
+            "system_trade_code": "De He Ni Po",
+            "system_uwp": "B540552-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dzaedenforr",
+            "system_position": [
+                22,
+                2
+            ],
+            "system_trade_code": "Ni Pa",
+            "system_uwp": "A877479-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Brariun",
+            "system_position": [
+                22,
+                5
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "B629434-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Aurolee",
+            "system_position": [
+                22,
+                6
+            ],
+            "system_trade_code": "As Na Va Pi Mr",
+            "system_uwp": "B000769-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Luuga",
+            "system_position": [
+                22,
+                8
+            ],
+            "system_trade_code": "Na Pi O:2209",
+            "system_uwp": "B410767-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Alfive",
+            "system_position": [
+                22,
+                9
+            ],
+            "system_trade_code": "Pa Ph Pi Mr",
+            "system_uwp": "B578861-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Voegrr",
+            "system_position": [
+                23,
+                3
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "B587201-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Double Sun",
+            "system_position": [
+                23,
+                4
+            ],
+            "system_trade_code": "As Ni Va Fo",
+            "system_uwp": "X000403-7",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Pruughoe",
+            "system_position": [
+                23,
+                6
+            ],
+            "system_trade_code": "Fl Ni Da VargW",
+            "system_uwp": "C9C769E-9",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Aking",
+            "system_position": [
+                23,
+                7
+            ],
+            "system_trade_code": "Ni Va O:2505",
+            "system_uwp": "C200564-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ngaethaena",
+            "system_position": [
+                24,
+                3
+            ],
+            "system_trade_code": "Lo Ga",
+            "system_uwp": "A666278-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Gravista",
+            "system_position": [
+                24,
+                5
+            ],
+            "system_trade_code": "Po Ph",
+            "system_uwp": "C553879-4",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Treedisk",
+            "system_position": [
+                24,
+                9
+            ],
+            "system_trade_code": "De He Lo Po",
+            "system_uwp": "D420332-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ackaeck",
+            "system_position": [
+                25,
+                2
+            ],
+            "system_trade_code": "Ag Ri",
+            "system_uwp": "B586757-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kidagir",
+            "system_position": [
+                25,
+                3
+            ],
+            "system_trade_code": "He Lo Po Fo",
+            "system_uwp": "X542324-5",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Plunge",
+            "system_position": [
+                25,
+                5
+            ],
+            "system_trade_code": "De He Hi In Po Pz",
+            "system_uwp": "B5409CC-C",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Jed",
+            "system_position": [
+                25,
+                6
+            ],
+            "system_trade_code": "Ga Pa Ph O:2505",
+            "system_uwp": "C757863-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Chosen",
+            "system_position": [
+                26,
+                3
+            ],
+            "system_trade_code": "Ni RsA",
+            "system_uwp": "C534544-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Nuplae",
+            "system_position": [
+                26,
+                6
+            ],
+            "system_trade_code": "Lo Wa",
+            "system_uwp": "B64A236-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Hesaim",
+            "system_position": [
+                27,
+                1
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "B424451-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Brytsee",
+            "system_position": [
+                27,
+                10
+            ],
+            "system_trade_code": "Lo Wa",
+            "system_uwp": "A79A237-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vellutsaer",
+            "system_position": [
+                28,
+                1
+            ],
+            "system_trade_code": "Fl Ni",
+            "system_uwp": "E9B3531-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Neghu Oug",
+            "system_position": [
+                28,
+                4
+            ],
+            "system_trade_code": "Ni Wa (Ojehshodu)4",
+            "system_uwp": "C63A641-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Uughrae",
+            "system_position": [
+                28,
+                6
+            ],
+            "system_trade_code": "Lo Ga O:2505",
+            "system_uwp": "A766367-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Atudew",
+            "system_position": [
+                28,
+                10
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "C595240-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Oqwee",
+            "system_position": [
+                29,
+                1
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "B423452-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Oegoerrvu",
+            "system_position": [
+                29,
+                2
+            ],
+            "system_trade_code": "Ni Huma7",
+            "system_uwp": "D410456-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Uerrgno",
+            "system_position": [
+                29,
+                3
+            ],
+            "system_trade_code": "Hi Ga Pr",
+            "system_uwp": "D867996-4",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Krroughf",
+            "system_position": [
+                29,
+                4
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "D577522-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Shinaashag",
+            "system_position": [
+                29,
+                5
+            ],
+            "system_trade_code": "Po Ph Pi",
+            "system_uwp": "D5438A8-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kifrusis",
+            "system_position": [
+                29,
+                6
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "A568235-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Seplus",
+            "system_position": [
+                29,
+                7
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "C797698-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Twophur",
+            "system_position": [
+                29,
+                8
+            ],
+            "system_trade_code": "Po",
+            "system_uwp": "B653797-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Rustsoura",
+            "system_position": [
+                30,
+                4
+            ],
+            "system_trade_code": "Lo Va",
+            "system_uwp": "C400102-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Habretic",
+            "system_position": [
+                30,
+                10
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "C663110-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Salite",
+            "system_position": [
+                31,
+                4
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "B554300-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Long Shot",
+            "system_position": [
+                31,
+                6
+            ],
+            "system_trade_code": "As Na Ni Va Da",
+            "system_uwp": "C00069C-B",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Desiver",
+            "system_position": [
+                31,
+                7
+            ],
+            "system_trade_code": "De He Ni",
+            "system_uwp": "C570421-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Esuto",
+            "system_position": [
+                32,
+                1
+            ],
+            "system_trade_code": "He Ni",
+            "system_uwp": "A572674-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kotsingdifir",
+            "system_position": [
+                32,
+                2
+            ],
+            "system_trade_code": "Ag Ni Da",
+            "system_uwp": "C544697-6",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Gerbetord",
+            "system_position": [
+                32,
+                7
+            ],
+            "system_trade_code": "Ni Wa",
+            "system_uwp": "B75A512-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dilub Rou",
+            "system_position": [
+                32,
+                8
+            ],
+            "system_trade_code": "De He Ni Po Cp",
+            "system_uwp": "A420573-F",
+            "system_zone": ""
+        },
+        {
+            "system_name": "R'tinh Kills",
+            "system_position": [
+                32,
+                9
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "B646110-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Shinku",
+            "system_position": [
+                1,
+                11
+            ],
+            "system_trade_code": "Lo Varg1",
+            "system_uwp": "E879102-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kiran",
+            "system_position": [
+                1,
+                12
+            ],
+            "system_trade_code": "Pa Ph",
+            "system_uwp": "A554856-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Aga Sugek",
+            "system_position": [
+                1,
+                13
+            ],
+            "system_trade_code": "Fl Lo",
+            "system_uwp": "A9B8356-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Khikhuushir",
+            "system_position": [
+                1,
+                15
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "D676534-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ka Eto",
+            "system_position": [
+                1,
+                19
+            ],
+            "system_trade_code": "Ic Lo",
+            "system_uwp": "B615345-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Erlu",
+            "system_position": [
+                2,
+                13
+            ],
+            "system_trade_code": "He Ni",
+            "system_uwp": "B7C0626-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Lobok",
+            "system_position": [
+                2,
+                18
+            ],
+            "system_trade_code": "Ri Ph",
+            "system_uwp": "C582876-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jubal",
+            "system_position": [
+                3,
+                11
+            ],
+            "system_trade_code": "Ni Va Da",
+            "system_uwp": "E300497-9",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Muugagen",
+            "system_position": [
+                3,
+                12
+            ],
+            "system_trade_code": "Ni Po O:0112",
+            "system_uwp": "D553465-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Yubitty",
+            "system_position": [
+                3,
+                13
+            ],
+            "system_trade_code": "Hi Wa Pr",
+            "system_uwp": "C96A987-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Daban",
+            "system_position": [
+                4,
+                11
+            ],
+            "system_trade_code": "Ic Ph Pi",
+            "system_uwp": "C514858-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ian",
+            "system_position": [
+                4,
+                16
+            ],
+            "system_trade_code": "Pa Ph Cp Pi Pz",
+            "system_uwp": "A5988BE-C",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Irasumshu",
+            "system_position": [
+                4,
+                17
+            ],
+            "system_trade_code": "Hi",
+            "system_uwp": "E554A74-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Linix' Cha",
+            "system_position": [
+                5,
+                11
+            ],
+            "system_trade_code": "He Ni Po",
+            "system_uwp": "E422578-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Beta Regilis",
+            "system_position": [
+                5,
+                12
+            ],
+            "system_trade_code": "Ni Po O:0513",
+            "system_uwp": "D543567-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kumorie",
+            "system_position": [
+                5,
+                13
+            ],
+            "system_trade_code": "Na Po",
+            "system_uwp": "B431758-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Raiga",
+            "system_position": [
+                5,
+                16
+            ],
+            "system_trade_code": "Ag Ni Pr Fo",
+            "system_uwp": "X664532-3",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Ikhur",
+            "system_position": [
+                6,
+                11
+            ],
+            "system_trade_code": "Ag Ni Ga Varg1",
+            "system_uwp": "B756532-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dywosik",
+            "system_position": [
+                6,
+                14
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "C547547-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vom",
+            "system_position": [
+                6,
+                17
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "C423578-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Teras",
+            "system_position": [
+                7,
+                14
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "B438247-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Lysio",
+            "system_position": [
+                8,
+                15
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "B594546-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Antiquity",
+            "system_position": [
+                8,
+                16
+            ],
+            "system_trade_code": "Ni Po An",
+            "system_uwp": "A423420-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Toddie-lee",
+            "system_position": [
+                9,
+                12
+            ],
+            "system_trade_code": "Ni Pa",
+            "system_uwp": "A566420-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Heald",
+            "system_position": [
+                9,
+                13
+            ],
+            "system_trade_code": "He Ni Po O:1013",
+            "system_uwp": "A541664-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Strand",
+            "system_position": [
+                9,
+                16
+            ],
+            "system_trade_code": "Ag Ni An",
+            "system_uwp": "A545654-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ahngrim",
+            "system_position": [
+                9,
+                18
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "D9D6642-2",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tobibak",
+            "system_position": [
+                10,
+                11
+            ],
+            "system_trade_code": "Ni Wa (Tobai)",
+            "system_uwp": "C96A410-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Demick",
+            "system_position": [
+                10,
+                13
+            ],
+            "system_trade_code": "Na Po Ph",
+            "system_uwp": "A532879-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Biinersa",
+            "system_position": [
+                11,
+                11
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "B849401-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Buagki",
+            "system_position": [
+                11,
+                12
+            ],
+            "system_trade_code": "Lo Da",
+            "system_uwp": "A426353-C",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Vigh",
+            "system_position": [
+                12,
+                13
+            ],
+            "system_trade_code": "Lo Va",
+            "system_uwp": "C200257-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Six Lights",
+            "system_position": [
+                12,
+                16
+            ],
+            "system_trade_code": "Ni Pa",
+            "system_uwp": "B577441-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Emfashi",
+            "system_position": [
+                12,
+                18
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "D658341-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Itasis",
+            "system_position": [
+                14,
+                13
+            ],
+            "system_trade_code": "He Lo Po Asla9 Varg0",
+            "system_uwp": "C542375-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Valeneg",
+            "system_position": [
+                14,
+                14
+            ],
+            "system_trade_code": "Ic Lo",
+            "system_uwp": "C412120-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zudagim",
+            "system_position": [
+                14,
+                15
+            ],
+            "system_trade_code": "Hi Pr",
+            "system_uwp": "E68299A-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kearb",
+            "system_position": [
+                14,
+                18
+            ],
+            "system_trade_code": "Fl Lo",
+            "system_uwp": "CAC8341-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Depot",
+            "system_position": [
+                15,
+                11
+            ],
+            "system_trade_code": "Ni Ga Pa Da (Miiminri)0 Mr",
+            "system_uwp": "A68646A-D",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Nubotech",
+            "system_position": [
+                15,
+                13
+            ],
+            "system_trade_code": "Ni Pr",
+            "system_uwp": "C562556-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Justends Four",
+            "system_position": [
+                15,
+                14
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "D567100-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ashima",
+            "system_position": [
+                15,
+                15
+            ],
+            "system_trade_code": "Hi In Po",
+            "system_uwp": "E543942-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vanquet",
+            "system_position": [
+                16,
+                11
+            ],
+            "system_trade_code": "Wa Ph",
+            "system_uwp": "B63A8A8-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Naadi",
+            "system_position": [
+                17,
+                11
+            ],
+            "system_trade_code": "Ag Ni Cp",
+            "system_uwp": "A578572-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Getz",
+            "system_position": [
+                17,
+                12
+            ],
+            "system_trade_code": "Lo Po",
+            "system_uwp": "C553259-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Denlaar",
+            "system_position": [
+                17,
+                13
+            ],
+            "system_trade_code": "Ni Pa",
+            "system_uwp": "C695426-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Atu'l Fleet Transit",
+            "system_position": [
+                17,
+                20
+            ],
+            "system_trade_code": "{Anomaly}",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Antezeno",
+            "system_position": [
+                18,
+                11
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "C637335-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Enrick Down",
+            "system_position": [
+                19,
+                12
+            ],
+            "system_trade_code": "He Ni Po",
+            "system_uwp": "C542432-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Shargishu",
+            "system_position": [
+                19,
+                13
+            ],
+            "system_trade_code": "As Ni Va Fo",
+            "system_uwp": "X000447-7",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Faplion",
+            "system_position": [
+                20,
+                12
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "C525340-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Darkmoon",
+            "system_position": [
+                21,
+                11
+            ],
+            "system_trade_code": "Ni Ri Wa Mr",
+            "system_uwp": "D78A66B-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Farplace",
+            "system_position": [
+                21,
+                16
+            ],
+            "system_trade_code": "De Ni Po",
+            "system_uwp": "C550459-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Sent'ere",
+            "system_position": [
+                22,
+                12
+            ],
+            "system_trade_code": "Lo Va O:2209",
+            "system_uwp": "C400265-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Hishumaki",
+            "system_position": [
+                23,
+                11
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "B545542-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Naagasa",
+            "system_position": [
+                25,
+                11
+            ],
+            "system_trade_code": "Ph Pi Pz",
+            "system_uwp": "B5278AB-9",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Mee",
+            "system_position": [
+                26,
+                11
+            ],
+            "system_trade_code": "Ni Da",
+            "system_uwp": "B9D86BA-9",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Kiiguuroesa",
+            "system_position": [
+                28,
+                11
+            ],
+            "system_trade_code": "Ni Va Fo",
+            "system_uwp": "X200456-7",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Point XF-1402",
+            "system_position": [
+                28,
+                17
+            ],
+            "system_trade_code": "{Anomaly}",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Shush",
+            "system_position": [
+                2,
+                21
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "C662242-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "The Big Wreck",
+            "system_position": [
+                9,
+                22
+            ],
+            "system_trade_code": "{Anomaly}",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Lasher",
+            "system_position": [
+                14,
+                30
+            ],
+            "system_trade_code": "Fl He Lo",
+            "system_uwp": "B8C2200-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Rill",
+            "system_position": [
+                19,
+                23
+            ],
+            "system_trade_code": "Ag Ni Ri Chir6",
+            "system_uwp": "E688672-4",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Atu'l Fleet Transit",
+            "system_position": [
+                20,
+                27
+            ],
+            "system_trade_code": "{Anomaly}",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Atu'l",
+            "system_position": [
+                21,
+                21
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "C898234-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Atu'l Fleet Transit",
+            "system_position": [
+                22,
+                24
+            ],
+            "system_trade_code": "{Anomaly}",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ashkiile Calibration Point",
+            "system_position": [
+                22,
+                30
+            ],
+            "system_trade_code": "{Anomaly}",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tucker",
+            "system_position": [
+                29,
+                30
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "D8796A8-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Betters",
+            "system_position": [
+                30,
+                30
+            ],
+            "system_trade_code": "Ag Ni Pr",
+            "system_uwp": "DA87544-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kivu",
+            "system_position": [
+                31,
+                29
+            ],
+            "system_trade_code": "Ag Ni Ri",
+            "system_uwp": "A56567B-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Uiolksdah",
+            "system_position": [
+                32,
+                25
+            ],
+            "system_trade_code": "Pi",
+            "system_uwp": "B426787-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Center",
+            "system_position": [
+                32,
+                29
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "C5436A9-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Emm",
+            "system_position": [
+                32,
+                30
+            ],
+            "system_trade_code": "Lo Po O:3232",
+            "system_uwp": "C643365-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ishirdu",
+            "system_position": [
+                3,
+                38
+            ],
+            "system_trade_code": "Lo Fo (Irdu)",
+            "system_uwp": "X776301-5",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Boulderfield",
+            "system_position": [
+                5,
+                34
+            ],
+            "system_trade_code": "{Anomaly}",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Esi-obe",
+            "system_position": [
+                6,
+                38
+            ],
+            "system_trade_code": "He Po Ph Pi",
+            "system_uwp": "A542886-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ashishinipar",
+            "system_position": [
+                9,
+                31
+            ],
+            "system_trade_code": "Hi In Pz",
+            "system_uwp": "B8949BA-9",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Nadnamnarni",
+            "system_position": [
+                10,
+                33
+            ],
+            "system_trade_code": "Lo Va",
+            "system_uwp": "B200211-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tristira",
+            "system_position": [
+                11,
+                40
+            ],
+            "system_trade_code": "Wa Pi",
+            "system_uwp": "C87A740-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tarin Sink",
+            "system_position": [
+                14,
+                32
+            ],
+            "system_trade_code": "Lo RsG",
+            "system_uwp": "DAE5301-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Emephdee",
+            "system_position": [
+                18,
+                32
+            ],
+            "system_trade_code": "Ni Po Mr",
+            "system_uwp": "A551464-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jafla",
+            "system_position": [
+                18,
+                40
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "A898114-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Sinta",
+            "system_position": [
+                20,
+                37
+            ],
+            "system_trade_code": "Ic Na Va Ph Cp Pi",
+            "system_uwp": "A201830-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ea'tiva",
+            "system_position": [
+                20,
+                39
+            ],
+            "system_trade_code": "Lo Ga",
+            "system_uwp": "B686110-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tainbee",
+            "system_position": [
+                20,
+                40
+            ],
+            "system_trade_code": "Ni Ga Pa",
+            "system_uwp": "A757476-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kacxhun",
+            "system_position": [
+                21,
+                35
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "E427456-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Whikee",
+            "system_position": [
+                21,
+                36
+            ],
+            "system_trade_code": "Na Ni Po O:2137",
+            "system_uwp": "C423669-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Inarli",
+            "system_position": [
+                21,
+                37
+            ],
+            "system_trade_code": "Hi In",
+            "system_uwp": "B677989-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dodardudos",
+            "system_position": [
+                21,
+                40
+            ],
+            "system_trade_code": "Ni Pr",
+            "system_uwp": "C583527-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Setii Goek",
+            "system_position": [
+                22,
+                34
+            ],
+            "system_trade_code": "Ni Da",
+            "system_uwp": "E43669D-8",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Kysar II",
+            "system_position": [
+                22,
+                35
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "A310133-F",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Divad",
+            "system_position": [
+                22,
+                38
+            ],
+            "system_trade_code": "He Ph Pz (Brinn)9",
+            "system_uwp": "C8C0885-9",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Kloackin",
+            "system_position": [
+                22,
+                39
+            ],
+            "system_trade_code": "He Ph Pi",
+            "system_uwp": "B572834-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Fabeticu",
+            "system_position": [
+                23,
+                33
+            ],
+            "system_trade_code": "Ag Ri Fo",
+            "system_uwp": "X566777-1",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Kikasad",
+            "system_position": [
+                23,
+                34
+            ],
+            "system_trade_code": "Ni Wa Re",
+            "system_uwp": "C76A464-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tahspeck",
+            "system_position": [
+                23,
+                35
+            ],
+            "system_trade_code": "Ni Oc",
+            "system_uwp": "AA9A651-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Mok-Retinae",
+            "system_position": [
+                23,
+                36
+            ],
+            "system_trade_code": "Ni Pa",
+            "system_uwp": "C556441-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Terragesh",
+            "system_position": [
+                23,
+                38
+            ],
+            "system_trade_code": "De Ni",
+            "system_uwp": "A560459-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Knofodu",
+            "system_position": [
+                24,
+                35
+            ],
+            "system_trade_code": "Fl Ni",
+            "system_uwp": "D8B4684-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ackang",
+            "system_position": [
+                24,
+                39
+            ],
+            "system_trade_code": "Fl Ni",
+            "system_uwp": "E9B4630-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Doyaterfit",
+            "system_position": [
+                24,
+                40
+            ],
+            "system_trade_code": "Lo Po",
+            "system_uwp": "D543103-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zendiisica",
+            "system_position": [
+                25,
+                34
+            ],
+            "system_trade_code": "Na Va Pi Pz",
+            "system_uwp": "B4007B9-C",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Desolation",
+            "system_position": [
+                25,
+                35
+            ],
+            "system_trade_code": "De He Lo",
+            "system_uwp": "C570210-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Sorrock",
+            "system_position": [
+                25,
+                36
+            ],
+            "system_trade_code": "Ni Va Da",
+            "system_uwp": "C30058D-A",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Nowbee",
+            "system_position": [
+                25,
+                37
+            ],
+            "system_trade_code": "Po Pz",
+            "system_uwp": "A55277B-8",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Riyten",
+            "system_position": [
+                25,
+                38
+            ],
+            "system_trade_code": "He Lo",
+            "system_uwp": "D692332-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ression",
+            "system_position": [
+                25,
+                40
+            ],
+            "system_trade_code": "Lo Va",
+            "system_uwp": "B400102-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Umaraag",
+            "system_position": [
+                26,
+                31
+            ],
+            "system_trade_code": "Ri Ph Pz LancW",
+            "system_uwp": "C5698CC-9",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Sumeszu",
+            "system_position": [
+                26,
+                32
+            ],
+            "system_trade_code": "Lo Va",
+            "system_uwp": "A10035A-F",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Glenn",
+            "system_position": [
+                26,
+                34
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "A573430-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Conn",
+            "system_position": [
+                26,
+                36
+            ],
+            "system_trade_code": "He Pi Pz",
+            "system_uwp": "B5727B9-A",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Sintoshee",
+            "system_position": [
+                26,
+                40
+            ],
+            "system_trade_code": "Ag Ga",
+            "system_uwp": "E656779-4",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kanorb",
+            "system_position": [
+                27,
+                33
+            ],
+            "system_trade_code": "Hi In LancW",
+            "system_uwp": "C573976-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Nart-roft",
+            "system_position": [
+                27,
+                35
+            ],
+            "system_trade_code": "Pa Ph Pi",
+            "system_uwp": "C575886-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Viewday",
+            "system_position": [
+                27,
+                38
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "C673324-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tatsnank Defu",
+            "system_position": [
+                27,
+                40
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "B561348-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Radical",
+            "system_position": [
+                28,
+                31
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "C559532-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Starting",
+            "system_position": [
+                28,
+                33
+            ],
+            "system_trade_code": "De Ni Po",
+            "system_uwp": "C430404-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Igudi",
+            "system_position": [
+                28,
+                36
+            ],
+            "system_trade_code": "Ag Ni Ri",
+            "system_uwp": "D586643-2",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Sepstar",
+            "system_position": [
+                28,
+                37
+            ],
+            "system_trade_code": "Ni Pa",
+            "system_uwp": "B568400-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ecktars Eckto",
+            "system_position": [
+                29,
+                32
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "C589310-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Sashrakusha",
+            "system_position": [
+                29,
+                33
+            ],
+            "system_trade_code": "Fl Ph Cp LancW",
+            "system_uwp": "AAB487A-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Yull-jettii",
+            "system_position": [
+                29,
+                34
+            ],
+            "system_trade_code": "Lo Wa",
+            "system_uwp": "B86A100-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Trickster",
+            "system_position": [
+                29,
+                35
+            ],
+            "system_trade_code": "De He Ni Po",
+            "system_uwp": "C420555-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Hendrick",
+            "system_position": [
+                29,
+                37
+            ],
+            "system_trade_code": "De He Lo Po RsD",
+            "system_uwp": "C420342-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "United",
+            "system_position": [
+                29,
+                40
+            ],
+            "system_trade_code": "Ni Ri Wa",
+            "system_uwp": "E66A696-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Stagers",
+            "system_position": [
+                30,
+                32
+            ],
+            "system_trade_code": "Lo Po",
+            "system_uwp": "C543200-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Sinist III",
+            "system_position": [
+                30,
+                33
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "E426238-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dialreck",
+            "system_position": [
+                30,
+                36
+            ],
+            "system_trade_code": "Ri Pa Ph LancW",
+            "system_uwp": "B585896-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Yur Hur Ged",
+            "system_position": [
+                30,
+                38
+            ],
+            "system_trade_code": "Ic Na Pi",
+            "system_uwp": "E311756-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Prefostered",
+            "system_position": [
+                30,
+                39
+            ],
+            "system_trade_code": "De He Ni Po",
+            "system_uwp": "C420432-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Shishashu",
+            "system_position": [
+                30,
+                40
+            ],
+            "system_trade_code": "Ic Lo",
+            "system_uwp": "A312200-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Xapoqoz",
+            "system_position": [
+                31,
+                31
+            ],
+            "system_trade_code": "Po (Xapoqi)0",
+            "system_uwp": "E853724-2",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Unikeejaf",
+            "system_position": [
+                31,
+                32
+            ],
+            "system_trade_code": "Ag Ni Pr",
+            "system_uwp": "D768540-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Cafad",
+            "system_position": [
+                31,
+                35
+            ],
+            "system_trade_code": "Ag Ni Ga Pr (Cafadians)",
+            "system_uwp": "E666554-4",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Wenty-ruu",
+            "system_position": [
+                31,
+                36
+            ],
+            "system_trade_code": "Ic Na Va Pi",
+            "system_uwp": "A201755-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Idanchy",
+            "system_position": [
+                31,
+                37
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "D789333-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Yigh",
+            "system_position": [
+                31,
+                38
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "D999653-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Mappeh",
+            "system_position": [
+                31,
+                39
+            ],
+            "system_trade_code": "Ag Pi",
+            "system_uwp": "A997794-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Creading",
+            "system_position": [
+                31,
+                40
+            ],
+            "system_trade_code": "Ni Wa",
+            "system_uwp": "A66A425-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Pink Sky",
+            "system_position": [
+                32,
+                31
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "C574588-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Above",
+            "system_position": [
+                32,
+                32
+            ],
+            "system_trade_code": "Ph Pi LancW",
+            "system_uwp": "A726886-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Seshotinam",
+            "system_position": [
+                32,
+                34
+            ],
+            "system_trade_code": "Ni Va",
+            "system_uwp": "E200527-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Sharkhagu",
+            "system_position": [
+                32,
+                35
+            ],
+            "system_trade_code": "He Ni Po O:3136",
+            "system_uwp": "B541464-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Lesha",
+            "system_position": [
+                32,
+                38
+            ],
+            "system_trade_code": "Lo O:3139",
+            "system_uwp": "B988168-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Palama",
+            "system_position": [
+                32,
+                40
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "A597100-E",
+            "system_zone": ""
+        }
+    ]
+}

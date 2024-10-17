@@ -1,0 +1,2035 @@
+{
+    "sector_name": "Thaku Fung",
+    "sector_position": [
+        -3,
+        -5
+    ],
+    "subsectors": [
+        {
+            "subsector_index": 1,
+            "subsector_name": "Nest"
+        },
+        {
+            "subsector_index": 2,
+            "subsector_name": "Warding Beak"
+        },
+        {
+            "subsector_index": 3,
+            "subsector_name": "Second Wing"
+        },
+        {
+            "subsector_index": 4,
+            "subsector_name": "Stasis Tail"
+        },
+        {
+            "subsector_index": 5,
+            "subsector_name": "Smoke"
+        },
+        {
+            "subsector_index": 6,
+            "subsector_name": "Crest Minirift"
+        },
+        {
+            "subsector_index": 7,
+            "subsector_name": "Old Perch"
+        },
+        {
+            "subsector_index": 8,
+            "subsector_name": "Fallow"
+        },
+        {
+            "subsector_index": 9,
+            "subsector_name": "Firepit"
+        },
+        {
+            "subsector_index": 10,
+            "subsector_name": "Phi's Sauna"
+        },
+        {
+            "subsector_index": 11,
+            "subsector_name": "Cheaters' Route"
+        },
+        {
+            "subsector_index": 12,
+            "subsector_name": "Vargrwall"
+        },
+        {
+            "subsector_index": 13,
+            "subsector_name": "Gnuukechk"
+        },
+        {
+            "subsector_index": 14,
+            "subsector_name": "Reurrkechk"
+        },
+        {
+            "subsector_index": 15,
+            "subsector_name": "Kiden"
+        },
+        {
+            "subsector_index": 16,
+            "subsector_name": "Rrourzdaekh"
+        }
+    ],
+    "systems": [
+        {
+            "system_name": "Kewaerie",
+            "system_position": [
+                1,
+                6
+            ],
+            "system_trade_code": "Ba Di",
+            "system_uwp": "X426000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Miikhi",
+            "system_position": [
+                2,
+                1
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "D848554-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Syuspine",
+            "system_position": [
+                2,
+                7
+            ],
+            "system_trade_code": "Ba Va Di",
+            "system_uwp": "X100000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Priruk",
+            "system_position": [
+                2,
+                8
+            ],
+            "system_trade_code": "Ba Va Di",
+            "system_uwp": "X100000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Pug",
+            "system_position": [
+                3,
+                1
+            ],
+            "system_trade_code": "Ba Fl He Di",
+            "system_uwp": "X7B2000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Cajofie",
+            "system_position": [
+                3,
+                2
+            ],
+            "system_trade_code": "Ba Di",
+            "system_uwp": "X9D2000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Astusl",
+            "system_position": [
+                3,
+                3
+            ],
+            "system_trade_code": "Ba Ic Va Di",
+            "system_uwp": "X203000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Gaesya",
+            "system_position": [
+                3,
+                7
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "D466100-7",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Evostat",
+            "system_position": [
+                5,
+                5
+            ],
+            "system_trade_code": "Ba Po Di",
+            "system_uwp": "X432000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Lag",
+            "system_position": [
+                5,
+                10
+            ],
+            "system_trade_code": "Ag Ni Lt",
+            "system_uwp": "D474687-3",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Cuboossoo",
+            "system_position": [
+                6,
+                5
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "B545355-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Buchipu",
+            "system_position": [
+                8,
+                2
+            ],
+            "system_trade_code": "Ba Fl Di",
+            "system_uwp": "X8A4000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Griipu",
+            "system_position": [
+                8,
+                5
+            ],
+            "system_trade_code": "He Lo",
+            "system_uwp": "D792200-8",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Eesi",
+            "system_position": [
+                8,
+                7
+            ],
+            "system_trade_code": "Ba Va Di",
+            "system_uwp": "X100000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Mokustasy",
+            "system_position": [
+                8,
+                8
+            ],
+            "system_trade_code": "Ba Di",
+            "system_uwp": "X536000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Rouno",
+            "system_position": [
+                8,
+                10
+            ],
+            "system_trade_code": "Ba Fl He Di",
+            "system_uwp": "X7A2000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Miiprie",
+            "system_position": [
+                9,
+                9
+            ],
+            "system_trade_code": "Ba Va Di",
+            "system_uwp": "X200000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Yehootu",
+            "system_position": [
+                9,
+                10
+            ],
+            "system_trade_code": "Ag Ni Lt",
+            "system_uwp": "C34457A-5",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Nass",
+            "system_position": [
+                10,
+                4
+            ],
+            "system_trade_code": "De Ni",
+            "system_uwp": "C270576-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Sprout",
+            "system_position": [
+                12,
+                4
+            ],
+            "system_trade_code": "Ni O:1206",
+            "system_uwp": "C499561-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Seed",
+            "system_position": [
+                12,
+                6
+            ],
+            "system_trade_code": "Ph Pi C:1204",
+            "system_uwp": "C699843-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Spinlight",
+            "system_position": [
+                14,
+                8
+            ],
+            "system_trade_code": "Ag Ga Ni Pr Tp",
+            "system_uwp": "C766510-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Corst",
+            "system_position": [
+                15,
+                1
+            ],
+            "system_trade_code": "Ga Pa Ph Tp",
+            "system_uwp": "B655852-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Drilat",
+            "system_position": [
+                15,
+                4
+            ],
+            "system_trade_code": "Ba Va Da Di",
+            "system_uwp": "X300000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Deoxide",
+            "system_position": [
+                15,
+                8
+            ],
+            "system_trade_code": "Ba Wa Da Di",
+            "system_uwp": "X97A000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Farmaire",
+            "system_position": [
+                16,
+                3
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "D45658C-8",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "VoidBridge 8",
+            "system_position": [
+                16,
+                4
+            ],
+            "system_trade_code": "{Anomaly} {Fuel}",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Hydrax",
+            "system_position": [
+                16,
+                5
+            ],
+            "system_trade_code": "Ba Da Di",
+            "system_uwp": "X62A000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Mawn",
+            "system_position": [
+                16,
+                8
+            ],
+            "system_trade_code": "Ba Da Di",
+            "system_uwp": "X625000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Fouste",
+            "system_position": [
+                16,
+                9
+            ],
+            "system_trade_code": "Ag Ga Tp",
+            "system_uwp": "C655757-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Icelin",
+            "system_position": [
+                17,
+                3
+            ],
+            "system_trade_code": "Ba Ic Va Da Di",
+            "system_uwp": "X501000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Viemae",
+            "system_position": [
+                17,
+                6
+            ],
+            "system_trade_code": "Ba Da Di",
+            "system_uwp": "X310000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "VoidBridge 6",
+            "system_position": [
+                17,
+                8
+            ],
+            "system_trade_code": "{Anomaly} {Fuel}",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Aethrie",
+            "system_position": [
+                18,
+                2
+            ],
+            "system_trade_code": "Ba Fl Da Di",
+            "system_uwp": "X7B5000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "VoidBridge 7",
+            "system_position": [
+                18,
+                6
+            ],
+            "system_trade_code": "{Anomaly} {Fuel}",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Cogh",
+            "system_position": [
+                18,
+                7
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "B793588-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Whippoorwill",
+            "system_position": [
+                19,
+                3
+            ],
+            "system_trade_code": "Ag Ni Pr",
+            "system_uwp": "C565575-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Rustbreeze",
+            "system_position": [
+                19,
+                6
+            ],
+            "system_trade_code": "Ba Di",
+            "system_uwp": "X575000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Noswim",
+            "system_position": [
+                19,
+                8
+            ],
+            "system_trade_code": "Ba Fl He Da Di",
+            "system_uwp": "X6B2000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Talienda",
+            "system_position": [
+                20,
+                1
+            ],
+            "system_trade_code": "Ni Pa",
+            "system_uwp": "D895422-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "VoidBridge 9",
+            "system_position": [
+                20,
+                2
+            ],
+            "system_trade_code": "{Anomaly} {Fuel}",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Sahare",
+            "system_position": [
+                20,
+                3
+            ],
+            "system_trade_code": "Ba Po Da Di",
+            "system_uwp": "X531000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "VoidBridge A",
+            "system_position": [
+                20,
+                4
+            ],
+            "system_trade_code": "{Anomaly} {Fuel}",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "VoidBridge B",
+            "system_position": [
+                20,
+                5
+            ],
+            "system_trade_code": "{Anomaly} {Fuel}",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "VoidBridge C",
+            "system_position": [
+                20,
+                6
+            ],
+            "system_trade_code": "{Anomaly} {Fuel}",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Giv",
+            "system_position": [
+                20,
+                7
+            ],
+            "system_trade_code": "As Ba Va Da Di",
+            "system_uwp": "X000000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Everswim",
+            "system_position": [
+                20,
+                8
+            ],
+            "system_trade_code": "Ba Da Di",
+            "system_uwp": "X957000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Moice",
+            "system_position": [
+                21,
+                3
+            ],
+            "system_trade_code": "Ba Ic Va Da Di",
+            "system_uwp": "X401000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Bridgeholm",
+            "system_position": [
+                21,
+                5
+            ],
+            "system_trade_code": "Ba Po Da Di",
+            "system_uwp": "X543000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Digmore",
+            "system_position": [
+                21,
+                7
+            ],
+            "system_trade_code": "Ba De Da Di",
+            "system_uwp": "X160000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "VoidBridge 5",
+            "system_position": [
+                21,
+                8
+            ],
+            "system_trade_code": "{Anomaly} {Fuel}",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Summergust",
+            "system_position": [
+                22,
+                2
+            ],
+            "system_trade_code": "Ba Ic Da Di",
+            "system_uwp": "X314000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Dredgelund",
+            "system_position": [
+                22,
+                8
+            ],
+            "system_trade_code": "Ag Ga Ni Ri Tp",
+            "system_uwp": "B685621-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Heavybelt",
+            "system_position": [
+                23,
+                8
+            ],
+            "system_trade_code": "Ba Va Da Di",
+            "system_uwp": "X200000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Muddle",
+            "system_position": [
+                24,
+                8
+            ],
+            "system_trade_code": "Ba Da Di",
+            "system_uwp": "X585000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Margie",
+            "system_position": [
+                24,
+                10
+            ],
+            "system_trade_code": "Ba Da Di",
+            "system_uwp": "X526000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Dry Mine",
+            "system_position": [
+                25,
+                9
+            ],
+            "system_trade_code": "Ba Da Di",
+            "system_uwp": "X310000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Bath",
+            "system_position": [
+                25,
+                10
+            ],
+            "system_trade_code": "Ag Ri Sa Huma2 Varg8",
+            "system_uwp": "A4687A5-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2601",
+            "system_position": [
+                26,
+                1
+            ],
+            "system_trade_code": "Ba Ga Tp Fo",
+            "system_uwp": "X756000-0",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "SP Break 2604",
+            "system_position": [
+                26,
+                4
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X334000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Asid",
+            "system_position": [
+                26,
+                7
+            ],
+            "system_trade_code": "Ba Fl Da Di",
+            "system_uwp": "X6B4000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Port Bleak",
+            "system_position": [
+                26,
+                8
+            ],
+            "system_trade_code": "Ba Po Da Di",
+            "system_uwp": "X351000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Skyfish",
+            "system_position": [
+                27,
+                7
+            ],
+            "system_trade_code": "Ga Lo Tp Huma7 Chir3",
+            "system_uwp": "C687346-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "VoidBridge 4",
+            "system_position": [
+                27,
+                9
+            ],
+            "system_trade_code": "{Anomaly} {Fuel}",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2802",
+            "system_position": [
+                28,
+                2
+            ],
+            "system_trade_code": "Ba Wa",
+            "system_uwp": "X99A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tak",
+            "system_position": [
+                28,
+                7
+            ],
+            "system_trade_code": "As Ba Va Da Di",
+            "system_uwp": "X000000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Kuch",
+            "system_position": [
+                28,
+                9
+            ],
+            "system_trade_code": "Ba De Di Po Da",
+            "system_uwp": "X230000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "SP Break 2902",
+            "system_position": [
+                29,
+                2
+            ],
+            "system_trade_code": "Ba Ic Va",
+            "system_uwp": "X405000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 3008",
+            "system_position": [
+                30,
+                8
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X536000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 3106",
+            "system_position": [
+                31,
+                6
+            ],
+            "system_trade_code": "Ba Va",
+            "system_uwp": "X500000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 3108",
+            "system_position": [
+                31,
+                8
+            ],
+            "system_trade_code": "Ba De Po",
+            "system_uwp": "X150000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 3109",
+            "system_position": [
+                31,
+                9
+            ],
+            "system_trade_code": "Ba Fl",
+            "system_uwp": "XAB5000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 3204",
+            "system_position": [
+                32,
+                4
+            ],
+            "system_trade_code": "Ba Ga Tp Fo",
+            "system_uwp": "X667000-0",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "SP Break 3209",
+            "system_position": [
+                32,
+                9
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X110000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Geokha",
+            "system_position": [
+                32,
+                10
+            ],
+            "system_trade_code": "Ni Pr",
+            "system_uwp": "A689559-E",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Fie's Teeth",
+            "system_position": [
+                1,
+                11
+            ],
+            "system_trade_code": "Ag Ni Pr",
+            "system_uwp": "C568538-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ootr",
+            "system_position": [
+                1,
+                14
+            ],
+            "system_trade_code": "As Ba Va Di",
+            "system_uwp": "X000000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Goosenap",
+            "system_position": [
+                1,
+                15
+            ],
+            "system_trade_code": "Ba Di",
+            "system_uwp": "X536000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Yeree",
+            "system_position": [
+                2,
+                12
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "B777321-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Yessiigh",
+            "system_position": [
+                2,
+                18
+            ],
+            "system_trade_code": "Ba Di Fl",
+            "system_uwp": "X5A3000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Beegrass",
+            "system_position": [
+                3,
+                12
+            ],
+            "system_trade_code": "Ni Wa Ht",
+            "system_uwp": "B84A443-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Smij",
+            "system_position": [
+                3,
+                17
+            ],
+            "system_trade_code": "Ba Di",
+            "system_uwp": "X524000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kaecha",
+            "system_position": [
+                4,
+                20
+            ],
+            "system_trade_code": "He Ni Po Lt",
+            "system_uwp": "E441431-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Thoobess",
+            "system_position": [
+                5,
+                11
+            ],
+            "system_trade_code": "Ba Di",
+            "system_uwp": "X535000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Chage",
+            "system_position": [
+                5,
+                15
+            ],
+            "system_trade_code": "Ba Va Di",
+            "system_uwp": "X100000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Smoke",
+            "system_position": [
+                6,
+                18
+            ],
+            "system_trade_code": "Pa Pi Ph C:0920",
+            "system_uwp": "B877883-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0915",
+            "system_position": [
+                9,
+                15
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X646000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Crest",
+            "system_position": [
+                9,
+                20
+            ],
+            "system_trade_code": "Ni Ri Ht Sa O:0618",
+            "system_uwp": "A381666-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1217",
+            "system_position": [
+                12,
+                17
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X310000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1518",
+            "system_position": [
+                15,
+                18
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X256000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1812",
+            "system_position": [
+                18,
+                12
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X464000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Havensmith",
+            "system_position": [
+                23,
+                15
+            ],
+            "system_trade_code": "Hi In Cx Ht C:2413",
+            "system_uwp": "A874983-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "VoidBridge 1",
+            "system_position": [
+                23,
+                18
+            ],
+            "system_trade_code": "{Anomaly} {Fuel}",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "VoidBridge 3",
+            "system_position": [
+                24,
+                11
+            ],
+            "system_trade_code": "{Anomaly} {Fuel}",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "VoidBridge 2",
+            "system_position": [
+                24,
+                12
+            ],
+            "system_trade_code": "{Anomaly} {Fuel}",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Anagathica",
+            "system_position": [
+                24,
+                13
+            ],
+            "system_trade_code": "Da De Lo Po Sa O:2315",
+            "system_uwp": "C14036B-A",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Vapor",
+            "system_position": [
+                24,
+                14
+            ],
+            "system_trade_code": "Ba Da Di",
+            "system_uwp": "X62A000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "SP Break 2720",
+            "system_position": [
+                27,
+                20
+            ],
+            "system_trade_code": "Ba He Po",
+            "system_uwp": "X742000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2915",
+            "system_position": [
+                29,
+                15
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X688000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 3012",
+            "system_position": [
+                30,
+                12
+            ],
+            "system_trade_code": "Ba He",
+            "system_uwp": "X6A0000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 3115",
+            "system_position": [
+                31,
+                15
+            ],
+            "system_trade_code": "Ba De He Po",
+            "system_uwp": "X440000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 3116",
+            "system_position": [
+                31,
+                16
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X997000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 3211",
+            "system_position": [
+                32,
+                11
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X357000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Liesse",
+            "system_position": [
+                1,
+                21
+            ],
+            "system_trade_code": "Ba Di",
+            "system_uwp": "X9D6000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Firepit",
+            "system_position": [
+                1,
+                22
+            ],
+            "system_trade_code": "Ni Lt",
+            "system_uwp": "D773431-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Lew",
+            "system_position": [
+                1,
+                25
+            ],
+            "system_trade_code": "Ba Di",
+            "system_uwp": "X634000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ceeceecee",
+            "system_position": [
+                2,
+                24
+            ],
+            "system_trade_code": "Lo Wa",
+            "system_uwp": "E88A300-A",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "SP Break 0427",
+            "system_position": [
+                4,
+                27
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X684000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0527",
+            "system_position": [
+                5,
+                27
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X358000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0528",
+            "system_position": [
+                5,
+                28
+            ],
+            "system_trade_code": "As Ba Va",
+            "system_uwp": "X000000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0630",
+            "system_position": [
+                6,
+                30
+            ],
+            "system_trade_code": "Ba Va",
+            "system_uwp": "X100000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Wanwater",
+            "system_position": [
+                7,
+                21
+            ],
+            "system_trade_code": "Ba Di Va",
+            "system_uwp": "X200000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0725",
+            "system_position": [
+                7,
+                25
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X224000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0726",
+            "system_position": [
+                7,
+                26
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X487000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0730",
+            "system_position": [
+                7,
+                30
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X247000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0827",
+            "system_position": [
+                8,
+                27
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X988000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0830",
+            "system_position": [
+                8,
+                30
+            ],
+            "system_trade_code": "Ba He Po",
+            "system_uwp": "X422000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0926",
+            "system_position": [
+                9,
+                26
+            ],
+            "system_trade_code": "Ba Po",
+            "system_uwp": "X231000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Phi's Reward",
+            "system_position": [
+                9,
+                30
+            ],
+            "system_trade_code": "Ba Fl He Di Fo",
+            "system_uwp": "X7A1000-0",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "SP Break 1128",
+            "system_position": [
+                11,
+                28
+            ],
+            "system_trade_code": "Ba Wa",
+            "system_uwp": "X98A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1223",
+            "system_position": [
+                12,
+                23
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X636000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1227",
+            "system_position": [
+                12,
+                27
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X625000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1325",
+            "system_position": [
+                13,
+                25
+            ],
+            "system_trade_code": "Ba Ga Tp Fo",
+            "system_uwp": "X686000-0",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "SP Break 1327",
+            "system_position": [
+                13,
+                27
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X237000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1329",
+            "system_position": [
+                13,
+                29
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X673000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1528",
+            "system_position": [
+                15,
+                28
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X797000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1726",
+            "system_position": [
+                17,
+                26
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X445000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1825",
+            "system_position": [
+                18,
+                25
+            ],
+            "system_trade_code": "Ba Wa",
+            "system_uwp": "X79A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2123",
+            "system_position": [
+                21,
+                23
+            ],
+            "system_trade_code": "Ba Fl",
+            "system_uwp": "X8A7000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2124",
+            "system_position": [
+                21,
+                24
+            ],
+            "system_trade_code": "Ba Va",
+            "system_uwp": "X300000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2127",
+            "system_position": [
+                21,
+                27
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X335000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2130",
+            "system_position": [
+                21,
+                30
+            ],
+            "system_trade_code": "Ba Va",
+            "system_uwp": "X300000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2321",
+            "system_position": [
+                23,
+                21
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X569000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2323",
+            "system_position": [
+                23,
+                23
+            ],
+            "system_trade_code": "Ba Va",
+            "system_uwp": "X300000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2427",
+            "system_position": [
+                24,
+                27
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X565000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2521",
+            "system_position": [
+                25,
+                21
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X688000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2624",
+            "system_position": [
+                26,
+                24
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X344000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2726",
+            "system_position": [
+                27,
+                26
+            ],
+            "system_trade_code": "Ba Po",
+            "system_uwp": "X523000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2729",
+            "system_position": [
+                27,
+                29
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X410000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2924",
+            "system_position": [
+                29,
+                24
+            ],
+            "system_trade_code": "Ba Ga Tp Fo",
+            "system_uwp": "X886000-0",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "SP Break 2925",
+            "system_position": [
+                29,
+                25
+            ],
+            "system_trade_code": "Ba Po",
+            "system_uwp": "X352000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 3024",
+            "system_position": [
+                30,
+                24
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X649000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 3026",
+            "system_position": [
+                30,
+                26
+            ],
+            "system_trade_code": "Ba Ic",
+            "system_uwp": "X211000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 3128",
+            "system_position": [
+                31,
+                28
+            ],
+            "system_trade_code": "Ba Po",
+            "system_uwp": "X233000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 3130",
+            "system_position": [
+                31,
+                30
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X898000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0131",
+            "system_position": [
+                1,
+                31
+            ],
+            "system_trade_code": "Ba Po",
+            "system_uwp": "X351000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0134",
+            "system_position": [
+                1,
+                34
+            ],
+            "system_trade_code": "Ba Po",
+            "system_uwp": "X551000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0135",
+            "system_position": [
+                1,
+                35
+            ],
+            "system_trade_code": "Ba Oc",
+            "system_uwp": "XA8A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0136",
+            "system_position": [
+                1,
+                36
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X544000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0231",
+            "system_position": [
+                2,
+                31
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X463000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0331",
+            "system_position": [
+                3,
+                31
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X444000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0332",
+            "system_position": [
+                3,
+                32
+            ],
+            "system_trade_code": "Ba Oc",
+            "system_uwp": "XA8A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0337",
+            "system_position": [
+                3,
+                37
+            ],
+            "system_trade_code": "Ba Fl",
+            "system_uwp": "X8B4000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0338",
+            "system_position": [
+                3,
+                38
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X525000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0431",
+            "system_position": [
+                4,
+                31
+            ],
+            "system_trade_code": "Ba Wa",
+            "system_uwp": "X99A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0435",
+            "system_position": [
+                4,
+                35
+            ],
+            "system_trade_code": "Ba Po",
+            "system_uwp": "X451000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0533",
+            "system_position": [
+                5,
+                33
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X449000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0536",
+            "system_position": [
+                5,
+                36
+            ],
+            "system_trade_code": "Ba Va",
+            "system_uwp": "X100000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0539",
+            "system_position": [
+                5,
+                39
+            ],
+            "system_trade_code": "Ba Fl",
+            "system_uwp": "X8C3000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0632",
+            "system_position": [
+                6,
+                32
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X510000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0638",
+            "system_position": [
+                6,
+                38
+            ],
+            "system_trade_code": "Ba De Po",
+            "system_uwp": "X120000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0639",
+            "system_position": [
+                6,
+                39
+            ],
+            "system_trade_code": "Ba Po",
+            "system_uwp": "X853000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0837",
+            "system_position": [
+                8,
+                37
+            ],
+            "system_trade_code": "Ba Po",
+            "system_uwp": "X343000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0934",
+            "system_position": [
+                9,
+                34
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X689000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 0936",
+            "system_position": [
+                9,
+                36
+            ],
+            "system_trade_code": "As Ba Va",
+            "system_uwp": "X000000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1034",
+            "system_position": [
+                10,
+                34
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X789000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1036",
+            "system_position": [
+                10,
+                36
+            ],
+            "system_trade_code": "Ba Ic",
+            "system_uwp": "X311000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1039",
+            "system_position": [
+                10,
+                39
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X110000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1231",
+            "system_position": [
+                12,
+                31
+            ],
+            "system_trade_code": "Ba Ic Va",
+            "system_uwp": "X505000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1232",
+            "system_position": [
+                12,
+                32
+            ],
+            "system_trade_code": "Ba He Po",
+            "system_uwp": "X341000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1240",
+            "system_position": [
+                12,
+                40
+            ],
+            "system_trade_code": "Ba Va",
+            "system_uwp": "X300000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1333",
+            "system_position": [
+                13,
+                33
+            ],
+            "system_trade_code": "Ba Ga Tp Fo",
+            "system_uwp": "X887000-0",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "SP Break 1339",
+            "system_position": [
+                13,
+                39
+            ],
+            "system_trade_code": "Ba Po",
+            "system_uwp": "X431000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1438",
+            "system_position": [
+                14,
+                38
+            ],
+            "system_trade_code": "Ba Po",
+            "system_uwp": "X551000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1532",
+            "system_position": [
+                15,
+                32
+            ],
+            "system_trade_code": "As Ba Va",
+            "system_uwp": "X000000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1537",
+            "system_position": [
+                15,
+                37
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X425000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1736",
+            "system_position": [
+                17,
+                36
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X465000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kiden",
+            "system_position": [
+                17,
+                39
+            ],
+            "system_trade_code": "Ag Pi",
+            "system_uwp": "B874777-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Uthuethou",
+            "system_position": [
+                18,
+                39
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "C653457-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1932",
+            "system_position": [
+                19,
+                32
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X375000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1933",
+            "system_position": [
+                19,
+                33
+            ],
+            "system_trade_code": "Ba Fl",
+            "system_uwp": "XAA7000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 1934",
+            "system_position": [
+                19,
+                34
+            ],
+            "system_trade_code": "Ba He",
+            "system_uwp": "X671000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2033",
+            "system_position": [
+                20,
+                33
+            ],
+            "system_trade_code": "Ba Wa",
+            "system_uwp": "X96A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2034",
+            "system_position": [
+                20,
+                34
+            ],
+            "system_trade_code": "Ba Ic",
+            "system_uwp": "X312000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2036",
+            "system_position": [
+                20,
+                36
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X425000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ksoekhtse",
+            "system_position": [
+                20,
+                40
+            ],
+            "system_trade_code": "Ni Po Ht",
+            "system_uwp": "A351522-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2131",
+            "system_position": [
+                21,
+                31
+            ],
+            "system_trade_code": "Ba De He Po",
+            "system_uwp": "X420000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2331",
+            "system_position": [
+                23,
+                31
+            ],
+            "system_trade_code": "Ba Va",
+            "system_uwp": "X300000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2436",
+            "system_position": [
+                24,
+                36
+            ],
+            "system_trade_code": "Ba De Po",
+            "system_uwp": "X130000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2537",
+            "system_position": [
+                25,
+                37
+            ],
+            "system_trade_code": "Ba De Po",
+            "system_uwp": "X120000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zueueudzoe",
+            "system_position": [
+                26,
+                40
+            ],
+            "system_trade_code": "Na Pi",
+            "system_uwp": "E510773-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Rrourzdaekh",
+            "system_position": [
+                27,
+                39
+            ],
+            "system_trade_code": "Hi Na Po Lt",
+            "system_uwp": "E533977-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "SP Break 2834",
+            "system_position": [
+                28,
+                34
+            ],
+            "system_trade_code": "Ba Va",
+            "system_uwp": "X200000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Faenekho",
+            "system_position": [
+                29,
+                39
+            ],
+            "system_trade_code": "Lo Lt",
+            "system_uwp": "C537331-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Agallug",
+            "system_position": [
+                32,
+                37
+            ],
+            "system_trade_code": "De Na Ni Po",
+            "system_uwp": "C120689-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Uue",
+            "system_position": [
+                32,
+                39
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "D210576-7",
+            "system_zone": ""
+        }
+    ]
+}

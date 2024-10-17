@@ -1,0 +1,5825 @@
+{
+    "sector_name": "Tienspevnekr",
+    "sector_position": [
+        -6,
+        -2
+    ],
+    "subsectors": [
+        {
+            "subsector_index": 1,
+            "subsector_name": "Viaplash"
+        },
+        {
+            "subsector_index": 2,
+            "subsector_name": "Dieoq"
+        },
+        {
+            "subsector_index": 3,
+            "subsector_name": "Eaflia"
+        },
+        {
+            "subsector_index": 4,
+            "subsector_name": "Bazi"
+        },
+        {
+            "subsector_index": 5,
+            "subsector_name": "A'klo"
+        },
+        {
+            "subsector_index": 6,
+            "subsector_name": "Zarontse"
+        },
+        {
+            "subsector_index": 7,
+            "subsector_name": "Abrr"
+        },
+        {
+            "subsector_index": 8,
+            "subsector_name": "Plialr"
+        },
+        {
+            "subsector_index": 9,
+            "subsector_name": "Echrets"
+        },
+        {
+            "subsector_index": 10,
+            "subsector_name": "Ordiapr"
+        },
+        {
+            "subsector_index": 11,
+            "subsector_name": "Jianjshte"
+        },
+        {
+            "subsector_index": 12,
+            "subsector_name": "Etsial"
+        },
+        {
+            "subsector_index": 13,
+            "subsector_name": "Pinsia"
+        },
+        {
+            "subsector_index": 14,
+            "subsector_name": "Neqloch"
+        },
+        {
+            "subsector_index": 15,
+            "subsector_name": "Jitiedl"
+        },
+        {
+            "subsector_index": 16,
+            "subsector_name": "Iadriav"
+        }
+    ],
+    "systems": [
+        {
+            "system_name": "Estetchtiar",
+            "system_position": [
+                1,
+                1
+            ],
+            "system_trade_code": "Ba He",
+            "system_uwp": "E672000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zhdakl",
+            "system_position": [
+                1,
+                5
+            ],
+            "system_trade_code": "Ag Pi Pz",
+            "system_uwp": "E74577C-5",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Iakladr",
+            "system_position": [
+                1,
+                7
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "C544620-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Qrariekl",
+            "system_position": [
+                1,
+                9
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "D695641-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Stenshiniej",
+            "system_position": [
+                2,
+                4
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E696000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dopriaq",
+            "system_position": [
+                2,
+                9
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E544000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Itskien",
+            "system_position": [
+                2,
+                10
+            ],
+            "system_trade_code": "He Ph Pi",
+            "system_uwp": "B57189B-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Fiazhotl",
+            "system_position": [
+                3,
+                2
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "B79949A-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Te Enssach",
+            "system_position": [
+                3,
+                3
+            ],
+            "system_trade_code": "Ba Po",
+            "system_uwp": "E433000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Drievl",
+            "system_position": [
+                3,
+                4
+            ],
+            "system_trade_code": "He Ni Po",
+            "system_uwp": "D342425-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Blielchanj",
+            "system_position": [
+                3,
+                5
+            ],
+            "system_trade_code": "Fl Ni",
+            "system_uwp": "E8A3430-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Onchpriatl",
+            "system_position": [
+                3,
+                6
+            ],
+            "system_trade_code": "Ag Pi",
+            "system_uwp": "C674755-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tliedevrfans",
+            "system_position": [
+                3,
+                7
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E425000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Nibriet Jdav",
+            "system_position": [
+                3,
+                8
+            ],
+            "system_trade_code": "As Ni Va O:0509",
+            "system_uwp": "C000567-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "A'e Krrnzha",
+            "system_position": [
+                4,
+                1
+            ],
+            "system_trade_code": "Pi",
+            "system_uwp": "B524756-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tlave",
+            "system_position": [
+                4,
+                2
+            ],
+            "system_trade_code": "Ba Ga",
+            "system_uwp": "E857000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Stefiavolzh",
+            "system_position": [
+                4,
+                3
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "A896624-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zdav A'",
+            "system_position": [
+                4,
+                5
+            ],
+            "system_trade_code": "Po Di",
+            "system_uwp": "E252000-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Elprianch",
+            "system_position": [
+                4,
+                6
+            ],
+            "system_trade_code": "Hi Pz",
+            "system_uwp": "A554AEC-B",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Kiablibrazh",
+            "system_position": [
+                4,
+                7
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "D610455-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ziebr",
+            "system_position": [
+                4,
+                10
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "C494525-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Bezoprstavria",
+            "system_position": [
+                5,
+                1
+            ],
+            "system_trade_code": "Hi Ic In Na Va",
+            "system_uwp": "D4019AA-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ebria",
+            "system_position": [
+                5,
+                4
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "B999538-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ajtloq",
+            "system_position": [
+                5,
+                7
+            ],
+            "system_trade_code": "Ni Da",
+            "system_uwp": "BAF6621-6",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Drianj Da",
+            "system_position": [
+                5,
+                9
+            ],
+            "system_trade_code": "Ag Ri",
+            "system_uwp": "A464778-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ia'tsanch",
+            "system_position": [
+                6,
+                4
+            ],
+            "system_trade_code": "Ag Ni Ga Da",
+            "system_uwp": "C65757A-5",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Anzhiat",
+            "system_position": [
+                6,
+                5
+            ],
+            "system_trade_code": "Ni Da",
+            "system_uwp": "E273446-7",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Platdrial",
+            "system_position": [
+                6,
+                9
+            ],
+            "system_trade_code": "Ba O:0509",
+            "system_uwp": "D546000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zianttlons",
+            "system_position": [
+                6,
+                10
+            ],
+            "system_trade_code": "Pi Pz",
+            "system_uwp": "D449722-5",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Abrni",
+            "system_position": [
+                7,
+                1
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "B79468A-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Viaplash",
+            "system_position": [
+                7,
+                2
+            ],
+            "system_trade_code": "Ni Ri Cp",
+            "system_uwp": "A7636A9-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ashja'",
+            "system_position": [
+                7,
+                4
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E526000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "E'tevrtsienzh",
+            "system_position": [
+                7,
+                5
+            ],
+            "system_trade_code": "Ni Wa",
+            "system_uwp": "C75A5AA-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Iablia",
+            "system_position": [
+                8,
+                5
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "C44559E-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tapiat",
+            "system_position": [
+                8,
+                10
+            ],
+            "system_trade_code": "Ni Po Da",
+            "system_uwp": "C221555-A",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Qliekredr",
+            "system_position": [
+                9,
+                3
+            ],
+            "system_trade_code": "Ic Ni Va Da",
+            "system_uwp": "C402596-7",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Blob",
+            "system_position": [
+                9,
+                5
+            ],
+            "system_trade_code": "Ni Da",
+            "system_uwp": "C383457-6",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Dlavbria",
+            "system_position": [
+                9,
+                6
+            ],
+            "system_trade_code": "Hi Pr Pz",
+            "system_uwp": "D9899CA-5",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "A'jens",
+            "system_position": [
+                9,
+                9
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E535000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Eshiadl",
+            "system_position": [
+                9,
+                10
+            ],
+            "system_trade_code": "Ri Pa Ph",
+            "system_uwp": "D465855-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ostiato",
+            "system_position": [
+                10,
+                1
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E877000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Plevrale",
+            "system_position": [
+                10,
+                2
+            ],
+            "system_trade_code": "Pa Ph Pz",
+            "system_uwp": "C555857-5",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Vliasiensh",
+            "system_position": [
+                10,
+                4
+            ],
+            "system_trade_code": "De Hi In Na Po",
+            "system_uwp": "B120A97-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ranzhtlia",
+            "system_position": [
+                10,
+                5
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E544000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Chelnokia",
+            "system_position": [
+                10,
+                9
+            ],
+            "system_trade_code": "Ic Na Ni Da O:1210",
+            "system_uwp": "C511668-7",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Dieoq",
+            "system_position": [
+                11,
+                4
+            ],
+            "system_trade_code": "Ag Cp Pi",
+            "system_uwp": "A7757AA-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Iaria",
+            "system_position": [
+                11,
+                6
+            ],
+            "system_trade_code": "Ba He Po",
+            "system_uwp": "E322000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Blienzia",
+            "system_position": [
+                11,
+                7
+            ],
+            "system_trade_code": "Ni Pa",
+            "system_uwp": "C545430-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dloddlia",
+            "system_position": [
+                11,
+                10
+            ],
+            "system_trade_code": "Ag Ni Ga Pr Da",
+            "system_uwp": "E687588-5",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Anshliaf",
+            "system_position": [
+                12,
+                2
+            ],
+            "system_trade_code": "Ba Po",
+            "system_uwp": "E232000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Draplja",
+            "system_position": [
+                12,
+                4
+            ],
+            "system_trade_code": "De Ni Po",
+            "system_uwp": "B230556-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Shiplna'tlapr",
+            "system_position": [
+                12,
+                5
+            ],
+            "system_trade_code": "Ph",
+            "system_uwp": "A534889-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jdiv",
+            "system_position": [
+                12,
+                6
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E586000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Flichiaz",
+            "system_position": [
+                12,
+                10
+            ],
+            "system_trade_code": "He Na Ni Po Da",
+            "system_uwp": "B32267A-B",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Ja'zhaqtle",
+            "system_position": [
+                13,
+                5
+            ],
+            "system_trade_code": "Ri",
+            "system_uwp": "C48378A-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kanzhploq",
+            "system_position": [
+                13,
+                7
+            ],
+            "system_trade_code": "Ba Ga",
+            "system_uwp": "E757000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dle'jevr",
+            "system_position": [
+                13,
+                8
+            ],
+            "system_trade_code": "Ag Pi",
+            "system_uwp": "C777788-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Eshtetl",
+            "system_position": [
+                14,
+                4
+            ],
+            "system_trade_code": "Hi In Na",
+            "system_uwp": "C110946-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Qratlodr",
+            "system_position": [
+                14,
+                5
+            ],
+            "system_trade_code": "Ph",
+            "system_uwp": "A4368AA-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tilkidl",
+            "system_position": [
+                14,
+                7
+            ],
+            "system_trade_code": "Ba Fo",
+            "system_uwp": "X848000-0",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Jiant",
+            "system_position": [
+                14,
+                9
+            ],
+            "system_trade_code": "As Ni Va",
+            "system_uwp": "E000438-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Izhanz",
+            "system_position": [
+                14,
+                10
+            ],
+            "system_trade_code": "As Ba Va",
+            "system_uwp": "E000000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zdeshiechat",
+            "system_position": [
+                15,
+                2
+            ],
+            "system_trade_code": "Ba Fl He Da",
+            "system_uwp": "E7A2000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Qristiev",
+            "system_position": [
+                15,
+                3
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "C556533-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Atlyazh",
+            "system_position": [
+                15,
+                4
+            ],
+            "system_trade_code": "He Hi In",
+            "system_uwp": "E7B09AA-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tliaplat",
+            "system_position": [
+                15,
+                6
+            ],
+            "system_trade_code": "Ba Va",
+            "system_uwp": "E300000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Inzier",
+            "system_position": [
+                15,
+                7
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "B262454-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Avrrsiabl",
+            "system_position": [
+                15,
+                8
+            ],
+            "system_trade_code": "Hi",
+            "system_uwp": "B8D4ABB-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Na Jdedrr",
+            "system_position": [
+                15,
+                10
+            ],
+            "system_trade_code": "Ag Ni Ga",
+            "system_uwp": "B655543-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zhdevyach",
+            "system_position": [
+                16,
+                1
+            ],
+            "system_trade_code": "Fl Di",
+            "system_uwp": "E6B4000-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ilnieblaq",
+            "system_position": [
+                16,
+                3
+            ],
+            "system_trade_code": "Hi In Po",
+            "system_uwp": "C2429AB-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Pa'a",
+            "system_position": [
+                16,
+                4
+            ],
+            "system_trade_code": "Ba Ga",
+            "system_uwp": "E666000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Sha'shafr",
+            "system_position": [
+                16,
+                9
+            ],
+            "system_trade_code": "Ag Ni Pr",
+            "system_uwp": "E588515-2",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zhdashi",
+            "system_position": [
+                17,
+                4
+            ],
+            "system_trade_code": "Ba Fl",
+            "system_uwp": "E9A6000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Afli'inint",
+            "system_position": [
+                17,
+                6
+            ],
+            "system_trade_code": "Ag Pi Pz",
+            "system_uwp": "A547777-C",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Viantsedr",
+            "system_position": [
+                17,
+                8
+            ],
+            "system_trade_code": "Hi In Na Va Pz",
+            "system_uwp": "C2009CC-A",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Melpia",
+            "system_position": [
+                17,
+                9
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E673000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Azzhdof",
+            "system_position": [
+                18,
+                1
+            ],
+            "system_trade_code": "Ni Wa O:2302",
+            "system_uwp": "A99A467-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Nalni'ie",
+            "system_position": [
+                18,
+                4
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "E444552-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Fliqr",
+            "system_position": [
+                18,
+                5
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "E8D5522-4",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Retsshienj",
+            "system_position": [
+                18,
+                6
+            ],
+            "system_trade_code": "Ba Fo",
+            "system_uwp": "X797000-0",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Zhiltlanz",
+            "system_position": [
+                18,
+                7
+            ],
+            "system_trade_code": "Ba De He Po Da",
+            "system_uwp": "E320000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Yiavree",
+            "system_position": [
+                19,
+                2
+            ],
+            "system_trade_code": "Ba Fl",
+            "system_uwp": "E6A4000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Sivliezh",
+            "system_position": [
+                19,
+                4
+            ],
+            "system_trade_code": "As Na Ni Va",
+            "system_uwp": "E000655-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vrietsshafens",
+            "system_position": [
+                19,
+                5
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "D45369B-4",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Izhniach",
+            "system_position": [
+                19,
+                6
+            ],
+            "system_trade_code": "Ni Ri",
+            "system_uwp": "B883645-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kiear",
+            "system_position": [
+                20,
+                2
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E462000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jdalifensh",
+            "system_position": [
+                20,
+                3
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E354000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vlansbedl",
+            "system_position": [
+                21,
+                1
+            ],
+            "system_trade_code": "Ba Va Da",
+            "system_uwp": "E400000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Chtokra",
+            "system_position": [
+                21,
+                3
+            ],
+            "system_trade_code": "Ni Va",
+            "system_uwp": "B10058A-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jdiancha",
+            "system_position": [
+                21,
+                5
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E510000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zhiv",
+            "system_position": [
+                21,
+                7
+            ],
+            "system_trade_code": "Hi Fo",
+            "system_uwp": "XAD4AFE-4",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Inteianzh",
+            "system_position": [
+                21,
+                9
+            ],
+            "system_trade_code": "Hi In Wa",
+            "system_uwp": "B89A9CD-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zhdiafebr",
+            "system_position": [
+                21,
+                10
+            ],
+            "system_trade_code": "Ni Wa",
+            "system_uwp": "C67A400-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ie'jdom",
+            "system_position": [
+                22,
+                1
+            ],
+            "system_trade_code": "Ph Pz",
+            "system_uwp": "D7378AE-6",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "She'atadl",
+            "system_position": [
+                22,
+                5
+            ],
+            "system_trade_code": "Ni Pa Cp",
+            "system_uwp": "A548447-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Eaflia",
+            "system_position": [
+                22,
+                7
+            ],
+            "system_trade_code": "Ag Ga Ri",
+            "system_uwp": "A665778-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Stiansaibr",
+            "system_position": [
+                22,
+                8
+            ],
+            "system_trade_code": "De Ni Po",
+            "system_uwp": "B140643-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dlie",
+            "system_position": [
+                23,
+                1
+            ],
+            "system_trade_code": "Ag Ni Ga",
+            "system_uwp": "B755535-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Azhierebr",
+            "system_position": [
+                23,
+                2
+            ],
+            "system_trade_code": "Hi In",
+            "system_uwp": "A674946-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dlens",
+            "system_position": [
+                23,
+                3
+            ],
+            "system_trade_code": "Ag Ri",
+            "system_uwp": "B385776-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Edlia",
+            "system_position": [
+                23,
+                7
+            ],
+            "system_trade_code": "Ba Da",
+            "system_uwp": "E546000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Krich",
+            "system_position": [
+                23,
+                9
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "E733443-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Yepietl",
+            "system_position": [
+                23,
+                10
+            ],
+            "system_trade_code": "He Ni Po",
+            "system_uwp": "B542420-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Adriadr",
+            "system_position": [
+                24,
+                2
+            ],
+            "system_trade_code": "Ba Fl",
+            "system_uwp": "E9A3000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Salzdi",
+            "system_position": [
+                24,
+                10
+            ],
+            "system_trade_code": "Ba Ga",
+            "system_uwp": "E766000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jdefa",
+            "system_position": [
+                25,
+                5
+            ],
+            "system_trade_code": "Ni Ga Pa",
+            "system_uwp": "E857443-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kieshi A'",
+            "system_position": [
+                25,
+                6
+            ],
+            "system_trade_code": "Hi Ga Pr",
+            "system_uwp": "B685977-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zdrdlia",
+            "system_position": [
+                25,
+                8
+            ],
+            "system_trade_code": "Ni Wa",
+            "system_uwp": "C99A595-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Arklif",
+            "system_position": [
+                25,
+                9
+            ],
+            "system_trade_code": "Ba De Po O:2708",
+            "system_uwp": "E130000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zdodrtlepr",
+            "system_position": [
+                26,
+                6
+            ],
+            "system_trade_code": "Ba Po",
+            "system_uwp": "E343000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ietleya",
+            "system_position": [
+                26,
+                7
+            ],
+            "system_trade_code": "Ni O:2708",
+            "system_uwp": "E437562-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Manshiapl",
+            "system_position": [
+                26,
+                8
+            ],
+            "system_trade_code": "Hi In Na",
+            "system_uwp": "C4109AD-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vlatl",
+            "system_position": [
+                26,
+                10
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "C458599-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ofribrcho'azh",
+            "system_position": [
+                27,
+                1
+            ],
+            "system_trade_code": "Ni Ri Wa O:2902",
+            "system_uwp": "A66A667-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Stiazbre",
+            "system_position": [
+                27,
+                3
+            ],
+            "system_trade_code": "Ag Pi",
+            "system_uwp": "D245723-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vli",
+            "system_position": [
+                27,
+                4
+            ],
+            "system_trade_code": "De Po Di",
+            "system_uwp": "E230000-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tanzhit",
+            "system_position": [
+                27,
+                5
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "C628530-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Aqsha",
+            "system_position": [
+                27,
+                6
+            ],
+            "system_trade_code": "Hi Pr",
+            "system_uwp": "C5669BC-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Beviadl",
+            "system_position": [
+                27,
+                8
+            ],
+            "system_trade_code": "Ag Ri",
+            "system_uwp": "A565754-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zhdenshdlia",
+            "system_position": [
+                27,
+                9
+            ],
+            "system_trade_code": "Fl He Ph",
+            "system_uwp": "A8A28AB-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Iashbradr",
+            "system_position": [
+                27,
+                10
+            ],
+            "system_trade_code": "Ba Wa",
+            "system_uwp": "E68A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tlelodldia'se",
+            "system_position": [
+                28,
+                3
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "E5435AF-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jia'stikr",
+            "system_position": [
+                29,
+                2
+            ],
+            "system_trade_code": "Ni Pr",
+            "system_uwp": "B563550-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Yiedravr",
+            "system_position": [
+                29,
+                4
+            ],
+            "system_trade_code": "Ba De Po",
+            "system_uwp": "E120000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Plentapla",
+            "system_position": [
+                29,
+                7
+            ],
+            "system_trade_code": "Ba Wa",
+            "system_uwp": "E79A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vlepiat",
+            "system_position": [
+                29,
+                8
+            ],
+            "system_trade_code": "De Ni Po",
+            "system_uwp": "C220510-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tinzhiaz",
+            "system_position": [
+                30,
+                6
+            ],
+            "system_trade_code": "Pa Ph Pi",
+            "system_uwp": "C596889-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zdiatiadl",
+            "system_position": [
+                30,
+                7
+            ],
+            "system_trade_code": "Hi Ic In Na Va Cp",
+            "system_uwp": "A302AAD-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ninshiaiach",
+            "system_position": [
+                30,
+                8
+            ],
+            "system_trade_code": "Ic Ni Va",
+            "system_uwp": "A303554-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Mie'a",
+            "system_position": [
+                30,
+                10
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "B858688-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Inshkoa",
+            "system_position": [
+                31,
+                1
+            ],
+            "system_trade_code": "Ba Va",
+            "system_uwp": "E100000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Atliakritl",
+            "system_position": [
+                31,
+                2
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "E996535-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dezhr'",
+            "system_position": [
+                31,
+                4
+            ],
+            "system_trade_code": "Ni Wa Pr",
+            "system_uwp": "E88A584-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tsialebr",
+            "system_position": [
+                31,
+                10
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "A695634-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Te Evrmach",
+            "system_position": [
+                32,
+                5
+            ],
+            "system_trade_code": "Wa",
+            "system_uwp": "E85A732-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dozhbresh",
+            "system_position": [
+                32,
+                6
+            ],
+            "system_trade_code": "Ba He",
+            "system_uwp": "D7A0000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Brakr",
+            "system_position": [
+                32,
+                7
+            ],
+            "system_trade_code": "Ba Fl",
+            "system_uwp": "E7B6000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Nomapr A'",
+            "system_position": [
+                32,
+                9
+            ],
+            "system_trade_code": "Fl Ni",
+            "system_uwp": "D8C6458-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Astatl",
+            "system_position": [
+                1,
+                13
+            ],
+            "system_trade_code": "Ni O:0314",
+            "system_uwp": "E435666-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tenji",
+            "system_position": [
+                1,
+                15
+            ],
+            "system_trade_code": "Na Po Ph O:0314",
+            "system_uwp": "E231866-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vlievdiatl",
+            "system_position": [
+                1,
+                16
+            ],
+            "system_trade_code": "Ag Ni Ri",
+            "system_uwp": "C784630-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Driedach",
+            "system_position": [
+                1,
+                18
+            ],
+            "system_trade_code": "Ba Fl",
+            "system_uwp": "E8A6000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tepiach",
+            "system_position": [
+                2,
+                12
+            ],
+            "system_trade_code": "Ba De Po",
+            "system_uwp": "E330000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Arvrians",
+            "system_position": [
+                2,
+                17
+            ],
+            "system_trade_code": "Ni Oc",
+            "system_uwp": "BA9A599-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Nipriabl",
+            "system_position": [
+                2,
+                20
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E110000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Sefr",
+            "system_position": [
+                3,
+                14
+            ],
+            "system_trade_code": "Ag Pi",
+            "system_uwp": "B474789-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Rziad",
+            "system_position": [
+                3,
+                18
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "B749576-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Klejtakriepl",
+            "system_position": [
+                3,
+                19
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E338000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "A'klo",
+            "system_position": [
+                3,
+                20
+            ],
+            "system_trade_code": "As Ni Va",
+            "system_uwp": "A000400-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kizdant",
+            "system_position": [
+                4,
+                12
+            ],
+            "system_trade_code": "Ni Va",
+            "system_uwp": "C20058B-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zhdavrmazh",
+            "system_position": [
+                4,
+                14
+            ],
+            "system_trade_code": "Ag Pi",
+            "system_uwp": "A647777-B",
+            "system_zone": "U"
+        },
+        {
+            "system_name": "Jantsiaravr",
+            "system_position": [
+                4,
+                15
+            ],
+            "system_trade_code": "Ba Ga",
+            "system_uwp": "E685000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Diakra",
+            "system_position": [
+                4,
+                16
+            ],
+            "system_trade_code": "Fl Ni O:0414",
+            "system_uwp": "C9C5662-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Eshil",
+            "system_position": [
+                4,
+                18
+            ],
+            "system_trade_code": "Ga Ri Pa Ph",
+            "system_uwp": "A887898-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Priat",
+            "system_position": [
+                4,
+                19
+            ],
+            "system_trade_code": "De Ri",
+            "system_uwp": "C26078A-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Staliaql",
+            "system_position": [
+                4,
+                20
+            ],
+            "system_trade_code": "Ni Ri Wa",
+            "system_uwp": "B76A615-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ie'ia",
+            "system_position": [
+                5,
+                14
+            ],
+            "system_trade_code": "Hi In Na Va",
+            "system_uwp": "A200A87-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Yienze",
+            "system_position": [
+                5,
+                17
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "B577576-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ontsiiaz",
+            "system_position": [
+                5,
+                18
+            ],
+            "system_trade_code": "Hi In",
+            "system_uwp": "B6269CH-B",
+            "system_zone": "U"
+        },
+        {
+            "system_name": "Te Avri",
+            "system_position": [
+                6,
+                13
+            ],
+            "system_trade_code": "Ag Ni O:0614",
+            "system_uwp": "A675568-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Eqiatl",
+            "system_position": [
+                6,
+                14
+            ],
+            "system_trade_code": "Ni Po Cp",
+            "system_uwp": "A252443-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Injvianch",
+            "system_position": [
+                6,
+                15
+            ],
+            "system_trade_code": "Ag Ri",
+            "system_uwp": "B384772-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Odepl",
+            "system_position": [
+                6,
+                16
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "E653540-3",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ielzantsi",
+            "system_position": [
+                6,
+                17
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "B454652-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Chtevlia",
+            "system_position": [
+                6,
+                18
+            ],
+            "system_trade_code": "",
+            "system_uwp": "B53677B-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Azrdr",
+            "system_position": [
+                6,
+                19
+            ],
+            "system_trade_code": "De Na Ni Po",
+            "system_uwp": "B120640-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ierits",
+            "system_position": [
+                7,
+                11
+            ],
+            "system_trade_code": "He Ni O:0812",
+            "system_uwp": "D472665-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tieiats",
+            "system_position": [
+                7,
+                14
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "B549576-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Plevyatl",
+            "system_position": [
+                7,
+                16
+            ],
+            "system_trade_code": "Ba Ga Da",
+            "system_uwp": "E766000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Nazhchtiedl",
+            "system_position": [
+                7,
+                19
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E878000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jdiadrtlane",
+            "system_position": [
+                7,
+                20
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E110000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jafranjzdam",
+            "system_position": [
+                8,
+                12
+            ],
+            "system_trade_code": "Hi In",
+            "system_uwp": "B797987-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kidriaqrezia",
+            "system_position": [
+                8,
+                13
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "A323533-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dekjdatl",
+            "system_position": [
+                8,
+                14
+            ],
+            "system_trade_code": "Na Ni Po",
+            "system_uwp": "B5336BE-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ashnazhenikl",
+            "system_position": [
+                8,
+                15
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "C443578-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Int",
+            "system_position": [
+                8,
+                16
+            ],
+            "system_trade_code": "Ni Wa",
+            "system_uwp": "A69A433-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jedlianz",
+            "system_position": [
+                8,
+                18
+            ],
+            "system_trade_code": "Ni Pa",
+            "system_uwp": "C445458-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Chiel",
+            "system_position": [
+                9,
+                11
+            ],
+            "system_trade_code": "He",
+            "system_uwp": "C7B0757-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zhdadlvipr",
+            "system_position": [
+                9,
+                12
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E561000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Aatiant",
+            "system_position": [
+                9,
+                14
+            ],
+            "system_trade_code": "Fl",
+            "system_uwp": "C9C378A-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Divriafliadr",
+            "system_position": [
+                9,
+                15
+            ],
+            "system_trade_code": "De Po Ph",
+            "system_uwp": "E250836-4",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dlor",
+            "system_position": [
+                9,
+                17
+            ],
+            "system_trade_code": "Di",
+            "system_uwp": "E998000-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tlinztifr",
+            "system_position": [
+                9,
+                19
+            ],
+            "system_trade_code": "Ni Ri",
+            "system_uwp": "D763675-1",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Rnzhia",
+            "system_position": [
+                10,
+                12
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "C424489-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vaabiets",
+            "system_position": [
+                10,
+                13
+            ],
+            "system_trade_code": "Fl He Pz",
+            "system_uwp": "C6A2787-8",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Ishteqr",
+            "system_position": [
+                10,
+                14
+            ],
+            "system_trade_code": "Fl Hi In",
+            "system_uwp": "AAB6A83-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dofrdiz",
+            "system_position": [
+                10,
+                15
+            ],
+            "system_trade_code": "Ba Wa",
+            "system_uwp": "E87A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Antsezh",
+            "system_position": [
+                10,
+                17
+            ],
+            "system_trade_code": "Hi Po Fo",
+            "system_uwp": "X5529CC-0",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Zhdenmianch",
+            "system_position": [
+                10,
+                18
+            ],
+            "system_trade_code": "Ni Wa O:1320",
+            "system_uwp": "E74A463-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ivie",
+            "system_position": [
+                10,
+                19
+            ],
+            "system_trade_code": "Ri Pa Ph",
+            "system_uwp": "B586887-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Afrjiaach",
+            "system_position": [
+                11,
+                13
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E463000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Okrstaze",
+            "system_position": [
+                11,
+                14
+            ],
+            "system_trade_code": "Ba Va",
+            "system_uwp": "E200000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jianchie",
+            "system_position": [
+                12,
+                11
+            ],
+            "system_trade_code": "Ba Va",
+            "system_uwp": "E200000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Bri Danef",
+            "system_position": [
+                12,
+                12
+            ],
+            "system_trade_code": "Ni Pa",
+            "system_uwp": "C698457-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dianjat",
+            "system_position": [
+                12,
+                13
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E625000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Aazhia",
+            "system_position": [
+                12,
+                15
+            ],
+            "system_trade_code": "Hi In",
+            "system_uwp": "B57398A-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tli'i'",
+            "system_position": [
+                12,
+                17
+            ],
+            "system_trade_code": "Fl Ni Da O:1318",
+            "system_uwp": "EAB6467-8",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Jdiakiel",
+            "system_position": [
+                12,
+                18
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "D562456-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Izdants Ovia",
+            "system_position": [
+                12,
+                19
+            ],
+            "system_trade_code": "Ba Fl He",
+            "system_uwp": "E7B1000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ifrkaz",
+            "system_position": [
+                13,
+                11
+            ],
+            "system_trade_code": "Lo",
+            "system_uwp": "C535200-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zhdieldlanz",
+            "system_position": [
+                13,
+                12
+            ],
+            "system_trade_code": "Wa Ph Fo",
+            "system_uwp": "X75A855-5",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Irdyarut",
+            "system_position": [
+                13,
+                14
+            ],
+            "system_trade_code": "Ag Ri Pz DroyW",
+            "system_uwp": "B46477C-A",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Saliavl",
+            "system_position": [
+                13,
+                17
+            ],
+            "system_trade_code": "Ba He Po O:1420",
+            "system_uwp": "E322000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Pleshpel",
+            "system_position": [
+                13,
+                18
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "A246633-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vrer",
+            "system_position": [
+                13,
+                19
+            ],
+            "system_trade_code": "Ni Pa Da",
+            "system_uwp": "C255410-7",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Viechedanshia",
+            "system_position": [
+                13,
+                20
+            ],
+            "system_trade_code": "Ni Ri",
+            "system_uwp": "A889633-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ka'",
+            "system_position": [
+                14,
+                11
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "C524411-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vieler",
+            "system_position": [
+                14,
+                13
+            ],
+            "system_trade_code": "Ba Ga",
+            "system_uwp": "E767000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Oqentake",
+            "system_position": [
+                14,
+                17
+            ],
+            "system_trade_code": "Fl He Ni",
+            "system_uwp": "C8B1633-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Chibrsiaf",
+            "system_position": [
+                14,
+                19
+            ],
+            "system_trade_code": "Ba Fl Fo",
+            "system_uwp": "X7B3000-0",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Neshash",
+            "system_position": [
+                14,
+                20
+            ],
+            "system_trade_code": "",
+            "system_uwp": "B637731-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Yavzdi",
+            "system_position": [
+                15,
+                13
+            ],
+            "system_trade_code": "Ba Po",
+            "system_uwp": "E352000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zarontse",
+            "system_position": [
+                15,
+                16
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "EAF5000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kralvra",
+            "system_position": [
+                15,
+                19
+            ],
+            "system_trade_code": "Ba De Po",
+            "system_uwp": "E140000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Pienopl",
+            "system_position": [
+                16,
+                13
+            ],
+            "system_trade_code": "Hi In",
+            "system_uwp": "C779978-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Avshtich E'",
+            "system_position": [
+                16,
+                15
+            ],
+            "system_trade_code": "Ni Va Da",
+            "system_uwp": "D400588-7",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Tlie'vietl",
+            "system_position": [
+                16,
+                16
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E897000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zderav",
+            "system_position": [
+                16,
+                18
+            ],
+            "system_trade_code": "Ba Fl He",
+            "system_uwp": "E7A2000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Eflia'chal",
+            "system_position": [
+                16,
+                19
+            ],
+            "system_trade_code": "Ri Pa Ph",
+            "system_uwp": "B56689D-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Afrria",
+            "system_position": [
+                17,
+                18
+            ],
+            "system_trade_code": "Ic Na Va Ph Pi O:1619",
+            "system_uwp": "C203861-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vitshiedr",
+            "system_position": [
+                17,
+                19
+            ],
+            "system_trade_code": "Ag",
+            "system_uwp": "B554788-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Fla'tichtal",
+            "system_position": [
+                18,
+                13
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E877000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Shtia",
+            "system_position": [
+                18,
+                14
+            ],
+            "system_trade_code": "Pa Ph Pi",
+            "system_uwp": "A594852-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zadneeplzhier",
+            "system_position": [
+                18,
+                16
+            ],
+            "system_trade_code": "As Ni Va",
+            "system_uwp": "C000458-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tlach",
+            "system_position": [
+                18,
+                18
+            ],
+            "system_trade_code": "Ba Fl",
+            "system_uwp": "E9A6000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Qriazae",
+            "system_position": [
+                18,
+                19
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E645000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jetsdaansh",
+            "system_position": [
+                19,
+                11
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "D753677-3",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vie'eshtaj",
+            "system_position": [
+                19,
+                17
+            ],
+            "system_trade_code": "Hi",
+            "system_uwp": "D355975-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tietsshie'anz",
+            "system_position": [
+                19,
+                18
+            ],
+            "system_trade_code": "Ni Pa",
+            "system_uwp": "A367445-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Re'shietlezh",
+            "system_position": [
+                19,
+                20
+            ],
+            "system_trade_code": "Ag Ri",
+            "system_uwp": "B66879B-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ushaddax",
+            "system_position": [
+                20,
+                13
+            ],
+            "system_trade_code": "Ni Pa Da",
+            "system_uwp": "E558446-7",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Aqinj A'",
+            "system_position": [
+                20,
+                15
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E654000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ievripla",
+            "system_position": [
+                20,
+                16
+            ],
+            "system_trade_code": "Na Va Pi Pz",
+            "system_uwp": "D1007A6-7",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Tsachi",
+            "system_position": [
+                20,
+                18
+            ],
+            "system_trade_code": "Ni Cp",
+            "system_uwp": "A869423-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tlazzhats",
+            "system_position": [
+                21,
+                11
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "C225697-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Daxia",
+            "system_position": [
+                21,
+                14
+            ],
+            "system_trade_code": "Ic Ni Va Da",
+            "system_uwp": "E303520-9",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Zhadrdlins",
+            "system_position": [
+                21,
+                18
+            ],
+            "system_trade_code": "Ni Wa",
+            "system_uwp": "D65A475-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Okriadr",
+            "system_position": [
+                21,
+                19
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E424000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "I'diedrid",
+            "system_position": [
+                21,
+                20
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "C556576-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jdelo",
+            "system_position": [
+                22,
+                11
+            ],
+            "system_trade_code": "Ag Ri",
+            "system_uwp": "A868745-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Amaxu",
+            "system_position": [
+                22,
+                13
+            ],
+            "system_trade_code": "Ni Da",
+            "system_uwp": "B582443-9",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Addax",
+            "system_position": [
+                22,
+                14
+            ],
+            "system_trade_code": "Cx Pz (Addaxur)",
+            "system_uwp": "A9D2744-D",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Drunshu",
+            "system_position": [
+                22,
+                16
+            ],
+            "system_trade_code": "Ni Da",
+            "system_uwp": "D72A455-7",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Zdiedliv",
+            "system_position": [
+                22,
+                18
+            ],
+            "system_trade_code": "Ni Va",
+            "system_uwp": "B300456-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Umashaxar",
+            "system_position": [
+                23,
+                14
+            ],
+            "system_trade_code": "As Ni Va Da",
+            "system_uwp": "B000555-E",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Shantusax",
+            "system_position": [
+                23,
+                16
+            ],
+            "system_trade_code": "Ni Wa Da",
+            "system_uwp": "D84A55A-6",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Korubal",
+            "system_position": [
+                23,
+                17
+            ],
+            "system_trade_code": "Ni Va Da",
+            "system_uwp": "A200454-A",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Vlol",
+            "system_position": [
+                23,
+                19
+            ],
+            "system_trade_code": "Ic Ni Va",
+            "system_uwp": "C30157A-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jdianchdlebr",
+            "system_position": [
+                23,
+                20
+            ],
+            "system_trade_code": "Hi In",
+            "system_uwp": "E676ABC-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Inchij",
+            "system_position": [
+                24,
+                11
+            ],
+            "system_trade_code": "He Ni",
+            "system_uwp": "B5A0405-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Mesh Tuxar",
+            "system_position": [
+                24,
+                14
+            ],
+            "system_trade_code": "Ic Ni Va Da",
+            "system_uwp": "B3015AD-C",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Nasaxu Ar",
+            "system_position": [
+                24,
+                15
+            ],
+            "system_trade_code": "Ga Ri Pa Ph Pz",
+            "system_uwp": "E865889-3",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Penzdrons",
+            "system_position": [
+                24,
+                17
+            ],
+            "system_trade_code": "Pa Ph Pi",
+            "system_uwp": "B4748B8-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dliadiets",
+            "system_position": [
+                24,
+                19
+            ],
+            "system_trade_code": "Wa Ph Pi",
+            "system_uwp": "C97A8AC-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Sie'aqr",
+            "system_position": [
+                24,
+                20
+            ],
+            "system_trade_code": "Ni Va",
+            "system_uwp": "D300502-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tlia'",
+            "system_position": [
+                25,
+                11
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "D237655-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dria'azienta",
+            "system_position": [
+                25,
+                14
+            ],
+            "system_trade_code": "Ic Na Va Pi O:2711",
+            "system_uwp": "A202767-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vranjeshiq",
+            "system_position": [
+                25,
+                15
+            ],
+            "system_trade_code": "Ag Ni Pr",
+            "system_uwp": "A366558-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Shtofia",
+            "system_position": [
+                26,
+                12
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "D877554-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Eshnenz",
+            "system_position": [
+                26,
+                14
+            ],
+            "system_trade_code": "Ic Va Di",
+            "system_uwp": "E303000-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Efench A'",
+            "system_position": [
+                26,
+                15
+            ],
+            "system_trade_code": "Ba He",
+            "system_uwp": "E692000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Chti'astepl",
+            "system_position": [
+                26,
+                16
+            ],
+            "system_trade_code": "Ba De Po",
+            "system_uwp": "E350000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jeklzhdat",
+            "system_position": [
+                26,
+                18
+            ],
+            "system_trade_code": "Ba Va",
+            "system_uwp": "E100000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Fiadria E'",
+            "system_position": [
+                27,
+                11
+            ],
+            "system_trade_code": "De Na Po Ph",
+            "system_uwp": "A330856-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Qrie",
+            "system_position": [
+                27,
+                12
+            ],
+            "system_trade_code": "Ag Ni Ga Ri O:2711",
+            "system_uwp": "A666665-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Strvlia",
+            "system_position": [
+                27,
+                14
+            ],
+            "system_trade_code": "Pa Ph Pi",
+            "system_uwp": "E677875-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Osebr",
+            "system_position": [
+                27,
+                15
+            ],
+            "system_trade_code": "He Hi In Na Po",
+            "system_uwp": "C322ACB-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tlianshan",
+            "system_position": [
+                28,
+                12
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E649000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Plialr",
+            "system_position": [
+                28,
+                13
+            ],
+            "system_trade_code": "Hi In Cp",
+            "system_uwp": "A5259BF-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ileche",
+            "system_position": [
+                28,
+                15
+            ],
+            "system_trade_code": "Ag Ri",
+            "system_uwp": "B7847AA-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Shiabria",
+            "system_position": [
+                28,
+                18
+            ],
+            "system_trade_code": "Di",
+            "system_uwp": "E999000-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Senso Ja",
+            "system_position": [
+                28,
+                19
+            ],
+            "system_trade_code": "Ba Ic",
+            "system_uwp": "E614000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Chadrnifr",
+            "system_position": [
+                29,
+                12
+            ],
+            "system_trade_code": "Pa Ph",
+            "system_uwp": "C5558A6-3",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zde Tiati",
+            "system_position": [
+                29,
+                20
+            ],
+            "system_trade_code": "Ic Na Ph Pi",
+            "system_uwp": "B4138CD-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Pefrtlanch",
+            "system_position": [
+                30,
+                13
+            ],
+            "system_trade_code": "Wa Ph",
+            "system_uwp": "C75A831-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Toch Azazhde",
+            "system_position": [
+                30,
+                18
+            ],
+            "system_trade_code": "De Ni Po",
+            "system_uwp": "D120412-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ibipjabresh",
+            "system_position": [
+                30,
+                19
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E9D6000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Stoqiash",
+            "system_position": [
+                30,
+                20
+            ],
+            "system_trade_code": "Ni Va",
+            "system_uwp": "E100577-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tlinzhiat",
+            "system_position": [
+                31,
+                11
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "E343544-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Fia'ie'",
+            "system_position": [
+                31,
+                12
+            ],
+            "system_trade_code": "Na Ni",
+            "system_uwp": "A3106B9-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Izieazh",
+            "system_position": [
+                31,
+                13
+            ],
+            "system_trade_code": "De Na Ni Po",
+            "system_uwp": "B130656-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ientseshtil",
+            "system_position": [
+                31,
+                15
+            ],
+            "system_trade_code": "Wa Ph Pi",
+            "system_uwp": "C87A8AA-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zdavrseprpia",
+            "system_position": [
+                31,
+                16
+            ],
+            "system_trade_code": "He Ni Po",
+            "system_uwp": "B541655-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Eranchabr",
+            "system_position": [
+                31,
+                17
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E337000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Votaanch",
+            "system_position": [
+                32,
+                12
+            ],
+            "system_trade_code": "Ic Pi",
+            "system_uwp": "B515799-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Draia",
+            "system_position": [
+                32,
+                14
+            ],
+            "system_trade_code": "As Ni Va",
+            "system_uwp": "B000576-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Deshvlo'o",
+            "system_position": [
+                32,
+                17
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "C775579-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ashanedli",
+            "system_position": [
+                1,
+                21
+            ],
+            "system_trade_code": "Ni Va Da",
+            "system_uwp": "E200433-7",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Tlrienz",
+            "system_position": [
+                1,
+                22
+            ],
+            "system_trade_code": "Ag Pi",
+            "system_uwp": "B544720-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Afrapr",
+            "system_position": [
+                1,
+                23
+            ],
+            "system_trade_code": "Fl Ni",
+            "system_uwp": "B9B56AD-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ietflatliabr",
+            "system_position": [
+                1,
+                24
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "A326657-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ashtsebr",
+            "system_position": [
+                1,
+                25
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "C539456-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Te Chtalinj",
+            "system_position": [
+                1,
+                27
+            ],
+            "system_trade_code": "Ag Ni Ga Pr",
+            "system_uwp": "D687533-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Abrsezh",
+            "system_position": [
+                1,
+                28
+            ],
+            "system_trade_code": "Ba Va",
+            "system_uwp": "E100000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kianch I'",
+            "system_position": [
+                1,
+                29
+            ],
+            "system_trade_code": "He Ni",
+            "system_uwp": "D8C0455-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dloradr",
+            "system_position": [
+                2,
+                23
+            ],
+            "system_trade_code": "Ag",
+            "system_uwp": "B257789-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ieprodr",
+            "system_position": [
+                2,
+                24
+            ],
+            "system_trade_code": "Di",
+            "system_uwp": "E796000-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tanshia",
+            "system_position": [
+                2,
+                25
+            ],
+            "system_trade_code": "Pa Ph Pi",
+            "system_uwp": "B6758B7-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Qalo",
+            "system_position": [
+                2,
+                28
+            ],
+            "system_trade_code": "Ag Pi",
+            "system_uwp": "A677755-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ekradr",
+            "system_position": [
+                3,
+                28
+            ],
+            "system_trade_code": "Ni Wa Pr",
+            "system_uwp": "C58A557-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Yivazzdi",
+            "system_position": [
+                4,
+                21
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E237000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "O'viazhav",
+            "system_position": [
+                4,
+                23
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "A794510-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Aldiedria",
+            "system_position": [
+                4,
+                24
+            ],
+            "system_trade_code": "Ic Va Di",
+            "system_uwp": "E202000-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Echrets",
+            "system_position": [
+                4,
+                26
+            ],
+            "system_trade_code": "He Ni Cp",
+            "system_uwp": "A572545-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Idshozh",
+            "system_position": [
+                4,
+                30
+            ],
+            "system_trade_code": "Ic Ni",
+            "system_uwp": "E413521-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Itschtia",
+            "system_position": [
+                5,
+                21
+            ],
+            "system_trade_code": "Hi Pz",
+            "system_uwp": "A636AEF-E",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Briej",
+            "system_position": [
+                5,
+                23
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E778000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vanie",
+            "system_position": [
+                5,
+                24
+            ],
+            "system_trade_code": "De Na Po Ph",
+            "system_uwp": "A1308CE-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Shtizatl",
+            "system_position": [
+                5,
+                29
+            ],
+            "system_trade_code": "Ni Oc Ri",
+            "system_uwp": "BA6A652-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Frant",
+            "system_position": [
+                5,
+                30
+            ],
+            "system_trade_code": "Na Va Ph Pi",
+            "system_uwp": "A1008B8-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Oia",
+            "system_position": [
+                6,
+                22
+            ],
+            "system_trade_code": "Ic Ni Da",
+            "system_uwp": "C613532-A",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Dla'zhdievl",
+            "system_position": [
+                6,
+                23
+            ],
+            "system_trade_code": "Ic Na Ni Va O:0521",
+            "system_uwp": "D40266B-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Seblia",
+            "system_position": [
+                6,
+                24
+            ],
+            "system_trade_code": "Di",
+            "system_uwp": "E868000-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "E'ta",
+            "system_position": [
+                6,
+                27
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "B456645-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kia Inch",
+            "system_position": [
+                6,
+                28
+            ],
+            "system_trade_code": "De He Ni O:0627",
+            "system_uwp": "B490464-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Brali",
+            "system_position": [
+                6,
+                30
+            ],
+            "system_trade_code": "Ni Ga Pa",
+            "system_uwp": "B85645A-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Chtiepldia",
+            "system_position": [
+                7,
+                24
+            ],
+            "system_trade_code": "Ba Da",
+            "system_uwp": "E581000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Plianzhikr",
+            "system_position": [
+                7,
+                26
+            ],
+            "system_trade_code": "Hi In",
+            "system_uwp": "A37399B-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Brasiavr",
+            "system_position": [
+                7,
+                28
+            ],
+            "system_trade_code": "Hi",
+            "system_uwp": "E537996-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Eliensh",
+            "system_position": [
+                7,
+                29
+            ],
+            "system_trade_code": "Ri Ph",
+            "system_uwp": "A362886-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Bazhdial",
+            "system_position": [
+                7,
+                30
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "E62A423-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kiabla",
+            "system_position": [
+                8,
+                21
+            ],
+            "system_trade_code": "Ag Ni O:0823",
+            "system_uwp": "B87756A-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Enzhna",
+            "system_position": [
+                8,
+                23
+            ],
+            "system_trade_code": "Ri Pa Ph",
+            "system_uwp": "A584843-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Chozherans",
+            "system_position": [
+                8,
+                24
+            ],
+            "system_trade_code": "Fl He Pz",
+            "system_uwp": "B8A27BC-A",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Shtelians",
+            "system_position": [
+                8,
+                25
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "C44659E-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Avizazash",
+            "system_position": [
+                8,
+                28
+            ],
+            "system_trade_code": "Ni Pr",
+            "system_uwp": "A482553-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Velshtovl",
+            "system_position": [
+                8,
+                30
+            ],
+            "system_trade_code": "Ba O:0630",
+            "system_uwp": "E495000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Qatl",
+            "system_position": [
+                9,
+                21
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E465000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Yanzhtlaz",
+            "system_position": [
+                9,
+                29
+            ],
+            "system_trade_code": "Ba Fl",
+            "system_uwp": "E8B4000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Panzhia",
+            "system_position": [
+                10,
+                22
+            ],
+            "system_trade_code": "Fl He Ni",
+            "system_uwp": "C5A1622-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Blachtefl",
+            "system_position": [
+                10,
+                23
+            ],
+            "system_trade_code": "Fl Hi In",
+            "system_uwp": "D7B49B8-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Qraql",
+            "system_position": [
+                10,
+                25
+            ],
+            "system_trade_code": "Ba Oc",
+            "system_uwp": "EA9A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Driatsazh",
+            "system_position": [
+                10,
+                26
+            ],
+            "system_trade_code": "Ni Da",
+            "system_uwp": "D625544-7",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Oabr",
+            "system_position": [
+                10,
+                28
+            ],
+            "system_trade_code": "Ni Va O:0828",
+            "system_uwp": "A300565-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Chte'ste",
+            "system_position": [
+                10,
+                29
+            ],
+            "system_trade_code": "Hi In Wa",
+            "system_uwp": "C89AAAC-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Aradiadash",
+            "system_position": [
+                10,
+                30
+            ],
+            "system_trade_code": "Na Va Ph Cp Pi",
+            "system_uwp": "A400855-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Krne",
+            "system_position": [
+                11,
+                24
+            ],
+            "system_trade_code": "He Ni",
+            "system_uwp": "D5726AF-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tsevrshtabre",
+            "system_position": [
+                11,
+                25
+            ],
+            "system_trade_code": "Hi Pr O:1424",
+            "system_uwp": "B58396A-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tansh",
+            "system_position": [
+                11,
+                26
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E410000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Davra Da",
+            "system_position": [
+                11,
+                29
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "A524676-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ordliapr",
+            "system_position": [
+                12,
+                21
+            ],
+            "system_trade_code": "Wa Pi",
+            "system_uwp": "A79A742-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ienzchtianzh",
+            "system_position": [
+                12,
+                22
+            ],
+            "system_trade_code": "Fl Hi In",
+            "system_uwp": "C9B6AC8-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Iashie",
+            "system_position": [
+                12,
+                25
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E747000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Omins",
+            "system_position": [
+                12,
+                27
+            ],
+            "system_trade_code": "De Ni Po",
+            "system_uwp": "B350577-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Iebliar",
+            "system_position": [
+                12,
+                30
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "C74958B-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tlonsh",
+            "system_position": [
+                13,
+                22
+            ],
+            "system_trade_code": "Ag Ni Ga O:1322",
+            "system_uwp": "E655564-2",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Yaql",
+            "system_position": [
+                13,
+                23
+            ],
+            "system_trade_code": "Ba Wa",
+            "system_uwp": "E74A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Chobnia",
+            "system_position": [
+                13,
+                27
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "B58147A-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Biradakr",
+            "system_position": [
+                13,
+                30
+            ],
+            "system_trade_code": "Ri Pa Ph",
+            "system_uwp": "E56689A-4",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Fibronzhklifr",
+            "system_position": [
+                14,
+                21
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E595000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Odlanj",
+            "system_position": [
+                14,
+                24
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E335000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Rie'chovr",
+            "system_position": [
+                15,
+                21
+            ],
+            "system_trade_code": "As Na Va Pi",
+            "system_uwp": "C000777-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Flianj",
+            "system_position": [
+                15,
+                22
+            ],
+            "system_trade_code": "Ga Pa Ph",
+            "system_uwp": "D656873-3",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dliavrrid",
+            "system_position": [
+                15,
+                24
+            ],
+            "system_trade_code": "Ba Ga",
+            "system_uwp": "E666000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jdinik",
+            "system_position": [
+                15,
+                28
+            ],
+            "system_trade_code": "Ag Ga",
+            "system_uwp": "B65579B-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zhdashinobr",
+            "system_position": [
+                15,
+                29
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E272000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tsiavans",
+            "system_position": [
+                16,
+                21
+            ],
+            "system_trade_code": "Ba He",
+            "system_uwp": "E492000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zeltsiants",
+            "system_position": [
+                16,
+                26
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E446000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jivafie",
+            "system_position": [
+                16,
+                27
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E789000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tsezdietl",
+            "system_position": [
+                16,
+                30
+            ],
+            "system_trade_code": "He Ni",
+            "system_uwp": "C572534-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Azdezvropr",
+            "system_position": [
+                17,
+                21
+            ],
+            "system_trade_code": "Ni Ri",
+            "system_uwp": "C363683-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Oprqent",
+            "system_position": [
+                17,
+                22
+            ],
+            "system_trade_code": "Ba De Po",
+            "system_uwp": "E230000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Piritle",
+            "system_position": [
+                17,
+                24
+            ],
+            "system_trade_code": "He Ni Po",
+            "system_uwp": "E541401-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Niecha",
+            "system_position": [
+                17,
+                25
+            ],
+            "system_trade_code": "Ni Pa",
+            "system_uwp": "A55549A-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tlich",
+            "system_position": [
+                17,
+                27
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "B779599-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Adidiedr",
+            "system_position": [
+                17,
+                28
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "A221443-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Libliemiash",
+            "system_position": [
+                17,
+                29
+            ],
+            "system_trade_code": "Ni Pr",
+            "system_uwp": "D889520-3",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Olevr",
+            "system_position": [
+                18,
+                21
+            ],
+            "system_trade_code": "Fl Ni",
+            "system_uwp": "C7A468A-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Siskayas",
+            "system_position": [
+                18,
+                22
+            ],
+            "system_trade_code": "Ag Ri An Pz DroyW",
+            "system_uwp": "C5877X7-5",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Tazdlri",
+            "system_position": [
+                18,
+                26
+            ],
+            "system_trade_code": "Na Ni Va",
+            "system_uwp": "E300687-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Fre'niens",
+            "system_position": [
+                18,
+                27
+            ],
+            "system_trade_code": "Hi Ga",
+            "system_uwp": "A667A99-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Piarezh",
+            "system_position": [
+                18,
+                30
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E483000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jde'lanz",
+            "system_position": [
+                19,
+                22
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E336000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Chalo",
+            "system_position": [
+                19,
+                24
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E564000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vedochzhe",
+            "system_position": [
+                19,
+                25
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "A531510-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jeshechiedodl",
+            "system_position": [
+                19,
+                28
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E627000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dlazhqetl",
+            "system_position": [
+                19,
+                29
+            ],
+            "system_trade_code": "Na Po Ph Pz",
+            "system_uwp": "D3328A9-6",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Sheklianze",
+            "system_position": [
+                19,
+                30
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E777000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Alstonchebr",
+            "system_position": [
+                20,
+                23
+            ],
+            "system_trade_code": "Ag Pi O:1925",
+            "system_uwp": "D34776A-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Idldliats",
+            "system_position": [
+                20,
+                24
+            ],
+            "system_trade_code": "Ag Ni O:1925",
+            "system_uwp": "A475562-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Chta'ats",
+            "system_position": [
+                20,
+                29
+            ],
+            "system_trade_code": "Ba He",
+            "system_uwp": "E7B0000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zhdadiekr",
+            "system_position": [
+                21,
+                21
+            ],
+            "system_trade_code": "He Ph Pi",
+            "system_uwp": "B471886-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Onjdinz",
+            "system_position": [
+                21,
+                24
+            ],
+            "system_trade_code": "Ni Pa",
+            "system_uwp": "C254450-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Aflsanshie",
+            "system_position": [
+                21,
+                25
+            ],
+            "system_trade_code": "As Na Va Ph Pi",
+            "system_uwp": "B000823-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Iazdodl",
+            "system_position": [
+                21,
+                26
+            ],
+            "system_trade_code": "He Hi In Na Po",
+            "system_uwp": "A62299A-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jianjshte",
+            "system_position": [
+                21,
+                28
+            ],
+            "system_trade_code": "Ni Cp",
+            "system_uwp": "B9D1459-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Yiafr",
+            "system_position": [
+                21,
+                30
+            ],
+            "system_trade_code": "He Na Ni Po",
+            "system_uwp": "B622631-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Itliaplshopl",
+            "system_position": [
+                22,
+                21
+            ],
+            "system_trade_code": "Ba Fl Da",
+            "system_uwp": "E9A4000-0",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Briaoffrach",
+            "system_position": [
+                22,
+                25
+            ],
+            "system_trade_code": "Di",
+            "system_uwp": "E624000-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Antsietlo",
+            "system_position": [
+                22,
+                26
+            ],
+            "system_trade_code": "Ni Ri O:2326",
+            "system_uwp": "C461664-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Atlilesh",
+            "system_position": [
+                22,
+                27
+            ],
+            "system_trade_code": "Ni Ga Pa",
+            "system_uwp": "C867412-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Priavrshto",
+            "system_position": [
+                22,
+                30
+            ],
+            "system_trade_code": "Ni Da",
+            "system_uwp": "C510510-7",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Zhdensanz",
+            "system_position": [
+                23,
+                22
+            ],
+            "system_trade_code": "Ag Pi O:2121",
+            "system_uwp": "B678769-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dijiafr",
+            "system_position": [
+                23,
+                26
+            ],
+            "system_trade_code": "As Na Va Pi",
+            "system_uwp": "C000742-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tlibr",
+            "system_position": [
+                23,
+                29
+            ],
+            "system_trade_code": "Fl He",
+            "system_uwp": "C6A2795-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Iachints",
+            "system_position": [
+                23,
+                30
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E358000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zdevledr",
+            "system_position": [
+                24,
+                22
+            ],
+            "system_trade_code": "Hi Na Po Pz (Izdev)",
+            "system_uwp": "D5319DD-7",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Dedrtlidratl",
+            "system_position": [
+                24,
+                23
+            ],
+            "system_trade_code": "Hi Pr O:2526",
+            "system_uwp": "E989961-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Anzhfrinsach",
+            "system_position": [
+                24,
+                27
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "A674698-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Penshadr",
+            "system_position": [
+                24,
+                30
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "D539534-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Avriets",
+            "system_position": [
+                25,
+                22
+            ],
+            "system_trade_code": "Ni Pr",
+            "system_uwp": "C769586-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dlibrinzia",
+            "system_position": [
+                25,
+                23
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "D24247A-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Lielbre'",
+            "system_position": [
+                25,
+                24
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "E558553-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Shtaefia",
+            "system_position": [
+                25,
+                26
+            ],
+            "system_trade_code": "De Hi",
+            "system_uwp": "A660ACG-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Liadr",
+            "system_position": [
+                25,
+                27
+            ],
+            "system_trade_code": "Ag Ni Pr Fo",
+            "system_uwp": "X567510-0",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Adreflfient",
+            "system_position": [
+                25,
+                29
+            ],
+            "system_trade_code": "Ag Pi",
+            "system_uwp": "B545746-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vrrnsh",
+            "system_position": [
+                25,
+                30
+            ],
+            "system_trade_code": "As Ni Va",
+            "system_uwp": "C00055A-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ja'tlievr",
+            "system_position": [
+                26,
+                22
+            ],
+            "system_trade_code": "Fl Ni O:3024",
+            "system_uwp": "A9B6463-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Iadrdad",
+            "system_position": [
+                26,
+                23
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "B353400-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Chezshietlant",
+            "system_position": [
+                26,
+                24
+            ],
+            "system_trade_code": "Ba De He",
+            "system_uwp": "E590000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Chtam",
+            "system_position": [
+                26,
+                26
+            ],
+            "system_trade_code": "Pa Ph Pi",
+            "system_uwp": "A7448BE-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Edostak",
+            "system_position": [
+                26,
+                27
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "E241677-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Iprienjieril",
+            "system_position": [
+                26,
+                28
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "C210402-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Adial Az",
+            "system_position": [
+                26,
+                29
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "C696653-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Eiler'zhde",
+            "system_position": [
+                26,
+                30
+            ],
+            "system_trade_code": "Ba Wa",
+            "system_uwp": "E65A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ietljiak",
+            "system_position": [
+                27,
+                21
+            ],
+            "system_trade_code": "De Ni Po",
+            "system_uwp": "A120433-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Pliastebr",
+            "system_position": [
+                27,
+                22
+            ],
+            "system_trade_code": "Ag Ni Da",
+            "system_uwp": "E594556-5",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Jesinse",
+            "system_position": [
+                27,
+                27
+            ],
+            "system_trade_code": "Fl Ni Da",
+            "system_uwp": "C7A6455-8",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Piatsjdotl",
+            "system_position": [
+                27,
+                29
+            ],
+            "system_trade_code": "Hi In Na",
+            "system_uwp": "B31097A-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Qia'jdo",
+            "system_position": [
+                28,
+                21
+            ],
+            "system_trade_code": "Ni Wa Da",
+            "system_uwp": "C68A414-B",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Vra'atlint",
+            "system_position": [
+                28,
+                23
+            ],
+            "system_trade_code": "Ni Wa",
+            "system_uwp": "B87A677-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Viedriez",
+            "system_position": [
+                28,
+                24
+            ],
+            "system_trade_code": "Ni Ri Cp",
+            "system_uwp": "A889659-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Diachtapl",
+            "system_position": [
+                28,
+                27
+            ],
+            "system_trade_code": "Hi Pr",
+            "system_uwp": "E562988-3",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Bro'pieqr",
+            "system_position": [
+                29,
+                22
+            ],
+            "system_trade_code": "Di",
+            "system_uwp": "E684000-4",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jdinchedrfre",
+            "system_position": [
+                29,
+                27
+            ],
+            "system_trade_code": "Ba He",
+            "system_uwp": "E6A0000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Delfienzh",
+            "system_position": [
+                29,
+                30
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "D247510-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Evdia",
+            "system_position": [
+                30,
+                22
+            ],
+            "system_trade_code": "De Ni Po",
+            "system_uwp": "B330523-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Natsansh",
+            "system_position": [
+                30,
+                23
+            ],
+            "system_trade_code": "Ag Ga Ri O:3024",
+            "system_uwp": "C666769-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ste'tlia",
+            "system_position": [
+                30,
+                24
+            ],
+            "system_trade_code": "Na Ni",
+            "system_uwp": "A410643-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Te Ninzh",
+            "system_position": [
+                30,
+                25
+            ],
+            "system_trade_code": "Fl He",
+            "system_uwp": "D8B2756-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Mavieer",
+            "system_position": [
+                30,
+                26
+            ],
+            "system_trade_code": "Ic Na Ph Pi",
+            "system_uwp": "B4118A9-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dlodadlia",
+            "system_position": [
+                30,
+                28
+            ],
+            "system_trade_code": "Ph Pi",
+            "system_uwp": "B627851-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Idliav",
+            "system_position": [
+                30,
+                29
+            ],
+            "system_trade_code": "Fl Hi In",
+            "system_uwp": "A8A4AC9-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Fojlebranzh",
+            "system_position": [
+                31,
+                21
+            ],
+            "system_trade_code": "Ni Va",
+            "system_uwp": "C10057B-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Aqrjia",
+            "system_position": [
+                31,
+                23
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "C247557-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zdebrans",
+            "system_position": [
+                31,
+                27
+            ],
+            "system_trade_code": "He Ni",
+            "system_uwp": "B6725A9-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Yieklaedr",
+            "system_position": [
+                31,
+                29
+            ],
+            "system_trade_code": "Hi In Na Va Fo",
+            "system_uwp": "X500AAF-7",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Roch",
+            "system_position": [
+                32,
+                24
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "D363476-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jenadr",
+            "system_position": [
+                32,
+                26
+            ],
+            "system_trade_code": "Ri",
+            "system_uwp": "D361794-4",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ipryiaeavr",
+            "system_position": [
+                32,
+                27
+            ],
+            "system_trade_code": "As Ni Va",
+            "system_uwp": "D000577-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Avredle",
+            "system_position": [
+                1,
+                32
+            ],
+            "system_trade_code": "Hi Na Po",
+            "system_uwp": "A733AAA-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Siechtant",
+            "system_position": [
+                1,
+                36
+            ],
+            "system_trade_code": "Ba Fo",
+            "system_uwp": "X698000-0",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "E'sinz",
+            "system_position": [
+                1,
+                37
+            ],
+            "system_trade_code": "He Hi In Po O:0236",
+            "system_uwp": "A641A6A-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Anienj",
+            "system_position": [
+                2,
+                32
+            ],
+            "system_trade_code": "Ni Wa Cp",
+            "system_uwp": "A55A443-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Idripdeia",
+            "system_position": [
+                2,
+                34
+            ],
+            "system_trade_code": "Na Va Pi",
+            "system_uwp": "C200786-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tiadle",
+            "system_position": [
+                2,
+                36
+            ],
+            "system_trade_code": "Ri Wa",
+            "system_uwp": "A66A730-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Yriach",
+            "system_position": [
+                2,
+                40
+            ],
+            "system_trade_code": "Ag Ni Ri",
+            "system_uwp": "D564683-4",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Pansael",
+            "system_position": [
+                3,
+                31
+            ],
+            "system_trade_code": "Ba Fo",
+            "system_uwp": "X447000-0",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Zhianchabia",
+            "system_position": [
+                3,
+                33
+            ],
+            "system_trade_code": "Fl He Ni",
+            "system_uwp": "C8A2446-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Rashent",
+            "system_position": [
+                3,
+                34
+            ],
+            "system_trade_code": "Ba Fl",
+            "system_uwp": "E7B4000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Qiachna",
+            "system_position": [
+                3,
+                36
+            ],
+            "system_trade_code": "Fl He Ni",
+            "system_uwp": "C8A2489-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jdiazhpraa",
+            "system_position": [
+                3,
+                37
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "D676599-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Flitlazh",
+            "system_position": [
+                3,
+                39
+            ],
+            "system_trade_code": "Fl He Hi In",
+            "system_uwp": "A6A1ADD-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Te Zdekrin",
+            "system_position": [
+                4,
+                31
+            ],
+            "system_trade_code": "Na Ni",
+            "system_uwp": "B410657-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zdents",
+            "system_position": [
+                4,
+                32
+            ],
+            "system_trade_code": "Ni Pa",
+            "system_uwp": "B558487-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Brienanrzh",
+            "system_position": [
+                4,
+                33
+            ],
+            "system_trade_code": "Ba Po",
+            "system_uwp": "E533000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zhdariansh",
+            "system_position": [
+                4,
+                34
+            ],
+            "system_trade_code": "Na Po Ph",
+            "system_uwp": "B2328B7-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ieninsha",
+            "system_position": [
+                4,
+                38
+            ],
+            "system_trade_code": "De Po Ph Pi",
+            "system_uwp": "A1408AB-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Eizrash",
+            "system_position": [
+                4,
+                39
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "C674520-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Iediliel",
+            "system_position": [
+                5,
+                32
+            ],
+            "system_trade_code": "Ba De He Po",
+            "system_uwp": "E540000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ratlya",
+            "system_position": [
+                5,
+                34
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E334000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ziashanz",
+            "system_position": [
+                5,
+                35
+            ],
+            "system_trade_code": "Ag Ri",
+            "system_uwp": "C3857A6-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Chtishtacha",
+            "system_position": [
+                6,
+                32
+            ],
+            "system_trade_code": "He Ni",
+            "system_uwp": "C8C0534-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zdonzh A'",
+            "system_position": [
+                6,
+                33
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E697000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Efrye",
+            "system_position": [
+                6,
+                34
+            ],
+            "system_trade_code": "Ni Pr",
+            "system_uwp": "B561534-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Adljiamianzh",
+            "system_position": [
+                6,
+                35
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E554000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Pinsia",
+            "system_position": [
+                6,
+                36
+            ],
+            "system_trade_code": "He Po Pi",
+            "system_uwp": "A341779-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Nejebl",
+            "system_position": [
+                6,
+                37
+            ],
+            "system_trade_code": "Na Va Ph Pi O:0636",
+            "system_uwp": "C30086A-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jodmesh",
+            "system_position": [
+                6,
+                38
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "B439432-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Aivr",
+            "system_position": [
+                7,
+                33
+            ],
+            "system_trade_code": "Ga Ri Pa Ph",
+            "system_uwp": "C6658DE-4",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zhdiashatlibl",
+            "system_position": [
+                7,
+                35
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "C22768C-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Bronshiansh",
+            "system_position": [
+                7,
+                37
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E774000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Brintsa",
+            "system_position": [
+                8,
+                31
+            ],
+            "system_trade_code": "Ni Wa",
+            "system_uwp": "B87A558-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Anzhapema",
+            "system_position": [
+                8,
+                32
+            ],
+            "system_trade_code": "Ba Va",
+            "system_uwp": "E200000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ditlients",
+            "system_position": [
+                8,
+                34
+            ],
+            "system_trade_code": "Hi In",
+            "system_uwp": "A6269ED-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vliatla",
+            "system_position": [
+                8,
+                37
+            ],
+            "system_trade_code": "Ag Ni Ri",
+            "system_uwp": "A664645-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tsodr",
+            "system_position": [
+                9,
+                31
+            ],
+            "system_trade_code": "Ag Ni (Clotho)",
+            "system_uwp": "BA97544-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Klidlyi'ech",
+            "system_position": [
+                9,
+                32
+            ],
+            "system_trade_code": "Ni Va",
+            "system_uwp": "A400421-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Fiat",
+            "system_position": [
+                9,
+                33
+            ],
+            "system_trade_code": "Ni Wa",
+            "system_uwp": "D86A454-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Bavra",
+            "system_position": [
+                9,
+                34
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "D534524-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zhanjtlia",
+            "system_position": [
+                9,
+                35
+            ],
+            "system_trade_code": "Hi In",
+            "system_uwp": "A677976-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Enche",
+            "system_position": [
+                9,
+                38
+            ],
+            "system_trade_code": "Ni O:0837",
+            "system_uwp": "C534565-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Bezzhdon",
+            "system_position": [
+                10,
+                33
+            ],
+            "system_trade_code": "Pa Ph Pi",
+            "system_uwp": "D348878-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Edsiabr",
+            "system_position": [
+                10,
+                34
+            ],
+            "system_trade_code": "Po Di Da",
+            "system_uwp": "E431000-7",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Jdienzhaqze",
+            "system_position": [
+                10,
+                35
+            ],
+            "system_trade_code": "Po Ph",
+            "system_uwp": "B552889-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Azachan",
+            "system_position": [
+                10,
+                37
+            ],
+            "system_trade_code": "Ni Po O:0837",
+            "system_uwp": "B243568-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dabra",
+            "system_position": [
+                10,
+                38
+            ],
+            "system_trade_code": "Fl Ni O:1238",
+            "system_uwp": "AAC366A-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tleqrish",
+            "system_position": [
+                10,
+                40
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "C235634-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tsivri",
+            "system_position": [
+                11,
+                32
+            ],
+            "system_trade_code": "Va Di",
+            "system_uwp": "E300000-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Irse' A'",
+            "system_position": [
+                11,
+                33
+            ],
+            "system_trade_code": "Ni Pa O:1234",
+            "system_uwp": "C464466-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zhadlezh",
+            "system_position": [
+                11,
+                35
+            ],
+            "system_trade_code": "Hi Fo",
+            "system_uwp": "X663AC8-3",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Shatia",
+            "system_position": [
+                11,
+                37
+            ],
+            "system_trade_code": "As Ba Va",
+            "system_uwp": "E000000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jazh",
+            "system_position": [
+                12,
+                32
+            ],
+            "system_trade_code": "Ag Ni O:1234",
+            "system_uwp": "B977662-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tleqzo",
+            "system_position": [
+                12,
+                34
+            ],
+            "system_trade_code": "Hi Ic In Na",
+            "system_uwp": "A6119BG-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Dlalen",
+            "system_position": [
+                12,
+                35
+            ],
+            "system_trade_code": "Ic Na Ni",
+            "system_uwp": "B512642-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kiant",
+            "system_position": [
+                12,
+                38
+            ],
+            "system_trade_code": "Ag Pi",
+            "system_uwp": "A774777-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Abrierniash",
+            "system_position": [
+                12,
+                39
+            ],
+            "system_trade_code": "De Hi Na Po Pz",
+            "system_uwp": "D230A84-C",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Etsdliash",
+            "system_position": [
+                13,
+                35
+            ],
+            "system_trade_code": "Ba Ga",
+            "system_uwp": "E787000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Bredrzdiel",
+            "system_position": [
+                13,
+                37
+            ],
+            "system_trade_code": "",
+            "system_uwp": "A6347CB-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Prenstla",
+            "system_position": [
+                13,
+                38
+            ],
+            "system_trade_code": "Ni Da",
+            "system_uwp": "C449698-7",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Rvish",
+            "system_position": [
+                13,
+                40
+            ],
+            "system_trade_code": "Di",
+            "system_uwp": "E847000-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jdiatlavr",
+            "system_position": [
+                14,
+                31
+            ],
+            "system_trade_code": "Ic Ni",
+            "system_uwp": "D616677-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ae'lio",
+            "system_position": [
+                14,
+                32
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "B635437-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Neqloch",
+            "system_position": [
+                14,
+                33
+            ],
+            "system_trade_code": "Ni Pa Cp",
+            "system_uwp": "B576401-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ziaksebr",
+            "system_position": [
+                14,
+                34
+            ],
+            "system_trade_code": "Fl Ni",
+            "system_uwp": "A8A6554-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ratschevek",
+            "system_position": [
+                14,
+                36
+            ],
+            "system_trade_code": "As Na Va Pi",
+            "system_uwp": "A000785-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Na Friezhi",
+            "system_position": [
+                14,
+                38
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E510000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ezhiem",
+            "system_position": [
+                15,
+                31
+            ],
+            "system_trade_code": "Ni Ri O:1634",
+            "system_uwp": "B783666-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kia'zabri",
+            "system_position": [
+                15,
+                33
+            ],
+            "system_trade_code": "Na Ni Va O:1634",
+            "system_uwp": "D10066B-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zhdieshdi",
+            "system_position": [
+                15,
+                34
+            ],
+            "system_trade_code": "Ba Ic",
+            "system_uwp": "E413000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ash",
+            "system_position": [
+                16,
+                32
+            ],
+            "system_trade_code": "Ni Pa",
+            "system_uwp": "E675410-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Deldrifl",
+            "system_position": [
+                16,
+                34
+            ],
+            "system_trade_code": "As Hi In Na Va",
+            "system_uwp": "B000A78-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tlatidranch",
+            "system_position": [
+                16,
+                36
+            ],
+            "system_trade_code": "Ic Ni",
+            "system_uwp": "E411523-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zdov",
+            "system_position": [
+                17,
+                31
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "B57869C-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zazashasak",
+            "system_position": [
+                17,
+                37
+            ],
+            "system_trade_code": "Fl He Ph",
+            "system_uwp": "B7A1889-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Elchta'",
+            "system_position": [
+                17,
+                38
+            ],
+            "system_trade_code": "Pa Ph Pi",
+            "system_uwp": "B345889-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ansia",
+            "system_position": [
+                18,
+                32
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "A556527-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Bia'ieloch",
+            "system_position": [
+                18,
+                33
+            ],
+            "system_trade_code": "Na Ni Po",
+            "system_uwp": "C221624-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Qrchorie",
+            "system_position": [
+                18,
+                39
+            ],
+            "system_trade_code": "Ri Pa Ph",
+            "system_uwp": "B484885-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Janzzhdel",
+            "system_position": [
+                18,
+                40
+            ],
+            "system_trade_code": "Ba De He",
+            "system_uwp": "E490000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Eshbelebiebr",
+            "system_position": [
+                19,
+                33
+            ],
+            "system_trade_code": "Ri Ph",
+            "system_uwp": "D38389E-5",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jdechtozi",
+            "system_position": [
+                19,
+                35
+            ],
+            "system_trade_code": "Ba Fl",
+            "system_uwp": "E7A6000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Shtonjchti",
+            "system_position": [
+                19,
+                38
+            ],
+            "system_trade_code": "Ag Ni Ga Ri O:2036",
+            "system_uwp": "D886668-1",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Atskodi'",
+            "system_position": [
+                19,
+                40
+            ],
+            "system_trade_code": "Fl Ni O:2140",
+            "system_uwp": "B9A3666-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Shiabradl",
+            "system_position": [
+                20,
+                31
+            ],
+            "system_trade_code": "As Ba Va",
+            "system_uwp": "E000000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Edloch",
+            "system_position": [
+                20,
+                34
+            ],
+            "system_trade_code": "Ni Ga Pa O:2036",
+            "system_uwp": "A665468-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Daprkrien",
+            "system_position": [
+                20,
+                36
+            ],
+            "system_trade_code": "Ic Ni Va",
+            "system_uwp": "A201578-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jadr",
+            "system_position": [
+                20,
+                38
+            ],
+            "system_trade_code": "Ba De He",
+            "system_uwp": "E570000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zietspinje",
+            "system_position": [
+                21,
+                31
+            ],
+            "system_trade_code": "Ba Ic Fo",
+            "system_uwp": "X311000-0",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Ainzzil",
+            "system_position": [
+                21,
+                34
+            ],
+            "system_trade_code": "Fl",
+            "system_uwp": "C8B4777-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kiebriatl",
+            "system_position": [
+                21,
+                36
+            ],
+            "system_trade_code": "Na Ni O:2337",
+            "system_uwp": "C110663-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zhdieshiadl",
+            "system_position": [
+                21,
+                38
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "E453623-4",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tla'",
+            "system_position": [
+                21,
+                40
+            ],
+            "system_trade_code": "Pi",
+            "system_uwp": "C224774-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Kidladr",
+            "system_position": [
+                22,
+                33
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E463000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zientsal",
+            "system_position": [
+                22,
+                40
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E627000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tlonzjats",
+            "system_position": [
+                23,
+                34
+            ],
+            "system_trade_code": "Na Ni Po",
+            "system_uwp": "E333655-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jitiedl",
+            "system_position": [
+                23,
+                37
+            ],
+            "system_trade_code": "Ni Cp",
+            "system_uwp": "A110555-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vipti'",
+            "system_position": [
+                23,
+                40
+            ],
+            "system_trade_code": "Na Ni Va O:2140",
+            "system_uwp": "C200669-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Merchti",
+            "system_position": [
+                24,
+                34
+            ],
+            "system_trade_code": "Ni Pa",
+            "system_uwp": "E46549C-4",
+            "system_zone": ""
+        },
+        {
+            "system_name": "I'zhda",
+            "system_position": [
+                24,
+                35
+            ],
+            "system_trade_code": "Na Va Pi",
+            "system_uwp": "B200797-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Oshstodl",
+            "system_position": [
+                24,
+                37
+            ],
+            "system_trade_code": "Ag Ni Ri",
+            "system_uwp": "A566610-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Jdiepliav",
+            "system_position": [
+                24,
+                38
+            ],
+            "system_trade_code": "Hi In",
+            "system_uwp": "E779ABA-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Qrenzhame",
+            "system_position": [
+                24,
+                39
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "C835448-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ajevr",
+            "system_position": [
+                25,
+                31
+            ],
+            "system_trade_code": "Fl Ni",
+            "system_uwp": "BAC6521-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Iansitl",
+            "system_position": [
+                25,
+                35
+            ],
+            "system_trade_code": "Po Ph",
+            "system_uwp": "C451848-8",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Bialjetl",
+            "system_position": [
+                26,
+                31
+            ],
+            "system_trade_code": "Ag Ni Ga Pr",
+            "system_uwp": "B666520-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tliejta'",
+            "system_position": [
+                26,
+                32
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "A693416-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Iali",
+            "system_position": [
+                26,
+                33
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "A481487-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tliav",
+            "system_position": [
+                26,
+                37
+            ],
+            "system_trade_code": "Fl He",
+            "system_uwp": "B7A1789-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tsada",
+            "system_position": [
+                26,
+                40
+            ],
+            "system_trade_code": "De Ni Po",
+            "system_uwp": "B450433-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tlanzmiechel",
+            "system_position": [
+                27,
+                31
+            ],
+            "system_trade_code": "Ni Wa",
+            "system_uwp": "C99A445-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Evdial",
+            "system_position": [
+                27,
+                32
+            ],
+            "system_trade_code": "Ni Pr O:2931",
+            "system_uwp": "C561569-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "A've",
+            "system_position": [
+                27,
+                35
+            ],
+            "system_trade_code": "Ag Ni Ga Pr",
+            "system_uwp": "A665545-C",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tlovibr",
+            "system_position": [
+                27,
+                36
+            ],
+            "system_trade_code": "Pa Ph",
+            "system_uwp": "D955851-3",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zdachne'",
+            "system_position": [
+                27,
+                37
+            ],
+            "system_trade_code": "Ba Fl",
+            "system_uwp": "E7B3000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Bliejanzh",
+            "system_position": [
+                27,
+                38
+            ],
+            "system_trade_code": "Ni Ri O:2637",
+            "system_uwp": "E361669-3",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zdatsef Da",
+            "system_position": [
+                27,
+                39
+            ],
+            "system_trade_code": "Ag",
+            "system_uwp": "B45478C-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Debr",
+            "system_position": [
+                27,
+                40
+            ],
+            "system_trade_code": "Ag Ni Ri O:2739",
+            "system_uwp": "C788666-7",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Pli'zhdans",
+            "system_position": [
+                28,
+                33
+            ],
+            "system_trade_code": "Ag Ni Da",
+            "system_uwp": "C976648-5",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Ketlvapr",
+            "system_position": [
+                28,
+                34
+            ],
+            "system_trade_code": "Fl Hi In Pz",
+            "system_uwp": "B9C59BB-C",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "A'rench",
+            "system_position": [
+                28,
+                37
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E210000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Rizhzde'o",
+            "system_position": [
+                28,
+                39
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E597000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Ta Iefyans",
+            "system_position": [
+                29,
+                31
+            ],
+            "system_trade_code": "Hi In",
+            "system_uwp": "A425AA5-E",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Itlbadr",
+            "system_position": [
+                29,
+                35
+            ],
+            "system_trade_code": "Ba Fo",
+            "system_uwp": "X646000-0",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Iadriav",
+            "system_position": [
+                29,
+                37
+            ],
+            "system_trade_code": "Ni Pa Cp",
+            "system_uwp": "A748441-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Riaqshedi",
+            "system_position": [
+                29,
+                39
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E763000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "E'brinsh",
+            "system_position": [
+                30,
+                31
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "D774510-6",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Zhdizant",
+            "system_position": [
+                30,
+                33
+            ],
+            "system_trade_code": "Ph",
+            "system_uwp": "A959898-A",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Vidbrianch",
+            "system_position": [
+                30,
+                35
+            ],
+            "system_trade_code": "As Hi In Na Va Pz",
+            "system_uwp": "C000954-D",
+            "system_zone": "A"
+        },
+        {
+            "system_name": "Jirdafra",
+            "system_position": [
+                31,
+                32
+            ],
+            "system_trade_code": "Fl He Ni",
+            "system_uwp": "B7B1527-B",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Fanzpriash",
+            "system_position": [
+                31,
+                34
+            ],
+            "system_trade_code": "Ba Fo",
+            "system_uwp": "X610000-0",
+            "system_zone": "R"
+        },
+        {
+            "system_name": "Ienzhbria",
+            "system_position": [
+                31,
+                35
+            ],
+            "system_trade_code": "De Ni Po",
+            "system_uwp": "C130513-9",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Tloqe",
+            "system_position": [
+                32,
+                38
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "A778559-D",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Edach",
+            "system_position": [
+                32,
+                40
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "E677653-5",
+            "system_zone": ""
+        }
+    ]
+}

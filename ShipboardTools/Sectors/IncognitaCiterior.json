@@ -1,0 +1,317 @@
+{
+    "sector_name": "Incognita Citerior",
+    "sector_position": [
+        -10,
+        2
+    ],
+    "subsectors": [
+        {
+            "subsector_index": 1,
+            "subsector_name": "A"
+        },
+        {
+            "subsector_index": 2,
+            "subsector_name": "B"
+        },
+        {
+            "subsector_index": 3,
+            "subsector_name": "C"
+        },
+        {
+            "subsector_index": 4,
+            "subsector_name": "D"
+        },
+        {
+            "subsector_index": 5,
+            "subsector_name": "E"
+        },
+        {
+            "subsector_index": 6,
+            "subsector_name": "F"
+        },
+        {
+            "subsector_index": 7,
+            "subsector_name": "G"
+        },
+        {
+            "subsector_index": 8,
+            "subsector_name": "H"
+        },
+        {
+            "subsector_index": 9,
+            "subsector_name": "I"
+        },
+        {
+            "subsector_index": 10,
+            "subsector_name": "J"
+        },
+        {
+            "subsector_index": 11,
+            "subsector_name": "K"
+        },
+        {
+            "subsector_index": 12,
+            "subsector_name": "L"
+        },
+        {
+            "subsector_index": 13,
+            "subsector_name": "M"
+        },
+        {
+            "subsector_index": 14,
+            "subsector_name": "N"
+        },
+        {
+            "subsector_index": 15,
+            "subsector_name": "O"
+        },
+        {
+            "subsector_index": 16,
+            "subsector_name": "P"
+        }
+    ],
+    "systems": [
+        {
+            "system_name": "ICK - 0105",
+            "system_position": [
+                17,
+                25
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "ICK - 0106",
+            "system_position": [
+                17,
+                26
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "ICK - 0203",
+            "system_position": [
+                18,
+                23
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "ICK - 0205",
+            "system_position": [
+                18,
+                25
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "ICK - 0208",
+            "system_position": [
+                18,
+                28
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "ICK - 0304",
+            "system_position": [
+                19,
+                24
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "ICK - 0308",
+            "system_position": [
+                19,
+                28
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "ICK - 0309",
+            "system_position": [
+                19,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "ICK - 0504",
+            "system_position": [
+                21,
+                24
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "ICK - 0604",
+            "system_position": [
+                22,
+                24
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "ICK - 0610",
+            "system_position": [
+                22,
+                30
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "ICK - 0703",
+            "system_position": [
+                23,
+                23
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "ICK - 0806",
+            "system_position": [
+                24,
+                26
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+
+
+        {
+            "system_name": "ICL - 0104",
+            "system_position": [
+                25,
+                24
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "ICL - 0201",
+            "system_position": [
+                26,
+                21
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "ICL - 0207",
+            "system_position": [
+                26,
+                27
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "ICL - 0210",
+            "system_position": [
+                26,
+                30
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "ICL - 0303",
+            "system_position": [
+                27,
+                23
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "ICL - 0309",
+            "system_position": [
+                27,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "ICL - 0403",
+            "system_position": [
+                28,
+                23
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "ICL - 0502",
+            "system_position": [
+                29,
+                22
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Garva-411",
+            "system_position": [
+                29,
+                26
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "X310000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "ICL - 0702",
+            "system_position": [
+                31,
+                22
+            ],
+            "system_trade_code": "",
+            "system_uwp": "???????-?",
+            "system_zone": ""
+        },
+        {
+            "system_name": "Demnan",
+            "system_position": [
+                31,
+                24
+            ],
+            "system_trade_code": "Ba",
+            "system_uwp": "E567000-0",
+            "system_zone": ""
+        }
+    ]
+}

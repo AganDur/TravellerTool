@@ -45,8 +45,9 @@
             "distance": 0
         }
     ],
-    "star":{
+    "stars":[{
         "class": "F8V",
+        "name": "Exocet A",
         "color":{
             "red":1,
             "green":1,
@@ -54,84 +55,20 @@
         },
         "radius": 1,
         "mass": 0
-    },
+    }],
     "orbiting":[
         {
+            "parents":[ "Exocet A" ],
             "orbit": {
                 "type": "circle",
                 "radius":5.6
             },
             "world":{
-                "name": "Tinpot",
+                "name": "Exocet",
                 "uwp": "",
                 "size": 0.1
             }
         },
-        {
-            "orbit": {
-                "type": "circle",
-                "radius": 11.5                
-            },
-            "world":{
-                "name": "Apsho Two",
-                "uwp": "",
-                "size": 0.3
-            }
-        },
-        {
-            "orbit": {
-                "type": "circle",
-                "radius": 15.1                
-            },
-            "world":{
-                "name": "Arunisiir",
-                "uwp": "",
-                "size": 0.2
-            }
-        },
-        {
-            "orbit": {
-                "type": "circle",
-                "radius": 19.2                
-            },
-            "world":{
-                "name": "George",
-                "uwp": "",
-                "size": 0.3
-            }
-        },
-        {
-            "orbit": {
-                "type": "circle",
-                "radius": 25.7                
-            },
-            "world":{
-                "name": "Errat",
-                "uwp": "",
-                "size": 0.2
-            }
-        },
-        {
-            "orbit": {
-                "type": "circle",
-                "radius": 34.9                
-            },
-            "world":{
-                "name": "Cartier's Giant",
-                "uwp": "",
-                "size": 0.2
-            }
-        },
-        {
-            "orbit": {
-                "type": "circle",
-                "radius": 46                
-            },
-            "world":{
-                "name": "Claimstake",
-                "uwp": "",
-                "size": 0.2
-            }
-        }
+
     ]
 }

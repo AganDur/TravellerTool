@@ -45,21 +45,27 @@
             "distance": 0
         }
     ],
-    "star":{
-        "class": "F8V",
-        "color":{
-            "red":1,
-            "green":1,
-            "blue":1
-        },
-        "radius": 1,
-        "mass": 0
-    },
+    "stars":[
+        {
+            "class": "F8V",
+            "name": "Acrid A",
+            "color":{
+                "red":1,
+                "green":1,
+                "blue":1
+            },
+            "radius": 1,
+            "mass": 0,
+            "semi-major": 10,
+            "eccentricity": 0.7
+        }
+    ],
     "orbiting":[
         {
+            "parents": ["Acrid A"],
             "orbit": {
                 "type": "circle",
-                "radius":5.6
+                "radius": 5
             },
             "world":{
                 "name": "Tinpot",
@@ -68,6 +74,19 @@
             }
         },
         {
+            "parents": ["Tinpot"],
+            "orbit": {
+                "type": "circle",
+                "radius": 1
+            },
+            "world":{
+                "name": "Tinpot Moon",
+                "uwp": "",
+                "size": 0.1
+            }
+        },
+        {
+            "parents": ["Acrid A"],
             "orbit": {
                 "type": "circle",
                 "radius": 11.5                
@@ -79,6 +98,7 @@
             }
         },
         {
+            "parents": ["Acrid A"],
             "orbit": {
                 "type": "circle",
                 "radius": 15.1                
@@ -90,6 +110,7 @@
             }
         },
         {
+            "parents": ["Acrid A"],
             "orbit": {
                 "type": "circle",
                 "radius": 19.2                
@@ -101,9 +122,10 @@
             }
         },
         {
+            "parents": ["Acrid A"],
             "orbit": {
                 "type": "circle",
-                "radius": 25.7                
+                "radius": 25.7
             },
             "world":{
                 "name": "Errat",
@@ -112,6 +134,7 @@
             }
         },
         {
+            "parents": ["Acrid A"],
             "orbit": {
                 "type": "circle",
                 "radius": 34.9                
@@ -123,6 +146,7 @@
             }
         },
         {
+            "parents": ["Acrid A"],
             "orbit": {
                 "type": "circle",
                 "radius": 46                

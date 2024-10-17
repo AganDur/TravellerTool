@@ -1,0 +1,4645 @@
+{
+    "sector_name": "Koog",
+    "sector_position": [
+        7,
+        -4
+    ],
+    "subsectors": [
+        {
+            "subsector_index": 1,
+            "subsector_name": "Koth'kae"
+        },
+        {
+            "subsector_index": 2,
+            "subsector_name": "Kia'tae"
+        },
+        {
+            "subsector_index": 3,
+            "subsector_name": "Tan'lang"
+        },
+        {
+            "subsector_index": 4,
+            "subsector_name": "Divok"
+        },
+        {
+            "subsector_index": 5,
+            "subsector_name": "Kek'loth"
+        },
+        {
+            "subsector_index": 6,
+            "subsector_name": "K'jarg"
+        },
+        {
+            "subsector_index": 7,
+            "subsector_name": "Mar'gak"
+        },
+        {
+            "subsector_index": 8,
+            "subsector_name": "T'lanak"
+        },
+        {
+            "subsector_index": 9,
+            "subsector_name": "Kar'ank"
+        },
+        {
+            "subsector_index": 10,
+            "subsector_name": "K'shin"
+        },
+        {
+            "subsector_index": 11,
+            "subsector_name": "K'retok"
+        },
+        {
+            "subsector_index": 12,
+            "subsector_name": "Kor'atath"
+        },
+        {
+            "subsector_index": 13,
+            "subsector_name": "Nik'rel"
+        },
+        {
+            "subsector_index": 14,
+            "subsector_name": "Mor'tah"
+        },
+        {
+            "subsector_index": 15,
+            "subsector_name": "D'ghor"
+        },
+        {
+            "subsector_index": 16,
+            "subsector_name": "Mor'tah"
+        }
+    ],
+    "systems": [
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                5
+            ],
+            "system_trade_code": "Ba Lo Ni Po",
+            "system_uwp": "X421000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                6
+            ],
+            "system_trade_code": "Ba Lo Ni Va",
+            "system_uwp": "X300000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                10
+            ],
+            "system_trade_code": "Lo Ni Va",
+            "system_uwp": "X200000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                3
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X235000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                2
+            ],
+            "system_trade_code": "Ba De Lo Ni Po",
+            "system_uwp": "X130000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                5
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X476000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                9
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X373000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                2
+            ],
+            "system_trade_code": "De Lo Ni Po",
+            "system_uwp": "X250000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                6
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X782000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                7
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X867000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                8
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X778000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                1
+            ],
+            "system_trade_code": "Ba Ic Lo Ni",
+            "system_uwp": "X212000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                2
+            ],
+            "system_trade_code": "De Lo Ni Po",
+            "system_uwp": "X240000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                10
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X539000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                2
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X999000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                3
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X486000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                5
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X435000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                7
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X673000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                8
+            ],
+            "system_trade_code": "Ic Lo Ni Va",
+            "system_uwp": "X303000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                4
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X310000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                7
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "XAA7000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                8
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "XA89000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                2
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "XAC8000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                7
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X626000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                8
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "X6A3000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                6
+            ],
+            "system_trade_code": "Ba Lo Ni Va",
+            "system_uwp": "X100000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                7
+            ],
+            "system_trade_code": "Ba Lo Ni Po",
+            "system_uwp": "X332000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                8
+            ],
+            "system_trade_code": "Ba Fl Lo Ni",
+            "system_uwp": "X7A5000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                2
+            ],
+            "system_trade_code": "Ba De Lo Ni",
+            "system_uwp": "X5A0000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                6
+            ],
+            "system_trade_code": "As Ba Lo Ni",
+            "system_uwp": "X000000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                9
+            ],
+            "system_trade_code": "Lo Ni Va",
+            "system_uwp": "X200000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                10
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "X865000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                2
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X525000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                2
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X686000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                7
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X658000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                8
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X575000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                10
+            ],
+            "system_trade_code": "Fl Lo Ni Wa",
+            "system_uwp": "XAAA000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                3
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X334000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                5
+            ],
+            "system_trade_code": "Lo Ni Va",
+            "system_uwp": "X200000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                7
+            ],
+            "system_trade_code": "Lo Ni Wa",
+            "system_uwp": "X86A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                9
+            ],
+            "system_trade_code": "Ba De Lo Ni",
+            "system_uwp": "X5A0000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                4
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X344000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                5
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X785000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                6
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X898000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                7
+            ],
+            "system_trade_code": "Ba Fl Lo Ni",
+            "system_uwp": "X6A6000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                1
+            ],
+            "system_trade_code": "As Lo Ni",
+            "system_uwp": "X000000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                3
+            ],
+            "system_trade_code": "Ba Ic Lo Ni Va",
+            "system_uwp": "X403000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                4
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X467000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                6
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X778000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                1
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X868000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                3
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X574000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                4
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X753000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                5
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X492000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                3
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X221000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                5
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "XAA5000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                7
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "XAC4000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                7
+            ],
+            "system_trade_code": "Ba De Lo Ni Po",
+            "system_uwp": "X330000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                9
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X332000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                10
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X563000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                3
+            ],
+            "system_trade_code": "De Lo Ni",
+            "system_uwp": "X7B0000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                4
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X644000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                6
+            ],
+            "system_trade_code": "Ba Lo Ni Va",
+            "system_uwp": "X200000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                7
+            ],
+            "system_trade_code": "Lo Ni Va",
+            "system_uwp": "X300000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                5
+            ],
+            "system_trade_code": "Ba Lo Ni Po",
+            "system_uwp": "X333000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                6
+            ],
+            "system_trade_code": "Lo Ni Wa",
+            "system_uwp": "X57A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                1
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X557000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                2
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "XAD7000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                3
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X625000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                8
+            ],
+            "system_trade_code": "Lo Ni Va",
+            "system_uwp": "X300000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                10
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X463000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                1
+            ],
+            "system_trade_code": "Ba Fl Lo Ni",
+            "system_uwp": "X5A1000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                3
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X659000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                5
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X786000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                8
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X472000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                9
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X788000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                10
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X434000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                7
+            ],
+            "system_trade_code": "Ba Lo Ni Va",
+            "system_uwp": "X100000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                1
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "X7B4000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                8
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X757000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                2
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X749000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                4
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X888000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                8
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X675000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                9
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X365000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                3
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X648000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                4
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X775000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                5
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X865000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                3
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X534000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                4
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X576000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                7
+            ],
+            "system_trade_code": "Ba De Lo Ni Po",
+            "system_uwp": "X430000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                5
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X568000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                6
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X958000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                8
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X333000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                8
+            ],
+            "system_trade_code": "Lo Ni Va",
+            "system_uwp": "X200000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                10
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X333000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                7
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "XAC8000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                1
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X447000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                2
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X381000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                5
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X335000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                10
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X110000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                14
+            ],
+            "system_trade_code": "Ba Lo Ni Po",
+            "system_uwp": "X433000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                20
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X535000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                12
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X887000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                14
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X555000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                15
+            ],
+            "system_trade_code": "Ba Fl Lo Ni",
+            "system_uwp": "X9C3000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                17
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X646000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                19
+            ],
+            "system_trade_code": "Ba Lo Ni Wa",
+            "system_uwp": "X79A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                20
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X592000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                13
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X627000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                14
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X487000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                15
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X559000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                18
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X375000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                19
+            ],
+            "system_trade_code": "Ba Fl Lo Ni",
+            "system_uwp": "X8A4000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                11
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X324000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                15
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X774000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                11
+            ],
+            "system_trade_code": "Ba De Lo Ni Po",
+            "system_uwp": "X130000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                13
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X634000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                14
+            ],
+            "system_trade_code": "De Lo Ni Po",
+            "system_uwp": "X130000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                11
+            ],
+            "system_trade_code": "As Lo Ni",
+            "system_uwp": "X000000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                14
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X246000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                16
+            ],
+            "system_trade_code": "De Lo Ni Po",
+            "system_uwp": "X140000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                15
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X110000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                12
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "XA57000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                15
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X310000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                16
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X210000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                19
+            ],
+            "system_trade_code": "Lo Ni Va",
+            "system_uwp": "X100000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                12
+            ],
+            "system_trade_code": "As Lo Ni",
+            "system_uwp": "X000000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                16
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X446000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                17
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X677000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                11
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X565000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                14
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X887000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                16
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X439000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                19
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X461000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                11
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X644000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                12
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "X5A1000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                13
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X510000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                14
+            ],
+            "system_trade_code": "De Lo Ni Po",
+            "system_uwp": "X340000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                17
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X743000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                11
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "X6A2000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                13
+            ],
+            "system_trade_code": "De Lo Ni",
+            "system_uwp": "X470000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                17
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X544000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                14
+            ],
+            "system_trade_code": "Lo Ni Wa",
+            "system_uwp": "X78A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                12
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X776000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                14
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X789000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                17
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X658000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                18
+            ],
+            "system_trade_code": "As Lo Ni",
+            "system_uwp": "X000000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                20
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X537000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                15
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X646000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                18
+            ],
+            "system_trade_code": "De Lo Ni Po",
+            "system_uwp": "X540000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                19
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X569000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                20
+            ],
+            "system_trade_code": "Ic Lo Ni",
+            "system_uwp": "X514000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                11
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "X6B1000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                12
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "X6A1000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                14
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X363000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                16
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X558000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                17
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "XAD4000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                19
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X667000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                20
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X410000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                11
+            ],
+            "system_trade_code": "Lo Ni Va",
+            "system_uwp": "X200000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                14
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X867000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                12
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X657000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                16
+            ],
+            "system_trade_code": "Ba Lo Ni Va",
+            "system_uwp": "X500000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                17
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X657000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                12
+            ],
+            "system_trade_code": "Ba Fl Lo Ni",
+            "system_uwp": "X9C7000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                13
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X634000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                14
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X559000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                11
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X463000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                15
+            ],
+            "system_trade_code": "De Lo Ni Po",
+            "system_uwp": "X450000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                16
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "X6B1000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                20
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X549000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                12
+            ],
+            "system_trade_code": "Ba Lo Ni Po",
+            "system_uwp": "X432000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                14
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X557000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                15
+            ],
+            "system_trade_code": "Lo Ni Wa",
+            "system_uwp": "XA9A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                16
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X464000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                18
+            ],
+            "system_trade_code": "De Lo Ni Po",
+            "system_uwp": "X230000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                19
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X691000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                20
+            ],
+            "system_trade_code": "Ba Lo Ni Va",
+            "system_uwp": "X200000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                11
+            ],
+            "system_trade_code": "Lo Ni Va",
+            "system_uwp": "X200000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                12
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X333000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                15
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X737000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                17
+            ],
+            "system_trade_code": "Lo Ni Wa",
+            "system_uwp": "X66A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                19
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X773000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                16
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X422000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                17
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X531000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                12
+            ],
+            "system_trade_code": "As Lo Ni",
+            "system_uwp": "X000000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                15
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X776000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                17
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X788000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                18
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X665000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                11
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X436000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                12
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X423000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                13
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X664000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                16
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X562000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                17
+            ],
+            "system_trade_code": "Lo Ni Wa",
+            "system_uwp": "XA9A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                19
+            ],
+            "system_trade_code": "Lo Ni Va",
+            "system_uwp": "X200000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                13
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X596000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                17
+            ],
+            "system_trade_code": "Fl Lo Ni Wa",
+            "system_uwp": "X9DA000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                19
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X466000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                16
+            ],
+            "system_trade_code": "Lo Ni Wa",
+            "system_uwp": "X95A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                11
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X567000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                12
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "XA87000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                15
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X567000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                17
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X542000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                19
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X666000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                22
+            ],
+            "system_trade_code": "Ba Lo Ni Po",
+            "system_uwp": "X553000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                23
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X738000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                24
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X481000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                25
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X556000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                26
+            ],
+            "system_trade_code": "De Lo Ni Po",
+            "system_uwp": "X140000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                23
+            ],
+            "system_trade_code": "Ic Lo Ni Va",
+            "system_uwp": "X401000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                24
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X110000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                25
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X542000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                26
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X110000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                27
+            ],
+            "system_trade_code": "De Lo Ni Po",
+            "system_uwp": "X230000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                29
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X485000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                21
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X535000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                25
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X424000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                28
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X561000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                29
+            ],
+            "system_trade_code": "Lo Ni Va",
+            "system_uwp": "X200000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                21
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X486000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                23
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X958000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                24
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X679000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                26
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "X9B9000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                27
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X646000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                28
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X539000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                30
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X668000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                23
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X696000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                24
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X488000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                26
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X878000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                27
+            ],
+            "system_trade_code": "Ba Lo Ni Wa",
+            "system_uwp": "X88A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                28
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X567000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                29
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X452000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                30
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X554000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                24
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X352000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                21
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X665000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                22
+            ],
+            "system_trade_code": "De Lo Ni",
+            "system_uwp": "X6A0000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                30
+            ],
+            "system_trade_code": "Ba De Lo Ni Po",
+            "system_uwp": "X140000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                22
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X254000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                23
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X523000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                25
+            ],
+            "system_trade_code": "As Ba Lo Ni",
+            "system_uwp": "X000000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                26
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X549000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                27
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X110000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                25
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X561000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                30
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X534000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                27
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "XAC6000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                28
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X775000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                29
+            ],
+            "system_trade_code": "Lo Ni Wa",
+            "system_uwp": "XA8A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                30
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X796000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                22
+            ],
+            "system_trade_code": "Ba Lo Ni Po",
+            "system_uwp": "X533000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                23
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X958000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                24
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "XAD1000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                25
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X454000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                26
+            ],
+            "system_trade_code": "Ba Ic Lo Ni Va",
+            "system_uwp": "X202000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                29
+            ],
+            "system_trade_code": "As Ba Lo Ni",
+            "system_uwp": "X000000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                30
+            ],
+            "system_trade_code": "De Lo Ni Po",
+            "system_uwp": "X330000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                22
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X864000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                23
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X536000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                24
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X789000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                27
+            ],
+            "system_trade_code": "Ba Ic Lo Ni",
+            "system_uwp": "X412000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                28
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X562000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                22
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X873000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                23
+            ],
+            "system_trade_code": "Ic Lo Ni Va",
+            "system_uwp": "X404000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                27
+            ],
+            "system_trade_code": "De Lo Ni",
+            "system_uwp": "X5A0000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                30
+            ],
+            "system_trade_code": "Ic Lo Ni",
+            "system_uwp": "X615000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                21
+            ],
+            "system_trade_code": "Ba Lo Ni Va",
+            "system_uwp": "X400000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                22
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X695000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                23
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X325000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                24
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X667000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                26
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X758000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                27
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X777000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                28
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X865000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                22
+            ],
+            "system_trade_code": "As Lo Ni",
+            "system_uwp": "X000000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                23
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X864000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                27
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X337000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                29
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X334000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                21
+            ],
+            "system_trade_code": "Ba Lo Ni Po",
+            "system_uwp": "X632000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                22
+            ],
+            "system_trade_code": "Ba Fl Lo Ni",
+            "system_uwp": "XAD6000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                23
+            ],
+            "system_trade_code": "Lo Ni Wa",
+            "system_uwp": "X85A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                26
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X567000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                27
+            ],
+            "system_trade_code": "De Lo Ni Po",
+            "system_uwp": "X140000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                28
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X455000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                30
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X110000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                26
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X875000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                27
+            ],
+            "system_trade_code": "Ba Lo Ni Po",
+            "system_uwp": "X443000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                28
+            ],
+            "system_trade_code": "Ba Ic Lo Ni",
+            "system_uwp": "X313000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                30
+            ],
+            "system_trade_code": "Ba De Lo Ni Po",
+            "system_uwp": "X520000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                21
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X310000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                22
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X535000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                23
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X210000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                27
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X461000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                29
+            ],
+            "system_trade_code": "Ba Fl Lo Ni",
+            "system_uwp": "X6A4000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                21
+            ],
+            "system_trade_code": "Lo Ni Wa",
+            "system_uwp": "X97A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                26
+            ],
+            "system_trade_code": "Lo Ni Va",
+            "system_uwp": "X200000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                21
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X575000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                23
+            ],
+            "system_trade_code": "Ba Ic Lo Ni",
+            "system_uwp": "X413000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                25
+            ],
+            "system_trade_code": "De Lo Ni Po",
+            "system_uwp": "X340000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                23
+            ],
+            "system_trade_code": "Ba Fl Lo Ni",
+            "system_uwp": "X9E7000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                25
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X723000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                26
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "X7A6000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                28
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X569000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                30
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X564000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                22
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X691000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                24
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X624000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                25
+            ],
+            "system_trade_code": "Ba Fl Lo Ni",
+            "system_uwp": "XAB9000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                29
+            ],
+            "system_trade_code": "As Ba Lo Ni",
+            "system_uwp": "X000000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                23
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X668000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                25
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X864000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                28
+            ],
+            "system_trade_code": "Lo Ni Va",
+            "system_uwp": "X200000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                21
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X562000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                22
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X434000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                26
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X355000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                27
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X273000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                21
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X694000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                25
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "X9D7000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                26
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X554000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                25
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X874000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                26
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X310000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                21
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X536000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                23
+            ],
+            "system_trade_code": "De Lo Ni Po",
+            "system_uwp": "X130000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                27
+            ],
+            "system_trade_code": "",
+            "system_uwp": "X346000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                27
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "X321000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                30
+            ],
+            "system_trade_code": "Ag Ni",
+            "system_uwp": "X777000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                25
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X776000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "X739000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                30
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "X443000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                23
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X535000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                25
+            ],
+            "system_trade_code": "Lo Ni Wa",
+            "system_uwp": "X87A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                29
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X795000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                22
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X672000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                23
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X559000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                24
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X585000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                28
+            ],
+            "system_trade_code": "As Na",
+            "system_uwp": "X000000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                29
+            ],
+            "system_trade_code": "Ba Lo Ni Wa",
+            "system_uwp": "XA8A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                30
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X566000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                33
+            ],
+            "system_trade_code": "As Ba Lo Ni",
+            "system_uwp": "X000000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                37
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X959000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                33
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X775000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                35
+            ],
+            "system_trade_code": "Ba Fl Lo Ni",
+            "system_uwp": "X8B7000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                38
+            ],
+            "system_trade_code": "Fl Lo Ni Wa",
+            "system_uwp": "XABA000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                39
+            ],
+            "system_trade_code": "Ba Lo Ni Wa",
+            "system_uwp": "X56A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                40
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X436000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                31
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X769000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                32
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X676000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                33
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X221000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                37
+            ],
+            "system_trade_code": "Lo Ni Va",
+            "system_uwp": "X200000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                38
+            ],
+            "system_trade_code": "Ba Fl Lo Ni",
+            "system_uwp": "XAC4000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                40
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X696000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                31
+            ],
+            "system_trade_code": "Ba Lo Ni Po",
+            "system_uwp": "X423000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                33
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X747000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                37
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "X7A6000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                39
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X594000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                35
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X667000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                32
+            ],
+            "system_trade_code": "Ba Lo Ni Po",
+            "system_uwp": "X242000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                34
+            ],
+            "system_trade_code": "Ba Lo Ni Va",
+            "system_uwp": "X200000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                36
+            ],
+            "system_trade_code": "Ba Ic Lo Ni Va",
+            "system_uwp": "X402000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                37
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X423000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                38
+            ],
+            "system_trade_code": "Ba Lo Ni Wa",
+            "system_uwp": "X88A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                40
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X521000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                31
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X438000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                32
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X666000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                33
+            ],
+            "system_trade_code": "Lo Ni Va",
+            "system_uwp": "X100000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                35
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X777000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                36
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X789000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                37
+            ],
+            "system_trade_code": "Ba Ic Lo Ni Va",
+            "system_uwp": "X201000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                38
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X333000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                40
+            ],
+            "system_trade_code": "Ba Lo Ni Po",
+            "system_uwp": "X242000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                31
+            ],
+            "system_trade_code": "Lo Ni Wa",
+            "system_uwp": "X73A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                33
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X644000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                37
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X887000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                31
+            ],
+            "system_trade_code": "Ba Lo Ni Po",
+            "system_uwp": "X422000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                33
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X558000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                36
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X783000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                38
+            ],
+            "system_trade_code": "De Lo Ni",
+            "system_uwp": "X360000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                31
+            ],
+            "system_trade_code": "De Lo Ni",
+            "system_uwp": "X270000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                35
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X678000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                40
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X681000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                31
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X531000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                34
+            ],
+            "system_trade_code": "Ba Lo Ni Wa",
+            "system_uwp": "X64A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                36
+            ],
+            "system_trade_code": "Ba Ic Lo Ni Va",
+            "system_uwp": "X404000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                37
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X523000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                34
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X223000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                35
+            ],
+            "system_trade_code": "Ic Lo Ni",
+            "system_uwp": "X514000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                36
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "XAC6000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                37
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X645000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                38
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X547000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                39
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X666000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                40
+            ],
+            "system_trade_code": "Ba Lo Ni Va",
+            "system_uwp": "X400000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                33
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "XAF4000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                34
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X999000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                35
+            ],
+            "system_trade_code": "Lo Ni Va",
+            "system_uwp": "X100000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                38
+            ],
+            "system_trade_code": "As Lo Ni",
+            "system_uwp": "X000000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                40
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X777000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                31
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X787000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                32
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X331000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                37
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X875000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                38
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X747000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                39
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X427000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                31
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X210000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                33
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X977000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                35
+            ],
+            "system_trade_code": "Ba Fl Lo Ni",
+            "system_uwp": "X9A2000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                37
+            ],
+            "system_trade_code": "Ba Lo Ni Po",
+            "system_uwp": "X343000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                38
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X410000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                39
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "XA86000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                40
+            ],
+            "system_trade_code": "Ba Lo Ni Wa",
+            "system_uwp": "X73A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                32
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X626000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                34
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X587000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                35
+            ],
+            "system_trade_code": "Ba Fl Lo Ni",
+            "system_uwp": "XAB4000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                38
+            ],
+            "system_trade_code": "Ba Ic Lo Ni",
+            "system_uwp": "X311000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                34
+            ],
+            "system_trade_code": "Ba Lo Ni Wa",
+            "system_uwp": "XA8A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                38
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X310000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                40
+            ],
+            "system_trade_code": "Ba De Lo Ni Po",
+            "system_uwp": "X440000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                31
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X772000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                34
+            ],
+            "system_trade_code": "Fl Lo Ni",
+            "system_uwp": "X7A1000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                36
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X561000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                37
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X465000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                38
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X347000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                40
+            ],
+            "system_trade_code": "Ba Lo Ni Po",
+            "system_uwp": "X421000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                31
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X867000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                32
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X246000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                33
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X551000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                35
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X210000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                39
+            ],
+            "system_trade_code": "As Ba Lo Ni",
+            "system_uwp": "X000000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                31
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X210000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                36
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X242000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                38
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X553000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                39
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X110000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                40
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X696000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                35
+            ],
+            "system_trade_code": "De Lo Ni Po",
+            "system_uwp": "X140000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                35
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X585000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                37
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X528000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                40
+            ],
+            "system_trade_code": "Ba Ic Lo Ni Va",
+            "system_uwp": "X505000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                35
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X654000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                37
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X979000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                40
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X355000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                33
+            ],
+            "system_trade_code": "Lo Ni Wa",
+            "system_uwp": "X77A000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                34
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X436000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                36
+            ],
+            "system_trade_code": "Ba Fl Lo Ni",
+            "system_uwp": "X9A4000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                39
+            ],
+            "system_trade_code": "Ic Lo Ni Va",
+            "system_uwp": "X202000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                31
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X631000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                35
+            ],
+            "system_trade_code": "Lo Ni Po",
+            "system_uwp": "X452000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                37
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X567000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                38
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X425000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                31
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X566000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                32
+            ],
+            "system_trade_code": "Ni Po",
+            "system_uwp": "X522000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                35
+            ],
+            "system_trade_code": "Na Va",
+            "system_uwp": "X100000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                36
+            ],
+            "system_trade_code": "Ag Ni Ri",
+            "system_uwp": "X766000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                32
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X883000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                33
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X749000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                37
+            ],
+            "system_trade_code": "Ni",
+            "system_uwp": "X639000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                40
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X110000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                31
+            ],
+            "system_trade_code": "Ni Va",
+            "system_uwp": "X100000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                32
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X110000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                36
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X524000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                38
+            ],
+            "system_trade_code": "Lo Ni",
+            "system_uwp": "X110000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                31
+            ],
+            "system_trade_code": "Ba Lo Ni Po",
+            "system_uwp": "X343000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                32
+            ],
+            "system_trade_code": "Na Ni Po",
+            "system_uwp": "X421000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                40
+            ],
+            "system_trade_code": "Ba Lo Ni",
+            "system_uwp": "X385000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                31
+            ],
+            "system_trade_code": "De Ni Po",
+            "system_uwp": "X340000-0",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                34
+            ],
+            "system_trade_code": "Ba Lo Ni Po",
+            "system_uwp": "X422000-0",
+            "system_zone": ""
+        }
+    ]
+}

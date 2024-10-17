@@ -30,10 +30,17 @@
             "distance": 2
         }
     ],
-    "star":{
+    "stars":[{
         "class": "K7V",
+        "name": "Marduk A",
+        "color":{
+            "red":1,
+            "green":1,
+            "blue":1
+        },
+        "radius": 1,
         "mass": 0.5376
-    },
+    }],
     "orbiting":[
         {
             "orbit": {

@@ -1,0 +1,4185 @@
+{
+    "sector_name": "Kefiykhta",
+    "sector_position": [
+        -7,
+        4
+    ],
+    "subsectors": [
+        {
+            "subsector_index": 1,
+            "subsector_name": "65"
+        },
+        {
+            "subsector_index": 2,
+            "subsector_name": "66"
+        },
+        {
+            "subsector_index": 3,
+            "subsector_name": "67"
+        },
+        {
+            "subsector_index": 4,
+            "subsector_name": "68"
+        },
+        {
+            "subsector_index": 5,
+            "subsector_name": "69"
+        },
+        {
+            "subsector_index": 6,
+            "subsector_name": "70"
+        },
+        {
+            "subsector_index": 7,
+            "subsector_name": "71"
+        },
+        {
+            "subsector_index": 8,
+            "subsector_name": "72"
+        },
+        {
+            "subsector_index": 9,
+            "subsector_name": "73"
+        },
+        {
+            "subsector_index": 10,
+            "subsector_name": "74"
+        },
+        {
+            "subsector_index": 11,
+            "subsector_name": "75"
+        },
+        {
+            "subsector_index": 12,
+            "subsector_name": "76"
+        },
+        {
+            "subsector_index": 13,
+            "subsector_name": "77"
+        },
+        {
+            "subsector_index": 14,
+            "subsector_name": "78"
+        },
+        {
+            "subsector_index": 15,
+            "subsector_name": "79"
+        },
+        {
+            "subsector_index": 16,
+            "subsector_name": "80"
+        }
+    ],
+    "systems": [
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                2
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                4
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                7
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                8
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                9
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                1
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                4
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                7
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                8
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                10
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                1
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                4
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                5
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                6
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                8
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                9
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                1
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                5
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                7
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                10
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                5
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                6
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                10
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                2
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                8
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                10
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                1
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                3
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                4
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                7
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                6
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                1
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                5
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                6
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                8
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                9
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                4
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                10
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                1
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                2
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                5
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                1
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                5
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                6
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                9
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                10
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                1
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                2
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                3
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                9
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                10
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                1
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                3
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                5
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                6
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                7
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                1
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                6
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                8
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                9
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                5
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                6
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                8
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                10
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                4
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                6
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                4
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                5
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                7
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                2
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                6
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                8
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                9
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                2
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                3
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                4
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                5
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                7
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                10
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                1
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                3
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                6
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                10
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                3
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                6
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                7
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                12
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                15
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                16
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                11
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                12
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                13
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                16
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                17
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                12
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                13
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                11
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                15
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                18
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                12
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                14
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                15
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                19
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                20
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                11
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                13
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                14
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                15
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                17
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                18
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                19
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                13
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                15
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                17
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                11
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                12
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                15
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                17
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                14
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                11
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                16
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                17
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                18
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                17
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                20
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                11
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                13
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                14
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                16
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                18
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                20
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                17
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                20
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                15
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                20
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                20
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                12
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                20
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                15
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                11
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                15
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                17
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                11
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                18
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                20
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                19
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                15
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                12
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                17
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                18
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                19
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                20
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                11
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                13
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                14
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                15
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                16
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                17
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                13
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                14
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                17
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                20
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                22
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                25
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                27
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                28
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                21
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                22
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                23
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                24
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                21
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                22
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                23
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                24
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                25
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                27
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                21
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                22
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                25
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                28
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                21
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                27
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                28
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                23
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                24
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                27
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                30
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                23
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                25
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                27
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                23
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                24
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                27
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                25
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                27
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                28
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                21
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                22
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                27
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                30
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                21
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                23
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                25
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                26
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                22
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                24
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                30
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                24
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                26
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                30
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                23
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                25
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                28
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                30
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                23
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                25
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                30
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                22
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                23
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                24
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                27
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                30
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                22
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                24
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                26
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                21
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                22
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                26
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                27
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                24
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                28
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                22
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                24
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                25
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                28
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                25
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                27
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                30
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                22
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                23
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                26
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                28
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                26
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                27
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                30
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                21
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                28
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                25
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                26
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                27
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                24
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                26
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                27
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                28
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                21
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                23
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                25
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                22
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                27
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                21
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                23
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                24
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                21
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                22
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                23
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                24
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                28
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                30
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                22
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                26
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                28
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                29
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                31
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                37
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                39
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                1,
+                40
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                31
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                32
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                33
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                34
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                2,
+                40
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                32
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                33
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                34
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                3,
+                39
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                32
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                33
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                35
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                4,
+                38
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                37
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                38
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                5,
+                40
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                31
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                34
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                6,
+                40
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                31
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                34
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                36
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                7,
+                38
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                31
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                8,
+                36
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                35
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                37
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                38
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                9,
+                40
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                31
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                34
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                35
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                37
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                38
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                10,
+                39
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                11,
+                32
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                33
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                38
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                12,
+                40
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                31
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                33
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                13,
+                36
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                31
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                14,
+                32
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                32
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                33
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                35
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                37
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                15,
+                40
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                32
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                36
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                16,
+                40
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                32
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                34
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                35
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                39
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                17,
+                40
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                32
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                34
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                35
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                37
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                38
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                18,
+                40
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                32
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                33
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                34
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                37
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                19,
+                40
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                31
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                32
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                34
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                20,
+                39
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                31
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                34
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                38
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                21,
+                40
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                33
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                36
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                22,
+                37
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                33
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                23,
+                34
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                32
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                34
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                35
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                37
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                24,
+                40
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                32
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                34
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                38
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                25,
+                40
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                32
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                33
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                34
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                37
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                38
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                39
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                26,
+                40
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                34
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                35
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                27,
+                39
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                32
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                39
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                28,
+                40
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                34
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                35
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                38
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                29,
+                40
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                31
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                32
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                30,
+                34
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                38
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                31,
+                39
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                34
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                37
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                38
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        },
+        {
+            "system_name": "",
+            "system_position": [
+                32,
+                39
+            ],
+            "system_trade_code": "",
+            "system_uwp": "XXXXXXX-X",
+            "system_zone": ""
+        }
+    ]
+}
