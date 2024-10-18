@@ -118,12 +118,24 @@ void Window_SectorMap::fillSector(Sector *sector) {
     QJsonValue systemsRoot = root.value("systems");
 
     for(QJsonValue s: systemsRoot.toArray()){
-        QString systemName = s.toObject().value("system_name").toString();
-        QString systemUWP = s.toObject().value("system_uwp").toString();
-        QString systemTrade = s.toObject().value("system_trade_code").toString();
+        QJsonObject systemObject = s.toObject();
+        QString systemName = !systemObject.value("system_name").isUndefined()? systemObject.value("system_name").toString() : "";
+        QString systemUWP = !systemObject.value("system_uwp").isUndefined()? systemObject.value("system_uwp").toString() : "";
+        QString systemTrade = !systemObject.value("system_trade_code").isUndefined()? systemObject.value("system_trade_code").toString() : "";
+        QString systemCategory = !systemObject.value("system_category").isUndefined()? systemObject.value("system_category").toString() : "";
+        QJsonValue systemInterests = !systemObject.value("system_interests").isUndefined()? systemObject.value("system_interests") : QJsonValue::Null;
+        std::vector<std::string> interests;
+        if(!systemInterests.isNull()){
+            qDebug() << "INTERESTS PRESENT" ;
+            QJsonArray interestArray = systemInterests.toArray();
+            for(QJsonValue val: interestArray){
+                QString v = val.toString();
+                interests.push_back(v.toStdString());
+            }
+        }
 
-        int systemX = s.toObject().value("system_position").toArray().at(0).toInt(0);
-        int systemY = s.toObject().value("system_position").toArray().at(1).toInt(0);
+        int systemX = systemObject.value("system_position").toArray().at(0).toInt(0);
+        int systemY = systemObject.value("system_position").toArray().at(1).toInt(0);
 
         std::string psX = "";
         if (systemX<10) psX = "0";
@@ -131,7 +143,7 @@ void Window_SectorMap::fillSector(Sector *sector) {
         if (systemY<10) psY = "0";
         std::string systemHexCode = psX+std::to_string(systemX)+psY+std::to_string(systemY);
 
-        System *sys = new System(systemName.toStdString(), systemUWP.toStdString(), systemHexCode, systemTrade.toStdString());
+        System *sys = new System(systemName.toStdString(), systemHexCode, interests, systemUWP.toStdString(), systemTrade.toStdString(), systemCategory.toStdString());
         std::array<int, 2> k = {systemX, systemY};
 
         map.insert({k, sys});
@@ -207,7 +219,7 @@ void Window_SectorMap::setupSector(Sector *sector){
                 if(j<10) hexCode += "0";
                 hexCode += std::to_string(j);
 
-                system=new System("", "", hexCode, "");
+                system=new System("", "", std::vector<std::string>(),hexCode, "", "");
             }
             system->setSector(sector);
             Hexagon *hex = new Hexagon(hexRadius, QPoint(sectorX + positionX,sectorY + positionY), system);

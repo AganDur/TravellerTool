@@ -8,9 +8,11 @@
 #include <QPen>
 #include <QPainter>
 
+#include "Globals.h"
+
 #define PI 3.14159265
 
-Hexagon::Hexagon(float radius, QPoint center, System *system, int category){
+Hexagon::Hexagon(float radius, QPoint center, System *system){
     this->radius = radius;
     this->center = center;
     this->hexSystem = system;
@@ -31,8 +33,15 @@ Hexagon::Hexagon(float radius, QPoint center, System *system, int category){
      *     SETUP SUB ITEMS     *
      *-------------------------*/
     if(!system->getName().empty()){
+        this->createSystemSymbol(system->getCategory());;
+        for(std::string interest: system->getInterests()){
+            this->createSystemInterest(interest);
+        }
+
         nameText = new QGraphicsTextItem(QString::fromStdString(getName()), this);
-        nameText->setFont(QFont("Helvetica",20));
+        QFont nameFont = QFont("Helvetica",20);
+        nameFont.setBold(true);
+        nameText->setFont(nameFont);
         centerText(nameText, 0, nameSecondaryOffset);
 
         uwpText = new QGraphicsTextItem(QString::fromStdString(getUWP()),this);
@@ -47,8 +56,6 @@ Hexagon::Hexagon(float radius, QPoint center, System *system, int category){
         tradeCodeText->setFont(QFont("Arial",8));
         tradeCodeText->setDefaultTextColor(Qt::red);
         centerText(tradeCodeText, tradeHorOffset, tradeVertOffset, false);
-
-        this->createSystemSymbol(category);
     }
     this->showLimitedInfo();
 }
@@ -107,26 +114,99 @@ std::string Hexagon::getTradeCode(){
     return this->hexSystem->getTradeCode();
 }
 
-void Hexagon::createSystemSymbol(int category){
-    QPen pen;
-    switch(category){
-        case 0:
-            systemSymbol = new QGraphicsEllipseItem(QRectF(-20, -20, 40, 40), this);
-            pen.setWidth(2);
-            ((QGraphicsEllipseItem*)systemSymbol)->setPen(pen);
-            ((QGraphicsEllipseItem*)systemSymbol)->setBrush(Qt::darkGray);
+inline constexpr auto hash_djb2a(const std::string_view sv){
+    unsigned long hash{ 5381 };
+    for(unsigned char c: sv){
+        hash = ((hash << 5) + hash) ^ c;
+    }
+    return hash;
+}
+
+inline constexpr auto operator"" _sh(const char *str, size_t len){
+    return hash_djb2a(std::string_view{str, len});
+}
+
+void Hexagon::createSystemSymbol(std::string category){
+    QString symbolPath = QString::fromStdString(global::path()+"Assets/Sectors/");
+    QPixmap image;
+    QGraphicsPixmapItem *symbol;
+    switch(hash_djb2a(category)){
+        case "Wet"_sh:
+            image.load(symbolPath+"WorldWet.png");
+            symbol = new QGraphicsPixmapItem(image, this);
+            symbol->setPos(-50,-50);
+            systemSymbols.push_back(symbol);
             break;
-        case 1:
-            systemSymbol = new QGraphicsEllipseItem(QRectF(-20, -20, 40, 40), this);
-            pen.setWidth(2);
-            ((QGraphicsEllipseItem*)systemSymbol)->setPen(pen);
-            ((QGraphicsEllipseItem*)systemSymbol)->setBrush(Qt::blue);
+        case "Dry"_sh:
+            image.load(symbolPath+"WorldDry.png");
+            symbol = new QGraphicsPixmapItem(image, this);
+            symbol->setPos(-50,-50);
+            systemSymbols.push_back(symbol);
+            break;
+        case "Absent"_sh:
+            image.load(symbolPath+"NoWorld.png");
+            symbol = new QGraphicsPixmapItem(image, this);
+            symbol->setPos(-50,-50);
+            systemSymbols.push_back(symbol);
+            break;
+        case "Interest"_sh:
+            image.load(symbolPath+"PointOfInterest.png");
+            symbol = new QGraphicsPixmapItem(image, this);
+            symbol->setPos(-50,-50);
+            symbol->setScale(.5);
+            systemSymbols.push_back(symbol);
             break;
         default:
-            systemSymbol = new QGraphicsEllipseItem(QRectF(-20, -20, 40, 40), this);
-            pen.setWidth(2);
-            ((QGraphicsEllipseItem*)systemSymbol)->setPen(pen);
-            ((QGraphicsEllipseItem*)systemSymbol)->setBrush(Qt::black);
+            break;
+    }
+}
+
+void Hexagon::createSystemInterest(std::string interest){
+    QString symbolPath = QString::fromStdString(global::path()+"Assets/Sectors/");
+    QPixmap image;
+    QGraphicsPixmapItem *symbol;
+    QPoint bottomLeft(-80,-5), topLeft(-75,-65), topRight(30,-50), middleLeft(-100,-25);
+
+    switch(hash_djb2a(interest)){
+        case "Gas"_sh:
+            image.load(symbolPath+"GasGiant.png");
+            symbol = new QGraphicsPixmapItem(image, this);
+            symbol->setPos(topRight);
+            symbol->setScale(.5);
+            systemSymbols.push_back(symbol);
+            break;
+        case "Naval"_sh:
+            image.load(symbolPath+"NavalBase.png");
+            symbol = new QGraphicsPixmapItem(image, this);
+            symbol->setPos(topLeft);
+            systemSymbols.push_back(symbol);
+            break;
+        case "IISSBase"_sh:
+            image.load(symbolPath+"IISSBase.png");
+            symbol = new QGraphicsPixmapItem(image, this);
+            symbol->setPos(bottomLeft);
+            systemSymbols.push_back(symbol);
+            break;
+        case "IISSWay"_sh:
+            image.load(symbolPath+"IISSWaystation.png");
+            symbol = new QGraphicsPixmapItem(image, this);
+            symbol->setPos(bottomLeft);
+            systemSymbols.push_back(symbol);
+            break;
+        case "Depot"_sh:
+            image.load(symbolPath+"NavalDepot.png");
+            symbol = new QGraphicsPixmapItem(image, this);
+            symbol->setPos(middleLeft);
+            systemSymbols.push_back(symbol);
+            break;
+        case "Research"_sh:
+            image.load(symbolPath+"ResearchStation.png");
+            symbol = new QGraphicsPixmapItem(image, this);
+            symbol->setPos(middleLeft);
+            systemSymbols.push_back(symbol);
+            break;
+        default:
+            break;
     }
 }
 
