@@ -174,4 +174,13 @@ namespace global {
         return folder.exists();
     }
 
+    bool getDarkMode(){
+        GlobalData data;
+        return data.darkMode;
+    }
+    void setDarkMode(bool mode){
+        GlobalData data;
+        data.darkMode=mode;
+    }
+
 }

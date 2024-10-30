@@ -41,6 +41,7 @@ SectorRectangle::SectorRectangle(QRectF rectangle, std::string name, bool subsec
     else {
         pen.setWidth(4);
     }
+    pen.setBrush(QBrush(Qt::white));
     this->setPen(pen);
 }
 

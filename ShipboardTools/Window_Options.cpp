@@ -34,11 +34,12 @@ Window_Options::~Window_Options() {
 
 void Window_Options::on_saveButton_clicked(){
     bool mode = ui->gmModeSelector->isChecked();
-
+    bool dark = ui->darkModeSelector->isChecked();
     std::string selectedLocation = buttonGroup.checkedButton()->text().toStdString();
 
     global::setGM(mode);
     global::setPath(selectedLocation.empty() ? global::path() : selectedLocation);
+    global::setDarkMode(dark);
 
     global::saveSettingsFile();
 

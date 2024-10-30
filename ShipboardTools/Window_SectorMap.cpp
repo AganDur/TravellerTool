@@ -28,6 +28,7 @@ Window_SectorMap::Window_SectorMap(QWidget *parent) : QMainWindow(parent), ui(ne
 
     scene = new QGraphicsScene();
     ui->mapView->setScene(scene);
+    scene->setBackgroundBrush(QBrush(Qt::black));
 
     ui->groupBox->setVisible(false);
     ui->saveSystemButton->setDisabled(true);
@@ -36,6 +37,10 @@ Window_SectorMap::Window_SectorMap(QWidget *parent) : QMainWindow(parent), ui(ne
     for(std::string sector: sectorFileNames){
         this->loadSector(sector);
     }
+
+    QMenu *viewMenu = new QMenu("View");
+    QAction *modeAction = new QAction("Dark Mode On/Off");
+    viewMenu->addAction(modeAction);
 
     QMenu *launcherMenu = new QMenu("Launcher");
     QAction *launcherAction = new QAction("Back to Launcher");
@@ -46,10 +51,12 @@ Window_SectorMap::Window_SectorMap(QWidget *parent) : QMainWindow(parent), ui(ne
     dataMenu->addAction(dataAction);
 
     ui->menuBar->addMenu(launcherMenu);
+    //ui->menuBar->addMenu(viewMenu);
     ui->menuBar->addMenu(dataMenu);
 
     connect(dataAction, &QAction::triggered, this, &Window_SectorMap::saveData);
     connect(launcherAction, &QAction::triggered, this, &Window_SectorMap::backToLauncher);
+    connect(modeAction, &QAction::triggered, this, &Window_SectorMap::switchMode);
 }
 
 Window_SectorMap::~Window_SectorMap(){
@@ -127,7 +134,6 @@ void Window_SectorMap::fillSector(Sector *sector) {
         QJsonValue systemInterests = !systemObject.value("system_interests").isUndefined()? systemObject.value("system_interests") : QJsonValue::Null;
         std::vector<std::string> interests;
         if(!systemInterests.isNull()){
-            qDebug() << "INTERESTS PRESENT" ;
             QJsonArray interestArray = systemInterests.toArray();
             for(QJsonValue val: interestArray){
                 QString v = val.toString();
@@ -305,6 +311,17 @@ void Window_SectorMap::backToLauncher(){
 
 
     this->close();
+}
+
+void Window_SectorMap::switchMode(){
+    bool newMode = !global::getDarkMode();
+    global::setDarkMode(newMode);
+    if(newMode){
+        ui->mapView->scene()->setBackgroundBrush(QBrush(Qt::white));
+    }
+    else{
+        ui->mapView->scene()->setBackgroundBrush(QBrush(Qt::black));
+    }
 }
 
 

@@ -25,8 +25,8 @@ Hexagon::Hexagon(float radius, QPoint center, System *system){
     this->nameOffset = radius*3/12;
     this->nameSecondaryOffset = radius*2/5;
     this->uwpOffset = radius*3/5;
-    this->tradeHorOffset = radius*1/5;
-    this->tradeVertOffset = 0;
+    this->tradeHorOffset = 10+radius*1/5;
+    this->tradeVertOffset = 10;
     this->hexOffset = -radius*4/5;
 
     /*-------------------------*
@@ -37,20 +37,22 @@ Hexagon::Hexagon(float radius, QPoint center, System *system){
         for(std::string interest: system->getInterests()){
             this->createSystemInterest(interest);
         }
-
         nameText = new QGraphicsTextItem(QString::fromStdString(getName()), this);
         QFont nameFont = QFont("Helvetica",20);
         nameFont.setBold(true);
+        nameText->setDefaultTextColor(Qt::white);
         nameText->setFont(nameFont);
         centerText(nameText, 0, nameSecondaryOffset);
 
         uwpText = new QGraphicsTextItem(QString::fromStdString(getUWP()),this);
         uwpText->setFont(QFont("Arial",10));
         centerText(uwpText, 0, uwpOffset);
+        uwpText->setDefaultTextColor(Qt::white);
 
         hexCodeText = new QGraphicsTextItem(QString::fromStdString(getHexCode()),this);
         hexCodeText->setFont(QFont("Arial",20));
         centerText(hexCodeText, 0, hexOffset);
+        hexCodeText->setDefaultTextColor(Qt::white);
 
         tradeCodeText = new QGraphicsTextItem(QString::fromStdString(getTradeCode()),this);
         tradeCodeText->setFont(QFont("Arial",8));
@@ -88,7 +90,7 @@ QPainterPath Hexagon::shape(float radius) const{
 }
 
 void Hexagon::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget){
-    QPen pen(Qt::black, 1);
+    QPen pen(Qt::white, 1);
     pen.setCosmetic(true);
     painter->setPen(pen);
     painter->drawPath(shape(this->radius));
@@ -182,20 +184,20 @@ void Hexagon::createSystemInterest(std::string interest){
 
     switch(hash_djb2a(interest)){
         case "Gas"_sh:
-            image.load(symbolPath+"GasGiant.png");
+            image.load(symbolPath+"GasGiant_Light.png");
             symbol = new QGraphicsPixmapItem(image, this);
             symbol->setPos(topRight);
             symbol->setScale(.5);
             systemSymbols.push_back(symbol);
             break;
         case "Naval"_sh:
-            image.load(symbolPath+"NavalBase.png");
+            image.load(symbolPath+"NavalBase_Light.png");
             symbol = new QGraphicsPixmapItem(image, this);
             symbol->setPos(topLeft);
             systemSymbols.push_back(symbol);
             break;
         case "IISSBase"_sh:
-            image.load(symbolPath+"IISSBase.png");
+            image.load(symbolPath+"IISSBase_Light.png");
             symbol = new QGraphicsPixmapItem(image, this);
             symbol->setPos(bottomLeft);
             systemSymbols.push_back(symbol);
