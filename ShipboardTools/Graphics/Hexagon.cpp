@@ -65,7 +65,7 @@ QRectF Hexagon::boundingRect() const{
     return QRectF(-radius, -y, 2*radius, 2*y);
 }
 
-QPainterPath Hexagon::shape() const{
+QPainterPath Hexagon::shape(float radius) const{
     float vX = radius * cos(60*PI/180);
     float vY = radius * sin(60*PI/180);
 
@@ -91,7 +91,20 @@ void Hexagon::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, Q
     QPen pen(Qt::black, 1);
     pen.setCosmetic(true);
     painter->setPen(pen);
-    painter->drawPath(shape());
+    painter->drawPath(shape(this->radius));
+
+    if(this->hexSystem->getZone().compare("A")==0){
+        QPen pen(Qt::yellow, 3);
+        pen.setCosmetic(true);
+        painter->setPen(pen);
+        painter->drawPath(shape(this->radius * 0.9));
+    }
+    else if(this->hexSystem->getZone().compare("R")==0){
+        QPen pen(Qt::red, 3);
+        pen.setCosmetic(true);
+        painter->setPen(pen);
+        painter->drawPath(shape(this->radius * 0.9));
+    }
 }
 
 std::string Hexagon::getName(){
@@ -143,7 +156,7 @@ void Hexagon::createSystemSymbol(std::string category){
             symbol->setPos(-50,-50);
             systemSymbols.push_back(symbol);
             break;
-        case "Absent"_sh:
+        case "Asteroid"_sh:
             image.load(symbolPath+"NoWorld.png");
             symbol = new QGraphicsPixmapItem(image, this);
             symbol->setPos(-50,-50);

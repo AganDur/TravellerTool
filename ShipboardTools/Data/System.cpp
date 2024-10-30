@@ -6,15 +6,17 @@ System::System(){
     this->hexLocation = "";
     this->tradeCode = "";
     this->category = "";
+    this->zone = "";
 }
 
-System::System(std::string name, std::string hexLocation, std::vector<std::string> interests, std::string uwp, std::string tradeCode, std::string category){
+System::System(std::string name, std::string hexLocation, std::vector<std::string> interests, std::string uwp, std::string tradeCode, std::string category, std::string zone){
     this->name = name;
     this->uwp = uwp;
     this->hexLocation = hexLocation;
     this->tradeCode = tradeCode;
     this->category = category;
     this->interests = interests;
+    this->zone = zone;
 }
 
 void System::setSector(Sector *s){
@@ -55,6 +57,10 @@ int System::getNbInterests(){
 
 std::string System::getInterest(int index){
     return this->interests.at(index);
+}
+
+std::string System::getZone(){
+    return this->zone;
 }
 
 Sector* System::getSector(){

@@ -10,7 +10,7 @@ public:
     Hexagon(float radius, QPoint center, System *system);
 
     QRectF boundingRect() const;
-    QPainterPath shape() const;
+    QPainterPath shape(float radius) const;
 
     void paint(QPainter* painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
 

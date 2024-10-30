@@ -123,6 +123,7 @@ void Window_SectorMap::fillSector(Sector *sector) {
         QString systemUWP = !systemObject.value("system_uwp").isUndefined()? systemObject.value("system_uwp").toString() : "";
         QString systemTrade = !systemObject.value("system_trade_code").isUndefined()? systemObject.value("system_trade_code").toString() : "";
         QString systemCategory = !systemObject.value("system_category").isUndefined()? systemObject.value("system_category").toString() : "";
+        QString systemZone = !systemObject.value("system_zone").isUndefined()? systemObject.value("system_zone").toString() : "";
         QJsonValue systemInterests = !systemObject.value("system_interests").isUndefined()? systemObject.value("system_interests") : QJsonValue::Null;
         std::vector<std::string> interests;
         if(!systemInterests.isNull()){
@@ -143,7 +144,7 @@ void Window_SectorMap::fillSector(Sector *sector) {
         if (systemY<10) psY = "0";
         std::string systemHexCode = psX+std::to_string(systemX)+psY+std::to_string(systemY);
 
-        System *sys = new System(systemName.toStdString(), systemHexCode, interests, systemUWP.toStdString(), systemTrade.toStdString(), systemCategory.toStdString());
+        System *sys = new System(systemName.toStdString(), systemHexCode, interests, systemUWP.toStdString(), systemTrade.toStdString(), systemCategory.toStdString(), systemZone.toStdString());
         std::array<int, 2> k = {systemX, systemY};
 
         map.insert({k, sys});
