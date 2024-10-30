@@ -28,7 +28,14 @@ Window_SectorMap::Window_SectorMap(QWidget *parent) : QMainWindow(parent), ui(ne
 
     scene = new QGraphicsScene();
     ui->mapView->setScene(scene);
-    scene->setBackgroundBrush(QBrush(Qt::black));
+
+    // Prepare scene for dark vs light mode based on options selected
+    if(global::getDarkMode()){
+        scene->setBackgroundBrush(QBrush(Qt::black));
+    }
+    else {
+        scene->setBackgroundBrush(QBrush(Qt::white));
+    }
 
     ui->groupBox->setVisible(false);
     ui->saveSystemButton->setDisabled(true);

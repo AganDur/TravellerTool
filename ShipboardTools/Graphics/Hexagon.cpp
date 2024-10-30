@@ -29,6 +29,8 @@ Hexagon::Hexagon(float radius, QPoint center, System *system){
     this->tradeVertOffset = 10;
     this->hexOffset = -radius*4/5;
 
+    bool darkMode = global::getDarkMode();
+
     /*-------------------------*
      *     SETUP SUB ITEMS     *
      *-------------------------*/
@@ -40,24 +42,27 @@ Hexagon::Hexagon(float radius, QPoint center, System *system){
         nameText = new QGraphicsTextItem(QString::fromStdString(getName()), this);
         QFont nameFont = QFont("Helvetica",20);
         nameFont.setBold(true);
-        nameText->setDefaultTextColor(Qt::white);
         nameText->setFont(nameFont);
         centerText(nameText, 0, nameSecondaryOffset);
 
         uwpText = new QGraphicsTextItem(QString::fromStdString(getUWP()),this);
         uwpText->setFont(QFont("Arial",10));
         centerText(uwpText, 0, uwpOffset);
-        uwpText->setDefaultTextColor(Qt::white);
 
         hexCodeText = new QGraphicsTextItem(QString::fromStdString(getHexCode()),this);
         hexCodeText->setFont(QFont("Arial",20));
         centerText(hexCodeText, 0, hexOffset);
-        hexCodeText->setDefaultTextColor(Qt::white);
 
         tradeCodeText = new QGraphicsTextItem(QString::fromStdString(getTradeCode()),this);
         tradeCodeText->setFont(QFont("Arial",8));
-        tradeCodeText->setDefaultTextColor(Qt::red);
         centerText(tradeCodeText, tradeHorOffset, tradeVertOffset, false);
+
+        if(darkMode) {
+            nameText->setDefaultTextColor(Qt::white);
+            uwpText->setDefaultTextColor(Qt::white);
+            hexCodeText->setDefaultTextColor(Qt::white);
+            tradeCodeText->setDefaultTextColor(Qt::red);
+        }
     }
     this->showLimitedInfo();
 }
@@ -90,7 +95,10 @@ QPainterPath Hexagon::shape(float radius) const{
 }
 
 void Hexagon::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget){
-    QPen pen(Qt::white, 1);
+    QPen pen;
+    if(global::getDarkMode()) pen=QPen(Qt::white, 1);
+    else pen=QPen(Qt::black, 1);
+
     pen.setCosmetic(true);
     painter->setPen(pen);
     painter->drawPath(shape(this->radius));
@@ -181,23 +189,27 @@ void Hexagon::createSystemInterest(std::string interest){
     QPixmap image;
     QGraphicsPixmapItem *symbol;
     QPoint bottomLeft(-80,-5), topLeft(-75,-65), topRight(30,-50), middleLeft(-100,-25);
+    bool darkMode = global::getDarkMode();
 
     switch(hash_djb2a(interest)){
         case "Gas"_sh:
-            image.load(symbolPath+"GasGiant_Light.png");
+            if (darkMode) image.load(symbolPath+"GasGiant_Light.png");
+            else image.load(symbolPath+"GasGiant.png");
             symbol = new QGraphicsPixmapItem(image, this);
             symbol->setPos(topRight);
             symbol->setScale(.5);
             systemSymbols.push_back(symbol);
             break;
         case "Naval"_sh:
-            image.load(symbolPath+"NavalBase_Light.png");
+            if (darkMode) image.load(symbolPath+"NavalBase_Light.png");
+            else image.load(symbolPath+"NavalBase.png");
             symbol = new QGraphicsPixmapItem(image, this);
             symbol->setPos(topLeft);
             systemSymbols.push_back(symbol);
             break;
         case "IISSBase"_sh:
-            image.load(symbolPath+"IISSBase_Light.png");
+            if (darkMode) image.load(symbolPath+"IISSBase_Light.png");
+            else image.load(symbolPath+"IISSBase.png");
             symbol = new QGraphicsPixmapItem(image, this);
             symbol->setPos(bottomLeft);
             systemSymbols.push_back(symbol);

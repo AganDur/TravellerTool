@@ -12,6 +12,8 @@ Window_Options::Window_Options(QWidget *parent) : QMainWindow(parent), ui(new Ui
 
     // Setup GM Mode
     ui->gmModeSelector->setChecked(global::isGM());
+    // Setup Dark Mode
+    ui->darkModeSelector->setChecked(global::getDarkMode());
 
     // Setup Data Location List
     for(auto location : global::dataPaths()){
