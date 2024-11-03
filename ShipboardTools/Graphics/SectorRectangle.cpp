@@ -1,5 +1,7 @@
 #include "SectorRectangle.h"
 
+#include "Globals.h"
+
 #include <QPen>
 #include <QFont>
 
@@ -41,6 +43,9 @@ SectorRectangle::SectorRectangle(QRectF rectangle, std::string name, bool subsec
     else {
         pen.setWidth(4);
     }
+    if(global::getDarkMode()) pen.setBrush(QBrush(Qt::white));
+    else pen.setBrush(QBrush(Qt::black));
+
     this->setPen(pen);
 }
 

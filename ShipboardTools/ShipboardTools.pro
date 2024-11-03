@@ -115,6 +115,7 @@ COPIES += dllFiles
 COPIES += glShaders
 COPIES += glMeshes
 COPIES += glTextures
+COPIES += glSectorImages
 COPIES += systems
 COPIES += icons
 COPIES += sectors
@@ -125,6 +126,7 @@ CONFIG(debug, debug|release){
     glShaders.path = $$OUT_PWD/debug/Assets/Shaders
     glMeshes.path = $$OUT_PWD/debug/Assets/Meshes
     glTextures.path = $$OUT_PWD/debug/Assets/Textures
+    glSectorImages.path = $$OUT_PWD/debug/Assets/Sectors
     systems.path = $$OUT_PWD/debug/Systems
     sectors.path = $$OUT_PWD/debug/Sectors
     #icons.path = $$OUT_PWD/debug/Icons
@@ -134,6 +136,7 @@ CONFIG(release, debug|release) {
     glShaders.path = $$OUT_PWD/release/Assets/Shaders
     glMeshes.path = $$OUT_PWD/release/Assets/Meshes
     glTextures.path = $$OUT_PWD/release/Assets/Textures
+    glSectorImages.path = $$OUT_PWD/release/Assets/Sectors
     systems.path = $$OUT_PWD/release/Systems
     sectors.path = $$OUT_PWD/release/Sectors
     #icons.path = $$OUT_PWD/release/Icons
@@ -151,6 +154,10 @@ glMeshes.files = $$files(Assets/Meshes/*.obj)
 
 # LIST OF TEXTURE FILES TO COPY
 glTextures.files = $$files(Assets/Textures/*.jpg)
+
+# LIST OF TEXTURE FILES TO COPY
+glSectorImages.files = $$files(Assets/Sectors/*.png)
+glSectorImages.files = $$files(Assets/Sectors/*.jpg)
 
 # LIST OF SYSTEM FILES TO COPY
 systems.files = $$files(Systems/*.json)

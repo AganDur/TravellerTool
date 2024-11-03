@@ -12,6 +12,8 @@ Window_Options::Window_Options(QWidget *parent) : QMainWindow(parent), ui(new Ui
 
     // Setup GM Mode
     ui->gmModeSelector->setChecked(global::isGM());
+    // Setup Dark Mode
+    ui->darkModeSelector->setChecked(global::getDarkMode());
 
     // Setup Data Location List
     for(auto location : global::dataPaths()){
@@ -34,11 +36,12 @@ Window_Options::~Window_Options() {
 
 void Window_Options::on_saveButton_clicked(){
     bool mode = ui->gmModeSelector->isChecked();
-
+    bool dark = ui->darkModeSelector->isChecked();
     std::string selectedLocation = buttonGroup.checkedButton()->text().toStdString();
 
     global::setGM(mode);
     global::setPath(selectedLocation.empty() ? global::path() : selectedLocation);
+    global::setDarkMode(dark);
 
     global::saveSettingsFile();
 

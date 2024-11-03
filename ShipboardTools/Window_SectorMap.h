@@ -38,6 +38,7 @@ public:
 
     void saveData();
     void backToLauncher();
+    void switchMode();
 
 private slots:
     void on_systemMapButton_clicked();

@@ -28,6 +28,9 @@ namespace global {
     std::vector<std::string> getAllJSONFiles(std::string path);
 
     void saveSettingsFile();
+
+    bool getDarkMode();
+    void setDarkMode(bool mode);
 }
 
 #endif // GLOBALS_H

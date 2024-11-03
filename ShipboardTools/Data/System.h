@@ -3,6 +3,7 @@
 
 #include <stdlib.h>
 #include <string>
+#include <vector>
 
 class Sector;
 class Hexagon;
@@ -10,7 +11,7 @@ class Hexagon;
 class System{
 public:
     System();
-    System(std::string name, std::string uwp, std::string hexLocation, std::string tradeCode);
+    System(std::string name, std::string hexLocation, std::vector<std::string> interests, std::string uwp="", std::string tradeCode="", std::string category="", std::string zone="");
 
     void setSector(Sector *s);
     void setHexagon(Hexagon *hex);
@@ -19,6 +20,11 @@ public:
     std::string getUWP();
     std::string getHex();
     std::string getTradeCode();
+    std::string getCategory();
+    std::vector<std::string> getInterests();
+    int getNbInterests();
+    std::string getInterest(int index);
+    std::string getZone();
 
     Sector* getSector();
     Hexagon* getHexagon();
@@ -28,6 +34,9 @@ private:
     std::string uwp;
     std::string hexLocation;
     std::string tradeCode;
+    std::string category;
+    std::vector<std::string> interests;
+    std::string zone;
 
     Hexagon *graphicsHexagon;
 

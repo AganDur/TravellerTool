@@ -7,10 +7,10 @@ class System;
 
 class Hexagon : public QGraphicsItem {
 public:
-    Hexagon(float radius, QPoint center, System *system, int category=1);
+    Hexagon(float radius, QPoint center, System *system);
 
     QRectF boundingRect() const;
-    QPainterPath shape() const;
+    QPainterPath shape(float radius) const;
 
     void paint(QPainter* painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
 
@@ -20,7 +20,8 @@ public:
     std::string getSectorName();
     std::string getTradeCode();
 
-    void createSystemSymbol(int category);
+    void createSystemSymbol(std::string category);
+    void createSystemInterest(std::string interest);
 
     QGraphicsTextItem* getNameText() { return this->nameText; };
     QGraphicsTextItem* getHexCodeText() { return this->hexCodeText; };
@@ -41,7 +42,7 @@ private:
 
     QGraphicsTextItem *nameText, *hexCodeText, *uwpText, *tradeCodeText;
 
-    QGraphicsItem *systemSymbol;
+    std::vector<QGraphicsPixmapItem*> systemSymbols;
 
     float nameOffset, nameSecondaryOffset, hexOffset, uwpOffset, tradeVertOffset, tradeHorOffset;
 

@@ -98,9 +98,10 @@ namespace global {
 
         data.gmMode = root.value("gmMode").toBool(false);
         data.path = root.value("selectedLocation").toString().toStdString();
+        data.darkMode = root.value("darkMode").toBool(false);
 
-        qDebug() << root.value("dataLocations").toArray().size();
-        qDebug() << data.path;
+        //qDebug() << root.value("dataLocations").toArray().size();
+        //qDebug() << data.path;
 
         for(auto location: root.value("dataLocations").toArray()){
             data.paths.push_back(location.toString("").toStdString());
@@ -114,6 +115,7 @@ namespace global {
 
         QJsonObject root;
         root.insert("gmMode", data.gmMode);
+        root.insert("darkMode", data.darkMode);
         root.insert("selectedLocation", QString::fromStdString(data.path));
 
         QJsonArray locs;
@@ -172,6 +174,15 @@ namespace global {
     bool folderExists(std::string path){
         QDir folder = QDir(QString::fromStdString(path));
         return folder.exists();
+    }
+
+    bool getDarkMode(){
+        GlobalData data;
+        return data.darkMode;
+    }
+    void setDarkMode(bool mode){
+        GlobalData data;
+        data.darkMode=mode;
     }
 
 }
