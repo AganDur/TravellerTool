@@ -163,7 +163,7 @@ void GL_ShipViewerWidget::setApp(ApplicationManager *a){
 void GL_ShipViewerWidget::initialize(){
 
     camera = new GL_Camera();
-    camera->setPosition(QVector3D(0.0f, 50.0f, 1000.0f));
+    camera->setPosition(QVector3D(5.0f, 5.0f, 0.0f));
     camera->setDirection(QVector3D(0.0f, -1.0f, -1.0f));
     camera->calculateVectors();
     camera->setInit(true);

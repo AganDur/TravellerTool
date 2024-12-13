@@ -3,7 +3,6 @@
 
 #include "ui_Window_ShipViewer.h"
 
-#include <iostream>
 #include <QTimer>
 #include <QCheckBox>
 #include <QSurfaceFormat>

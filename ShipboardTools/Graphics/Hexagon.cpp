@@ -96,7 +96,7 @@ QPainterPath Hexagon::shape(float radius) const{
 
 void Hexagon::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget){
     QPen pen;
-    if(global::getDarkMode()) pen=QPen(Qt::white, 1);
+    if(global::getDarkMode()) pen=QPen(Qt::gray, 1);
     else pen=QPen(Qt::black, 1);
 
     pen.setCosmetic(true);

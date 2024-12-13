@@ -170,4 +170,5 @@ icons.files = $$files(Icons/*.jpg)
 
 DISTFILES += \
     Assets/Shaders/test.frag \
-    Assets/Shaders/test.vert
+    Assets/Shaders/test.vert \
+    ShipboardTools.pro.user
